@@ -1,4 +1,4 @@
-# Title: Fall of giants: diversity resistance to European waterscapes degradation and its potential continental drivers
+# Fall of giants: diversity resistance to European waterscapes degradation and its potential continental drivers
 Authors: David Cunillera-Montcusí1,2,3,4, Ana-Inés Borthagaray2, Jordi Bou5, Matías Arim2
 
 Find here the repository and the used databases links (DATA_BASES_LINKS.txt) to download and reproduce the current analysis. Find at Supplementary material of the current work the information on the diversity decay parameters for all EU countries and EU ecoregions. 

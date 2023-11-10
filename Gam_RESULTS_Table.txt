@@ -1,0 +1,57 @@
+"Freshwater.type" "Diversity.decay.parameter" "Dispersal" "Adj.R2" "Dev.Expl"
+"1" "Total" "Proportional decay rate (b)" "0.001 km" 0.704 0.758
+"2" "Total" "Proportional decay rate (b)" "0.1 km" 0.59 0.667
+"3" "Total" "Proportional decay rate (b)" "0.5 km" 0.503 0.641
+"4" "Total" "Proportional decay rate (b)" "1 km" 0.71 0.783
+"5" "Total" "Proportional decay rate (b)" "2 km" 0.581 0.667
+"6" "Total" "Proportional decay rate (b)" "5 km" -0.034 1
+"7" "Total" "Proportional decay rate (b)" "10 km" 0.302 0.993
+"8" "Total" "Collapsing rate (q)" "0.001 km" 0.722 0.76
+"9" "Total" "Collapsing rate (q)" "0.1 km" 0.576 0.633
+"10" "Total" "Collapsing rate (q)" "0.5 km" 0.447 0.508
+"11" "Total" "Collapsing rate (q)" "1 km" 0.725 0.773
+"12" "Total" "Collapsing rate (q)" "2 km" 0.622 0.688
+"13" "Total" "Collapsing rate (q)" "5 km" 0.42 0.453
+"14" "Total" "Collapsing rate (q)" "10 km" 0.623 0.681
+"15" "Permanent" "Proportional decay rate (b)" "0.001 km" 0.536 0.592
+"16" "Permanent" "Proportional decay rate (b)" "0.1 km" 0.474 0.523
+"17" "Permanent" "Proportional decay rate (b)" "0.5 km" 0.245 0.337
+"18" "Permanent" "Proportional decay rate (b)" "1 km" 0.377 0.451
+"19" "Permanent" "Proportional decay rate (b)" "2 km" 0.369 0.44
+"20" "Permanent" "Proportional decay rate (b)" "5 km" 0.414 0.498
+"21" "Permanent" "Proportional decay rate (b)" "10 km" 0.403 0.463
+"22" "Permanent" "Collapsing rate (q)" "0.001 km" 0.75 0.8
+"23" "Permanent" "Collapsing rate (q)" "0.1 km" 0.706 0.738
+"24" "Permanent" "Collapsing rate (q)" "0.5 km" 0.678 0.734
+"25" "Permanent" "Collapsing rate (q)" "1 km" 0.666 0.701
+"26" "Permanent" "Collapsing rate (q)" "2 km" 0.643 0.69
+"27" "Permanent" "Collapsing rate (q)" "5 km" 0.583 0.633
+"28" "Permanent" "Collapsing rate (q)" "10 km" 0.637 0.673
+"29" "Temporary" "Proportional decay rate (b)" "0.001 km" 0.227 0.259
+"30" "Temporary" "Proportional decay rate (b)" "0.1 km" 0.037 0.06
+"31" "Temporary" "Proportional decay rate (b)" "0.5 km" 0.141 0.159
+"32" "Temporary" "Proportional decay rate (b)" "1 km" 0.017 0.035
+"33" "Temporary" "Proportional decay rate (b)" "2 km" 0.048 0.069
+"34" "Temporary" "Proportional decay rate (b)" "5 km" 0.089 0.107
+"35" "Temporary" "Proportional decay rate (b)" "10 km" 0.002 0.016
+"36" "Temporary" "Collapsing rate (q)" "0.001 km" 0.672 0.737
+"37" "Temporary" "Collapsing rate (q)" "0.1 km" 0.31 0.368
+"38" "Temporary" "Collapsing rate (q)" "0.5 km" 0.402 0.465
+"39" "Temporary" "Collapsing rate (q)" "1 km" 0.272 0.338
+"40" "Temporary" "Collapsing rate (q)" "2 km" 0.334 0.378
+"41" "Temporary" "Collapsing rate (q)" "5 km" 0.301 0.365
+"42" "Temporary" "Collapsing rate (q)" "10 km" 0.089 0.12
+"43" "Ephemeral" "Proportional decay rate (b)" "0.001 km" 0.649 0.765
+"44" "Ephemeral" "Proportional decay rate (b)" "0.1 km" 0.408 0.482
+"45" "Ephemeral" "Proportional decay rate (b)" "0.5 km" -0.106 1.065
+"46" "Ephemeral" "Proportional decay rate (b)" "1 km" -0.098 0.973
+"47" "Ephemeral" "Proportional decay rate (b)" "2 km" -0.155 0.956
+"48" "Ephemeral" "Proportional decay rate (b)" "5 km" -0.169 0.975
+"49" "Ephemeral" "Proportional decay rate (b)" "10 km" 0.476 0.556
+"50" "Ephemeral" "Collapsing rate (q)" "0.001 km" 0.653 0.721
+"51" "Ephemeral" "Collapsing rate (q)" "0.1 km" 0.445 0.498
+"52" "Ephemeral" "Collapsing rate (q)" "0.5 km" 0.259 0.348
+"53" "Ephemeral" "Collapsing rate (q)" "1 km" 0.431 0.51
+"54" "Ephemeral" "Collapsing rate (q)" "2 km" 0.415 0.481
+"55" "Ephemeral" "Collapsing rate (q)" "5 km" 0.526 0.589
+"56" "Ephemeral" "Collapsing rate (q)" "10 km" 0.558 0.608

@@ -11,11 +11,20 @@ output <- list()
 color <- viridis(length(unique(Alpha$disp)))
 plot_Alp_Bet_Loc_total <- list()
 lay = rbind(c(1,2),c(1,3))
+
+Alpha <- Alpha%>%left_join(read.csv2("NoComp_ECOR.csv"),by=c("EcoR"="Number_EcoR"),relationship = "many-to-many") %>%
+  filter(Name!="Unassigned") %>%  filter(X!="no complet")
+
+Beta <- Beta%>%left_join(read.csv2("NoComp_ECOR.csv"),by=c("EcoR"="Number_EcoR"),relationship = "many-to-many") %>%
+  filter(Name!="Unassigned") %>%  filter(X!="no complet")
+
+Ecor_to_filter <- Alpha$EcoR
+
 for (ID_Ecoregion in 1:length(unique(Alpha$EcoR))) {
   point_sizes= 2-(EcoR_size$EcoR_length[ID_Ecoregion]/100000*8)
   
-  Alpha_filt <- Alpha %>% filter(EcoR==names(Outputs_SLURM[[ID_Ecoregion]])[1])  
-  Beta_filt <- Beta %>% filter(EcoR==names(Outputs_SLURM[[ID_Ecoregion]])[1])
+  Alpha_filt <- Alpha %>% filter(EcoR==unique(Ecor_to_filter)[[ID_Ecoregion]])  
+  Beta_filt <- Beta %>% filter(EcoR==unique(Ecor_to_filter)[[ID_Ecoregion]])
   
   plot_Alp_Bet_Loc_total<- gridExtra::arrangeGrob(
     
@@ -27,7 +36,7 @@ for (ID_Ecoregion in 1:length(unique(Alpha$EcoR))) {
                            limits=c(0.00000000001,max(xyFWarea[[ID_Ecoregion]])))+
       scale_color_CUNILLERA(palette = "estelada", discrete = F, reverse = T, name="FW Area",
                             limits=c(0.00000000001,max(xyFWarea[[ID_Ecoregion]])))+
-      labs(title = "Surface water")+xlab("")+ylab("")+
+      labs(title = "")+xlab("")+ylab("")+
       theme_classic()+
       theme(panel.background = element_rect(fill = 'grey15', color = 'black'), 
             legend.position = "none",
@@ -41,7 +50,7 @@ for (ID_Ecoregion in 1:length(unique(Alpha$EcoR))) {
       geom_errorbar(aes(x=loss, ymax=Alpha_UP,ymin=Alpha_DOW))+
       scale_colour_manual(values = color, breaks=unique(Alpha$disp_plot))+
       ylab("Mean alpha diversity")+xlab("% Habitat degradation")+
-      labs(title =paste("Alpha",unique(Alpha$EcoR)[ID_Ecoregion] , sep=" "))+
+      labs(title =paste("Alpha",unique(Alpha$Name)[ID_Ecoregion] , sep=" "))+
       theme_classic()+ 
       theme(legend.position = "none",
             plot.background =element_rect(fill=Water_colors[Water_Type])),
@@ -52,7 +61,7 @@ for (ID_Ecoregion in 1:length(unique(Alpha$EcoR))) {
       geom_errorbar(aes(x=loss, ymax=Beta_UP,ymin=Beta_DOW))+
       scale_colour_manual(values = color, breaks=unique(Beta$disp_plot))+
       ylab("Mean beta diversity")+xlab("% Habitat degradation")+
-      labs(title =paste("Beta",unique(Alpha$EcoR)[ID_Ecoregion] , sep=" "))+
+      labs(title =paste("Beta",unique(Alpha$Name)[ID_Ecoregion] , sep=" "))+
       theme_classic()+ 
       theme(legend.position = "none",
             plot.background =element_rect(fill=Water_colors[Water_Type])),
@@ -72,10 +81,10 @@ legend_dispersal <- get_legend(
           legend.key.size = unit(2.3, 'cm'), 
           legend.title = element_text(size=30)))
 
-legend_FW_area <- get_legend(ggplot(data.frame(cbind(Outputs_SLURM_xyCoords[[ID_Ecoregion]]$CENTROID_X/max(Outputs_SLURM_xyCoords[[ID_Ecoregion]]$CENTROID_X),
-                                                     Outputs_SLURM_xyCoords[[ID_Ecoregion]]$CENTROID_Y/max(Outputs_SLURM_xyCoords[[ID_Ecoregion]]$CENTROID_Y))),aes(x=X1, y=X2))+
+legend_FW_area <- get_legend(ggplot(data.frame(cbind(xyCoords[[ID_Ecoregion]]$CENTROID_X/max(xyCoords[[ID_Ecoregion]]$CENTROID_X),
+                                                     xyCoords[[ID_Ecoregion]]$CENTROID_Y/max(xyCoords[[ID_Ecoregion]]$CENTROID_Y))),aes(x=X1, y=X2))+
                                geom_point(shape=22,size=1, 
-                               aes(fill=(Outputs_SLURM_xyFWarea[[ID_Ecoregion]]/max(Outputs_SLURM_xyFWarea[[ID_Ecoregion]]))*100))+
+                               aes(fill=(xyFWarea[[ID_Ecoregion]]/max(xyFWarea[[ID_Ecoregion]]))*100))+
                                scale_fill_CUNILLERA(palette = "estelada", discrete = F, reverse = T, 
                                                     name="% Surface water",
                                                     limits=c(0.1,100))+
@@ -102,9 +111,15 @@ Water_colors <- c("white","#9191F0","#5E92F2","#6CB8A0")
   
 color <- viridis(length(unique(Gamma$disp)))
 plot_G_total <- list()
-for (ID_Ecoregion in 1:length(Outputs_SLURM)){
+
+Gamma <- Gamma%>%left_join(read.csv2("NoComp_ECOR.csv"),by=c("EcoR"="Number_EcoR"),relationship = "many-to-many") %>%
+  filter(Name!="Unassigned") %>%  filter(X!="no complet")
+
+Ecor_to_filter <- Gamma$EcoR
+
+for (ID_Ecoregion in 1:length(unique(Gamma$EcoR))){
   
-  Gamma_filt <- Gamma %>% filter(EcoR==names(Outputs_SLURM[[ID_Ecoregion]])[1])
+  Gamma_filt <- Gamma %>% filter(EcoR==unique(Ecor_to_filter)[[ID_Ecoregion]])
   
   plot_G_total[[ID_Ecoregion]] <- gridExtra::arrangeGrob(
     Gamma_filt %>% 
@@ -114,15 +129,43 @@ for (ID_Ecoregion in 1:length(Outputs_SLURM)){
       geom_line(aes(x=loss, Pred_Gamma))+
       scale_y_continuous(limits = c(-5,c(max(Gamma$Gamma)+10)))+
       scale_colour_manual(values = color, breaks=unique(Gamma$disp_plot))+
-      labs(title =names(Outputs_SLURM[[ID_Ecoregion]])[1],
+      labs(title =unique(Gamma_filt$Name),
            colour="Dispersal ability")+
       ylab("Relative gamma (%)")+xlab("% Habitat degradation")+
       theme_classic()+
       theme(plot.background =element_rect(fill=Water_colors[Water_Type]),
-            legend.background = element_rect(fill=Water_colors[Water_Type])),
+            legend.background = element_rect(fill=Water_colors[Water_Type]),
+            legend.position = "none"),
     ncol = 1)
 }
-plot_G_total
+
+legend_dispersal <- get_legend(
+  Gamma_filt %>% 
+    ggplot(aes(x=loss, y=Gamma, colour=disp_plot))+
+    geom_point(size=1.2)+
+    geom_errorbar(aes(x=loss, ymax=Gamma_UP,ymin=Gamma_DOW))+
+    geom_line(aes(x=loss, Pred_Gamma))+
+    scale_y_continuous(limits = c(-5,c(max(Gamma$Gamma)+10)))+
+    scale_colour_manual(values = color, breaks=unique(Gamma$disp_plot))+
+    labs(title =unique(Gamma_filt$Name),
+         colour="Dispersal ability")+
+    ylab("Relative gamma (%)")+xlab("% Habitat degradation")+
+    theme_classic()+theme(plot.background =element_rect(fill=Water_colors[Water_Type]),
+                          legend.background = element_rect(fill=Water_colors[Water_Type]),
+                          legend.position = "right")
+  )
+
+plot_G_total_withLegend <- list()
+for (ID_Ecoregion in 1:(length(unique(Gamma$EcoR))+1)){
+  if(ID_Ecoregion==(length(unique(Gamma$EcoR))+1)){
+    plot_G_total_withLegend[[ID_Ecoregion]] <- gridExtra::grid.arrange(legend_dispersal)  
+  }else{
+    plot_G_total_withLegend[[ID_Ecoregion]] <- plot_G_total[[ID_Ecoregion]]  
+  }
+}
+
+plot_G_total <- plot_G_total_withLegend
+
 }
 
 
@@ -152,14 +195,22 @@ EU_coef_vs_dispersal_plots <- function(Curve_coeficients, xy_Coordin,shape_Bound
       data_coef_all <- bind_rows(data_coef_all,out)
     }
     
-    shape_to_plot <- shape_Boundaries%>% left_join(data_coef_all,by = c("Name"="EcoR_Name"))
+    
+    data_coef_all <- data_coef_all %>% mutate(coef_b=ifelse(coef_b>0,-0.01,coef_b)) %>% 
+                                      left_join(read.csv2("NoComp_ECOR.csv"),by=c("EcoR_Name"="Name")) %>% 
+                                      filter(X!="no complet")
+    
+    shape_to_plot <- shape_Boundaries%>% left_join(data_coef_all,by = c("Name"="EcoR_Name")) %>%
+                                         filter(X!="no complet")
+                                
     
     plot_amazing[[dispers]] <- gridExtra::arrangeGrob(
         ggplot()+
-        ggspatial::layer_spatial(shape_to_plot, aes(fill=coef_b, alpha=-coef_b))+
+        tidyterra::geom_spatvector(data=st_zm(shape_to_plot),aes(fill=coef_b))+
         #geom_point(shape=20, size=0.1)+
-        scale_alpha_continuous()+
-        scale_fill_CUNILLERA(palette = "Gradient_Red", discrete = F, reverse = F, limits=c(-1,0))+
+        #scale_alpha_continuous()+
+        scale_fill_viridis(option = "F",direction = 1,limits=c(-1,0))+
+        #scale_fill_CUNILLERA(palette = "Gradient_Red", discrete = F, reverse = F, limits=c(-1,0))+
         #scale_color_CUNILLERA(palette = "Gradient_Red", discrete = F, reverse = F, limits=c(-1,0))+
         guides(color="none", alpha="none", fill=guide_colourbar("b"))+
         labs(subtitle="Proportional decay rate")+
@@ -169,10 +220,11 @@ EU_coef_vs_dispersal_plots <- function(Curve_coeficients, xy_Coordin,shape_Bound
                                legend.background = element_rect(fill = back_colour)),
       
         ggplot()+
-        ggspatial::layer_spatial(shape_to_plot, aes(fill=coef_q, alpha=coef_q))+
+        tidyterra::geom_spatvector(data=st_zm(shape_to_plot), aes(fill=coef_q))+
         #geom_point(shape=20, size=0.1)+
-        scale_alpha_continuous()+
-        scale_fill_CUNILLERA(palette = "Gradient_Violet", discrete = F, reverse = T, limits=c(0.25,0.36))+
+        #scale_alpha_continuous()+
+        scale_fill_viridis(option = "G",direction = -1, limits=c(0.25,0.36))+
+        #scale_fill_CUNILLERA(palette = "Gradient_Violet", discrete = F, reverse = T, limits=c(0.25,0.36))+
         #scale_color_CUNILLERA(palette = "Gradient_Violet", discrete = F, reverse = T, limits=c(0.25,0.36))+
         guides(color="none", alpha="none", fill=guide_colourbar("q"))+
         labs(subtitle="Collapsing rate")+

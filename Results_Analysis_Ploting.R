@@ -14,13 +14,13 @@ PLot_AB_TOTAL <- Plot_Alp_Bet_Loc(Alpha =Total_FW$Alpha,Beta = Total_FW$Beta,
 
 Plot_Gam_TOTAL <- Plot_Gam(Gamma = Total_FW$Gamma, Water_Type = 1)
 
-png(filename ="Alph_Bet_TOTAL.png",width =700*12 ,height =1500*12 ,units ="px",res = 400)
-out <- list(lapply(PLot_AB_TOTAL, `[[`, 1));out[[1]][[37]] <- PLot_AB_TOTAL[[1]][[3]];out[[1]][[38]] <- PLot_AB_TOTAL[[1]][[2]]
-grid.arrange(arrangeGrob(grobs = out[[1]], ncol=3))
+png(filename ="Alph_Bet_TOTAL.png",width =1500*7 ,height =1500*6 ,units ="px",res = 300)
+out <- list(lapply(PLot_AB_TOTAL, `[[`, 1));out[[1]][[27]] <- PLot_AB_TOTAL[[1]][[3]];out[[1]][[28]] <- PLot_AB_TOTAL[[1]][[2]]
+grid.arrange(arrangeGrob(grobs = out[[1]], ncol=4))
 dev.off()
 
 png(filename ="Gam_TOTAL.png",
-    width =800*8 ,height =850*8 ,units ="px",res = 300)
+    width =500*8 ,height =550*8 ,units ="px",res = 300)
 grid.arrange(arrangeGrob(grobs = Plot_Gam_TOTAL,ncol=4))
 dev.off()
 
@@ -35,10 +35,9 @@ PLot_AB_Perm <- Plot_Alp_Bet_Loc(Alpha =Perm_FW$Alpha,Beta = Perm_FW$Beta,
 
 Plot_Gam_Perm <- Plot_Gam(Gamma = Perm_FW$Gamma,Water_Type = 2)
 
-png(filename ="Alph_Bet_PERM.png",width =700*12 ,height =1500*12 ,units ="px",res = 400)
-out <- list(lapply(PLot_AB_Perm, `[[`, 1));out[[1]][[36]] <- ggplot()+geom_blank()+theme_bw()+theme(panel.border = element_blank());
-out[[1]][[37]] <- PLot_AB_Perm[[1]][[3]];out[[1]][[38]] <- PLot_AB_Perm[[1]][[2]]
-grid.arrange(arrangeGrob(grobs = out[[1]], ncol=3))
+png(filename ="Alph_Bet_PERM.png",width =1500*7 ,height =1500*6 ,units ="px",res = 300)
+out <- list(lapply(PLot_AB_Perm, `[[`, 1));out[[1]][[27]] <- PLot_AB_Perm[[1]][[3]];out[[1]][[28]] <- PLot_AB_Perm[[1]][[2]]
+grid.arrange(arrangeGrob(grobs = out[[1]], ncol=4))
 dev.off()
 
 png(filename ="Gam_PERM.png",
@@ -56,9 +55,9 @@ PLot_AB_Tempo <- Plot_Alp_Bet_Loc(Alpha =Tempo_FW$Alpha,Beta = Tempo_FW$Beta,
 
 Plot_Gam_Tempo <- Plot_Gam(Gamma = Tempo_FW$Gamma,Water_Type = 3)
 
-png(filename ="Alph_Bet_TEMP.png",width =700*12 ,height =1500*12 ,units ="px",res = 400)
-out <- list(lapply(PLot_AB_Tempo, `[[`, 1));out[[1]][[37]] <- PLot_AB_Tempo[[1]][[3]];out[[1]][[38]] <- PLot_AB_Tempo[[1]][[2]]
-grid.arrange(arrangeGrob(grobs = out[[1]], ncol=3))
+png(filename ="Alph_Bet_TEMP.png",width =1500*7 ,height =1500*6 ,units ="px",res = 300)
+out <- list(lapply(PLot_AB_Tempo, `[[`, 1));out[[1]][[27]] <- PLot_AB_Tempo[[1]][[3]];out[[1]][[28]] <- PLot_AB_Tempo[[1]][[2]]
+grid.arrange(arrangeGrob(grobs = out[[1]], ncol=4))
 dev.off()
 
 png(filename ="Gam_TEMP.png",
@@ -76,9 +75,9 @@ PLot_AB_Ephem <- Plot_Alp_Bet_Loc(Alpha =Ephem_FW$Alpha,Beta = Ephem_FW$Beta,
 
 Plot_Gam_Ephem <- Plot_Gam(Gamma = Ephem_FW$Gamma,Water_Type = 4)
 
-png(filename ="Alph_Bet_EPHEM.png",width =700*12 ,height =1500*12 ,units ="px",res = 400)
-out <- list(lapply(PLot_AB_Ephem, `[[`, 1));out[[1]][[37]] <- PLot_AB_Ephem[[1]][[3]];out[[1]][[38]] <- PLot_AB_Ephem[[1]][[2]]
-grid.arrange(arrangeGrob(grobs = out[[1]], ncol=3))
+png(filename ="Alph_Bet_EPHEM.png",width =1500*7 ,height =1500*6 ,units ="px",res = 300)
+out <- list(lapply(PLot_AB_Ephem, `[[`, 1));out[[1]][[27]] <- PLot_AB_Ephem[[1]][[3]];out[[1]][[28]] <- PLot_AB_Ephem[[1]][[2]]
+grid.arrange(arrangeGrob(grobs = out[[1]], ncol=4))
 dev.off()
 
 png(filename ="Gam_EPHEM.png",
@@ -109,7 +108,7 @@ save(list = c("Total_FW","Perm_FW","Tempo_FW","Ephem_FW"),file = "treated_data.R
 #load("treated_data.RData")
 
 # European maps Figure 3 ####
-EU_FW_EcoR<- st_read("C:/Users/David CM/Dropbox/DAVID DOC/LLAM al DIA/00. URUGUAY/Ponderful/PanEcography/PanEU_fragmentation/BDD_PanEU/ecoregions_EUR_poly_AE/ecoregions_EUR_poly_AE.shp")
+EU_FW_EcoR<- sf::st_read("C:/Users/David CM/Dropbox/DAVID DOC/LLAM al DIA/00. URUGUAY/Ponderful/PanEcography/PanEU_fragmentation/BDD_PanEU/ecoregions_EUR_poly_AE/ecoregions_EUR_poly_AE.shp")
 EU_FW_EcoR$Name <- gsub("- ","",EU_FW_EcoR$Name)# We polish some errors in names to make them equal to the ones in the DataBase
 EU_FW_EcoR$Name <- gsub(" ","_",EU_FW_EcoR$Name)# We polish some errors in names to make them equal to the ones in the DataBase
 
@@ -211,34 +210,37 @@ for (disper in 1:length(unique(EU_relat_TOTAL[[1]]$disp_plot))) {
 #- we log transform heavily skewed data. 
 data_to_gam<- EU_relat_TOTAL[[1]] %>% filter(disp_plot==unique(EU_relat_TOTAL[[1]]$disp_plot)[disper],
                                              OutDeg_Med!=is.na(OutDeg_Med)) %>% 
-                                       select(-c(precAn,elev,WaterSystem)) %>% 
+                                       dplyr::select(-c(precAn,elev,WaterSystem)) %>% 
                                        mutate(EcoRSize=log(EcoRSize+1),
                                               Betw_CV=log(Betw_CV+1),
-                                              Betw_Med=log(Betw_Med+1))
+                                              Betw_Med=log(Betw_Med+1)) %>% 
+                                        dplyr::select(-c(Long,Lat,Betw_Med,OutDeg_Med,WatCov_Mean))
 # We scale data to homogenize its strength on the patterns detected (strong differenced between response values)
 data_to_gam_scaled <- scale(data_to_gam[,8:ncol(data_to_gam)],center = T,scale = T)
 # We detect highly correlated variables and eliminate them from the run
 hc = findCorrelation(cor(data_to_gam_scaled, use="complete.obs", method="spearman"),
                      cutoff=0.80,names = F, exact = T)
-data_to_gam_scaled <- data_to_gam_scaled[,-hc]
-data_to_gam[,colnames(data_to_gam_scaled)] <- data_to_gam_scaled
 
-coef_val <- data_to_gam %>% select(c(coef_b,coef_q))
-data_to_gam <- data_to_gam %>% select(-c(coef_b,coef_q)) %>% 
+data_to_gam<- data_to_gam %>% dplyr::select(-c(colnames(data_to_gam_scaled)[hc]))
+data_to_gam_scaled <- data_to_gam_scaled[,-hc]
+data_to_gam[,colnames(data_to_gam_scaled)] <- data_to_gam_scaled 
+
+coef_val <- data_to_gam %>% dplyr::select(c(coef_b,coef_q))
+data_to_gam <- data_to_gam %>% dplyr::select(-c(coef_b,coef_q)) %>% 
                                mutate("Coef"=coef_val[,dec_coef])
 # We trandform in positive the pattern to perform the gam and run it for the family "betareg". 
 if (Coef_value[dec_coef]=="coef_b") {data_to_gam$Coef <- data_to_gam$Coef*-1}
 # Gam per se
 b <- gam(Coef~
-         s(Long,k=3, bs="cr")+
-         s(Lat,k=3, bs="cr")+
-         #s(Betw_CV,k=5, bs="cr")+
-         s(Betw_Med,k=3, bs="cr")+
-         #s(OutDeg_CV,k=3, bs="cr")+
-         s(OutDeg_Med,k=3, bs="cr")+
-         s(WatCov_Mean,k=3, bs="cr")+
-         s(WatCov_CV,k=3, bs="cr"),
-         #s(EcoRSize,k=3, bs="cr"),
+         #s(Long,k=3, bs="cr")+
+         #s(Lat,k=3, bs="cr")+
+         #s(Betw_CV,k=3, bs="cr")+
+         #s(Betw_Med,k=3, bs="cr")+
+         s(OutDeg_CV,k=3, bs="cr")+
+         #s(OutDeg_Med,k=3, bs="cr")+
+         #s(WatCov_Mean,k=3, bs="cr")+
+         s(WatCov_CV,k=3, bs="cr")+
+         s(EcoRSize,k=3, bs="cr"),
     select=TRUE,method = "REML",family=betar(link="logit"), 
     data = data_to_gam)
 # We store the gam result
@@ -250,9 +252,9 @@ sign_values[which(out$s.pv<0.05)] <- "Sign"
 # We build up a table with the same information used in the gam and including the sign values (plot)
 Out_Table <- EU_relat_TOTAL[[1]] %>% filter(disp_plot==unique(EU_relat_TOTAL[[1]]$disp_plot)[disper],
                                             OutDeg_Med!=is.na(OutDeg_Med)) %>% 
+                                    dplyr::select(-c(Long,Lat,Betw_Med,OutDeg_Med,WatCov_Mean,precAn,elev)) %>% 
                                      mutate(EcoRSize=log(EcoRSize+1),
-                                            Betw_CV=log(Betw_CV+1),
-                                            Betw_Med=log(Betw_Med+1)) %>% 
+                                            Betw_CV=log(Betw_CV+1)) %>% 
                                      pivot_longer(cols=colnames(data_to_gam_scaled)) %>% 
                                      mutate(Sign_value=rep(sign_values,(length(unique(data_to_gam$EcoR)))))
 
@@ -268,10 +270,7 @@ new_data <- with(data_to_gam, expand.grid("Main_variable" = seq(min(data_to_gam[
                                                         max(data_to_gam[,Main_variable]),
                                                         length = nrow(data_to_gam)),
                                           "Var1" = median(data_to_gam[,Other_variables[1]]),
-                                          "Var2"= median(data_to_gam[,Other_variables[2]]),
-                                          "Var3" = median(data_to_gam[,Other_variables[3]]),
-                                          "Var4" = median(data_to_gam[,Other_variables[4]]),
-                                          "Var5" = median(data_to_gam[,Other_variables[5]])))
+                                          "Var2"= median(data_to_gam[,Other_variables[2]])))
 colnames(new_data) <- c(Main_variable,Other_variables)
 
 # Using the dataset that we created (maintaining the significant variable fixed) we reproduce the values for the 
@@ -320,35 +319,36 @@ for (dec_coef in 1:2) {
     # We filter and select the data that we need for each dispersal group. 
     #- we log transform heavily skewed data. 
     data_to_gam<- EU_relat_Perm[[1]] %>% filter(disp_plot==unique(EU_relat_Perm[[1]]$disp_plot)[disper],
-                                                 OutDeg_Med!=is.na(OutDeg_Med)) %>% 
-      select(-c(precAn,elev,WaterSystem)) %>% 
+                                                 OutDeg_Med!=is.na(OutDeg_Med)) %>%
+      dplyr::select(-c(Long,Lat,Betw_Med,OutDeg_Med,WatCov_Mean,precAn,elev)) %>%
       mutate(EcoRSize=log(EcoRSize+1),
-             Betw_CV=log(Betw_CV+1),
-             Betw_Med=log(Betw_Med+1))
+             Betw_CV=log(Betw_CV+1))
     # We scale data to homogenize its strength on the patterns detected (strong differenced between response values)
-    data_to_gam_scaled <- scale(data_to_gam[,8:ncol(data_to_gam)],center = T,scale = T)
+    data_to_gam_scaled <- scale(data_to_gam[,9:ncol(data_to_gam)],center = T,scale = T)
     # We detect highly correlated variables and eliminate them from the run
     hc = findCorrelation(cor(data_to_gam_scaled, use="complete.obs", method="spearman"),
                          cutoff=0.80,names = F, exact = T)
-    data_to_gam_scaled <- data_to_gam_scaled[,-hc]
-    data_to_gam[,colnames(data_to_gam_scaled)] <- data_to_gam_scaled
     
-    coef_val <- data_to_gam %>% select(c(coef_b,coef_q))
-    data_to_gam <- data_to_gam %>% select(-c(coef_b,coef_q)) %>% 
-      mutate("Coef"=coef_val[,dec_coef])
+    data_to_gam<- data_to_gam %>% dplyr::select(-c(colnames(data_to_gam_scaled)[hc]))
+    #data_to_gam_scaled <- data_to_gam_scaled[,-hc] # No "hc" so we block this line
+    data_to_gam[,colnames(data_to_gam_scaled)] <- data_to_gam_scaled 
+
+    coef_val <- data_to_gam %>%  dplyr::select(c(coef_b,coef_q))
+    data_to_gam <- data_to_gam %>%  dplyr::select(-c(coef_b,coef_q)) %>% 
+                                    mutate("Coef"=coef_val[,dec_coef])
     # We trandform in positive the pattern to perform the gam and run it for the family "betareg". 
     if (Coef_value[dec_coef]=="coef_b") {data_to_gam$Coef <- data_to_gam$Coef*-1}
     # Gam per se
     b <- gam(Coef~
-               s(Long,k=3, bs="cr")+
+               #s(Long,k=3, bs="cr")+
                #s(Lat,k=3, bs="cr")+
-               s(Betw_CV,k=5, bs="cr")+
+               s(Betw_CV,k=3, bs="cr")+
                #s(Betw_Med,k=3, bs="cr")+
                s(OutDeg_CV,k=3, bs="cr")+
                #s(OutDeg_Med,k=3, bs="cr")+
-               s(WatCov_Mean,k=3, bs="cr")+
-               s(WatCov_CV,k=3, bs="cr"),
-             #s(EcoRSize,k=3, bs="cr"),
+               #s(WatCov_Mean,k=3, bs="cr")+
+               s(WatCov_CV,k=3, bs="cr")+
+               s(EcoRSize,k=3, bs="cr"),
              select=TRUE,method = "REML",family=betar(link="logit"), 
              data = data_to_gam)
     # We store the gam result
@@ -359,10 +359,10 @@ for (dec_coef in 1:2) {
     
     # We build up a table with the same information used in the gam and including the sign values (plot)
     Out_Table <- EU_relat_Perm[[1]] %>% filter(disp_plot==unique(EU_relat_Perm[[1]]$disp_plot)[disper],
-                                                OutDeg_Med!=is.na(OutDeg_Med)) %>% 
+                                                OutDeg_Med!=is.na(OutDeg_Med)) %>%
+      dplyr::select(-c(Long,Lat,Betw_Med,OutDeg_Med,WatCov_Mean,precAn,elev)) %>% 
       mutate(EcoRSize=log(EcoRSize+1),
-             Betw_CV=log(Betw_CV+1),
-             Betw_Med=log(Betw_Med+1)) %>% 
+             Betw_CV=log(Betw_CV+1)) %>% 
       pivot_longer(cols=colnames(data_to_gam_scaled)) %>% 
       mutate(Sign_value=rep(sign_values,(length(unique(data_to_gam$EcoR)))))
     
@@ -379,8 +379,7 @@ for (dec_coef in 1:2) {
                                                                       length = nrow(data_to_gam)),
                                                 "Var1" = median(data_to_gam[,Other_variables[1]]),
                                                 "Var2"= median(data_to_gam[,Other_variables[2]]),
-                                                "Var3" = median(data_to_gam[,Other_variables[3]]),
-                                                "Var4" = median(data_to_gam[,Other_variables[4]])))
+                                                "Var3" = median(data_to_gam[,Other_variables[3]])))
       colnames(new_data) <- c(Main_variable,Other_variables)
       
       # Using the dataset that we created (maintaining the significant variable fixed) we reproduce the values for the 
@@ -429,34 +428,35 @@ for (dec_coef in 1:2) {
     # We filter and select the data that we need for each dispersal group. 
     #- we log transform heavily skewed data. 
     data_to_gam<- EU_relat_Tempo[[1]] %>% filter(disp_plot==unique(EU_relat_Tempo[[1]]$disp_plot)[disper],
-                                                 OutDeg_Med!=is.na(OutDeg_Med)) %>% 
-      select(-c(precAn,elev,WaterSystem)) %>% 
+                                                 OutDeg_Med!=is.na(OutDeg_Med)) %>%
+      dplyr::select(-c(Long,Lat,Betw_Med,OutDeg_Med,WatCov_Mean,precAn,elev)) %>%
       mutate(EcoRSize=log(EcoRSize+1),
-             Betw_CV=log(Betw_CV+1),
-             Betw_Med=log(Betw_Med+1))
+             Betw_CV=log(Betw_CV+1))
     # We scale data to homogenize its strength on the patterns detected (strong differenced between response values)
-    data_to_gam_scaled <- scale(data_to_gam[,8:ncol(data_to_gam)],center = T,scale = T)
+    data_to_gam_scaled <- scale(data_to_gam[,9:ncol(data_to_gam)],center = T,scale = T)
     # We detect highly correlated variables and eliminate them from the run
     hc = findCorrelation(cor(data_to_gam_scaled, use="complete.obs", method="spearman"),
                          cutoff=0.80,names = F, exact = T)
-    data_to_gam_scaled <- data_to_gam_scaled[,-hc]
-    data_to_gam[,colnames(data_to_gam_scaled)] <- data_to_gam_scaled
     
-    coef_val <- data_to_gam %>% select(c(coef_b,coef_q))
-    data_to_gam <- data_to_gam %>% select(-c(coef_b,coef_q)) %>%mutate("Coef"=coef_val[,dec_coef])
+    data_to_gam<- data_to_gam %>% dplyr::select(-c(colnames(data_to_gam_scaled)[hc]))
+    data_to_gam_scaled <- data_to_gam_scaled[,-hc] 
+    data_to_gam[,colnames(data_to_gam_scaled)] <- data_to_gam_scaled 
+    
+    coef_val <- data_to_gam %>% dplyr::select(c(coef_b,coef_q))
+    data_to_gam <- data_to_gam %>% dplyr::select(-c(coef_b,coef_q)) %>%mutate("Coef"=coef_val[,dec_coef])
     # We trandform in positive the pattern to perform the gam and run it for the family "betareg". 
     if (Coef_value[dec_coef]=="coef_b") {data_to_gam$Coef <- data_to_gam$Coef*-1}
     # Gam per se
     b <- gam(Coef~
-               s(Long,k=3, bs="cr")+
-               s(Lat,k=3, bs="cr")+
-               s(Betw_CV,k=5, bs="cr")+
+               #s(Long,k=3, bs="cr")+
+               #s(Lat,k=3, bs="cr")+
+               s(Betw_CV,k=3, bs="cr")+
                #s(Betw_Med,k=3, bs="cr")+
                #s(OutDeg_CV,k=3, bs="cr")+
-               s(OutDeg_Med,k=3, bs="cr")+
-               s(WatCov_Mean,k=3, bs="cr"),
-               #s(WatCov_CV,k=3, bs="cr"),
-             #s(EcoRSize,k=3, bs="cr"),
+               #s(OutDeg_Med,k=3, bs="cr")+
+               #s(WatCov_Mean,k=3, bs="cr")+
+               s(WatCov_CV,k=3, bs="cr"),
+               #s(EcoRSize,k=3, bs="cr"),
              select=TRUE,method = "REML",family=betar(link="logit"), 
              data = data_to_gam)
     # We store the gam result
@@ -468,9 +468,9 @@ for (dec_coef in 1:2) {
     # We build up a table with the same information used in the gam and including the sign values (plot)
     Out_Table <- EU_relat_Tempo[[1]] %>% filter(disp_plot==unique(EU_relat_Tempo[[1]]$disp_plot)[disper],
                                                 OutDeg_Med!=is.na(OutDeg_Med)) %>% 
+      dplyr::select(-c(Long,Lat,Betw_Med,OutDeg_Med,WatCov_Mean,precAn,elev)) %>% 
       mutate(EcoRSize=log(EcoRSize+1),
-             Betw_CV=log(Betw_CV+1),
-             Betw_Med=log(Betw_Med+1)) %>% 
+             Betw_CV=log(Betw_CV+1)) %>% 
       pivot_longer(cols=colnames(data_to_gam_scaled)) %>% 
       mutate(Sign_value=rep(sign_values,(length(unique(data_to_gam$EcoR)))))
     
@@ -488,10 +488,7 @@ for (dec_coef in 1:2) {
       new_data <- with(data_to_gam, expand.grid("Main_variable" = seq(min(data_to_gam[,Main_variable]), 
                                                                       max(data_to_gam[,Main_variable]),
                                                                       length = nrow(data_to_gam)),
-                                                "Var1" = median(data_to_gam[,Other_variables[1]]),
-                                                "Var2"= median(data_to_gam[,Other_variables[2]]),
-                                                "Var3" = median(data_to_gam[,Other_variables[3]]),
-                                                "Var4" = median(data_to_gam[,Other_variables[4]])))
+                                                "Var1" = median(data_to_gam[,Other_variables[1]])))
       colnames(new_data) <- c(Main_variable,Other_variables)
       
       # Using the dataset that we created (maintaining the significant variable fixed) we reproduce the values for the 
@@ -540,33 +537,34 @@ for (dec_coef in 1:2) {
     #- we log transform heavily skewed data. 
     data_to_gam<- EU_relat_Ephem[[1]] %>% filter(disp_plot==unique(EU_relat_Ephem[[1]]$disp_plot)[disper],
                                                  OutDeg_Med!=is.na(OutDeg_Med)) %>% 
-      select(-c(precAn,elev,WaterSystem)) %>% 
+      dplyr::select(-c(Long,Lat,Betw_Med,OutDeg_Med,WatCov_Mean,precAn,elev)) %>%
       mutate(EcoRSize=log(EcoRSize+1),
-             Betw_CV=log(Betw_CV+1),
-             Betw_Med=log(Betw_Med+1))
+             Betw_CV=log(Betw_CV+1))
     # We scale data to homogenize its strength on the patterns detected (strong differenced between response values)
-    data_to_gam_scaled <- scale(data_to_gam[,8:ncol(data_to_gam)],center = T,scale = T)
+    data_to_gam_scaled <- scale(data_to_gam[,9:ncol(data_to_gam)],center = T,scale = T)
     # We detect highly correlated variables and eliminate them from the run
     hc = findCorrelation(cor(data_to_gam_scaled, use="complete.obs", method="spearman"),
                          cutoff=0.80,names = F, exact = T)
-    data_to_gam_scaled <- data_to_gam_scaled[,-hc]
-    data_to_gam[,colnames(data_to_gam_scaled)] <- data_to_gam_scaled
     
-    coef_val <- data_to_gam %>% select(c(coef_b,coef_q))
-    data_to_gam <- data_to_gam %>% select(-c(coef_b,coef_q)) %>% 
+    data_to_gam<- data_to_gam %>% dplyr::select(-c(colnames(data_to_gam_scaled)[hc]))
+    data_to_gam_scaled <- data_to_gam_scaled[,-hc] 
+    data_to_gam[,colnames(data_to_gam_scaled)] <- data_to_gam_scaled 
+    
+    coef_val <- data_to_gam %>% dplyr::select(c(coef_b,coef_q))
+    data_to_gam <- data_to_gam %>% dplyr::select(-c(coef_b,coef_q)) %>% 
       mutate("Coef"=coef_val[,dec_coef])
     # We trandform in positive the pattern to perform the gam and run it for the family "betareg". 
     if (Coef_value[dec_coef]=="coef_b") {data_to_gam$Coef <- data_to_gam$Coef*-1}
     # Gam per se
     b <- gam(Coef~
-               s(Long,k=3, bs="cr")+
-               s(Lat,k=3, bs="cr")+
-               s(Betw_CV,k=5, bs="cr")+
+               #s(Long,k=3, bs="cr")+
+               #s(Lat,k=3, bs="cr")+
+               s(Betw_CV,k=3, bs="cr")+
                #s(Betw_Med,k=3, bs="cr")+
                #s(OutDeg_CV,k=3, bs="cr")+
-               s(OutDeg_Med,k=3, bs="cr")+
-               s(WatCov_Mean,k=3, bs="cr")+
-               #s(WatCov_CV,k=3, bs="cr"),
+               #s(OutDeg_Med,k=3, bs="cr")+
+               #s(WatCov_Mean,k=3, bs="cr")+
+               s(WatCov_CV,k=3, bs="cr")+
                s(EcoRSize,k=3, bs="cr"),
              select=TRUE,method = "REML",family=betar(link="logit"), 
              data = data_to_gam)
@@ -579,9 +577,9 @@ for (dec_coef in 1:2) {
     # We build up a table with the same information used in the gam and including the sign values (plot)
     Out_Table <- EU_relat_Ephem[[1]] %>% filter(disp_plot==unique(EU_relat_Ephem[[1]]$disp_plot)[disper],
                                                 OutDeg_Med!=is.na(OutDeg_Med)) %>% 
+      dplyr::select(-c(Long,Lat,Betw_Med,OutDeg_Med,WatCov_Mean,precAn,elev)) %>% 
       mutate(EcoRSize=log(EcoRSize+1),
-             Betw_CV=log(Betw_CV+1),
-             Betw_Med=log(Betw_Med+1)) %>% 
+             Betw_CV=log(Betw_CV+1)) %>% 
       pivot_longer(cols=colnames(data_to_gam_scaled)) %>% 
       mutate(Sign_value=rep(sign_values,(length(unique(data_to_gam$EcoR)))))
     
@@ -599,10 +597,7 @@ for (dec_coef in 1:2) {
                                                                       max(data_to_gam[,Main_variable]),
                                                                       length = nrow(data_to_gam)),
                                                 "Var1" = median(data_to_gam[,Other_variables[1]]),
-                                                "Var2"= median(data_to_gam[,Other_variables[2]]),
-                                                "Var3" = median(data_to_gam[,Other_variables[3]]),
-                                                "Var4" = median(data_to_gam[,Other_variables[4]]),
-                                                "Var5" = median(data_to_gam[,Other_variables[5]])))
+                                                "Var2"= median(data_to_gam[,Other_variables[2]])))
       colnames(new_data) <- c(Main_variable,Other_variables)
       
       # Using the dataset that we created (maintaining the significant variable fixed) we reproduce the values for the 
@@ -680,7 +675,7 @@ gridExtra::grid.arrange(
     mutate(Plot_YesNo=ifelse(Var==name,1,0)) %>% 
     filter(Plot_YesNo==1) %>% 
     mutate(name=factor(name, 
-      levels=c("Long","Lat","Betw_Med", "Betw_CV","OutDeg_Med", "OutDeg_CV","WatCov_Mean","WatCov_CV","EcoRSize"))) %>% 
+      levels=c("Betw_CV","OutDeg_CV","WatCov_CV","EcoRSize"))) %>% 
     ggplot(aes(x=value, y = -fitted)) +
     geom_ribbon(aes(ymin = -lwr_ci, ymax = -upr_ci, fill=disp_plot), alpha = 0.1)+
     geom_line(aes(colour=disp_plot))+
@@ -699,12 +694,12 @@ gridExtra::grid.arrange(
     mutate(Plot_YesNo=ifelse(Var==name,1,0)) %>% 
     filter(Plot_YesNo==1) %>% 
     mutate(name=factor(name, 
-                       levels=c("Long","Lat","Betw_Med", "Betw_CV","OutDeg_Med", "OutDeg_CV","WatCov_Mean","WatCov_CV","EcoRSize"))) %>% 
+    levels=c("Betw_CV","OutDeg_CV","WatCov_CV","EcoRSize"))) %>% 
     ggplot(aes(x=value, y = fitted)) +
     geom_ribbon(aes(ymin = lwr_ci, ymax = upr_ci,fill=disp_plot), alpha = 0.1)+
     geom_line(aes(colour=disp_plot))+
-    scale_color_viridis(discrete = T,option = "C")+
-    scale_fill_viridis(discrete = T,option = "C")+
+    scale_color_viridis(discrete = T)+
+    scale_fill_viridis(discrete = T)+
     labs(fill="Dispersal ability",colour="Dispersal ability")+
     #scale_y_continuous()+
     scale_y_reverse(breaks = c(0.275,0.312,0.350))+
@@ -718,8 +713,8 @@ dev.off()
 # Figure 4 ####
 # Total freshwater significant values (manual selection)
 # for b 
-select_variables <- c("Betw_Med","OutDeg_Med","WatCov_Mean","WatCov_CV")
-name_select_variables <- c("Median Betweenness","Median Out degree","Mean Water Cover","Water Cover CV")
+select_variables <- c("OutDeg_CV","WatCov_CV","EcoRSize")
+name_select_variables <- c("Out degree CV","Water Cover CV","Ecoregion size")
 select_plotList <- list()
 for (sel_vari in 1:length(select_variables)) {
 select_plotList[[sel_vari]] <- Gam_Output %>% 
@@ -735,15 +730,15 @@ select_plotList[[sel_vari]] <- Gam_Output %>%
   labs(fill="Dispersal ability",colour="Dispersal ability",subtitle=name_select_variables[sel_vari])+
   theme_classic()+labs(y="Proportional decay rate (b)",x="")+
   theme(panel.background = element_rect(colour = "grey50"),
-        panel.grid.major.x = element_line(colour = "grey70"))
+        panel.grid.major.x = element_line(colour = "grey70"),
+        axis.title.y = element_text(colour = "#b30000"))
 }
 leg_plot <- get_legend(select_plotList[[1]])
 blank <- grid::grid.rect(gp=grid::gpar(col="white"))
 b_plot <- gridExtra::arrangeGrob(arrangeGrob(select_plotList[[1]]+theme(legend.position = "none")),
                                  arrangeGrob(select_plotList[[2]]+theme(legend.position = "none")),
                                  arrangeGrob(select_plotList[[3]]+theme(legend.position = "none")),
-                                 arrangeGrob(select_plotList[[4]]+theme(legend.position = "none")),
-                                 leg_plot,ncol=5)
+                                 ncol=3)
 
 select_plotList <- list()
 for (sel_vari in 1:length(select_variables)) {
@@ -756,29 +751,29 @@ for (sel_vari in 1:length(select_variables)) {
     geom_ribbon(aes(ymin = lwr_ci, ymax = upr_ci,fill=disp_plot), alpha = 0.1)+
     geom_line(aes(color=disp_plot))+
     scale_y_reverse()+
-    scale_color_viridis(discrete = T,option = "C")+
-    scale_fill_viridis(discrete = T,option = "C")+
+    scale_color_viridis(discrete = T)+
+    scale_fill_viridis(discrete = T)+
     labs(fill="Dispersal ability",colour="Dispersal ability",subtitle=name_select_variables[sel_vari])+
     theme_classic()+labs(y="Collapsing rate (q)",x="")+
     theme(panel.background = element_rect(colour = "grey50"),
-          panel.grid.major.x = element_line(colour = "grey70"))
+          panel.grid.major.x = element_line(colour = "grey70"),
+          axis.title.y = element_text(colour = "#8A2BE2"))
 }
 leg_plot <- get_legend(select_plotList[[1]])
 blank <- grid::grid.rect(gp=grid::gpar(col="white"))
 q_plot <- gridExtra::arrangeGrob(arrangeGrob(select_plotList[[1]]+theme(legend.position = "none")),
                                  arrangeGrob(select_plotList[[2]]+theme(legend.position = "none")),
                                  arrangeGrob(select_plotList[[3]]+theme(legend.position = "none")),
-                                 arrangeGrob(select_plotList[[4]]+theme(legend.position = "none")),
-                                 leg_plot,ncol=5)
+                                 ncol=3)
 
 Total_Fresh<- arrangeGrob(b_plot,q_plot,nrow=2,
-                          top=grid::textGrob("A) Total freshwaters",
+                          top=grid::textGrob("D) Total freshwaters",
                                             gp=grid::gpar(fontsize=20,font=2)))
 
 # Permanent freshwater significant values (manual selection)
 # for b 
-select_variables <- c("Betw_CV","WatCov_Mean","WatCov_CV")
-name_select_variables <- c("Betweenness CV","Mean Water Cover","Water Cover CV")
+select_variables <- c("Betw_CV","OutDeg_CV","WatCov_CV")
+name_select_variables <- c("Betweenness CV","Out degree CV","Water Cover CV")
 select_plotList <- list()
 for (sel_vari in 1:length(select_variables)) {
   select_plotList[[sel_vari]] <- Gam_Output %>% 
@@ -794,15 +789,15 @@ for (sel_vari in 1:length(select_variables)) {
     labs(fill="Dispersal ability",colour="Dispersal ability",subtitle=name_select_variables[sel_vari])+
     theme_classic()+labs(y="Proportional decay rate (b)",x="")+
     theme(panel.background = element_rect(colour = "grey50"),
-          panel.grid.major.x = element_line(colour = "grey70"))
+          panel.grid.major.x = element_line(colour = "grey70"),
+          axis.title.y = element_text(colour = "#b30000"))
 }
 leg_plot <- get_legend(select_plotList[[1]])
 blank <- grid::grid.rect(gp=grid::gpar(col="white"))
 b_plot <- gridExtra::arrangeGrob(arrangeGrob(select_plotList[[1]]+theme(legend.position = "none")),
                                  arrangeGrob(select_plotList[[2]]+theme(legend.position = "none")),
                                  arrangeGrob(select_plotList[[3]]+theme(legend.position = "none")),
-                                 blank,
-                                 leg_plot,ncol=5)
+                                 ncol=3)
 
 select_variables <- c("Betw_CV","OutDeg_CV","WatCov_CV")
 name_select_variables <- c("Betweenness CV","Out degree CV","Water Cover CV")
@@ -817,12 +812,13 @@ for (sel_vari in 1:length(select_variables)) {
     geom_ribbon(aes(ymin = lwr_ci, ymax = upr_ci,fill=disp_plot), alpha = 0.1)+
     geom_line(aes(color=disp_plot))+
     scale_y_reverse()+
-    scale_color_viridis(discrete = T,option = "C")+
-    scale_fill_viridis(discrete = T,option = "C")+
+    scale_color_viridis(discrete = T)+
+    scale_fill_viridis(discrete = T)+
     labs(fill="Dispersal ability",colour="Dispersal ability",subtitle=name_select_variables[sel_vari])+
     theme_classic()+labs(y="Collapsing rate (q)",x="")+
     theme(panel.background = element_rect(colour = "grey50"),
-          panel.grid.major.x = element_line(colour = "grey70"))
+          panel.grid.major.x = element_line(colour = "grey70"),
+          axis.title.y = element_text(colour = "#8A2BE2"))
     
 }
 leg_plot <- get_legend(select_plotList[[1]])
@@ -830,18 +826,17 @@ blank <- grid::grid.rect(gp=grid::gpar(col="white"))
 q_plot <- gridExtra::arrangeGrob(arrangeGrob(select_plotList[[1]]+theme(legend.position = "none")),
                                  arrangeGrob(select_plotList[[2]]+theme(legend.position = "none")),
                                  arrangeGrob(select_plotList[[3]]+theme(legend.position = "none")),
-                                 blank,
-                                 leg_plot,ncol=5)
+                                 ncol=3)
 
 Perm_Fresh<- arrangeGrob(b_plot,q_plot,nrow=2,
-                         top=grid::textGrob("B) Permanent freshwaters",
+                         top=grid::textGrob("A) Permanent freshwaters",
                                             gp=grid::gpar(fontsize=20,font=2)))
 
 
 # Temporary freshwater significant values (manual selection)
 # for b 
-select_variables <- c("OutDeg_Med")
-name_select_variables <- c("Median Out degree")
+select_variables <- c("Betw_CV","WatCov_CV")
+name_select_variables <- c("Betweenness CV","Water Cover CV")
 select_plotList <- list()
 for (sel_vari in 1:length(select_variables)) {
   select_plotList[[sel_vari]] <- Gam_Output %>% 
@@ -857,16 +852,18 @@ for (sel_vari in 1:length(select_variables)) {
     labs(fill="Dispersal ability",colour="Dispersal ability",subtitle=name_select_variables[sel_vari])+
     theme_classic()+labs(y="Proportional decay rate (b)",x="")+
     theme(panel.background = element_rect(colour = "grey50"),
-          panel.grid.major.x = element_line(colour = "grey70"))
+          panel.grid.major.x = element_line(colour = "grey70"),
+          axis.title.y = element_text(colour = "#b30000"))
 }
 leg_plot <- get_legend(select_plotList[[1]])
 blank <- grid::grid.rect(gp=grid::gpar(col="white"))
 b_plot <- gridExtra::arrangeGrob(arrangeGrob(select_plotList[[1]]+theme(legend.position = "none")),
-                                 blank,blank,blank,
-                                 leg_plot,ncol=5)
+                                 arrangeGrob(select_plotList[[2]]+theme(legend.position = "none")),
+                                 blank,
+                                 ncol=3)
 
-select_variables <- c("OutDeg_Med")
-name_select_variables <- c("Median Out degree")
+select_variables <- c("Betw_CV","WatCov_CV")
+name_select_variables <- c("Betweenness CV","Water Cover CV")
 select_plotList <- list()
 for (sel_vari in 1:length(select_variables)) {
   select_plotList[[sel_vari]] <- Gam_Output %>% 
@@ -878,28 +875,30 @@ for (sel_vari in 1:length(select_variables)) {
     geom_ribbon(aes(ymin = lwr_ci, ymax = upr_ci,fill=disp_plot), alpha = 0.1)+
     geom_line(aes(color=disp_plot))+
     scale_y_reverse()+
-    scale_color_viridis(discrete = T,option = "C")+
-    scale_fill_viridis(discrete = T,option = "C")+
+    scale_color_viridis(discrete = T)+
+    scale_fill_viridis(discrete = T)+
     labs(fill="Dispersal ability",colour="Dispersal ability",subtitle=name_select_variables[sel_vari])+
     theme_classic()+labs(y="Collapsing rate (q)",x="")+
     theme(panel.background = element_rect(colour = "grey50"),
-          panel.grid.major.x = element_line(colour = "grey70"))
+          panel.grid.major.x = element_line(colour = "grey70"),
+          axis.title.y = element_text(colour = "#8A2BE2"))
   
 }
 leg_plot <- get_legend(select_plotList[[1]])
 blank <- grid::grid.rect(gp=grid::gpar(col="white"))
 q_plot <- gridExtra::arrangeGrob(arrangeGrob(select_plotList[[1]]+theme(legend.position = "none")),
-                                 blank,blank,blank,
-                                 leg_plot,ncol=5)
+                                 arrangeGrob(select_plotList[[2]]+theme(legend.position = "none")),
+                                 blank,
+                                 ncol=3)
 
 Temp_Fresh<- arrangeGrob(b_plot,q_plot,nrow=2,
-                         top=grid::textGrob("C) Temporary freshwaters",
+                         top=grid::textGrob("B) Temporary freshwaters",
                                             gp=grid::gpar(fontsize=20,font=2)))
 
 # Ephemeral freshwater significant values (manual selection)
 # for b 
-select_variables <- c("Lat","OutDeg_Med","WatCov_Mean","EcoRSize")
-name_select_variables <- c("Latitude","Median Out degree","Mean Water Cover","Ecoregion size")
+select_variables <- c("Betw_CV","WatCov_CV")
+name_select_variables <- c("Betweenness CV","Water Cover CV")
 select_plotList <- list()
 for (sel_vari in 1:length(select_variables)) {
   select_plotList[[sel_vari]] <- Gam_Output %>% 
@@ -915,18 +914,18 @@ for (sel_vari in 1:length(select_variables)) {
     labs(fill="Dispersal ability",colour="Dispersal ability",subtitle=name_select_variables[sel_vari])+
     theme_classic()+labs(y="Proportional decay rate (b)",x="")+
     theme(panel.background = element_rect(colour = "grey50"),
-          panel.grid.major.x = element_line(colour = "grey70"))
+          panel.grid.major.x = element_line(colour = "grey70"),
+          axis.title.y = element_text(colour = "#b30000"))
 }
 leg_plot <- get_legend(select_plotList[[1]])
 blank <- grid::grid.rect(gp=grid::gpar(col="white"))
 b_plot <- gridExtra::arrangeGrob(arrangeGrob(select_plotList[[1]]+theme(legend.position = "none")),
                                  arrangeGrob(select_plotList[[2]]+theme(legend.position = "none")),
-                                 arrangeGrob(select_plotList[[3]]+theme(legend.position = "none")),
-                                 arrangeGrob(select_plotList[[4]]+theme(legend.position = "none")),
-                                 leg_plot,ncol=5)
+                                 blank,
+                                 ncol=3)
 
-select_variables <- c("Lat","OutDeg_Med","WatCov_Mean")
-name_select_variables <- c("Latitude","Median Out degree","Mean Water Cover")
+select_variables <- c("WatCov_CV","EcoRSize")
+name_select_variables <- c("Water Cover CV","Ecoregion size")
 select_plotList <- list()
 for (sel_vari in 1:length(select_variables)) {
   select_plotList[[sel_vari]] <- Gam_Output %>% 
@@ -938,28 +937,28 @@ for (sel_vari in 1:length(select_variables)) {
     geom_ribbon(aes(ymin = lwr_ci, ymax = upr_ci,fill=disp_plot), alpha = 0.1)+
     geom_line(aes(color=disp_plot))+
     scale_y_reverse()+
-    scale_color_viridis(discrete = T,option = "C")+
-    scale_fill_viridis(discrete = T,option = "C")+
+    scale_color_viridis(discrete = T)+
+    scale_fill_viridis(discrete = T)+
     labs(fill="Dispersal ability",colour="Dispersal ability",subtitle=name_select_variables[sel_vari])+
     theme_classic()+labs(y="Collapsing rate (q)",x="")+
     theme(panel.background = element_rect(colour = "grey50"),
-          panel.grid.major.x = element_line(colour = "grey70"))
+          panel.grid.major.x = element_line(colour = "grey70"),
+          axis.title.y = element_text(colour = "#8A2BE2"))
   
 }
-leg_plot <- get_legend(select_plotList[[1]])
+leg_plot <- get_legend(select_plotList[[1]]+theme(legend.direction = "horizontal",legend.position = "top"))
 blank <- grid::grid.rect(gp=grid::gpar(col="white"))
 q_plot <- gridExtra::arrangeGrob(arrangeGrob(select_plotList[[1]]+theme(legend.position = "none")),
                                  arrangeGrob(select_plotList[[2]]+theme(legend.position = "none")),
-                                 arrangeGrob(select_plotList[[3]]+theme(legend.position = "none")),
                                  blank,
-                                 leg_plot,ncol=5)
+                                 ncol=3)
 
 Ephem_Fresh<- arrangeGrob(b_plot,q_plot,nrow=2,
-                          top=grid::textGrob("D) Ephemeral freshwaters",
+                          top=grid::textGrob("C) Ephemeral freshwaters",
                                              gp=grid::gpar(fontsize=20,font=2)))
 
-png(filename ="GAM_Figure4.png",width =550*7 ,height =1050*5 ,units ="px",res = 300)
-grid.arrange(Total_Fresh,Perm_Fresh,Temp_Fresh,Ephem_Fresh,nrow=4)
+png(filename ="GAM_Figure4.png",width =550*5 ,height =1050*7 ,units ="px",res = 300)
+grid.arrange(Perm_Fresh,Temp_Fresh,Ephem_Fresh,Total_Fresh,leg_plot,nrow=5)
 dev.off()
 
 

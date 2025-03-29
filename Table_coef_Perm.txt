@@ -1,912 +1,918 @@
-"EcoR_ID" "EcoR_Name" "NAME_ENGL" "disp_plot" "b_Coef" "q_Coef"
-"1" 436 "Coastal_Levant" "Turkey" "0.001 km" -0.662319716844998 0.342301223972063
-"2" 436 "Coastal_Levant" "Turkey" "0.1 km" -0.693775108039092 0.344301380554022
-"3" 436 "Coastal_Levant" "Turkey" "0.5 km" -0.654171231143835 0.345513442326462
-"4" 436 "Coastal_Levant" "Turkey" "1 km" -0.678790942678103 0.347265186861525
-"5" 436 "Coastal_Levant" "Turkey" "2 km" -0.689227636963397 0.347902509204953
-"6" 436 "Coastal_Levant" "Turkey" "5 km" -0.759004404756391 0.349548482040761
-"7" 436 "Coastal_Levant" "Turkey" "10 km" -0.758066122091738 0.349048874564576
-"8" 436 "Coastal_Levant" "Syria" "0.001 km" -0.662319716844998 0.342301223972063
-"9" 436 "Coastal_Levant" "Syria" "0.1 km" -0.693775108039092 0.344301380554022
-"10" 436 "Coastal_Levant" "Syria" "0.5 km" -0.654171231143835 0.345513442326462
-"11" 436 "Coastal_Levant" "Syria" "1 km" -0.678790942678103 0.347265186861525
-"12" 436 "Coastal_Levant" "Syria" "2 km" -0.689227636963397 0.347902509204953
-"13" 436 "Coastal_Levant" "Syria" "5 km" -0.759004404756391 0.349548482040761
-"14" 436 "Coastal_Levant" "Syria" "10 km" -0.758066122091738 0.349048874564576
-"15" 436 "Coastal_Levant" "Lebanon" "0.001 km" -0.662319716844998 0.342301223972063
-"16" 436 "Coastal_Levant" "Lebanon" "0.1 km" -0.693775108039092 0.344301380554022
-"17" 436 "Coastal_Levant" "Lebanon" "0.5 km" -0.654171231143835 0.345513442326462
-"18" 436 "Coastal_Levant" "Lebanon" "1 km" -0.678790942678103 0.347265186861525
-"19" 436 "Coastal_Levant" "Lebanon" "2 km" -0.689227636963397 0.347902509204953
-"20" 436 "Coastal_Levant" "Lebanon" "5 km" -0.759004404756391 0.349548482040761
-"21" 436 "Coastal_Levant" "Lebanon" "10 km" -0.758066122091738 0.349048874564576
-"22" 437 "Orontes" "Turkey" "0.001 km" -0.31810272511364 NA
-"23" 437 "Orontes" "Turkey" "0.1 km" -0.358473143123496 NA
-"24" 437 "Orontes" "Turkey" "0.5 km" -0.574653702172715 0.330437837128197
-"25" 437 "Orontes" "Turkey" "1 km" -0.523007618085311 0.327171312536309
-"26" 437 "Orontes" "Turkey" "2 km" -0.439892082517633 NA
-"27" 437 "Orontes" "Turkey" "5 km" -0.523121904060451 NA
-"28" 437 "Orontes" "Turkey" "10 km" -0.43549679676718 0.331959592665263
-"29" 437 "Orontes" "Syria" "0.001 km" -0.31810272511364 NA
-"30" 437 "Orontes" "Syria" "0.1 km" -0.358473143123496 NA
-"31" 437 "Orontes" "Syria" "0.5 km" -0.574653702172715 0.330437837128197
-"32" 437 "Orontes" "Syria" "1 km" -0.523007618085311 0.327171312536309
-"33" 437 "Orontes" "Syria" "2 km" -0.439892082517633 NA
-"34" 437 "Orontes" "Syria" "5 km" -0.523121904060451 NA
-"35" 437 "Orontes" "Syria" "10 km" -0.43549679676718 0.331959592665263
-"36" 440 "Arabian_Interior" "Syria" NA NA NA
-"37" 428 "Kuban" "Russian Federation" "0.001 km" -0.61217156372316 0.331878727731608
-"38" 428 "Kuban" "Russian Federation" "0.1 km" -0.827748046896539 0.344833484933456
-"39" 428 "Kuban" "Russian Federation" "0.5 km" -0.831892081175047 0.345654669357685
-"40" 428 "Kuban" "Russian Federation" "1 km" -0.817476122762533 0.34683968554032
-"41" 428 "Kuban" "Russian Federation" "2 km" -0.852245859218114 0.348498661083325
-"42" 428 "Kuban" "Russian Federation" "5 km" -0.859391357212505 0.349445551242934
-"43" 428 "Kuban" "Russian Federation" "10 km" -0.816928473449909 0.348225054446572
-"44" 433 "Western_Transcaucasia" "Russian Federation" "0.001 km" -0.540388051176223 NA
-"45" 433 "Western_Transcaucasia" "Russian Federation" "0.1 km" -0.581637170634451 0.340111593718119
-"46" 433 "Western_Transcaucasia" "Russian Federation" "0.5 km" -0.621958066045052 NA
-"47" 433 "Western_Transcaucasia" "Russian Federation" "1 km" -0.686680900819067 0.345574284951812
-"48" 433 "Western_Transcaucasia" "Russian Federation" "2 km" -0.673875429523433 0.345599031899051
-"49" 433 "Western_Transcaucasia" "Russian Federation" "5 km" -0.673542408179178 0.346258712385307
-"50" 433 "Western_Transcaucasia" "Russian Federation" "10 km" -0.670835742153924 0.3463483149854
-"51" 433 "Western_Transcaucasia" "Turkey" "0.001 km" -0.540388051176223 NA
-"52" 433 "Western_Transcaucasia" "Turkey" "0.1 km" -0.581637170634451 0.340111593718119
-"53" 433 "Western_Transcaucasia" "Turkey" "0.5 km" -0.621958066045052 NA
-"54" 433 "Western_Transcaucasia" "Turkey" "1 km" -0.686680900819067 0.345574284951812
-"55" 433 "Western_Transcaucasia" "Turkey" "2 km" -0.673875429523433 0.345599031899051
-"56" 433 "Western_Transcaucasia" "Turkey" "5 km" -0.673542408179178 0.346258712385307
-"57" 433 "Western_Transcaucasia" "Turkey" "10 km" -0.670835742153924 0.3463483149854
-"58" 441 "Lower_Tigris_&_Euphrates" "Turkey" "0.001 km" -0.610150020041004 0.34126002780291
-"59" 441 "Lower_Tigris_&_Euphrates" "Turkey" "0.1 km" -0.752744389495961 0.347341251456418
-"60" 441 "Lower_Tigris_&_Euphrates" "Turkey" "0.5 km" -0.503600264973494 0.338283328284321
-"61" 441 "Lower_Tigris_&_Euphrates" "Turkey" "1 km" -0.712254715244678 0.346395633425227
-"62" 441 "Lower_Tigris_&_Euphrates" "Turkey" "2 km" -0.767239913579084 0.347284248187004
-"63" 441 "Lower_Tigris_&_Euphrates" "Turkey" "5 km" -0.860160414568102 0.350511836991022
-"64" 441 "Lower_Tigris_&_Euphrates" "Turkey" "10 km" -0.65710522175922 NA
-"65" 441 "Lower_Tigris_&_Euphrates" "Syria" "0.001 km" -0.610150020041004 0.34126002780291
-"66" 441 "Lower_Tigris_&_Euphrates" "Syria" "0.1 km" -0.752744389495961 0.347341251456418
-"67" 441 "Lower_Tigris_&_Euphrates" "Syria" "0.5 km" -0.503600264973494 0.338283328284321
-"68" 441 "Lower_Tigris_&_Euphrates" "Syria" "1 km" -0.712254715244678 0.346395633425227
-"69" 441 "Lower_Tigris_&_Euphrates" "Syria" "2 km" -0.767239913579084 0.347284248187004
-"70" 441 "Lower_Tigris_&_Euphrates" "Syria" "5 km" -0.860160414568102 0.350511836991022
-"71" 441 "Lower_Tigris_&_Euphrates" "Syria" "10 km" -0.65710522175922 NA
-"72" 426 "Crimea_Peninsula" "Ukraine" "0.001 km" -0.434765891166991 0.323690741150482
-"73" 426 "Crimea_Peninsula" "Ukraine" "0.1 km" -0.617455513114064 0.339778547530491
-"74" 426 "Crimea_Peninsula" "Ukraine" "0.5 km" -0.673775820658091 0.342319954665443
-"75" 426 "Crimea_Peninsula" "Ukraine" "1 km" -0.57222558413533 0.341652951553922
-"76" 426 "Crimea_Peninsula" "Ukraine" "2 km" -0.577270325511612 0.342549044222335
-"77" 426 "Crimea_Peninsula" "Ukraine" "5 km" -0.581573677801564 0.343592146668373
-"78" 426 "Crimea_Peninsula" "Ukraine" "10 km" -0.661320523704719 0.346787794073109
-"79" 421 "Ionian_Drainages" "Greece" "0.001 km" -0.432365139053848 NA
-"80" 421 "Ionian_Drainages" "Greece" "0.1 km" -0.521374248442481 0.335801520225409
-"81" 421 "Ionian_Drainages" "Greece" "0.5 km" -0.472251641554818 0.337001506825621
-"82" 421 "Ionian_Drainages" "Greece" "1 km" -0.513336955698115 0.340506641050853
-"83" 421 "Ionian_Drainages" "Greece" "2 km" -0.460040169244962 0.338857031991914
-"84" 421 "Ionian_Drainages" "Greece" "5 km" -0.414741230574057 0.339035906950103
-"85" 421 "Ionian_Drainages" "Greece" "10 km" -0.459890122919945 0.341791464334158
-"86" 420 "Southeast_Adriatic_Drainages" "Montenegro" "0.001 km" -0.726878878186445 0.333225250915827
-"87" 420 "Southeast_Adriatic_Drainages" "Montenegro" "0.1 km" -0.404865630530338 NA
-"88" 420 "Southeast_Adriatic_Drainages" "Montenegro" "0.5 km" -0.462893481035321 NA
-"89" 420 "Southeast_Adriatic_Drainages" "Montenegro" "1 km" -0.48486294117368 NA
-"90" 420 "Southeast_Adriatic_Drainages" "Montenegro" "2 km" -0.785753524885207 0.344372886721142
-"91" 420 "Southeast_Adriatic_Drainages" "Montenegro" "5 km" -0.835101158105943 0.347123179482466
-"92" 420 "Southeast_Adriatic_Drainages" "Montenegro" "10 km" -0.584792396089515 NA
-"93" 420 "Southeast_Adriatic_Drainages" "Serbia" "0.001 km" -0.726878878186445 0.333225250915827
-"94" 420 "Southeast_Adriatic_Drainages" "Serbia" "0.1 km" -0.404865630530338 NA
-"95" 420 "Southeast_Adriatic_Drainages" "Serbia" "0.5 km" -0.462893481035321 NA
-"96" 420 "Southeast_Adriatic_Drainages" "Serbia" "1 km" -0.48486294117368 NA
-"97" 420 "Southeast_Adriatic_Drainages" "Serbia" "2 km" -0.785753524885207 0.344372886721142
-"98" 420 "Southeast_Adriatic_Drainages" "Serbia" "5 km" -0.835101158105943 0.347123179482466
-"99" 420 "Southeast_Adriatic_Drainages" "Serbia" "10 km" -0.584792396089515 NA
-"100" 420 "Southeast_Adriatic_Drainages" "Albania" "0.001 km" -0.726878878186445 0.333225250915827
-"101" 420 "Southeast_Adriatic_Drainages" "Albania" "0.1 km" -0.404865630530338 NA
-"102" 420 "Southeast_Adriatic_Drainages" "Albania" "0.5 km" -0.462893481035321 NA
-"103" 420 "Southeast_Adriatic_Drainages" "Albania" "1 km" -0.48486294117368 NA
-"104" 420 "Southeast_Adriatic_Drainages" "Albania" "2 km" -0.785753524885207 0.344372886721142
-"105" 420 "Southeast_Adriatic_Drainages" "Albania" "5 km" -0.835101158105943 0.347123179482466
-"106" 420 "Southeast_Adriatic_Drainages" "Albania" "10 km" -0.584792396089515 NA
-"107" 420 "Southeast_Adriatic_Drainages" "North Macedonia" "0.001 km" -0.726878878186445 0.333225250915827
-"108" 420 "Southeast_Adriatic_Drainages" "North Macedonia" "0.1 km" -0.404865630530338 NA
-"109" 420 "Southeast_Adriatic_Drainages" "North Macedonia" "0.5 km" -0.462893481035321 NA
-"110" 420 "Southeast_Adriatic_Drainages" "North Macedonia" "1 km" -0.48486294117368 NA
-"111" 420 "Southeast_Adriatic_Drainages" "North Macedonia" "2 km" -0.785753524885207 0.344372886721142
-"112" 420 "Southeast_Adriatic_Drainages" "North Macedonia" "5 km" -0.835101158105943 0.347123179482466
-"113" 420 "Southeast_Adriatic_Drainages" "North Macedonia" "10 km" -0.584792396089515 NA
-"114" 420 "Southeast_Adriatic_Drainages" "Greece" "0.001 km" -0.726878878186445 0.333225250915827
-"115" 420 "Southeast_Adriatic_Drainages" "Greece" "0.1 km" -0.404865630530338 NA
-"116" 420 "Southeast_Adriatic_Drainages" "Greece" "0.5 km" -0.462893481035321 NA
-"117" 420 "Southeast_Adriatic_Drainages" "Greece" "1 km" -0.48486294117368 NA
-"118" 420 "Southeast_Adriatic_Drainages" "Greece" "2 km" -0.785753524885207 0.344372886721142
-"119" 420 "Southeast_Adriatic_Drainages" "Greece" "5 km" -0.835101158105943 0.347123179482466
-"120" 420 "Southeast_Adriatic_Drainages" "Greece" "10 km" -0.584792396089515 NA
-"121" 424 "Aegean_Drainages" "Greece" "0.001 km" -0.517092578057987 0.334007582949265
-"122" 424 "Aegean_Drainages" "Greece" "0.1 km" -0.677865811973831 0.34531721823548
-"123" 424 "Aegean_Drainages" "Greece" "0.5 km" -0.599327438592325 0.34408667697531
-"124" 424 "Aegean_Drainages" "Greece" "1 km" -0.629127949061071 0.346659509177024
-"125" 424 "Aegean_Drainages" "Greece" "2 km" -0.64507526368327 0.348323998237721
-"126" 424 "Aegean_Drainages" "Greece" "5 km" -0.612275398722622 0.34799998253005
-"127" 424 "Aegean_Drainages" "Greece" "10 km" -0.667324392997276 0.349931861816208
-"128" 422 "Vardar" "Serbia" "0.001 km" -0.421969202132026 NA
-"129" 422 "Vardar" "Serbia" "0.1 km" -0.471360744180912 NA
-"130" 422 "Vardar" "Serbia" "0.5 km" -0.752910602858503 0.343079354340158
-"131" 422 "Vardar" "Serbia" "1 km" -0.680550201023584 0.34200502437686
-"132" 422 "Vardar" "Serbia" "2 km" -0.750684401243316 0.344969914790534
-"133" 422 "Vardar" "Serbia" "5 km" -0.840654190033705 0.34968386501473
-"134" 422 "Vardar" "Serbia" "10 km" -0.828135469806748 0.350641342758948
-"135" 422 "Vardar" "North Macedonia" "0.001 km" -0.421969202132026 NA
-"136" 422 "Vardar" "North Macedonia" "0.1 km" -0.471360744180912 NA
-"137" 422 "Vardar" "North Macedonia" "0.5 km" -0.752910602858503 0.343079354340158
-"138" 422 "Vardar" "North Macedonia" "1 km" -0.680550201023584 0.34200502437686
-"139" 422 "Vardar" "North Macedonia" "2 km" -0.750684401243316 0.344969914790534
-"140" 422 "Vardar" "North Macedonia" "5 km" -0.840654190033705 0.34968386501473
-"141" 422 "Vardar" "North Macedonia" "10 km" -0.828135469806748 0.350641342758948
-"142" 422 "Vardar" "Greece" "0.001 km" -0.421969202132026 NA
-"143" 422 "Vardar" "Greece" "0.1 km" -0.471360744180912 NA
-"144" 422 "Vardar" "Greece" "0.5 km" -0.752910602858503 0.343079354340158
-"145" 422 "Vardar" "Greece" "1 km" -0.680550201023584 0.34200502437686
-"146" 422 "Vardar" "Greece" "2 km" -0.750684401243316 0.344969914790534
-"147" 422 "Vardar" "Greece" "5 km" -0.840654190033705 0.34968386501473
-"148" 422 "Vardar" "Greece" "10 km" -0.828135469806748 0.350641342758948
-"149" 419 "Dalmatia" "Slovenia" "0.001 km" -0.374697866022452 NA
-"150" 419 "Dalmatia" "Slovenia" "0.1 km" -0.520930125399388 0.339098180593917
-"151" 419 "Dalmatia" "Slovenia" "0.5 km" -0.614567821463193 0.343645425362632
-"152" 419 "Dalmatia" "Slovenia" "1 km" -0.500232829235732 0.342367773605072
-"153" 419 "Dalmatia" "Slovenia" "2 km" -0.466240584249222 0.342495249935327
-"154" 419 "Dalmatia" "Slovenia" "5 km" -0.412994769723581 0.341986801130936
-"155" 419 "Dalmatia" "Slovenia" "10 km" -0.413275734517792 0.342397417645711
-"156" 419 "Dalmatia" "Italy" "0.001 km" -0.374697866022452 NA
-"157" 419 "Dalmatia" "Italy" "0.1 km" -0.520930125399388 0.339098180593917
-"158" 419 "Dalmatia" "Italy" "0.5 km" -0.614567821463193 0.343645425362632
-"159" 419 "Dalmatia" "Italy" "1 km" -0.500232829235732 0.342367773605072
-"160" 419 "Dalmatia" "Italy" "2 km" -0.466240584249222 0.342495249935327
-"161" 419 "Dalmatia" "Italy" "5 km" -0.412994769723581 0.341986801130936
-"162" 419 "Dalmatia" "Italy" "10 km" -0.413275734517792 0.342397417645711
-"163" 419 "Dalmatia" "Croatia" "0.001 km" -0.374697866022452 NA
-"164" 419 "Dalmatia" "Croatia" "0.1 km" -0.520930125399388 0.339098180593917
-"165" 419 "Dalmatia" "Croatia" "0.5 km" -0.614567821463193 0.343645425362632
-"166" 419 "Dalmatia" "Croatia" "1 km" -0.500232829235732 0.342367773605072
-"167" 419 "Dalmatia" "Croatia" "2 km" -0.466240584249222 0.342495249935327
-"168" 419 "Dalmatia" "Croatia" "5 km" -0.412994769723581 0.341986801130936
-"169" 419 "Dalmatia" "Croatia" "10 km" -0.413275734517792 0.342397417645711
-"170" 419 "Dalmatia" "Bosnia and Herzegovina" "0.001 km" -0.374697866022452 NA
-"171" 419 "Dalmatia" "Bosnia and Herzegovina" "0.1 km" -0.520930125399388 0.339098180593917
-"172" 419 "Dalmatia" "Bosnia and Herzegovina" "0.5 km" -0.614567821463193 0.343645425362632
-"173" 419 "Dalmatia" "Bosnia and Herzegovina" "1 km" -0.500232829235732 0.342367773605072
-"174" 419 "Dalmatia" "Bosnia and Herzegovina" "2 km" -0.466240584249222 0.342495249935327
-"175" 419 "Dalmatia" "Bosnia and Herzegovina" "5 km" -0.412994769723581 0.341986801130936
-"176" 419 "Dalmatia" "Bosnia and Herzegovina" "10 km" -0.413275734517792 0.342397417645711
-"177" 419 "Dalmatia" "Montenegro" "0.001 km" -0.374697866022452 NA
-"178" 419 "Dalmatia" "Montenegro" "0.1 km" -0.520930125399388 0.339098180593917
-"179" 419 "Dalmatia" "Montenegro" "0.5 km" -0.614567821463193 0.343645425362632
-"180" 419 "Dalmatia" "Montenegro" "1 km" -0.500232829235732 0.342367773605072
-"181" 419 "Dalmatia" "Montenegro" "2 km" -0.466240584249222 0.342495249935327
-"182" 419 "Dalmatia" "Montenegro" "5 km" -0.412994769723581 0.341986801130936
-"183" 419 "Dalmatia" "Montenegro" "10 km" -0.413275734517792 0.342397417645711
-"184" 431 "Central_Anatolia" "Turkey" "0.001 km" -0.340264162302697 NA
-"185" 431 "Central_Anatolia" "Turkey" "0.1 km" -0.313677904194945 NA
-"186" 431 "Central_Anatolia" "Turkey" "0.5 km" -0.751513105904038 0.338687163073813
-"187" 431 "Central_Anatolia" "Turkey" "1 km" -0.91867952588013 0.344681485094736
-"188" 431 "Central_Anatolia" "Turkey" "2 km" -0.893340470642277 0.34375046168228
-"189" 431 "Central_Anatolia" "Turkey" "5 km" -0.809051478517023 0.341556335405762
-"190" 431 "Central_Anatolia" "Turkey" "10 km" -0.84255698493407 0.344759074995138
-"191" 442 "Upper_Tigris_&_Euphrates" "Turkey" "0.001 km" -0.685700474389741 0.339205012868847
-"192" 442 "Upper_Tigris_&_Euphrates" "Turkey" "0.1 km" -0.832722333169244 0.346569563112065
-"193" 442 "Upper_Tigris_&_Euphrates" "Turkey" "0.5 km" -0.781386655281338 0.346690657222915
-"194" 442 "Upper_Tigris_&_Euphrates" "Turkey" "1 km" -0.753241070193471 0.346479495641623
-"195" 442 "Upper_Tigris_&_Euphrates" "Turkey" "2 km" -0.790955274043714 0.347525987081926
-"196" 442 "Upper_Tigris_&_Euphrates" "Turkey" "5 km" -0.776204947983928 0.347548080424496
-"197" 442 "Upper_Tigris_&_Euphrates" "Turkey" "10 km" -0.82478700490032 0.349588610910367
-"198" 442 "Upper_Tigris_&_Euphrates" "Syria" "0.001 km" -0.685700474389741 0.339205012868847
-"199" 442 "Upper_Tigris_&_Euphrates" "Syria" "0.1 km" -0.832722333169244 0.346569563112065
-"200" 442 "Upper_Tigris_&_Euphrates" "Syria" "0.5 km" -0.781386655281338 0.346690657222915
-"201" 442 "Upper_Tigris_&_Euphrates" "Syria" "1 km" -0.753241070193471 0.346479495641623
-"202" 442 "Upper_Tigris_&_Euphrates" "Syria" "2 km" -0.790955274043714 0.347525987081926
-"203" 442 "Upper_Tigris_&_Euphrates" "Syria" "5 km" -0.776204947983928 0.347548080424496
-"204" 442 "Upper_Tigris_&_Euphrates" "Syria" "10 km" -0.82478700490032 0.349588610910367
-"205" 429 "Western_Anatolia" "Turkey" "0.001 km" -0.43245964500412 NA
-"206" 429 "Western_Anatolia" "Turkey" "0.1 km" -0.535735323163673 0.338262278620681
-"207" 429 "Western_Anatolia" "Turkey" "0.5 km" -0.578634343857564 0.342510770273059
-"208" 429 "Western_Anatolia" "Turkey" "1 km" -0.569203972195685 0.343762521991914
-"209" 429 "Western_Anatolia" "Turkey" "2 km" -0.618779629092391 0.346414656667421
-"210" 429 "Western_Anatolia" "Turkey" "5 km" -0.62536601870513 0.348028720160909
-"211" 429 "Western_Anatolia" "Turkey" "10 km" -0.528131209383452 0.345609622357661
-"212" 429 "Western_Anatolia" "Greece" "0.001 km" -0.43245964500412 NA
-"213" 429 "Western_Anatolia" "Greece" "0.1 km" -0.535735323163673 0.338262278620681
-"214" 429 "Western_Anatolia" "Greece" "0.5 km" -0.578634343857564 0.342510770273059
-"215" 429 "Western_Anatolia" "Greece" "1 km" -0.569203972195685 0.343762521991914
-"216" 429 "Western_Anatolia" "Greece" "2 km" -0.618779629092391 0.346414656667421
-"217" 429 "Western_Anatolia" "Greece" "5 km" -0.62536601870513 0.348028720160909
-"218" 429 "Western_Anatolia" "Greece" "10 km" -0.528131209383452 0.345609622357661
-"219" 432 "Southern_Anatolia" "Turkey" "0.001 km" -0.369571066319937 NA
-"220" 432 "Southern_Anatolia" "Turkey" "0.1 km" -0.409850218464233 0.329214652854082
-"221" 432 "Southern_Anatolia" "Turkey" "0.5 km" -0.515038469037772 0.336861903714639
-"222" 432 "Southern_Anatolia" "Turkey" "1 km" -0.526263735514819 0.338835418200347
-"223" 432 "Southern_Anatolia" "Turkey" "2 km" -0.517788247597929 0.339500960784269
-"224" 432 "Southern_Anatolia" "Turkey" "5 km" -0.542449580961109 0.342368095364273
-"225" 432 "Southern_Anatolia" "Turkey" "10 km" -0.535568433167668 0.343316512282996
-"226" 432 "Southern_Anatolia" "Cyprus" "0.001 km" -0.369571066319937 NA
-"227" 432 "Southern_Anatolia" "Cyprus" "0.1 km" -0.409850218464233 0.329214652854082
-"228" 432 "Southern_Anatolia" "Cyprus" "0.5 km" -0.515038469037772 0.336861903714639
-"229" 432 "Southern_Anatolia" "Cyprus" "1 km" -0.526263735514819 0.338835418200347
-"230" 432 "Southern_Anatolia" "Cyprus" "2 km" -0.517788247597929 0.339500960784269
-"231" 432 "Southern_Anatolia" "Cyprus" "5 km" -0.542449580961109 0.342368095364273
-"232" 432 "Southern_Anatolia" "Cyprus" "10 km" -0.535568433167668 0.343316512282996
-"233" 423 "Thrace" "Bulgaria" "0.001 km" -0.225218109660161 NA
-"234" 423 "Thrace" "Bulgaria" "0.1 km" -0.362442453009584 0.323262786447697
-"235" 423 "Thrace" "Bulgaria" "0.5 km" -0.332787553409297 0.323664744778673
-"236" 423 "Thrace" "Bulgaria" "1 km" -0.343367219514695 0.327070271560486
-"237" 423 "Thrace" "Bulgaria" "2 km" -0.378799861283051 0.331954017604497
-"238" 423 "Thrace" "Bulgaria" "5 km" -0.367158067892917 0.335141850554461
-"239" 423 "Thrace" "Bulgaria" "10 km" -0.425629196912668 0.339110323399963
-"240" 423 "Thrace" "Serbia" "0.001 km" -0.225218109660161 NA
-"241" 423 "Thrace" "Serbia" "0.1 km" -0.362442453009584 0.323262786447697
-"242" 423 "Thrace" "Serbia" "0.5 km" -0.332787553409297 0.323664744778673
-"243" 423 "Thrace" "Serbia" "1 km" -0.343367219514695 0.327070271560486
-"244" 423 "Thrace" "Serbia" "2 km" -0.378799861283051 0.331954017604497
-"245" 423 "Thrace" "Serbia" "5 km" -0.367158067892917 0.335141850554461
-"246" 423 "Thrace" "Serbia" "10 km" -0.425629196912668 0.339110323399963
-"247" 423 "Thrace" "Turkey" "0.001 km" -0.225218109660161 NA
-"248" 423 "Thrace" "Turkey" "0.1 km" -0.362442453009584 0.323262786447697
-"249" 423 "Thrace" "Turkey" "0.5 km" -0.332787553409297 0.323664744778673
-"250" 423 "Thrace" "Turkey" "1 km" -0.343367219514695 0.327070271560486
-"251" 423 "Thrace" "Turkey" "2 km" -0.378799861283051 0.331954017604497
-"252" 423 "Thrace" "Turkey" "5 km" -0.367158067892917 0.335141850554461
-"253" 423 "Thrace" "Turkey" "10 km" -0.425629196912668 0.339110323399963
-"254" 423 "Thrace" "North Macedonia" "0.001 km" -0.225218109660161 NA
-"255" 423 "Thrace" "North Macedonia" "0.1 km" -0.362442453009584 0.323262786447697
-"256" 423 "Thrace" "North Macedonia" "0.5 km" -0.332787553409297 0.323664744778673
-"257" 423 "Thrace" "North Macedonia" "1 km" -0.343367219514695 0.327070271560486
-"258" 423 "Thrace" "North Macedonia" "2 km" -0.378799861283051 0.331954017604497
-"259" 423 "Thrace" "North Macedonia" "5 km" -0.367158067892917 0.335141850554461
-"260" 423 "Thrace" "North Macedonia" "10 km" -0.425629196912668 0.339110323399963
-"261" 423 "Thrace" "Greece" "0.001 km" -0.225218109660161 NA
-"262" 423 "Thrace" "Greece" "0.1 km" -0.362442453009584 0.323262786447697
-"263" 423 "Thrace" "Greece" "0.5 km" -0.332787553409297 0.323664744778673
-"264" 423 "Thrace" "Greece" "1 km" -0.343367219514695 0.327070271560486
-"265" 423 "Thrace" "Greece" "2 km" -0.378799861283051 0.331954017604497
-"266" 423 "Thrace" "Greece" "5 km" -0.367158067892917 0.335141850554461
-"267" 423 "Thrace" "Greece" "10 km" -0.425629196912668 0.339110323399963
-"268" 415 "Gulf_of_Venice_Drainages" "Italy" "0.001 km" -0.404856430237634 0.312522251171053
-"269" 415 "Gulf_of_Venice_Drainages" "Italy" "0.1 km" -0.511904054867539 0.327897654039589
-"270" 415 "Gulf_of_Venice_Drainages" "Italy" "0.5 km" -0.585637080864303 0.33312954174406
-"271" 415 "Gulf_of_Venice_Drainages" "Italy" "1 km" -0.567801007205944 0.334539770979771
-"272" 415 "Gulf_of_Venice_Drainages" "Italy" "2 km" -0.532655279155522 0.334210292470449
-"273" 415 "Gulf_of_Venice_Drainages" "Italy" "5 km" -0.520081723176525 0.336611937100658
-"274" 415 "Gulf_of_Venice_Drainages" "Italy" "10 km" -0.559418604293751 0.339707673336378
-"275" 415 "Gulf_of_Venice_Drainages" "Switzerland" "0.001 km" -0.404856430237634 0.312522251171053
-"276" 415 "Gulf_of_Venice_Drainages" "Switzerland" "0.1 km" -0.511904054867539 0.327897654039589
-"277" 415 "Gulf_of_Venice_Drainages" "Switzerland" "0.5 km" -0.585637080864303 0.33312954174406
-"278" 415 "Gulf_of_Venice_Drainages" "Switzerland" "1 km" -0.567801007205944 0.334539770979771
-"279" 415 "Gulf_of_Venice_Drainages" "Switzerland" "2 km" -0.532655279155522 0.334210292470449
-"280" 415 "Gulf_of_Venice_Drainages" "Switzerland" "5 km" -0.520081723176525 0.336611937100658
-"281" 415 "Gulf_of_Venice_Drainages" "Switzerland" "10 km" -0.559418604293751 0.339707673336378
-"282" 415 "Gulf_of_Venice_Drainages" "Austria" "0.001 km" -0.404856430237634 0.312522251171053
-"283" 415 "Gulf_of_Venice_Drainages" "Austria" "0.1 km" -0.511904054867539 0.327897654039589
-"284" 415 "Gulf_of_Venice_Drainages" "Austria" "0.5 km" -0.585637080864303 0.33312954174406
-"285" 415 "Gulf_of_Venice_Drainages" "Austria" "1 km" -0.567801007205944 0.334539770979771
-"286" 415 "Gulf_of_Venice_Drainages" "Austria" "2 km" -0.532655279155522 0.334210292470449
-"287" 415 "Gulf_of_Venice_Drainages" "Austria" "5 km" -0.520081723176525 0.336611937100658
-"288" 415 "Gulf_of_Venice_Drainages" "Austria" "10 km" -0.559418604293751 0.339707673336378
-"289" 415 "Gulf_of_Venice_Drainages" "Slovenia" "0.001 km" -0.404856430237634 0.312522251171053
-"290" 415 "Gulf_of_Venice_Drainages" "Slovenia" "0.1 km" -0.511904054867539 0.327897654039589
-"291" 415 "Gulf_of_Venice_Drainages" "Slovenia" "0.5 km" -0.585637080864303 0.33312954174406
-"292" 415 "Gulf_of_Venice_Drainages" "Slovenia" "1 km" -0.567801007205944 0.334539770979771
-"293" 415 "Gulf_of_Venice_Drainages" "Slovenia" "2 km" -0.532655279155522 0.334210292470449
-"294" 415 "Gulf_of_Venice_Drainages" "Slovenia" "5 km" -0.520081723176525 0.336611937100658
-"295" 415 "Gulf_of_Venice_Drainages" "Slovenia" "10 km" -0.559418604293751 0.339707673336378
-"296" 415 "Gulf_of_Venice_Drainages" "France" "0.001 km" -0.404856430237634 0.312522251171053
-"297" 415 "Gulf_of_Venice_Drainages" "France" "0.1 km" -0.511904054867539 0.327897654039589
-"298" 415 "Gulf_of_Venice_Drainages" "France" "0.5 km" -0.585637080864303 0.33312954174406
-"299" 415 "Gulf_of_Venice_Drainages" "France" "1 km" -0.567801007205944 0.334539770979771
-"300" 415 "Gulf_of_Venice_Drainages" "France" "2 km" -0.532655279155522 0.334210292470449
-"301" 415 "Gulf_of_Venice_Drainages" "France" "5 km" -0.520081723176525 0.336611937100658
-"302" 415 "Gulf_of_Venice_Drainages" "France" "10 km" -0.559418604293751 0.339707673336378
-"303" 415 "Gulf_of_Venice_Drainages" "San Marino" "0.001 km" -0.404856430237634 0.312522251171053
-"304" 415 "Gulf_of_Venice_Drainages" "San Marino" "0.1 km" -0.511904054867539 0.327897654039589
-"305" 415 "Gulf_of_Venice_Drainages" "San Marino" "0.5 km" -0.585637080864303 0.33312954174406
-"306" 415 "Gulf_of_Venice_Drainages" "San Marino" "1 km" -0.567801007205944 0.334539770979771
-"307" 415 "Gulf_of_Venice_Drainages" "San Marino" "2 km" -0.532655279155522 0.334210292470449
-"308" 415 "Gulf_of_Venice_Drainages" "San Marino" "5 km" -0.520081723176525 0.336611937100658
-"309" 415 "Gulf_of_Venice_Drainages" "San Marino" "10 km" -0.559418604293751 0.339707673336378
-"310" 414 "Eastern_Iberia" "Spain" "0.001 km" -0.287502943983634 0.309035121451538
-"311" 414 "Eastern_Iberia" "Spain" "0.1 km" -0.434045113103003 0.327924973349783
-"312" 414 "Eastern_Iberia" "Spain" "0.5 km" -0.569418180763258 0.336740812155801
-"313" 414 "Eastern_Iberia" "Spain" "1 km" -0.477907588955444 0.335390593373257
-"314" 414 "Eastern_Iberia" "Spain" "2 km" -0.581063262425507 0.34168490368648
-"315" 414 "Eastern_Iberia" "Spain" "5 km" -0.474607741944023 0.340900187851236
-"316" 414 "Eastern_Iberia" "Spain" "10 km" -0.524094204206068 0.343157903590703
-"317" 414 "Eastern_Iberia" "France" "0.001 km" -0.287502943983634 0.309035121451538
-"318" 414 "Eastern_Iberia" "France" "0.1 km" -0.434045113103003 0.327924973349783
-"319" 414 "Eastern_Iberia" "France" "0.5 km" -0.569418180763258 0.336740812155801
-"320" 414 "Eastern_Iberia" "France" "1 km" -0.477907588955444 0.335390593373257
-"321" 414 "Eastern_Iberia" "France" "2 km" -0.581063262425507 0.34168490368648
-"322" 414 "Eastern_Iberia" "France" "5 km" -0.474607741944023 0.340900187851236
-"323" 414 "Eastern_Iberia" "France" "10 km" -0.524094204206068 0.343157903590703
-"324" 414 "Eastern_Iberia" "Andorra" "0.001 km" -0.287502943983634 0.309035121451538
-"325" 414 "Eastern_Iberia" "Andorra" "0.1 km" -0.434045113103003 0.327924973349783
-"326" 414 "Eastern_Iberia" "Andorra" "0.5 km" -0.569418180763258 0.336740812155801
-"327" 414 "Eastern_Iberia" "Andorra" "1 km" -0.477907588955444 0.335390593373257
-"328" 414 "Eastern_Iberia" "Andorra" "2 km" -0.581063262425507 0.34168490368648
-"329" 414 "Eastern_Iberia" "Andorra" "5 km" -0.474607741944023 0.340900187851236
-"330" 414 "Eastern_Iberia" "Andorra" "10 km" -0.524094204206068 0.343157903590703
-"331" 413 "Southern_Iberia" "Spain" "0.001 km" -0.513334470854465 0.327173154897357
-"332" 413 "Southern_Iberia" "Spain" "0.1 km" -0.508563596843038 0.333025402513756
-"333" 413 "Southern_Iberia" "Spain" "0.5 km" -0.633667108560992 0.341068188062081
-"334" 413 "Southern_Iberia" "Spain" "1 km" -0.600955363373628 0.34150174891488
-"335" 413 "Southern_Iberia" "Spain" "2 km" -0.546946640550285 0.341119465752398
-"336" 413 "Southern_Iberia" "Spain" "5 km" -0.61917318731772 0.346056659605255
-"337" 413 "Southern_Iberia" "Spain" "10 km" -0.649310673800701 0.346998190003054
-"338" 413 "Southern_Iberia" "Portugal" "0.001 km" -0.513334470854465 0.327173154897357
-"339" 413 "Southern_Iberia" "Portugal" "0.1 km" -0.508563596843038 0.333025402513756
-"340" 413 "Southern_Iberia" "Portugal" "0.5 km" -0.633667108560992 0.341068188062081
-"341" 413 "Southern_Iberia" "Portugal" "1 km" -0.600955363373628 0.34150174891488
-"342" 413 "Southern_Iberia" "Portugal" "2 km" -0.546946640550285 0.341119465752398
-"343" 413 "Southern_Iberia" "Portugal" "5 km" -0.61917318731772 0.346056659605255
-"344" 413 "Southern_Iberia" "Portugal" "10 km" -0.649310673800701 0.346998190003054
-"345" 409 "Lake_Onega_Lake_Ladoga" "Russian Federation" "0.001 km" -0.552828460050782 0.335695122431652
-"346" 409 "Lake_Onega_Lake_Ladoga" "Russian Federation" "0.1 km" -0.65323686430791 0.34210950969853
-"347" 409 "Lake_Onega_Lake_Ladoga" "Russian Federation" "0.5 km" -0.697863573448342 0.343949479239457
-"348" 409 "Lake_Onega_Lake_Ladoga" "Russian Federation" "1 km" -0.65456347754658 0.344048710171465
-"349" 409 "Lake_Onega_Lake_Ladoga" "Russian Federation" "2 km" -0.701728722682387 0.346100021257865
-"350" 409 "Lake_Onega_Lake_Ladoga" "Russian Federation" "5 km" -0.783712895021704 0.348304071585675
-"351" 409 "Lake_Onega_Lake_Ladoga" "Russian Federation" "10 km" -0.807125290600814 0.348605932554591
-"352" 409 "Lake_Onega_Lake_Ladoga" "Finland" "0.001 km" -0.552828460050782 0.335695122431652
-"353" 409 "Lake_Onega_Lake_Ladoga" "Finland" "0.1 km" -0.65323686430791 0.34210950969853
-"354" 409 "Lake_Onega_Lake_Ladoga" "Finland" "0.5 km" -0.697863573448342 0.343949479239457
-"355" 409 "Lake_Onega_Lake_Ladoga" "Finland" "1 km" -0.65456347754658 0.344048710171465
-"356" 409 "Lake_Onega_Lake_Ladoga" "Finland" "2 km" -0.701728722682387 0.346100021257865
-"357" 409 "Lake_Onega_Lake_Ladoga" "Finland" "5 km" -0.783712895021704 0.348304071585675
-"358" 409 "Lake_Onega_Lake_Ladoga" "Finland" "10 km" -0.807125290600814 0.348605932554591
-"359" 430 "Northern_Anatolia" "Turkey" "0.001 km" -0.42558003294279 0.307468579299399
-"360" 430 "Northern_Anatolia" "Turkey" "0.1 km" -0.537952017055023 0.32404527798341
-"361" 430 "Northern_Anatolia" "Turkey" "0.5 km" -0.494174252649309 0.323441845647471
-"362" 430 "Northern_Anatolia" "Turkey" "1 km" -0.481260068218962 0.325482389219693
-"363" 430 "Northern_Anatolia" "Turkey" "2 km" -0.399514382058209 0.323634003300608
-"364" 430 "Northern_Anatolia" "Turkey" "5 km" -0.391449090953985 0.328709096280896
-"365" 430 "Northern_Anatolia" "Turkey" "10 km" -0.412140425028827 0.333027524928168
-"366" 416 "Italian_Peninsula_&_Islands" "Italy" "0.001 km" -0.224636978250987 NA
-"367" 416 "Italian_Peninsula_&_Islands" "Italy" "0.1 km" -0.393456768915139 NA
-"368" 416 "Italian_Peninsula_&_Islands" "Italy" "0.5 km" -0.523382887163613 NA
-"369" 416 "Italian_Peninsula_&_Islands" "Italy" "1 km" -0.308489225746414 0.327996674926733
-"370" 416 "Italian_Peninsula_&_Islands" "Italy" "2 km" -0.378517133499836 0.333859882945316
-"371" 416 "Italian_Peninsula_&_Islands" "Italy" "5 km" -0.311263688865633 0.334382984875287
-"372" 416 "Italian_Peninsula_&_Islands" "Italy" "10 km" -0.3182890150684 0.336478201127029
-"373" 416 "Italian_Peninsula_&_Islands" "France" "0.001 km" -0.224636978250987 NA
-"374" 416 "Italian_Peninsula_&_Islands" "France" "0.1 km" -0.393456768915139 NA
-"375" 416 "Italian_Peninsula_&_Islands" "France" "0.5 km" -0.523382887163613 NA
-"376" 416 "Italian_Peninsula_&_Islands" "France" "1 km" -0.308489225746414 0.327996674926733
-"377" 416 "Italian_Peninsula_&_Islands" "France" "2 km" -0.378517133499836 0.333859882945316
-"378" 416 "Italian_Peninsula_&_Islands" "France" "5 km" -0.311263688865633 0.334382984875287
-"379" 416 "Italian_Peninsula_&_Islands" "France" "10 km" -0.3182890150684 0.336478201127029
-"380" 412 "Western_Iberia" "Spain" "0.001 km" -0.56273390376857 0.332011115919298
-"381" 412 "Western_Iberia" "Spain" "0.1 km" -0.653250006795389 0.340049163903185
-"382" 412 "Western_Iberia" "Spain" "0.5 km" -0.614384136033719 0.340389270581756
-"383" 412 "Western_Iberia" "Spain" "1 km" -0.613423914919072 0.342040616437239
-"384" 412 "Western_Iberia" "Spain" "2 km" -0.696237424879942 0.346051183003322
-"385" 412 "Western_Iberia" "Spain" "5 km" -0.665768784815693 0.346199779988493
-"386" 412 "Western_Iberia" "Spain" "10 km" -0.692569358315703 0.347831908194555
-"387" 412 "Western_Iberia" "Portugal" "0.001 km" -0.56273390376857 0.332011115919298
-"388" 412 "Western_Iberia" "Portugal" "0.1 km" -0.653250006795389 0.340049163903185
-"389" 412 "Western_Iberia" "Portugal" "0.5 km" -0.614384136033719 0.340389270581756
-"390" 412 "Western_Iberia" "Portugal" "1 km" -0.613423914919072 0.342040616437239
-"391" 412 "Western_Iberia" "Portugal" "2 km" -0.696237424879942 0.346051183003322
-"392" 412 "Western_Iberia" "Portugal" "5 km" -0.665768784815693 0.346199779988493
-"393" 412 "Western_Iberia" "Portugal" "10 km" -0.692569358315703 0.347831908194555
-"394" 403 "Cantabric_Coast_Languedoc" "France" "0.001 km" -0.205262894126462 NA
-"395" 403 "Cantabric_Coast_Languedoc" "France" "0.1 km" -0.392059743350661 0.321483168215035
-"396" 403 "Cantabric_Coast_Languedoc" "France" "0.5 km" -0.479109861236415 0.32814635507632
-"397" 403 "Cantabric_Coast_Languedoc" "France" "1 km" -0.432106450424645 0.329489707605424
-"398" 403 "Cantabric_Coast_Languedoc" "France" "2 km" -0.442488922630582 0.331310303954559
-"399" 403 "Cantabric_Coast_Languedoc" "France" "5 km" -0.373926625081415 0.330747944663536
-"400" 403 "Cantabric_Coast_Languedoc" "France" "10 km" -0.439951413020229 0.335830797279556
-"401" 403 "Cantabric_Coast_Languedoc" "Spain" "0.001 km" -0.205262894126462 NA
-"402" 403 "Cantabric_Coast_Languedoc" "Spain" "0.1 km" -0.392059743350661 0.321483168215035
-"403" 403 "Cantabric_Coast_Languedoc" "Spain" "0.5 km" -0.479109861236415 0.32814635507632
-"404" 403 "Cantabric_Coast_Languedoc" "Spain" "1 km" -0.432106450424645 0.329489707605424
-"405" 403 "Cantabric_Coast_Languedoc" "Spain" "2 km" -0.442488922630582 0.331310303954559
-"406" 403 "Cantabric_Coast_Languedoc" "Spain" "5 km" -0.373926625081415 0.330747944663536
-"407" 403 "Cantabric_Coast_Languedoc" "Spain" "10 km" -0.439951413020229 0.335830797279556
-"408" 403 "Cantabric_Coast_Languedoc" "Andorra" "0.001 km" -0.205262894126462 NA
-"409" 403 "Cantabric_Coast_Languedoc" "Andorra" "0.1 km" -0.392059743350661 0.321483168215035
-"410" 403 "Cantabric_Coast_Languedoc" "Andorra" "0.5 km" -0.479109861236415 0.32814635507632
-"411" 403 "Cantabric_Coast_Languedoc" "Andorra" "1 km" -0.432106450424645 0.329489707605424
-"412" 403 "Cantabric_Coast_Languedoc" "Andorra" "2 km" -0.442488922630582 0.331310303954559
-"413" 403 "Cantabric_Coast_Languedoc" "Andorra" "5 km" -0.373926625081415 0.330747944663536
-"414" 403 "Cantabric_Coast_Languedoc" "Andorra" "10 km" -0.439951413020229 0.335830797279556
-"415" 427 "Don" "Russian Federation" "0.001 km" -0.28869618787718 0.299233043357385
-"416" 427 "Don" "Russian Federation" "0.1 km" -0.331595435297694 0.307709035278725
-"417" 427 "Don" "Russian Federation" "0.5 km" -0.414023387200736 0.324013965570685
-"418" 427 "Don" "Russian Federation" "1 km" -0.421470040650766 0.328776070537235
-"419" 427 "Don" "Russian Federation" "2 km" -0.416974668702683 0.332057581695133
-"420" 427 "Don" "Russian Federation" "5 km" -0.411153802463159 0.335360830255158
-"421" 427 "Don" "Russian Federation" "10 km" -0.48838823168515 0.339401737657831
-"422" 427 "Don" "Ukraine" "0.001 km" -0.28869618787718 0.299233043357385
-"423" 427 "Don" "Ukraine" "0.1 km" -0.331595435297694 0.307709035278725
-"424" 427 "Don" "Ukraine" "0.5 km" -0.414023387200736 0.324013965570685
-"425" 427 "Don" "Ukraine" "1 km" -0.421470040650766 0.328776070537235
-"426" 427 "Don" "Ukraine" "2 km" -0.416974668702683 0.332057581695133
-"427" 427 "Don" "Ukraine" "5 km" -0.411153802463159 0.335360830255158
-"428" 427 "Don" "Ukraine" "10 km" -0.48838823168515 0.339401737657831
-"429" 417 "Upper_Danube" "Czechia" "0.001 km" -0.496066140660606 0.321372849362481
-"430" 417 "Upper_Danube" "Czechia" "0.1 km" -0.603824621026757 0.334982065352777
-"431" 417 "Upper_Danube" "Czechia" "0.5 km" -0.692776596354382 0.338746959425764
-"432" 417 "Upper_Danube" "Czechia" "1 km" -0.607407431275086 0.339380343170965
-"433" 417 "Upper_Danube" "Czechia" "2 km" -0.654219985992446 0.34280153407043
-"434" 417 "Upper_Danube" "Czechia" "5 km" -0.629740417382917 0.344079530366291
-"435" 417 "Upper_Danube" "Czechia" "10 km" -0.620852145426051 0.344950519720845
-"436" 417 "Upper_Danube" "Germany" "0.001 km" -0.496066140660606 0.321372849362481
-"437" 417 "Upper_Danube" "Germany" "0.1 km" -0.603824621026757 0.334982065352777
-"438" 417 "Upper_Danube" "Germany" "0.5 km" -0.692776596354382 0.338746959425764
-"439" 417 "Upper_Danube" "Germany" "1 km" -0.607407431275086 0.339380343170965
-"440" 417 "Upper_Danube" "Germany" "2 km" -0.654219985992446 0.34280153407043
-"441" 417 "Upper_Danube" "Germany" "5 km" -0.629740417382917 0.344079530366291
-"442" 417 "Upper_Danube" "Germany" "10 km" -0.620852145426051 0.344950519720845
-"443" 417 "Upper_Danube" "Slovakia" "0.001 km" -0.496066140660606 0.321372849362481
-"444" 417 "Upper_Danube" "Slovakia" "0.1 km" -0.603824621026757 0.334982065352777
-"445" 417 "Upper_Danube" "Slovakia" "0.5 km" -0.692776596354382 0.338746959425764
-"446" 417 "Upper_Danube" "Slovakia" "1 km" -0.607407431275086 0.339380343170965
-"447" 417 "Upper_Danube" "Slovakia" "2 km" -0.654219985992446 0.34280153407043
-"448" 417 "Upper_Danube" "Slovakia" "5 km" -0.629740417382917 0.344079530366291
-"449" 417 "Upper_Danube" "Slovakia" "10 km" -0.620852145426051 0.344950519720845
-"450" 417 "Upper_Danube" "Poland" "0.001 km" -0.496066140660606 0.321372849362481
-"451" 417 "Upper_Danube" "Poland" "0.1 km" -0.603824621026757 0.334982065352777
-"452" 417 "Upper_Danube" "Poland" "0.5 km" -0.692776596354382 0.338746959425764
-"453" 417 "Upper_Danube" "Poland" "1 km" -0.607407431275086 0.339380343170965
-"454" 417 "Upper_Danube" "Poland" "2 km" -0.654219985992446 0.34280153407043
-"455" 417 "Upper_Danube" "Poland" "5 km" -0.629740417382917 0.344079530366291
-"456" 417 "Upper_Danube" "Poland" "10 km" -0.620852145426051 0.344950519720845
-"457" 417 "Upper_Danube" "Austria" "0.001 km" -0.496066140660606 0.321372849362481
-"458" 417 "Upper_Danube" "Austria" "0.1 km" -0.603824621026757 0.334982065352777
-"459" 417 "Upper_Danube" "Austria" "0.5 km" -0.692776596354382 0.338746959425764
-"460" 417 "Upper_Danube" "Austria" "1 km" -0.607407431275086 0.339380343170965
-"461" 417 "Upper_Danube" "Austria" "2 km" -0.654219985992446 0.34280153407043
-"462" 417 "Upper_Danube" "Austria" "5 km" -0.629740417382917 0.344079530366291
-"463" 417 "Upper_Danube" "Austria" "10 km" -0.620852145426051 0.344950519720845
-"464" 417 "Upper_Danube" "Hungary" "0.001 km" -0.496066140660606 0.321372849362481
-"465" 417 "Upper_Danube" "Hungary" "0.1 km" -0.603824621026757 0.334982065352777
-"466" 417 "Upper_Danube" "Hungary" "0.5 km" -0.692776596354382 0.338746959425764
-"467" 417 "Upper_Danube" "Hungary" "1 km" -0.607407431275086 0.339380343170965
-"468" 417 "Upper_Danube" "Hungary" "2 km" -0.654219985992446 0.34280153407043
-"469" 417 "Upper_Danube" "Hungary" "5 km" -0.629740417382917 0.344079530366291
-"470" 417 "Upper_Danube" "Hungary" "10 km" -0.620852145426051 0.344950519720845
-"471" 417 "Upper_Danube" "Switzerland" "0.001 km" -0.496066140660606 0.321372849362481
-"472" 417 "Upper_Danube" "Switzerland" "0.1 km" -0.603824621026757 0.334982065352777
-"473" 417 "Upper_Danube" "Switzerland" "0.5 km" -0.692776596354382 0.338746959425764
-"474" 417 "Upper_Danube" "Switzerland" "1 km" -0.607407431275086 0.339380343170965
-"475" 417 "Upper_Danube" "Switzerland" "2 km" -0.654219985992446 0.34280153407043
-"476" 417 "Upper_Danube" "Switzerland" "5 km" -0.629740417382917 0.344079530366291
-"477" 417 "Upper_Danube" "Switzerland" "10 km" -0.620852145426051 0.344950519720845
-"478" 417 "Upper_Danube" "Slovenia" "0.001 km" -0.496066140660606 0.321372849362481
-"479" 417 "Upper_Danube" "Slovenia" "0.1 km" -0.603824621026757 0.334982065352777
-"480" 417 "Upper_Danube" "Slovenia" "0.5 km" -0.692776596354382 0.338746959425764
-"481" 417 "Upper_Danube" "Slovenia" "1 km" -0.607407431275086 0.339380343170965
-"482" 417 "Upper_Danube" "Slovenia" "2 km" -0.654219985992446 0.34280153407043
-"483" 417 "Upper_Danube" "Slovenia" "5 km" -0.629740417382917 0.344079530366291
-"484" 417 "Upper_Danube" "Slovenia" "10 km" -0.620852145426051 0.344950519720845
-"485" 417 "Upper_Danube" "Italy" "0.001 km" -0.496066140660606 0.321372849362481
-"486" 417 "Upper_Danube" "Italy" "0.1 km" -0.603824621026757 0.334982065352777
-"487" 417 "Upper_Danube" "Italy" "0.5 km" -0.692776596354382 0.338746959425764
-"488" 417 "Upper_Danube" "Italy" "1 km" -0.607407431275086 0.339380343170965
-"489" 417 "Upper_Danube" "Italy" "2 km" -0.654219985992446 0.34280153407043
-"490" 417 "Upper_Danube" "Italy" "5 km" -0.629740417382917 0.344079530366291
-"491" 417 "Upper_Danube" "Italy" "10 km" -0.620852145426051 0.344950519720845
-"492" 417 "Upper_Danube" "Croatia" "0.001 km" -0.496066140660606 0.321372849362481
-"493" 417 "Upper_Danube" "Croatia" "0.1 km" -0.603824621026757 0.334982065352777
-"494" 417 "Upper_Danube" "Croatia" "0.5 km" -0.692776596354382 0.338746959425764
-"495" 417 "Upper_Danube" "Croatia" "1 km" -0.607407431275086 0.339380343170965
-"496" 417 "Upper_Danube" "Croatia" "2 km" -0.654219985992446 0.34280153407043
-"497" 417 "Upper_Danube" "Croatia" "5 km" -0.629740417382917 0.344079530366291
-"498" 417 "Upper_Danube" "Croatia" "10 km" -0.620852145426051 0.344950519720845
-"499" 417 "Upper_Danube" "Serbia" "0.001 km" -0.496066140660606 0.321372849362481
-"500" 417 "Upper_Danube" "Serbia" "0.1 km" -0.603824621026757 0.334982065352777
-"501" 417 "Upper_Danube" "Serbia" "0.5 km" -0.692776596354382 0.338746959425764
-"502" 417 "Upper_Danube" "Serbia" "1 km" -0.607407431275086 0.339380343170965
-"503" 417 "Upper_Danube" "Serbia" "2 km" -0.654219985992446 0.34280153407043
-"504" 417 "Upper_Danube" "Serbia" "5 km" -0.629740417382917 0.344079530366291
-"505" 417 "Upper_Danube" "Serbia" "10 km" -0.620852145426051 0.344950519720845
-"506" 402 "Northern_British_Isles" "United Kingdom" "0.001 km" -0.180251460471762 NA
-"507" 402 "Northern_British_Isles" "United Kingdom" "0.1 km" -0.42054539577318 0.317827921752507
-"508" 402 "Northern_British_Isles" "United Kingdom" "0.5 km" -0.459901085126056 0.327751515696607
-"509" 402 "Northern_British_Isles" "United Kingdom" "1 km" -0.352784708631612 0.325078000529698
-"510" 402 "Northern_British_Isles" "United Kingdom" "2 km" -0.378703311096018 0.33122470988928
-"511" 402 "Northern_British_Isles" "United Kingdom" "5 km" -0.359285082686549 0.33355376798416
-"512" 402 "Northern_British_Isles" "United Kingdom" "10 km" -0.416951667958168 0.336520170292206
-"513" 402 "Northern_British_Isles" "Ireland" "0.001 km" -0.180251460471762 NA
-"514" 402 "Northern_British_Isles" "Ireland" "0.1 km" -0.42054539577318 0.317827921752507
-"515" 402 "Northern_British_Isles" "Ireland" "0.5 km" -0.459901085126056 0.327751515696607
-"516" 402 "Northern_British_Isles" "Ireland" "1 km" -0.352784708631612 0.325078000529698
-"517" 402 "Northern_British_Isles" "Ireland" "2 km" -0.378703311096018 0.33122470988928
-"518" 402 "Northern_British_Isles" "Ireland" "5 km" -0.359285082686549 0.33355376798416
-"519" 402 "Northern_British_Isles" "Ireland" "10 km" -0.416951667958168 0.336520170292206
-"520" 402 "Northern_British_Isles" "Isle of Man" "0.001 km" -0.180251460471762 NA
-"521" 402 "Northern_British_Isles" "Isle of Man" "0.1 km" -0.42054539577318 0.317827921752507
-"522" 402 "Northern_British_Isles" "Isle of Man" "0.5 km" -0.459901085126056 0.327751515696607
-"523" 402 "Northern_British_Isles" "Isle of Man" "1 km" -0.352784708631612 0.325078000529698
-"524" 402 "Northern_British_Isles" "Isle of Man" "2 km" -0.378703311096018 0.33122470988928
-"525" 402 "Northern_British_Isles" "Isle of Man" "5 km" -0.359285082686549 0.33355376798416
-"526" 402 "Northern_British_Isles" "Isle of Man" "10 km" -0.416951667958168 0.336520170292206
-"527" 405 "Norwegian_Sea_Drainages" "Norway" "0.001 km" -0.472507064994289 0.325143689587875
-"528" 405 "Norwegian_Sea_Drainages" "Norway" "0.1 km" -0.466935544226988 0.331079383984979
-"529" 405 "Norwegian_Sea_Drainages" "Norway" "0.5 km" -0.584216042236588 0.340982937906079
-"530" 405 "Norwegian_Sea_Drainages" "Norway" "1 km" -0.564768894884152 0.342153105976753
-"531" 405 "Norwegian_Sea_Drainages" "Norway" "2 km" -0.55171443130906 0.344409495697264
-"532" 405 "Norwegian_Sea_Drainages" "Norway" "5 km" -0.575035758745117 0.34571583153559
-"533" 405 "Norwegian_Sea_Drainages" "Norway" "10 km" -0.5821191907568 0.345914522944752
-"534" 405 "Norwegian_Sea_Drainages" "Sweden" "0.001 km" -0.472507064994289 0.325143689587875
-"535" 405 "Norwegian_Sea_Drainages" "Sweden" "0.1 km" -0.466935544226988 0.331079383984979
-"536" 405 "Norwegian_Sea_Drainages" "Sweden" "0.5 km" -0.584216042236588 0.340982937906079
-"537" 405 "Norwegian_Sea_Drainages" "Sweden" "1 km" -0.564768894884152 0.342153105976753
-"538" 405 "Norwegian_Sea_Drainages" "Sweden" "2 km" -0.55171443130906 0.344409495697264
-"539" 405 "Norwegian_Sea_Drainages" "Sweden" "5 km" -0.575035758745117 0.34571583153559
-"540" 405 "Norwegian_Sea_Drainages" "Sweden" "10 km" -0.5821191907568 0.345914522944752
-"541" 405 "Norwegian_Sea_Drainages" "Finland" "0.001 km" -0.472507064994289 0.325143689587875
-"542" 405 "Norwegian_Sea_Drainages" "Finland" "0.1 km" -0.466935544226988 0.331079383984979
-"543" 405 "Norwegian_Sea_Drainages" "Finland" "0.5 km" -0.584216042236588 0.340982937906079
-"544" 405 "Norwegian_Sea_Drainages" "Finland" "1 km" -0.564768894884152 0.342153105976753
-"545" 405 "Norwegian_Sea_Drainages" "Finland" "2 km" -0.55171443130906 0.344409495697264
-"546" 405 "Norwegian_Sea_Drainages" "Finland" "5 km" -0.575035758745117 0.34571583153559
-"547" 405 "Norwegian_Sea_Drainages" "Finland" "10 km" -0.5821191907568 0.345914522944752
-"548" 410 "Volga_Ural" "Russian Federation" "0.001 km" -0.485052036243777 0.326019686461725
-"549" 410 "Volga_Ural" "Russian Federation" "0.1 km" -0.59063525176468 0.334906188404727
-"550" 410 "Volga_Ural" "Russian Federation" "0.5 km" -0.596946867980365 0.33580089643252
-"551" 410 "Volga_Ural" "Russian Federation" "1 km" -0.679261883426994 0.341333028896842
-"552" 410 "Volga_Ural" "Russian Federation" "2 km" -0.718235764051108 0.343625814456449
-"553" 410 "Volga_Ural" "Russian Federation" "5 km" -0.712137973892558 0.344387450062943
-"554" 410 "Volga_Ural" "Russian Federation" "10 km" -0.707766662657624 0.345124446376551
-"555" 408 "Southern_Baltic_Lowlands" "Russian Federation" "0.001 km" -0.42214150471636 0.319574128610921
-"556" 408 "Southern_Baltic_Lowlands" "Russian Federation" "0.1 km" -0.419067478548007 0.325434368107105
-"557" 408 "Southern_Baltic_Lowlands" "Russian Federation" "0.5 km" -0.554057800976683 0.334398373684622
-"558" 408 "Southern_Baltic_Lowlands" "Russian Federation" "1 km" -0.536844817471263 0.336739276230589
-"559" 408 "Southern_Baltic_Lowlands" "Russian Federation" "2 km" -0.555707087008284 0.339186896399319
-"560" 408 "Southern_Baltic_Lowlands" "Russian Federation" "5 km" -0.585153978900768 0.342265733479673
-"561" 408 "Southern_Baltic_Lowlands" "Russian Federation" "10 km" -0.615590580342927 0.343798949366398
-"562" 408 "Southern_Baltic_Lowlands" "Estonia" "0.001 km" -0.42214150471636 0.319574128610921
-"563" 408 "Southern_Baltic_Lowlands" "Estonia" "0.1 km" -0.419067478548007 0.325434368107105
-"564" 408 "Southern_Baltic_Lowlands" "Estonia" "0.5 km" -0.554057800976683 0.334398373684622
-"565" 408 "Southern_Baltic_Lowlands" "Estonia" "1 km" -0.536844817471263 0.336739276230589
-"566" 408 "Southern_Baltic_Lowlands" "Estonia" "2 km" -0.555707087008284 0.339186896399319
-"567" 408 "Southern_Baltic_Lowlands" "Estonia" "5 km" -0.585153978900768 0.342265733479673
-"568" 408 "Southern_Baltic_Lowlands" "Estonia" "10 km" -0.615590580342927 0.343798949366398
-"569" 408 "Southern_Baltic_Lowlands" "Latvia" "0.001 km" -0.42214150471636 0.319574128610921
-"570" 408 "Southern_Baltic_Lowlands" "Latvia" "0.1 km" -0.419067478548007 0.325434368107105
-"571" 408 "Southern_Baltic_Lowlands" "Latvia" "0.5 km" -0.554057800976683 0.334398373684622
-"572" 408 "Southern_Baltic_Lowlands" "Latvia" "1 km" -0.536844817471263 0.336739276230589
-"573" 408 "Southern_Baltic_Lowlands" "Latvia" "2 km" -0.555707087008284 0.339186896399319
-"574" 408 "Southern_Baltic_Lowlands" "Latvia" "5 km" -0.585153978900768 0.342265733479673
-"575" 408 "Southern_Baltic_Lowlands" "Latvia" "10 km" -0.615590580342927 0.343798949366398
-"576" 408 "Southern_Baltic_Lowlands" "Lithuania" "0.001 km" -0.42214150471636 0.319574128610921
-"577" 408 "Southern_Baltic_Lowlands" "Lithuania" "0.1 km" -0.419067478548007 0.325434368107105
-"578" 408 "Southern_Baltic_Lowlands" "Lithuania" "0.5 km" -0.554057800976683 0.334398373684622
-"579" 408 "Southern_Baltic_Lowlands" "Lithuania" "1 km" -0.536844817471263 0.336739276230589
-"580" 408 "Southern_Baltic_Lowlands" "Lithuania" "2 km" -0.555707087008284 0.339186896399319
-"581" 408 "Southern_Baltic_Lowlands" "Lithuania" "5 km" -0.585153978900768 0.342265733479673
-"582" 408 "Southern_Baltic_Lowlands" "Lithuania" "10 km" -0.615590580342927 0.343798949366398
-"583" 408 "Southern_Baltic_Lowlands" "Belarus" "0.001 km" -0.42214150471636 0.319574128610921
-"584" 408 "Southern_Baltic_Lowlands" "Belarus" "0.1 km" -0.419067478548007 0.325434368107105
-"585" 408 "Southern_Baltic_Lowlands" "Belarus" "0.5 km" -0.554057800976683 0.334398373684622
-"586" 408 "Southern_Baltic_Lowlands" "Belarus" "1 km" -0.536844817471263 0.336739276230589
-"587" 408 "Southern_Baltic_Lowlands" "Belarus" "2 km" -0.555707087008284 0.339186896399319
-"588" 408 "Southern_Baltic_Lowlands" "Belarus" "5 km" -0.585153978900768 0.342265733479673
-"589" 408 "Southern_Baltic_Lowlands" "Belarus" "10 km" -0.615590580342927 0.343798949366398
-"590" 418 "Dniester_Lower_Danube" "Ukraine" "0.001 km" -0.560360160333183 0.327985185484973
-"591" 418 "Dniester_Lower_Danube" "Ukraine" "0.1 km" -0.615732729618635 0.33546905527887
-"592" 418 "Dniester_Lower_Danube" "Ukraine" "0.5 km" -0.701493577060216 0.340132199128897
-"593" 418 "Dniester_Lower_Danube" "Ukraine" "1 km" -0.558711435780216 NA
-"594" 418 "Dniester_Lower_Danube" "Ukraine" "2 km" -0.666882007574605 0.343052505747773
-"595" 418 "Dniester_Lower_Danube" "Ukraine" "5 km" -0.677233201808806 0.344943202181824
-"596" 418 "Dniester_Lower_Danube" "Ukraine" "10 km" -0.68240197477123 0.346391602544043
-"597" 418 "Dniester_Lower_Danube" "Slovakia" "0.001 km" -0.560360160333183 0.327985185484973
-"598" 418 "Dniester_Lower_Danube" "Slovakia" "0.1 km" -0.615732729618635 0.33546905527887
-"599" 418 "Dniester_Lower_Danube" "Slovakia" "0.5 km" -0.701493577060216 0.340132199128897
-"600" 418 "Dniester_Lower_Danube" "Slovakia" "1 km" -0.558711435780216 NA
-"601" 418 "Dniester_Lower_Danube" "Slovakia" "2 km" -0.666882007574605 0.343052505747773
-"602" 418 "Dniester_Lower_Danube" "Slovakia" "5 km" -0.677233201808806 0.344943202181824
-"603" 418 "Dniester_Lower_Danube" "Slovakia" "10 km" -0.68240197477123 0.346391602544043
-"604" 418 "Dniester_Lower_Danube" "Poland" "0.001 km" -0.560360160333183 0.327985185484973
-"605" 418 "Dniester_Lower_Danube" "Poland" "0.1 km" -0.615732729618635 0.33546905527887
-"606" 418 "Dniester_Lower_Danube" "Poland" "0.5 km" -0.701493577060216 0.340132199128897
-"607" 418 "Dniester_Lower_Danube" "Poland" "1 km" -0.558711435780216 NA
-"608" 418 "Dniester_Lower_Danube" "Poland" "2 km" -0.666882007574605 0.343052505747773
-"609" 418 "Dniester_Lower_Danube" "Poland" "5 km" -0.677233201808806 0.344943202181824
-"610" 418 "Dniester_Lower_Danube" "Poland" "10 km" -0.68240197477123 0.346391602544043
-"611" 418 "Dniester_Lower_Danube" "Hungary" "0.001 km" -0.560360160333183 0.327985185484973
-"612" 418 "Dniester_Lower_Danube" "Hungary" "0.1 km" -0.615732729618635 0.33546905527887
-"613" 418 "Dniester_Lower_Danube" "Hungary" "0.5 km" -0.701493577060216 0.340132199128897
-"614" 418 "Dniester_Lower_Danube" "Hungary" "1 km" -0.558711435780216 NA
-"615" 418 "Dniester_Lower_Danube" "Hungary" "2 km" -0.666882007574605 0.343052505747773
-"616" 418 "Dniester_Lower_Danube" "Hungary" "5 km" -0.677233201808806 0.344943202181824
-"617" 418 "Dniester_Lower_Danube" "Hungary" "10 km" -0.68240197477123 0.346391602544043
-"618" 418 "Dniester_Lower_Danube" "Moldova" "0.001 km" -0.560360160333183 0.327985185484973
-"619" 418 "Dniester_Lower_Danube" "Moldova" "0.1 km" -0.615732729618635 0.33546905527887
-"620" 418 "Dniester_Lower_Danube" "Moldova" "0.5 km" -0.701493577060216 0.340132199128897
-"621" 418 "Dniester_Lower_Danube" "Moldova" "1 km" -0.558711435780216 NA
-"622" 418 "Dniester_Lower_Danube" "Moldova" "2 km" -0.666882007574605 0.343052505747773
-"623" 418 "Dniester_Lower_Danube" "Moldova" "5 km" -0.677233201808806 0.344943202181824
-"624" 418 "Dniester_Lower_Danube" "Moldova" "10 km" -0.68240197477123 0.346391602544043
-"625" 418 "Dniester_Lower_Danube" "Romania" "0.001 km" -0.560360160333183 0.327985185484973
-"626" 418 "Dniester_Lower_Danube" "Romania" "0.1 km" -0.615732729618635 0.33546905527887
-"627" 418 "Dniester_Lower_Danube" "Romania" "0.5 km" -0.701493577060216 0.340132199128897
-"628" 418 "Dniester_Lower_Danube" "Romania" "1 km" -0.558711435780216 NA
-"629" 418 "Dniester_Lower_Danube" "Romania" "2 km" -0.666882007574605 0.343052505747773
-"630" 418 "Dniester_Lower_Danube" "Romania" "5 km" -0.677233201808806 0.344943202181824
-"631" 418 "Dniester_Lower_Danube" "Romania" "10 km" -0.68240197477123 0.346391602544043
-"632" 418 "Dniester_Lower_Danube" "Slovenia" "0.001 km" -0.560360160333183 0.327985185484973
-"633" 418 "Dniester_Lower_Danube" "Slovenia" "0.1 km" -0.615732729618635 0.33546905527887
-"634" 418 "Dniester_Lower_Danube" "Slovenia" "0.5 km" -0.701493577060216 0.340132199128897
-"635" 418 "Dniester_Lower_Danube" "Slovenia" "1 km" -0.558711435780216 NA
-"636" 418 "Dniester_Lower_Danube" "Slovenia" "2 km" -0.666882007574605 0.343052505747773
-"637" 418 "Dniester_Lower_Danube" "Slovenia" "5 km" -0.677233201808806 0.344943202181824
-"638" 418 "Dniester_Lower_Danube" "Slovenia" "10 km" -0.68240197477123 0.346391602544043
-"639" 418 "Dniester_Lower_Danube" "Croatia" "0.001 km" -0.560360160333183 0.327985185484973
-"640" 418 "Dniester_Lower_Danube" "Croatia" "0.1 km" -0.615732729618635 0.33546905527887
-"641" 418 "Dniester_Lower_Danube" "Croatia" "0.5 km" -0.701493577060216 0.340132199128897
-"642" 418 "Dniester_Lower_Danube" "Croatia" "1 km" -0.558711435780216 NA
-"643" 418 "Dniester_Lower_Danube" "Croatia" "2 km" -0.666882007574605 0.343052505747773
-"644" 418 "Dniester_Lower_Danube" "Croatia" "5 km" -0.677233201808806 0.344943202181824
-"645" 418 "Dniester_Lower_Danube" "Croatia" "10 km" -0.68240197477123 0.346391602544043
-"646" 418 "Dniester_Lower_Danube" "Serbia" "0.001 km" -0.560360160333183 0.327985185484973
-"647" 418 "Dniester_Lower_Danube" "Serbia" "0.1 km" -0.615732729618635 0.33546905527887
-"648" 418 "Dniester_Lower_Danube" "Serbia" "0.5 km" -0.701493577060216 0.340132199128897
-"649" 418 "Dniester_Lower_Danube" "Serbia" "1 km" -0.558711435780216 NA
-"650" 418 "Dniester_Lower_Danube" "Serbia" "2 km" -0.666882007574605 0.343052505747773
-"651" 418 "Dniester_Lower_Danube" "Serbia" "5 km" -0.677233201808806 0.344943202181824
-"652" 418 "Dniester_Lower_Danube" "Serbia" "10 km" -0.68240197477123 0.346391602544043
-"653" 418 "Dniester_Lower_Danube" "Bosnia and Herzegovina" "0.001 km" -0.560360160333183 0.327985185484973
-"654" 418 "Dniester_Lower_Danube" "Bosnia and Herzegovina" "0.1 km" -0.615732729618635 0.33546905527887
-"655" 418 "Dniester_Lower_Danube" "Bosnia and Herzegovina" "0.5 km" -0.701493577060216 0.340132199128897
-"656" 418 "Dniester_Lower_Danube" "Bosnia and Herzegovina" "1 km" -0.558711435780216 NA
-"657" 418 "Dniester_Lower_Danube" "Bosnia and Herzegovina" "2 km" -0.666882007574605 0.343052505747773
-"658" 418 "Dniester_Lower_Danube" "Bosnia and Herzegovina" "5 km" -0.677233201808806 0.344943202181824
-"659" 418 "Dniester_Lower_Danube" "Bosnia and Herzegovina" "10 km" -0.68240197477123 0.346391602544043
-"660" 418 "Dniester_Lower_Danube" "Bulgaria" "0.001 km" -0.560360160333183 0.327985185484973
-"661" 418 "Dniester_Lower_Danube" "Bulgaria" "0.1 km" -0.615732729618635 0.33546905527887
-"662" 418 "Dniester_Lower_Danube" "Bulgaria" "0.5 km" -0.701493577060216 0.340132199128897
-"663" 418 "Dniester_Lower_Danube" "Bulgaria" "1 km" -0.558711435780216 NA
-"664" 418 "Dniester_Lower_Danube" "Bulgaria" "2 km" -0.666882007574605 0.343052505747773
-"665" 418 "Dniester_Lower_Danube" "Bulgaria" "5 km" -0.677233201808806 0.344943202181824
-"666" 418 "Dniester_Lower_Danube" "Bulgaria" "10 km" -0.68240197477123 0.346391602544043
-"667" 418 "Dniester_Lower_Danube" "Montenegro" "0.001 km" -0.560360160333183 0.327985185484973
-"668" 418 "Dniester_Lower_Danube" "Montenegro" "0.1 km" -0.615732729618635 0.33546905527887
-"669" 418 "Dniester_Lower_Danube" "Montenegro" "0.5 km" -0.701493577060216 0.340132199128897
-"670" 418 "Dniester_Lower_Danube" "Montenegro" "1 km" -0.558711435780216 NA
-"671" 418 "Dniester_Lower_Danube" "Montenegro" "2 km" -0.666882007574605 0.343052505747773
-"672" 418 "Dniester_Lower_Danube" "Montenegro" "5 km" -0.677233201808806 0.344943202181824
-"673" 418 "Dniester_Lower_Danube" "Montenegro" "10 km" -0.68240197477123 0.346391602544043
-"674" 418 "Dniester_Lower_Danube" "Albania" "0.001 km" -0.560360160333183 0.327985185484973
-"675" 418 "Dniester_Lower_Danube" "Albania" "0.1 km" -0.615732729618635 0.33546905527887
-"676" 418 "Dniester_Lower_Danube" "Albania" "0.5 km" -0.701493577060216 0.340132199128897
-"677" 418 "Dniester_Lower_Danube" "Albania" "1 km" -0.558711435780216 NA
-"678" 418 "Dniester_Lower_Danube" "Albania" "2 km" -0.666882007574605 0.343052505747773
-"679" 418 "Dniester_Lower_Danube" "Albania" "5 km" -0.677233201808806 0.344943202181824
-"680" 418 "Dniester_Lower_Danube" "Albania" "10 km" -0.68240197477123 0.346391602544043
-"681" 418 "Dniester_Lower_Danube" "North Macedonia" "0.001 km" -0.560360160333183 0.327985185484973
-"682" 418 "Dniester_Lower_Danube" "North Macedonia" "0.1 km" -0.615732729618635 0.33546905527887
-"683" 418 "Dniester_Lower_Danube" "North Macedonia" "0.5 km" -0.701493577060216 0.340132199128897
-"684" 418 "Dniester_Lower_Danube" "North Macedonia" "1 km" -0.558711435780216 NA
-"685" 418 "Dniester_Lower_Danube" "North Macedonia" "2 km" -0.666882007574605 0.343052505747773
-"686" 418 "Dniester_Lower_Danube" "North Macedonia" "5 km" -0.677233201808806 0.344943202181824
-"687" 418 "Dniester_Lower_Danube" "North Macedonia" "10 km" -0.68240197477123 0.346391602544043
-"688" 418 "Dniester_Lower_Danube" "Turkey" "0.001 km" -0.560360160333183 0.327985185484973
-"689" 418 "Dniester_Lower_Danube" "Turkey" "0.1 km" -0.615732729618635 0.33546905527887
-"690" 418 "Dniester_Lower_Danube" "Turkey" "0.5 km" -0.701493577060216 0.340132199128897
-"691" 418 "Dniester_Lower_Danube" "Turkey" "1 km" -0.558711435780216 NA
-"692" 418 "Dniester_Lower_Danube" "Turkey" "2 km" -0.666882007574605 0.343052505747773
-"693" 418 "Dniester_Lower_Danube" "Turkey" "5 km" -0.677233201808806 0.344943202181824
-"694" 418 "Dniester_Lower_Danube" "Turkey" "10 km" -0.68240197477123 0.346391602544043
-"695" 425 "Dnieper_South_Bug" "Russian Federation" "0.001 km" -0.434318389045435 0.308732279980712
-"696" 425 "Dnieper_South_Bug" "Russian Federation" "0.1 km" -0.436626200071377 0.311969040888205
-"697" 425 "Dnieper_South_Bug" "Russian Federation" "0.5 km" -0.449401515949146 0.317129178913646
-"698" 425 "Dnieper_South_Bug" "Russian Federation" "1 km" -0.510300609943686 0.325495564096434
-"699" 425 "Dnieper_South_Bug" "Russian Federation" "2 km" -0.537228459621524 0.329188634127164
-"700" 425 "Dnieper_South_Bug" "Russian Federation" "5 km" -0.56098444642248 0.333096555477889
-"701" 425 "Dnieper_South_Bug" "Russian Federation" "10 km" -0.56728446678666 0.335560913843288
-"702" 425 "Dnieper_South_Bug" "Belarus" "0.001 km" -0.434318389045435 0.308732279980712
-"703" 425 "Dnieper_South_Bug" "Belarus" "0.1 km" -0.436626200071377 0.311969040888205
-"704" 425 "Dnieper_South_Bug" "Belarus" "0.5 km" -0.449401515949146 0.317129178913646
-"705" 425 "Dnieper_South_Bug" "Belarus" "1 km" -0.510300609943686 0.325495564096434
-"706" 425 "Dnieper_South_Bug" "Belarus" "2 km" -0.537228459621524 0.329188634127164
-"707" 425 "Dnieper_South_Bug" "Belarus" "5 km" -0.56098444642248 0.333096555477889
-"708" 425 "Dnieper_South_Bug" "Belarus" "10 km" -0.56728446678666 0.335560913843288
-"709" 425 "Dnieper_South_Bug" "Ukraine" "0.001 km" -0.434318389045435 0.308732279980712
-"710" 425 "Dnieper_South_Bug" "Ukraine" "0.1 km" -0.436626200071377 0.311969040888205
-"711" 425 "Dnieper_South_Bug" "Ukraine" "0.5 km" -0.449401515949146 0.317129178913646
-"712" 425 "Dnieper_South_Bug" "Ukraine" "1 km" -0.510300609943686 0.325495564096434
-"713" 425 "Dnieper_South_Bug" "Ukraine" "2 km" -0.537228459621524 0.329188634127164
-"714" 425 "Dnieper_South_Bug" "Ukraine" "5 km" -0.56098444642248 0.333096555477889
-"715" 425 "Dnieper_South_Bug" "Ukraine" "10 km" -0.56728446678666 0.335560913843288
-"716" 407 "Barents_Sea_Drainages" "Finland" "0.001 km" -0.494964177310073 0.326407856076594
-"717" 407 "Barents_Sea_Drainages" "Finland" "0.1 km" -0.551789411329943 0.334103152162564
-"718" 407 "Barents_Sea_Drainages" "Finland" "0.5 km" -0.645460174704477 0.340135474045448
-"719" 407 "Barents_Sea_Drainages" "Finland" "1 km" -0.63440504361723 0.341377552988535
-"720" 407 "Barents_Sea_Drainages" "Finland" "2 km" -0.660623284125181 0.345147331403373
-"721" 407 "Barents_Sea_Drainages" "Finland" "5 km" -0.699823759820683 0.347115079937804
-"722" 407 "Barents_Sea_Drainages" "Finland" "10 km" -0.684919819358721 0.346508969019453
-"723" 407 "Barents_Sea_Drainages" "Norway" "0.001 km" -0.494964177310073 0.326407856076594
-"724" 407 "Barents_Sea_Drainages" "Norway" "0.1 km" -0.551789411329943 0.334103152162564
-"725" 407 "Barents_Sea_Drainages" "Norway" "0.5 km" -0.645460174704477 0.340135474045448
-"726" 407 "Barents_Sea_Drainages" "Norway" "1 km" -0.63440504361723 0.341377552988535
-"727" 407 "Barents_Sea_Drainages" "Norway" "2 km" -0.660623284125181 0.345147331403373
-"728" 407 "Barents_Sea_Drainages" "Norway" "5 km" -0.699823759820683 0.347115079937804
-"729" 407 "Barents_Sea_Drainages" "Norway" "10 km" -0.684919819358721 0.346508969019453
-"730" 407 "Barents_Sea_Drainages" "Russian Federation" "0.001 km" -0.494964177310073 0.326407856076594
-"731" 407 "Barents_Sea_Drainages" "Russian Federation" "0.1 km" -0.551789411329943 0.334103152162564
-"732" 407 "Barents_Sea_Drainages" "Russian Federation" "0.5 km" -0.645460174704477 0.340135474045448
-"733" 407 "Barents_Sea_Drainages" "Russian Federation" "1 km" -0.63440504361723 0.341377552988535
-"734" 407 "Barents_Sea_Drainages" "Russian Federation" "2 km" -0.660623284125181 0.345147331403373
-"735" 407 "Barents_Sea_Drainages" "Russian Federation" "5 km" -0.699823759820683 0.347115079937804
-"736" 407 "Barents_Sea_Drainages" "Russian Federation" "10 km" -0.684919819358721 0.346508969019453
-"737" 406 "Northern_Baltic_Drainages" "Sweden" "0.001 km" -0.538415266861049 0.330983096462803
-"738" 406 "Northern_Baltic_Drainages" "Sweden" "0.1 km" -0.514707921715696 0.332286114719208
-"739" 406 "Northern_Baltic_Drainages" "Sweden" "0.5 km" -0.639278940191443 0.341498458452619
-"740" 406 "Northern_Baltic_Drainages" "Sweden" "1 km" -0.611075429443593 0.342515330943429
-"741" 406 "Northern_Baltic_Drainages" "Sweden" "2 km" -0.62841536357942 0.345051187775018
-"742" 406 "Northern_Baltic_Drainages" "Sweden" "5 km" -0.651555253905148 0.346315094586386
-"743" 406 "Northern_Baltic_Drainages" "Sweden" "10 km" -0.669179410696452 0.347065366329836
-"744" 406 "Northern_Baltic_Drainages" "Finland" "0.001 km" -0.538415266861049 0.330983096462803
-"745" 406 "Northern_Baltic_Drainages" "Finland" "0.1 km" -0.514707921715696 0.332286114719208
-"746" 406 "Northern_Baltic_Drainages" "Finland" "0.5 km" -0.639278940191443 0.341498458452619
-"747" 406 "Northern_Baltic_Drainages" "Finland" "1 km" -0.611075429443593 0.342515330943429
-"748" 406 "Northern_Baltic_Drainages" "Finland" "2 km" -0.62841536357942 0.345051187775018
-"749" 406 "Northern_Baltic_Drainages" "Finland" "5 km" -0.651555253905148 0.346315094586386
-"750" 406 "Northern_Baltic_Drainages" "Finland" "10 km" -0.669179410696452 0.347065366329836
-"751" 406 "Northern_Baltic_Drainages" "Norway" "0.001 km" -0.538415266861049 0.330983096462803
-"752" 406 "Northern_Baltic_Drainages" "Norway" "0.1 km" -0.514707921715696 0.332286114719208
-"753" 406 "Northern_Baltic_Drainages" "Norway" "0.5 km" -0.639278940191443 0.341498458452619
-"754" 406 "Northern_Baltic_Drainages" "Norway" "1 km" -0.611075429443593 0.342515330943429
-"755" 406 "Northern_Baltic_Drainages" "Norway" "2 km" -0.62841536357942 0.345051187775018
-"756" 406 "Northern_Baltic_Drainages" "Norway" "5 km" -0.651555253905148 0.346315094586386
-"757" 406 "Northern_Baltic_Drainages" "Norway" "10 km" -0.669179410696452 0.347065366329836
-"758" 406 "Northern_Baltic_Drainages" "Russian Federation" "0.001 km" -0.538415266861049 0.330983096462803
-"759" 406 "Northern_Baltic_Drainages" "Russian Federation" "0.1 km" -0.514707921715696 0.332286114719208
-"760" 406 "Northern_Baltic_Drainages" "Russian Federation" "0.5 km" -0.639278940191443 0.341498458452619
-"761" 406 "Northern_Baltic_Drainages" "Russian Federation" "1 km" -0.611075429443593 0.342515330943429
-"762" 406 "Northern_Baltic_Drainages" "Russian Federation" "2 km" -0.62841536357942 0.345051187775018
-"763" 406 "Northern_Baltic_Drainages" "Russian Federation" "5 km" -0.651555253905148 0.346315094586386
-"764" 406 "Northern_Baltic_Drainages" "Russian Federation" "10 km" -0.669179410696452 0.347065366329836
-"765" 406 "Northern_Baltic_Drainages" "Denmark" "0.001 km" -0.538415266861049 0.330983096462803
-"766" 406 "Northern_Baltic_Drainages" "Denmark" "0.1 km" -0.514707921715696 0.332286114719208
-"767" 406 "Northern_Baltic_Drainages" "Denmark" "0.5 km" -0.639278940191443 0.341498458452619
-"768" 406 "Northern_Baltic_Drainages" "Denmark" "1 km" -0.611075429443593 0.342515330943429
-"769" 406 "Northern_Baltic_Drainages" "Denmark" "2 km" -0.62841536357942 0.345051187775018
-"770" 406 "Northern_Baltic_Drainages" "Denmark" "5 km" -0.651555253905148 0.346315094586386
-"771" 406 "Northern_Baltic_Drainages" "Denmark" "10 km" -0.669179410696452 0.347065366329836
-"772" 404 "Central_&_Western_Europe" "Denmark" "0.001 km" -0.261338629358923 NA
-"773" 404 "Central_&_Western_Europe" "Denmark" "0.1 km" -0.485408730537436 0.324661146118413
-"774" 404 "Central_&_Western_Europe" "Denmark" "0.5 km" -0.591816996433116 0.334583546455871
-"775" 404 "Central_&_Western_Europe" "Denmark" "1 km" -0.581307928390448 0.337631327631729
-"776" 404 "Central_&_Western_Europe" "Denmark" "2 km" -0.575120291169906 0.339915198582955
-"777" 404 "Central_&_Western_Europe" "Denmark" "5 km" -0.564821932008723 0.342164358012701
-"778" 404 "Central_&_Western_Europe" "Denmark" "10 km" -0.583958469180868 0.343598784122431
-"779" 404 "Central_&_Western_Europe" "Lithuania" "0.001 km" -0.261338629358923 NA
-"780" 404 "Central_&_Western_Europe" "Lithuania" "0.1 km" -0.485408730537436 0.324661146118413
-"781" 404 "Central_&_Western_Europe" "Lithuania" "0.5 km" -0.591816996433116 0.334583546455871
-"782" 404 "Central_&_Western_Europe" "Lithuania" "1 km" -0.581307928390448 0.337631327631729
-"783" 404 "Central_&_Western_Europe" "Lithuania" "2 km" -0.575120291169906 0.339915198582955
-"784" 404 "Central_&_Western_Europe" "Lithuania" "5 km" -0.564821932008723 0.342164358012701
-"785" 404 "Central_&_Western_Europe" "Lithuania" "10 km" -0.583958469180868 0.343598784122431
-"786" 404 "Central_&_Western_Europe" "Latvia" "0.001 km" -0.261338629358923 NA
-"787" 404 "Central_&_Western_Europe" "Latvia" "0.1 km" -0.485408730537436 0.324661146118413
-"788" 404 "Central_&_Western_Europe" "Latvia" "0.5 km" -0.591816996433116 0.334583546455871
-"789" 404 "Central_&_Western_Europe" "Latvia" "1 km" -0.581307928390448 0.337631327631729
-"790" 404 "Central_&_Western_Europe" "Latvia" "2 km" -0.575120291169906 0.339915198582955
-"791" 404 "Central_&_Western_Europe" "Latvia" "5 km" -0.564821932008723 0.342164358012701
-"792" 404 "Central_&_Western_Europe" "Latvia" "10 km" -0.583958469180868 0.343598784122431
-"793" 404 "Central_&_Western_Europe" "United Kingdom" "0.001 km" -0.261338629358923 NA
-"794" 404 "Central_&_Western_Europe" "United Kingdom" "0.1 km" -0.485408730537436 0.324661146118413
-"795" 404 "Central_&_Western_Europe" "United Kingdom" "0.5 km" -0.591816996433116 0.334583546455871
-"796" 404 "Central_&_Western_Europe" "United Kingdom" "1 km" -0.581307928390448 0.337631327631729
-"797" 404 "Central_&_Western_Europe" "United Kingdom" "2 km" -0.575120291169906 0.339915198582955
-"798" 404 "Central_&_Western_Europe" "United Kingdom" "5 km" -0.564821932008723 0.342164358012701
-"799" 404 "Central_&_Western_Europe" "United Kingdom" "10 km" -0.583958469180868 0.343598784122431
-"800" 404 "Central_&_Western_Europe" "Russian Federation" "0.001 km" -0.261338629358923 NA
-"801" 404 "Central_&_Western_Europe" "Russian Federation" "0.1 km" -0.485408730537436 0.324661146118413
-"802" 404 "Central_&_Western_Europe" "Russian Federation" "0.5 km" -0.591816996433116 0.334583546455871
-"803" 404 "Central_&_Western_Europe" "Russian Federation" "1 km" -0.581307928390448 0.337631327631729
-"804" 404 "Central_&_Western_Europe" "Russian Federation" "2 km" -0.575120291169906 0.339915198582955
-"805" 404 "Central_&_Western_Europe" "Russian Federation" "5 km" -0.564821932008723 0.342164358012701
-"806" 404 "Central_&_Western_Europe" "Russian Federation" "10 km" -0.583958469180868 0.343598784122431
-"807" 404 "Central_&_Western_Europe" "Belarus" "0.001 km" -0.261338629358923 NA
-"808" 404 "Central_&_Western_Europe" "Belarus" "0.1 km" -0.485408730537436 0.324661146118413
-"809" 404 "Central_&_Western_Europe" "Belarus" "0.5 km" -0.591816996433116 0.334583546455871
-"810" 404 "Central_&_Western_Europe" "Belarus" "1 km" -0.581307928390448 0.337631327631729
-"811" 404 "Central_&_Western_Europe" "Belarus" "2 km" -0.575120291169906 0.339915198582955
-"812" 404 "Central_&_Western_Europe" "Belarus" "5 km" -0.564821932008723 0.342164358012701
-"813" 404 "Central_&_Western_Europe" "Belarus" "10 km" -0.583958469180868 0.343598784122431
-"814" 404 "Central_&_Western_Europe" "Germany" "0.001 km" -0.261338629358923 NA
-"815" 404 "Central_&_Western_Europe" "Germany" "0.1 km" -0.485408730537436 0.324661146118413
-"816" 404 "Central_&_Western_Europe" "Germany" "0.5 km" -0.591816996433116 0.334583546455871
-"817" 404 "Central_&_Western_Europe" "Germany" "1 km" -0.581307928390448 0.337631327631729
-"818" 404 "Central_&_Western_Europe" "Germany" "2 km" -0.575120291169906 0.339915198582955
-"819" 404 "Central_&_Western_Europe" "Germany" "5 km" -0.564821932008723 0.342164358012701
-"820" 404 "Central_&_Western_Europe" "Germany" "10 km" -0.583958469180868 0.343598784122431
-"821" 404 "Central_&_Western_Europe" "Poland" "0.001 km" -0.261338629358923 NA
-"822" 404 "Central_&_Western_Europe" "Poland" "0.1 km" -0.485408730537436 0.324661146118413
-"823" 404 "Central_&_Western_Europe" "Poland" "0.5 km" -0.591816996433116 0.334583546455871
-"824" 404 "Central_&_Western_Europe" "Poland" "1 km" -0.581307928390448 0.337631327631729
-"825" 404 "Central_&_Western_Europe" "Poland" "2 km" -0.575120291169906 0.339915198582955
-"826" 404 "Central_&_Western_Europe" "Poland" "5 km" -0.564821932008723 0.342164358012701
-"827" 404 "Central_&_Western_Europe" "Poland" "10 km" -0.583958469180868 0.343598784122431
-"828" 404 "Central_&_Western_Europe" "Netherlands" "0.001 km" -0.261338629358923 NA
-"829" 404 "Central_&_Western_Europe" "Netherlands" "0.1 km" -0.485408730537436 0.324661146118413
-"830" 404 "Central_&_Western_Europe" "Netherlands" "0.5 km" -0.591816996433116 0.334583546455871
-"831" 404 "Central_&_Western_Europe" "Netherlands" "1 km" -0.581307928390448 0.337631327631729
-"832" 404 "Central_&_Western_Europe" "Netherlands" "2 km" -0.575120291169906 0.339915198582955
-"833" 404 "Central_&_Western_Europe" "Netherlands" "5 km" -0.564821932008723 0.342164358012701
-"834" 404 "Central_&_Western_Europe" "Netherlands" "10 km" -0.583958469180868 0.343598784122431
-"835" 404 "Central_&_Western_Europe" "Ukraine" "0.001 km" -0.261338629358923 NA
-"836" 404 "Central_&_Western_Europe" "Ukraine" "0.1 km" -0.485408730537436 0.324661146118413
-"837" 404 "Central_&_Western_Europe" "Ukraine" "0.5 km" -0.591816996433116 0.334583546455871
-"838" 404 "Central_&_Western_Europe" "Ukraine" "1 km" -0.581307928390448 0.337631327631729
-"839" 404 "Central_&_Western_Europe" "Ukraine" "2 km" -0.575120291169906 0.339915198582955
-"840" 404 "Central_&_Western_Europe" "Ukraine" "5 km" -0.564821932008723 0.342164358012701
-"841" 404 "Central_&_Western_Europe" "Ukraine" "10 km" -0.583958469180868 0.343598784122431
-"842" 404 "Central_&_Western_Europe" "Belgium" "0.001 km" -0.261338629358923 NA
-"843" 404 "Central_&_Western_Europe" "Belgium" "0.1 km" -0.485408730537436 0.324661146118413
-"844" 404 "Central_&_Western_Europe" "Belgium" "0.5 km" -0.591816996433116 0.334583546455871
-"845" 404 "Central_&_Western_Europe" "Belgium" "1 km" -0.581307928390448 0.337631327631729
-"846" 404 "Central_&_Western_Europe" "Belgium" "2 km" -0.575120291169906 0.339915198582955
-"847" 404 "Central_&_Western_Europe" "Belgium" "5 km" -0.564821932008723 0.342164358012701
-"848" 404 "Central_&_Western_Europe" "Belgium" "10 km" -0.583958469180868 0.343598784122431
-"849" 404 "Central_&_Western_Europe" "France" "0.001 km" -0.261338629358923 NA
-"850" 404 "Central_&_Western_Europe" "France" "0.1 km" -0.485408730537436 0.324661146118413
-"851" 404 "Central_&_Western_Europe" "France" "0.5 km" -0.591816996433116 0.334583546455871
-"852" 404 "Central_&_Western_Europe" "France" "1 km" -0.581307928390448 0.337631327631729
-"853" 404 "Central_&_Western_Europe" "France" "2 km" -0.575120291169906 0.339915198582955
-"854" 404 "Central_&_Western_Europe" "France" "5 km" -0.564821932008723 0.342164358012701
-"855" 404 "Central_&_Western_Europe" "France" "10 km" -0.583958469180868 0.343598784122431
-"856" 404 "Central_&_Western_Europe" "Czechia" "0.001 km" -0.261338629358923 NA
-"857" 404 "Central_&_Western_Europe" "Czechia" "0.1 km" -0.485408730537436 0.324661146118413
-"858" 404 "Central_&_Western_Europe" "Czechia" "0.5 km" -0.591816996433116 0.334583546455871
-"859" 404 "Central_&_Western_Europe" "Czechia" "1 km" -0.581307928390448 0.337631327631729
-"860" 404 "Central_&_Western_Europe" "Czechia" "2 km" -0.575120291169906 0.339915198582955
-"861" 404 "Central_&_Western_Europe" "Czechia" "5 km" -0.564821932008723 0.342164358012701
-"862" 404 "Central_&_Western_Europe" "Czechia" "10 km" -0.583958469180868 0.343598784122431
-"863" 404 "Central_&_Western_Europe" "Luxembourg" "0.001 km" -0.261338629358923 NA
-"864" 404 "Central_&_Western_Europe" "Luxembourg" "0.1 km" -0.485408730537436 0.324661146118413
-"865" 404 "Central_&_Western_Europe" "Luxembourg" "0.5 km" -0.591816996433116 0.334583546455871
-"866" 404 "Central_&_Western_Europe" "Luxembourg" "1 km" -0.581307928390448 0.337631327631729
-"867" 404 "Central_&_Western_Europe" "Luxembourg" "2 km" -0.575120291169906 0.339915198582955
-"868" 404 "Central_&_Western_Europe" "Luxembourg" "5 km" -0.564821932008723 0.342164358012701
-"869" 404 "Central_&_Western_Europe" "Luxembourg" "10 km" -0.583958469180868 0.343598784122431
-"870" 404 "Central_&_Western_Europe" "Guernsey" "0.001 km" -0.261338629358923 NA
-"871" 404 "Central_&_Western_Europe" "Guernsey" "0.1 km" -0.485408730537436 0.324661146118413
-"872" 404 "Central_&_Western_Europe" "Guernsey" "0.5 km" -0.591816996433116 0.334583546455871
-"873" 404 "Central_&_Western_Europe" "Guernsey" "1 km" -0.581307928390448 0.337631327631729
-"874" 404 "Central_&_Western_Europe" "Guernsey" "2 km" -0.575120291169906 0.339915198582955
-"875" 404 "Central_&_Western_Europe" "Guernsey" "5 km" -0.564821932008723 0.342164358012701
-"876" 404 "Central_&_Western_Europe" "Guernsey" "10 km" -0.583958469180868 0.343598784122431
-"877" 404 "Central_&_Western_Europe" "Slovakia" "0.001 km" -0.261338629358923 NA
-"878" 404 "Central_&_Western_Europe" "Slovakia" "0.1 km" -0.485408730537436 0.324661146118413
-"879" 404 "Central_&_Western_Europe" "Slovakia" "0.5 km" -0.591816996433116 0.334583546455871
-"880" 404 "Central_&_Western_Europe" "Slovakia" "1 km" -0.581307928390448 0.337631327631729
-"881" 404 "Central_&_Western_Europe" "Slovakia" "2 km" -0.575120291169906 0.339915198582955
-"882" 404 "Central_&_Western_Europe" "Slovakia" "5 km" -0.564821932008723 0.342164358012701
-"883" 404 "Central_&_Western_Europe" "Slovakia" "10 km" -0.583958469180868 0.343598784122431
-"884" 404 "Central_&_Western_Europe" "Jersey" "0.001 km" -0.261338629358923 NA
-"885" 404 "Central_&_Western_Europe" "Jersey" "0.1 km" -0.485408730537436 0.324661146118413
-"886" 404 "Central_&_Western_Europe" "Jersey" "0.5 km" -0.591816996433116 0.334583546455871
-"887" 404 "Central_&_Western_Europe" "Jersey" "1 km" -0.581307928390448 0.337631327631729
-"888" 404 "Central_&_Western_Europe" "Jersey" "2 km" -0.575120291169906 0.339915198582955
-"889" 404 "Central_&_Western_Europe" "Jersey" "5 km" -0.564821932008723 0.342164358012701
-"890" 404 "Central_&_Western_Europe" "Jersey" "10 km" -0.583958469180868 0.343598784122431
-"891" 404 "Central_&_Western_Europe" "Austria" "0.001 km" -0.261338629358923 NA
-"892" 404 "Central_&_Western_Europe" "Austria" "0.1 km" -0.485408730537436 0.324661146118413
-"893" 404 "Central_&_Western_Europe" "Austria" "0.5 km" -0.591816996433116 0.334583546455871
-"894" 404 "Central_&_Western_Europe" "Austria" "1 km" -0.581307928390448 0.337631327631729
-"895" 404 "Central_&_Western_Europe" "Austria" "2 km" -0.575120291169906 0.339915198582955
-"896" 404 "Central_&_Western_Europe" "Austria" "5 km" -0.564821932008723 0.342164358012701
-"897" 404 "Central_&_Western_Europe" "Austria" "10 km" -0.583958469180868 0.343598784122431
-"898" 404 "Central_&_Western_Europe" "Switzerland" "0.001 km" -0.261338629358923 NA
-"899" 404 "Central_&_Western_Europe" "Switzerland" "0.1 km" -0.485408730537436 0.324661146118413
-"900" 404 "Central_&_Western_Europe" "Switzerland" "0.5 km" -0.591816996433116 0.334583546455871
-"901" 404 "Central_&_Western_Europe" "Switzerland" "1 km" -0.581307928390448 0.337631327631729
-"902" 404 "Central_&_Western_Europe" "Switzerland" "2 km" -0.575120291169906 0.339915198582955
-"903" 404 "Central_&_Western_Europe" "Switzerland" "5 km" -0.564821932008723 0.342164358012701
-"904" 404 "Central_&_Western_Europe" "Switzerland" "10 km" -0.583958469180868 0.343598784122431
-"905" 404 "Central_&_Western_Europe" "Liechtenstein" "0.001 km" -0.261338629358923 NA
-"906" 404 "Central_&_Western_Europe" "Liechtenstein" "0.1 km" -0.485408730537436 0.324661146118413
-"907" 404 "Central_&_Western_Europe" "Liechtenstein" "0.5 km" -0.591816996433116 0.334583546455871
-"908" 404 "Central_&_Western_Europe" "Liechtenstein" "1 km" -0.581307928390448 0.337631327631729
-"909" 404 "Central_&_Western_Europe" "Liechtenstein" "2 km" -0.575120291169906 0.339915198582955
-"910" 404 "Central_&_Western_Europe" "Liechtenstein" "5 km" -0.564821932008723 0.342164358012701
-"911" 404 "Central_&_Western_Europe" "Liechtenstein" "10 km" -0.583958469180868 0.343598784122431
+"EcoR_ID" "EcoR_Name" "NAME_ENGL" "disp_plot" "Coef_b" "Coef_q"
+"1" 436 "Coastal_Levant" "Turkey" "0.001 km" -0.662321905291854 0.342301302314535
+"2" 436 "Coastal_Levant" "Turkey" "0.1 km" -0.693778270520214 0.344301487866136
+"3" 436 "Coastal_Levant" "Turkey" "0.5 km" -0.654175171517429 0.345513571838324
+"4" 436 "Coastal_Levant" "Turkey" "1 km" -0.678794298213617 0.347265291803446
+"5" 436 "Coastal_Levant" "Turkey" "2 km" -0.689230271036974 0.347902590166741
+"6" 436 "Coastal_Levant" "Turkey" "5 km" -0.759006567347827 0.349548545625475
+"7" 436 "Coastal_Levant" "Turkey" "10 km" -0.758069617972318 0.349048978868629
+"8" 436 "Coastal_Levant" "Syria" "0.001 km" -0.662321905291854 0.342301302314535
+"9" 436 "Coastal_Levant" "Syria" "0.1 km" -0.693778270520214 0.344301487866136
+"10" 436 "Coastal_Levant" "Syria" "0.5 km" -0.654175171517429 0.345513571838324
+"11" 436 "Coastal_Levant" "Syria" "1 km" -0.678794298213617 0.347265291803446
+"12" 436 "Coastal_Levant" "Syria" "2 km" -0.689230271036974 0.347902590166741
+"13" 436 "Coastal_Levant" "Syria" "5 km" -0.759006567347827 0.349548545625475
+"14" 436 "Coastal_Levant" "Syria" "10 km" -0.758069617972318 0.349048978868629
+"15" 436 "Coastal_Levant" "Lebanon" "0.001 km" -0.662321905291854 0.342301302314535
+"16" 436 "Coastal_Levant" "Lebanon" "0.1 km" -0.693778270520214 0.344301487866136
+"17" 436 "Coastal_Levant" "Lebanon" "0.5 km" -0.654175171517429 0.345513571838324
+"18" 436 "Coastal_Levant" "Lebanon" "1 km" -0.678794298213617 0.347265291803446
+"19" 436 "Coastal_Levant" "Lebanon" "2 km" -0.689230271036974 0.347902590166741
+"20" 436 "Coastal_Levant" "Lebanon" "5 km" -0.759006567347827 0.349548545625475
+"21" 436 "Coastal_Levant" "Lebanon" "10 km" -0.758069617972318 0.349048978868629
+"22" 437 "Orontes" "Turkey" "0.001 km" -0.57916231403371 0.327388729748429
+"23" 437 "Orontes" "Turkey" "0.1 km" -0.641098496014207 0.33240385750791
+"24" 437 "Orontes" "Turkey" "0.5 km" -0.5746558946162 0.330437943418473
+"25" 437 "Orontes" "Turkey" "1 km" -0.523011995083108 0.327171542829869
+"26" 437 "Orontes" "Turkey" "2 km" -0.69668138337548 0.338249495062692
+"27" 437 "Orontes" "Turkey" "5 km" -0.677099757334351 0.340690737739749
+"28" 437 "Orontes" "Turkey" "10 km" -0.435499411186314 0.331959714654801
+"29" 437 "Orontes" "Syria" "0.001 km" -0.57916231403371 0.327388729748429
+"30" 437 "Orontes" "Syria" "0.1 km" -0.641098496014207 0.33240385750791
+"31" 437 "Orontes" "Syria" "0.5 km" -0.5746558946162 0.330437943418473
+"32" 437 "Orontes" "Syria" "1 km" -0.523011995083108 0.327171542829869
+"33" 437 "Orontes" "Syria" "2 km" -0.69668138337548 0.338249495062692
+"34" 437 "Orontes" "Syria" "5 km" -0.677099757334351 0.340690737739749
+"35" 437 "Orontes" "Syria" "10 km" -0.435499411186314 0.331959714654801
+"36" 440 "Arabian_Interior" "Syria" "0.001 km" -0.554074928537295 0.332825277934753
+"37" 440 "Arabian_Interior" "Syria" "0.1 km" -0.792091200916245 0.344038715929122
+"38" 440 "Arabian_Interior" "Syria" "0.5 km" -0.764447916108104 0.343116207526242
+"39" 440 "Arabian_Interior" "Syria" "1 km" -0.619622893453534 0.336909151086968
+"40" 440 "Arabian_Interior" "Syria" "2 km" -0.801576869123141 0.34628863334934
+"41" 440 "Arabian_Interior" "Syria" "5 km" -0.604032340907478 0.342938869715161
+"42" 440 "Arabian_Interior" "Syria" "10 km" -0.271906300925246 0.327929318317326
+"43" 428 "Kuban" "Russian Federation" "0.001 km" -0.612169210258828 0.331878617555581
+"44" 428 "Kuban" "Russian Federation" "0.1 km" -0.827747789377906 0.344833476359718
+"45" 428 "Kuban" "Russian Federation" "0.5 km" -0.831896110608705 0.345654801273766
+"46" 428 "Kuban" "Russian Federation" "1 km" -0.817479500758307 0.346839792464211
+"47" 428 "Kuban" "Russian Federation" "2 km" -0.852248152370598 0.34849873033995
+"48" 428 "Kuban" "Russian Federation" "5 km" -0.859393728525514 0.349445621118982
+"49" 428 "Kuban" "Russian Federation" "10 km" -0.816930895826524 0.348225128298594
+"50" 433 "Western_Transcaucasia" "Russian Federation" "0.001 km" -0.437975528833915 0.331415230384829
+"51" 433 "Western_Transcaucasia" "Russian Federation" "0.1 km" -0.581638842383268 0.34011165734569
+"52" 433 "Western_Transcaucasia" "Russian Federation" "0.5 km" -0.668653809341977 0.343908980213174
+"53" 433 "Western_Transcaucasia" "Russian Federation" "1 km" -0.686683007433006 0.34557435409884
+"54" 433 "Western_Transcaucasia" "Russian Federation" "2 km" -0.673877911290345 0.345599113162406
+"55" 433 "Western_Transcaucasia" "Russian Federation" "5 km" -0.673544850950147 0.346258790955595
+"56" 433 "Western_Transcaucasia" "Russian Federation" "10 km" -0.670838082380002 0.346348390120312
+"57" 433 "Western_Transcaucasia" "Turkey" "0.001 km" -0.437975528833915 0.331415230384829
+"58" 433 "Western_Transcaucasia" "Turkey" "0.1 km" -0.581638842383268 0.34011165734569
+"59" 433 "Western_Transcaucasia" "Turkey" "0.5 km" -0.668653809341977 0.343908980213174
+"60" 433 "Western_Transcaucasia" "Turkey" "1 km" -0.686683007433006 0.34557435409884
+"61" 433 "Western_Transcaucasia" "Turkey" "2 km" -0.673877911290345 0.345599113162406
+"62" 433 "Western_Transcaucasia" "Turkey" "5 km" -0.673544850950147 0.346258790955595
+"63" 433 "Western_Transcaucasia" "Turkey" "10 km" -0.670838082380002 0.346348390120312
+"64" 441 "Lower_Tigris_&_Euphrates" "Turkey" "0.001 km" -0.610149484924916 0.341260008287214
+"65" 441 "Lower_Tigris_&_Euphrates" "Turkey" "0.1 km" -0.752747112967882 0.347341336657105
+"66" 441 "Lower_Tigris_&_Euphrates" "Turkey" "0.5 km" -0.503598603787162 0.338283262408458
+"67" 441 "Lower_Tigris_&_Euphrates" "Turkey" "1 km" -0.712258031557869 0.346395739828414
+"68" 441 "Lower_Tigris_&_Euphrates" "Turkey" "2 km" -0.767244571507552 0.347284393833186
+"69" 441 "Lower_Tigris_&_Euphrates" "Turkey" "5 km" -0.860164198979603 0.350511945440731
+"70" 441 "Lower_Tigris_&_Euphrates" "Turkey" "10 km" -0.756066254515543 0.347874851934136
+"71" 441 "Lower_Tigris_&_Euphrates" "Syria" "0.001 km" -0.610149484924916 0.341260008287214
+"72" 441 "Lower_Tigris_&_Euphrates" "Syria" "0.1 km" -0.752747112967882 0.347341336657105
+"73" 441 "Lower_Tigris_&_Euphrates" "Syria" "0.5 km" -0.503598603787162 0.338283262408458
+"74" 441 "Lower_Tigris_&_Euphrates" "Syria" "1 km" -0.712258031557869 0.346395739828414
+"75" 441 "Lower_Tigris_&_Euphrates" "Syria" "2 km" -0.767244571507552 0.347284393833186
+"76" 441 "Lower_Tigris_&_Euphrates" "Syria" "5 km" -0.860164198979603 0.350511945440731
+"77" 441 "Lower_Tigris_&_Euphrates" "Syria" "10 km" -0.756066254515543 0.347874851934136
+"78" 426 "Crimea_Peninsula" "Ukraine" "0.001 km" -0.43476556880986 0.323690722618585
+"79" 426 "Crimea_Peninsula" "Ukraine" "0.1 km" -0.617455066980591 0.339778530373756
+"80" 426 "Crimea_Peninsula" "Ukraine" "0.5 km" -0.673775599076171 0.342319946784856
+"81" 426 "Crimea_Peninsula" "Ukraine" "1 km" -0.572228331868397 0.341653051640223
+"82" 426 "Crimea_Peninsula" "Ukraine" "2 km" -0.577270082991836 0.342549035664292
+"83" 426 "Crimea_Peninsula" "Ukraine" "5 km" -0.581573506137403 0.343592140496174
+"84" 426 "Crimea_Peninsula" "Ukraine" "10 km" -0.661322939923828 0.346787870815401
+"85" 421 "Ionian_Drainages" "Greece" "0.001 km" -0.341033461962852 0.320332844069256
+"86" 421 "Ionian_Drainages" "Greece" "0.1 km" -0.52137499539612 0.335801552484921
+"87" 421 "Ionian_Drainages" "Greece" "0.5 km" -0.472252328552191 0.337001535390462
+"88" 421 "Ionian_Drainages" "Greece" "1 km" -0.513336874648401 0.340506637976404
+"89" 421 "Ionian_Drainages" "Greece" "2 km" -0.460039903340221 0.338857021728466
+"90" 421 "Ionian_Drainages" "Greece" "5 km" -0.414741095334529 0.339035901740155
+"91" 421 "Ionian_Drainages" "Greece" "10 km" -0.459891184546026 0.341791502949464
+"92" 420 "Southeast_Adriatic_Drainages" "Montenegro" "0.001 km" -0.726877668390168 0.333225196219019
+"93" 420 "Southeast_Adriatic_Drainages" "Montenegro" "0.1 km" -0.766339544327578 0.339597075285119
+"94" 420 "Southeast_Adriatic_Drainages" "Montenegro" "0.5 km" -0.727596744108918 0.340327428657117
+"95" 420 "Southeast_Adriatic_Drainages" "Montenegro" "1 km" -0.791971449356332 0.343435778520344
+"96" 420 "Southeast_Adriatic_Drainages" "Montenegro" "2 km" -0.785759253064135 0.34437308093052
+"97" 420 "Southeast_Adriatic_Drainages" "Montenegro" "5 km" -0.835105754004978 0.347123324129059
+"98" 420 "Southeast_Adriatic_Drainages" "Montenegro" "10 km" -0.827224223195709 0.34783938192555
+"99" 420 "Southeast_Adriatic_Drainages" "Serbia" "0.001 km" -0.726877668390168 0.333225196219019
+"100" 420 "Southeast_Adriatic_Drainages" "Serbia" "0.1 km" -0.766339544327578 0.339597075285119
+"101" 420 "Southeast_Adriatic_Drainages" "Serbia" "0.5 km" -0.727596744108918 0.340327428657117
+"102" 420 "Southeast_Adriatic_Drainages" "Serbia" "1 km" -0.791971449356332 0.343435778520344
+"103" 420 "Southeast_Adriatic_Drainages" "Serbia" "2 km" -0.785759253064135 0.34437308093052
+"104" 420 "Southeast_Adriatic_Drainages" "Serbia" "5 km" -0.835105754004978 0.347123324129059
+"105" 420 "Southeast_Adriatic_Drainages" "Serbia" "10 km" -0.827224223195709 0.34783938192555
+"106" 420 "Southeast_Adriatic_Drainages" "Albania" "0.001 km" -0.726877668390168 0.333225196219019
+"107" 420 "Southeast_Adriatic_Drainages" "Albania" "0.1 km" -0.766339544327578 0.339597075285119
+"108" 420 "Southeast_Adriatic_Drainages" "Albania" "0.5 km" -0.727596744108918 0.340327428657117
+"109" 420 "Southeast_Adriatic_Drainages" "Albania" "1 km" -0.791971449356332 0.343435778520344
+"110" 420 "Southeast_Adriatic_Drainages" "Albania" "2 km" -0.785759253064135 0.34437308093052
+"111" 420 "Southeast_Adriatic_Drainages" "Albania" "5 km" -0.835105754004978 0.347123324129059
+"112" 420 "Southeast_Adriatic_Drainages" "Albania" "10 km" -0.827224223195709 0.34783938192555
+"113" 420 "Southeast_Adriatic_Drainages" "North Macedonia" "0.001 km" -0.726877668390168 0.333225196219019
+"114" 420 "Southeast_Adriatic_Drainages" "North Macedonia" "0.1 km" -0.766339544327578 0.339597075285119
+"115" 420 "Southeast_Adriatic_Drainages" "North Macedonia" "0.5 km" -0.727596744108918 0.340327428657117
+"116" 420 "Southeast_Adriatic_Drainages" "North Macedonia" "1 km" -0.791971449356332 0.343435778520344
+"117" 420 "Southeast_Adriatic_Drainages" "North Macedonia" "2 km" -0.785759253064135 0.34437308093052
+"118" 420 "Southeast_Adriatic_Drainages" "North Macedonia" "5 km" -0.835105754004978 0.347123324129059
+"119" 420 "Southeast_Adriatic_Drainages" "North Macedonia" "10 km" -0.827224223195709 0.34783938192555
+"120" 420 "Southeast_Adriatic_Drainages" "Greece" "0.001 km" -0.726877668390168 0.333225196219019
+"121" 420 "Southeast_Adriatic_Drainages" "Greece" "0.1 km" -0.766339544327578 0.339597075285119
+"122" 420 "Southeast_Adriatic_Drainages" "Greece" "0.5 km" -0.727596744108918 0.340327428657117
+"123" 420 "Southeast_Adriatic_Drainages" "Greece" "1 km" -0.791971449356332 0.343435778520344
+"124" 420 "Southeast_Adriatic_Drainages" "Greece" "2 km" -0.785759253064135 0.34437308093052
+"125" 420 "Southeast_Adriatic_Drainages" "Greece" "5 km" -0.835105754004978 0.347123324129059
+"126" 420 "Southeast_Adriatic_Drainages" "Greece" "10 km" -0.827224223195709 0.34783938192555
+"127" 424 "Aegean_Drainages" "Greece" "0.001 km" -0.517092276003178 0.334007569603691
+"128" 424 "Aegean_Drainages" "Greece" "0.1 km" -0.677869519922479 0.345317340810872
+"129" 424 "Aegean_Drainages" "Greece" "0.5 km" -0.599327085172782 0.34408666505673
+"130" 424 "Aegean_Drainages" "Greece" "1 km" -0.629130519917322 0.346659591164316
+"131" 424 "Aegean_Drainages" "Greece" "2 km" -0.645077054690409 0.348324052766733
+"132" 424 "Aegean_Drainages" "Greece" "5 km" -0.612278042400871 0.34800006368324
+"133" 424 "Aegean_Drainages" "Greece" "10 km" -0.667326004284495 0.349931908694639
+"134" 422 "Vardar" "Serbia" "0.001 km" -0.764725181272257 0.340184773607664
+"135" 422 "Vardar" "Serbia" "0.1 km" -0.608525317790112 0.335936497493775
+"136" 422 "Vardar" "Serbia" "0.5 km" -0.752910383683516 0.343079346753992
+"137" 422 "Vardar" "Serbia" "1 km" -0.680549822468158 0.342005010799326
+"138" 422 "Vardar" "Serbia" "2 km" -0.750684128928287 0.344969905731039
+"139" 422 "Vardar" "Serbia" "5 km" -0.840656328032797 0.349683927756206
+"140" 422 "Vardar" "Serbia" "10 km" -0.828137749334619 0.350641407781473
+"141" 422 "Vardar" "North Macedonia" "0.001 km" -0.764725181272257 0.340184773607664
+"142" 422 "Vardar" "North Macedonia" "0.1 km" -0.608525317790112 0.335936497493775
+"143" 422 "Vardar" "North Macedonia" "0.5 km" -0.752910383683516 0.343079346753992
+"144" 422 "Vardar" "North Macedonia" "1 km" -0.680549822468158 0.342005010799326
+"145" 422 "Vardar" "North Macedonia" "2 km" -0.750684128928287 0.344969905731039
+"146" 422 "Vardar" "North Macedonia" "5 km" -0.840656328032797 0.349683927756206
+"147" 422 "Vardar" "North Macedonia" "10 km" -0.828137749334619 0.350641407781473
+"148" 422 "Vardar" "Greece" "0.001 km" -0.764725181272257 0.340184773607664
+"149" 422 "Vardar" "Greece" "0.1 km" -0.608525317790112 0.335936497493775
+"150" 422 "Vardar" "Greece" "0.5 km" -0.752910383683516 0.343079346753992
+"151" 422 "Vardar" "Greece" "1 km" -0.680549822468158 0.342005010799326
+"152" 422 "Vardar" "Greece" "2 km" -0.750684128928287 0.344969905731039
+"153" 422 "Vardar" "Greece" "5 km" -0.840656328032797 0.349683927756206
+"154" 422 "Vardar" "Greece" "10 km" -0.828137749334619 0.350641407781473
+"155" 419 "Dalmatia" "Slovenia" "0.001 km" -0.226110730213671 0.307907154644218
+"156" 419 "Dalmatia" "Slovenia" "0.1 km" -0.520929935764791 0.339098173301793
+"157" 419 "Dalmatia" "Slovenia" "0.5 km" -0.61456882208569 0.343645459899902
+"158" 419 "Dalmatia" "Slovenia" "1 km" -0.500232732617946 0.342367770208652
+"159" 419 "Dalmatia" "Slovenia" "2 km" -0.466242435854339 0.342495315872155
+"160" 419 "Dalmatia" "Slovenia" "5 km" -0.412996997024442 0.341986881567223
+"161" 419 "Dalmatia" "Slovenia" "10 km" -0.413277686744522 0.34239748726422
+"162" 419 "Dalmatia" "Italy" "0.001 km" -0.226110730213671 0.307907154644218
+"163" 419 "Dalmatia" "Italy" "0.1 km" -0.520929935764791 0.339098173301793
+"164" 419 "Dalmatia" "Italy" "0.5 km" -0.61456882208569 0.343645459899902
+"165" 419 "Dalmatia" "Italy" "1 km" -0.500232732617946 0.342367770208652
+"166" 419 "Dalmatia" "Italy" "2 km" -0.466242435854339 0.342495315872155
+"167" 419 "Dalmatia" "Italy" "5 km" -0.412996997024442 0.341986881567223
+"168" 419 "Dalmatia" "Italy" "10 km" -0.413277686744522 0.34239748726422
+"169" 419 "Dalmatia" "Croatia" "0.001 km" -0.226110730213671 0.307907154644218
+"170" 419 "Dalmatia" "Croatia" "0.1 km" -0.520929935764791 0.339098173301793
+"171" 419 "Dalmatia" "Croatia" "0.5 km" -0.61456882208569 0.343645459899902
+"172" 419 "Dalmatia" "Croatia" "1 km" -0.500232732617946 0.342367770208652
+"173" 419 "Dalmatia" "Croatia" "2 km" -0.466242435854339 0.342495315872155
+"174" 419 "Dalmatia" "Croatia" "5 km" -0.412996997024442 0.341986881567223
+"175" 419 "Dalmatia" "Croatia" "10 km" -0.413277686744522 0.34239748726422
+"176" 419 "Dalmatia" "Bosnia and Herzegovina" "0.001 km" -0.226110730213671 0.307907154644218
+"177" 419 "Dalmatia" "Bosnia and Herzegovina" "0.1 km" -0.520929935764791 0.339098173301793
+"178" 419 "Dalmatia" "Bosnia and Herzegovina" "0.5 km" -0.61456882208569 0.343645459899902
+"179" 419 "Dalmatia" "Bosnia and Herzegovina" "1 km" -0.500232732617946 0.342367770208652
+"180" 419 "Dalmatia" "Bosnia and Herzegovina" "2 km" -0.466242435854339 0.342495315872155
+"181" 419 "Dalmatia" "Bosnia and Herzegovina" "5 km" -0.412996997024442 0.341986881567223
+"182" 419 "Dalmatia" "Bosnia and Herzegovina" "10 km" -0.413277686744522 0.34239748726422
+"183" 419 "Dalmatia" "Montenegro" "0.001 km" -0.226110730213671 0.307907154644218
+"184" 419 "Dalmatia" "Montenegro" "0.1 km" -0.520929935764791 0.339098173301793
+"185" 419 "Dalmatia" "Montenegro" "0.5 km" -0.61456882208569 0.343645459899902
+"186" 419 "Dalmatia" "Montenegro" "1 km" -0.500232732617946 0.342367770208652
+"187" 419 "Dalmatia" "Montenegro" "2 km" -0.466242435854339 0.342495315872155
+"188" 419 "Dalmatia" "Montenegro" "5 km" -0.412996997024442 0.341986881567223
+"189" 419 "Dalmatia" "Montenegro" "10 km" -0.413277686744522 0.34239748726422
+"190" 431 "Central_Anatolia" "Turkey" "0.001 km" -0.793279152753698 0.338129305030916
+"191" 431 "Central_Anatolia" "Turkey" "0.1 km" -0.767891974794796 0.3360072343406
+"192" 431 "Central_Anatolia" "Turkey" "0.5 km" -0.751511098741091 0.338687084126225
+"193" 431 "Central_Anatolia" "Turkey" "1 km" -0.91867904615547 0.344681469282684
+"194" 431 "Central_Anatolia" "Turkey" "2 km" -0.893339886280678 0.34375044158019
+"195" 431 "Central_Anatolia" "Turkey" "5 km" -0.809050975317187 0.341556317147269
+"196" 431 "Central_Anatolia" "Turkey" "10 km" -0.842556644896217 0.344759063395628
+"197" 442 "Upper_Tigris_&_Euphrates" "Turkey" "0.001 km" -0.685700087681204 0.339204997774337
+"198" 442 "Upper_Tigris_&_Euphrates" "Turkey" "0.1 km" -0.832725613740625 0.346569667806529
+"199" 442 "Upper_Tigris_&_Euphrates" "Turkey" "0.5 km" -0.781390416555891 0.346690776789698
+"200" 442 "Upper_Tigris_&_Euphrates" "Turkey" "1 km" -0.753245592826821 0.346479640317339
+"201" 442 "Upper_Tigris_&_Euphrates" "Turkey" "2 km" -0.790959330051397 0.347526113164147
+"202" 442 "Upper_Tigris_&_Euphrates" "Turkey" "5 km" -0.776209146192639 0.347548210894853
+"203" 442 "Upper_Tigris_&_Euphrates" "Turkey" "10 km" -0.824789782294448 0.349588692554143
+"204" 442 "Upper_Tigris_&_Euphrates" "Syria" "0.001 km" -0.685700087681204 0.339204997774337
+"205" 442 "Upper_Tigris_&_Euphrates" "Syria" "0.1 km" -0.832725613740625 0.346569667806529
+"206" 442 "Upper_Tigris_&_Euphrates" "Syria" "0.5 km" -0.781390416555891 0.346690776789698
+"207" 442 "Upper_Tigris_&_Euphrates" "Syria" "1 km" -0.753245592826821 0.346479640317339
+"208" 442 "Upper_Tigris_&_Euphrates" "Syria" "2 km" -0.790959330051397 0.347526113164147
+"209" 442 "Upper_Tigris_&_Euphrates" "Syria" "5 km" -0.776209146192639 0.347548210894853
+"210" 442 "Upper_Tigris_&_Euphrates" "Syria" "10 km" -0.824789782294448 0.349588692554143
+"211" 429 "Western_Anatolia" "Turkey" "0.001 km" -0.145646027331758 0.305962158665098
+"212" 429 "Western_Anatolia" "Turkey" "0.1 km" -0.535735085929168 0.338262269186587
+"213" 429 "Western_Anatolia" "Turkey" "0.5 km" -0.578636553813031 0.342510848964055
+"214" 429 "Western_Anatolia" "Turkey" "1 km" -0.569205949186049 0.343762590006843
+"215" 429 "Western_Anatolia" "Turkey" "2 km" -0.61878145410482 0.346414715155599
+"216" 429 "Western_Anatolia" "Turkey" "5 km" -0.625367461893222 0.348028764399633
+"217" 429 "Western_Anatolia" "Turkey" "10 km" -0.52813330802304 0.345609691039351
+"218" 429 "Western_Anatolia" "Greece" "0.001 km" -0.145646027331758 0.305962158665098
+"219" 429 "Western_Anatolia" "Greece" "0.1 km" -0.535735085929168 0.338262269186587
+"220" 429 "Western_Anatolia" "Greece" "0.5 km" -0.578636553813031 0.342510848964055
+"221" 429 "Western_Anatolia" "Greece" "1 km" -0.569205949186049 0.343762590006843
+"222" 429 "Western_Anatolia" "Greece" "2 km" -0.61878145410482 0.346414715155599
+"223" 429 "Western_Anatolia" "Greece" "5 km" -0.625367461893222 0.348028764399633
+"224" 429 "Western_Anatolia" "Greece" "10 km" -0.52813330802304 0.345609691039351
+"225" 432 "Southern_Anatolia" "Turkey" "0.001 km" -0.190506083350375 0.304352331011274
+"226" 432 "Southern_Anatolia" "Turkey" "0.1 km" -0.409850138083633 0.329214648856737
+"227" 432 "Southern_Anatolia" "Turkey" "0.5 km" -0.515038419941335 0.336861901745835
+"228" 432 "Southern_Anatolia" "Turkey" "1 km" -0.526263648569275 0.338835414807751
+"229" 432 "Southern_Anatolia" "Turkey" "2 km" -0.517789974233743 0.339501027583462
+"230" 432 "Southern_Anatolia" "Turkey" "5 km" -0.542450954265198 0.342368144475797
+"231" 432 "Southern_Anatolia" "Turkey" "10 km" -0.535569726462341 0.34331655727723
+"232" 432 "Southern_Anatolia" "Cyprus" "0.001 km" -0.190506083350375 0.304352331011274
+"233" 432 "Southern_Anatolia" "Cyprus" "0.1 km" -0.409850138083633 0.329214648856737
+"234" 432 "Southern_Anatolia" "Cyprus" "0.5 km" -0.515038419941335 0.336861901745835
+"235" 432 "Southern_Anatolia" "Cyprus" "1 km" -0.526263648569275 0.338835414807751
+"236" 432 "Southern_Anatolia" "Cyprus" "2 km" -0.517789974233743 0.339501027583462
+"237" 432 "Southern_Anatolia" "Cyprus" "5 km" -0.542450954265198 0.342368144475797
+"238" 432 "Southern_Anatolia" "Cyprus" "10 km" -0.535569726462341 0.34331655727723
+"239" 423 "Thrace" "Bulgaria" "0.001 km" -0.0632789063806276 0.268430941119
+"240" 423 "Thrace" "Bulgaria" "0.1 km" -0.362442436576546 0.323262785481029
+"241" 423 "Thrace" "Bulgaria" "0.5 km" -0.332787404390937 0.323664736142197
+"242" 423 "Thrace" "Bulgaria" "1 km" -0.343367205993623 0.327070270737032
+"243" 423 "Thrace" "Bulgaria" "2 km" -0.378799841925259 0.331954016656105
+"244" 423 "Thrace" "Bulgaria" "5 km" -0.36715800926484 0.335141848039591
+"245" 423 "Thrace" "Bulgaria" "10 km" -0.425629134051656 0.339110320922484
+"246" 423 "Thrace" "Serbia" "0.001 km" -0.0632789063806276 0.268430941119
+"247" 423 "Thrace" "Serbia" "0.1 km" -0.362442436576546 0.323262785481029
+"248" 423 "Thrace" "Serbia" "0.5 km" -0.332787404390937 0.323664736142197
+"249" 423 "Thrace" "Serbia" "1 km" -0.343367205993623 0.327070270737032
+"250" 423 "Thrace" "Serbia" "2 km" -0.378799841925259 0.331954016656105
+"251" 423 "Thrace" "Serbia" "5 km" -0.36715800926484 0.335141848039591
+"252" 423 "Thrace" "Serbia" "10 km" -0.425629134051656 0.339110320922484
+"253" 423 "Thrace" "Turkey" "0.001 km" -0.0632789063806276 0.268430941119
+"254" 423 "Thrace" "Turkey" "0.1 km" -0.362442436576546 0.323262785481029
+"255" 423 "Thrace" "Turkey" "0.5 km" -0.332787404390937 0.323664736142197
+"256" 423 "Thrace" "Turkey" "1 km" -0.343367205993623 0.327070270737032
+"257" 423 "Thrace" "Turkey" "2 km" -0.378799841925259 0.331954016656105
+"258" 423 "Thrace" "Turkey" "5 km" -0.36715800926484 0.335141848039591
+"259" 423 "Thrace" "Turkey" "10 km" -0.425629134051656 0.339110320922484
+"260" 423 "Thrace" "North Macedonia" "0.001 km" -0.0632789063806276 0.268430941119
+"261" 423 "Thrace" "North Macedonia" "0.1 km" -0.362442436576546 0.323262785481029
+"262" 423 "Thrace" "North Macedonia" "0.5 km" -0.332787404390937 0.323664736142197
+"263" 423 "Thrace" "North Macedonia" "1 km" -0.343367205993623 0.327070270737032
+"264" 423 "Thrace" "North Macedonia" "2 km" -0.378799841925259 0.331954016656105
+"265" 423 "Thrace" "North Macedonia" "5 km" -0.36715800926484 0.335141848039591
+"266" 423 "Thrace" "North Macedonia" "10 km" -0.425629134051656 0.339110320922484
+"267" 423 "Thrace" "Greece" "0.001 km" -0.0632789063806276 0.268430941119
+"268" 423 "Thrace" "Greece" "0.1 km" -0.362442436576546 0.323262785481029
+"269" 423 "Thrace" "Greece" "0.5 km" -0.332787404390937 0.323664736142197
+"270" 423 "Thrace" "Greece" "1 km" -0.343367205993623 0.327070270737032
+"271" 423 "Thrace" "Greece" "2 km" -0.378799841925259 0.331954016656105
+"272" 423 "Thrace" "Greece" "5 km" -0.36715800926484 0.335141848039591
+"273" 423 "Thrace" "Greece" "10 km" -0.425629134051656 0.339110320922484
+"274" 415 "Gulf_of_Venice_Drainages" "Italy" "0.001 km" -0.404856878930184 0.312522285045007
+"275" 415 "Gulf_of_Venice_Drainages" "Italy" "0.1 km" -0.511903195050374 0.32789760936548
+"276" 415 "Gulf_of_Venice_Drainages" "Italy" "0.5 km" -0.58563664336464 0.333129521818744
+"277" 415 "Gulf_of_Venice_Drainages" "Italy" "1 km" -0.567800471631089 0.334539747667874
+"278" 415 "Gulf_of_Venice_Drainages" "Italy" "2 km" -0.532654715009568 0.334210267657788
+"279" 415 "Gulf_of_Venice_Drainages" "Italy" "5 km" -0.520081431826642 0.336611924921863
+"280" 415 "Gulf_of_Venice_Drainages" "Italy" "10 km" -0.559418093687745 0.339707654015187
+"281" 415 "Gulf_of_Venice_Drainages" "Switzerland" "0.001 km" -0.404856878930184 0.312522285045007
+"282" 415 "Gulf_of_Venice_Drainages" "Switzerland" "0.1 km" -0.511903195050374 0.32789760936548
+"283" 415 "Gulf_of_Venice_Drainages" "Switzerland" "0.5 km" -0.58563664336464 0.333129521818744
+"284" 415 "Gulf_of_Venice_Drainages" "Switzerland" "1 km" -0.567800471631089 0.334539747667874
+"285" 415 "Gulf_of_Venice_Drainages" "Switzerland" "2 km" -0.532654715009568 0.334210267657788
+"286" 415 "Gulf_of_Venice_Drainages" "Switzerland" "5 km" -0.520081431826642 0.336611924921863
+"287" 415 "Gulf_of_Venice_Drainages" "Switzerland" "10 km" -0.559418093687745 0.339707654015187
+"288" 415 "Gulf_of_Venice_Drainages" "Austria" "0.001 km" -0.404856878930184 0.312522285045007
+"289" 415 "Gulf_of_Venice_Drainages" "Austria" "0.1 km" -0.511903195050374 0.32789760936548
+"290" 415 "Gulf_of_Venice_Drainages" "Austria" "0.5 km" -0.58563664336464 0.333129521818744
+"291" 415 "Gulf_of_Venice_Drainages" "Austria" "1 km" -0.567800471631089 0.334539747667874
+"292" 415 "Gulf_of_Venice_Drainages" "Austria" "2 km" -0.532654715009568 0.334210267657788
+"293" 415 "Gulf_of_Venice_Drainages" "Austria" "5 km" -0.520081431826642 0.336611924921863
+"294" 415 "Gulf_of_Venice_Drainages" "Austria" "10 km" -0.559418093687745 0.339707654015187
+"295" 415 "Gulf_of_Venice_Drainages" "Slovenia" "0.001 km" -0.404856878930184 0.312522285045007
+"296" 415 "Gulf_of_Venice_Drainages" "Slovenia" "0.1 km" -0.511903195050374 0.32789760936548
+"297" 415 "Gulf_of_Venice_Drainages" "Slovenia" "0.5 km" -0.58563664336464 0.333129521818744
+"298" 415 "Gulf_of_Venice_Drainages" "Slovenia" "1 km" -0.567800471631089 0.334539747667874
+"299" 415 "Gulf_of_Venice_Drainages" "Slovenia" "2 km" -0.532654715009568 0.334210267657788
+"300" 415 "Gulf_of_Venice_Drainages" "Slovenia" "5 km" -0.520081431826642 0.336611924921863
+"301" 415 "Gulf_of_Venice_Drainages" "Slovenia" "10 km" -0.559418093687745 0.339707654015187
+"302" 415 "Gulf_of_Venice_Drainages" "France" "0.001 km" -0.404856878930184 0.312522285045007
+"303" 415 "Gulf_of_Venice_Drainages" "France" "0.1 km" -0.511903195050374 0.32789760936548
+"304" 415 "Gulf_of_Venice_Drainages" "France" "0.5 km" -0.58563664336464 0.333129521818744
+"305" 415 "Gulf_of_Venice_Drainages" "France" "1 km" -0.567800471631089 0.334539747667874
+"306" 415 "Gulf_of_Venice_Drainages" "France" "2 km" -0.532654715009568 0.334210267657788
+"307" 415 "Gulf_of_Venice_Drainages" "France" "5 km" -0.520081431826642 0.336611924921863
+"308" 415 "Gulf_of_Venice_Drainages" "France" "10 km" -0.559418093687745 0.339707654015187
+"309" 415 "Gulf_of_Venice_Drainages" "San Marino" "0.001 km" -0.404856878930184 0.312522285045007
+"310" 415 "Gulf_of_Venice_Drainages" "San Marino" "0.1 km" -0.511903195050374 0.32789760936548
+"311" 415 "Gulf_of_Venice_Drainages" "San Marino" "0.5 km" -0.58563664336464 0.333129521818744
+"312" 415 "Gulf_of_Venice_Drainages" "San Marino" "1 km" -0.567800471631089 0.334539747667874
+"313" 415 "Gulf_of_Venice_Drainages" "San Marino" "2 km" -0.532654715009568 0.334210267657788
+"314" 415 "Gulf_of_Venice_Drainages" "San Marino" "5 km" -0.520081431826642 0.336611924921863
+"315" 415 "Gulf_of_Venice_Drainages" "San Marino" "10 km" -0.559418093687745 0.339707654015187
+"316" 414 "Eastern_Iberia" "Spain" "0.001 km" -0.287503714880084 0.309035182838291
+"317" 414 "Eastern_Iberia" "Spain" "0.1 km" -0.434044894440729 0.327924962094533
+"318" 414 "Eastern_Iberia" "Spain" "0.5 km" -0.569418396195453 0.336740821319803
+"319" 414 "Eastern_Iberia" "Spain" "1 km" -0.477907406387404 0.335390585609259
+"320" 414 "Eastern_Iberia" "Spain" "2 km" -0.581063917367016 0.341684927549404
+"321" 414 "Eastern_Iberia" "Spain" "5 km" -0.474608566418842 0.340900218552634
+"322" 414 "Eastern_Iberia" "Spain" "10 km" -0.524095565120727 0.343157951282658
+"323" 414 "Eastern_Iberia" "France" "0.001 km" -0.287503714880084 0.309035182838291
+"324" 414 "Eastern_Iberia" "France" "0.1 km" -0.434044894440729 0.327924962094533
+"325" 414 "Eastern_Iberia" "France" "0.5 km" -0.569418396195453 0.336740821319803
+"326" 414 "Eastern_Iberia" "France" "1 km" -0.477907406387404 0.335390585609259
+"327" 414 "Eastern_Iberia" "France" "2 km" -0.581063917367016 0.341684927549404
+"328" 414 "Eastern_Iberia" "France" "5 km" -0.474608566418842 0.340900218552634
+"329" 414 "Eastern_Iberia" "France" "10 km" -0.524095565120727 0.343157951282658
+"330" 414 "Eastern_Iberia" "Andorra" "0.001 km" -0.287503714880084 0.309035182838291
+"331" 414 "Eastern_Iberia" "Andorra" "0.1 km" -0.434044894440729 0.327924962094533
+"332" 414 "Eastern_Iberia" "Andorra" "0.5 km" -0.569418396195453 0.336740821319803
+"333" 414 "Eastern_Iberia" "Andorra" "1 km" -0.477907406387404 0.335390585609259
+"334" 414 "Eastern_Iberia" "Andorra" "2 km" -0.581063917367016 0.341684927549404
+"335" 414 "Eastern_Iberia" "Andorra" "5 km" -0.474608566418842 0.340900218552634
+"336" 414 "Eastern_Iberia" "Andorra" "10 km" -0.524095565120727 0.343157951282658
+"337" 413 "Southern_Iberia" "Spain" "0.001 km" -0.513333287218613 0.327173092534934
+"338" 413 "Southern_Iberia" "Spain" "0.1 km" -0.508561593824377 0.33302531163836
+"339" 413 "Southern_Iberia" "Spain" "0.5 km" -0.633666824602618 0.341068177659197
+"340" 413 "Southern_Iberia" "Spain" "1 km" -0.600955096553482 0.341501739288411
+"341" 413 "Southern_Iberia" "Spain" "2 km" -0.546946366743558 0.341119455672536
+"342" 413 "Southern_Iberia" "Spain" "5 km" -0.619174995660422 0.346056718047502
+"343" 413 "Southern_Iberia" "Spain" "10 km" -0.649314259384975 0.346998303037294
+"344" 413 "Southern_Iberia" "Portugal" "0.001 km" -0.513333287218613 0.327173092534934
+"345" 413 "Southern_Iberia" "Portugal" "0.1 km" -0.508561593824377 0.33302531163836
+"346" 413 "Southern_Iberia" "Portugal" "0.5 km" -0.633666824602618 0.341068177659197
+"347" 413 "Southern_Iberia" "Portugal" "1 km" -0.600955096553482 0.341501739288411
+"348" 413 "Southern_Iberia" "Portugal" "2 km" -0.546946366743558 0.341119455672536
+"349" 413 "Southern_Iberia" "Portugal" "5 km" -0.619174995660422 0.346056718047502
+"350" 413 "Southern_Iberia" "Portugal" "10 km" -0.649314259384975 0.346998303037294
+"351" 409 "Lake_Onega_Lake_Ladoga" "Russian Federation" "0.001 km" -0.552828138763753 0.335695108799872
+"352" 409 "Lake_Onega_Lake_Ladoga" "Russian Federation" "0.1 km" -0.65323667753208 0.342109503032901
+"353" 409 "Lake_Onega_Lake_Ladoga" "Russian Federation" "0.5 km" -0.6978665511881 0.343949581234985
+"354" 409 "Lake_Onega_Lake_Ladoga" "Russian Federation" "1 km" -0.654563289159125 0.34404870363393
+"355" 409 "Lake_Onega_Lake_Ladoga" "Russian Federation" "2 km" -0.701732016941383 0.346100127630117
+"356" 409 "Lake_Onega_Lake_Ladoga" "Russian Federation" "5 km" -0.7837161675733 0.348304171223895
+"357" 409 "Lake_Onega_Lake_Ladoga" "Russian Federation" "10 km" -0.807128728583262 0.348606036387044
+"358" 409 "Lake_Onega_Lake_Ladoga" "Finland" "0.001 km" -0.552828138763753 0.335695108799872
+"359" 409 "Lake_Onega_Lake_Ladoga" "Finland" "0.1 km" -0.65323667753208 0.342109503032901
+"360" 409 "Lake_Onega_Lake_Ladoga" "Finland" "0.5 km" -0.6978665511881 0.343949581234985
+"361" 409 "Lake_Onega_Lake_Ladoga" "Finland" "1 km" -0.654563289159125 0.34404870363393
+"362" 409 "Lake_Onega_Lake_Ladoga" "Finland" "2 km" -0.701732016941383 0.346100127630117
+"363" 409 "Lake_Onega_Lake_Ladoga" "Finland" "5 km" -0.7837161675733 0.348304171223895
+"364" 409 "Lake_Onega_Lake_Ladoga" "Finland" "10 km" -0.807128728583262 0.348606036387044
+"365" 430 "Northern_Anatolia" "Turkey" "0.001 km" -0.425579905614501 0.307468568443074
+"366" 430 "Northern_Anatolia" "Turkey" "0.1 km" -0.537949514175173 0.324045135124893
+"367" 430 "Northern_Anatolia" "Turkey" "0.5 km" -0.494171785831055 0.323441702517598
+"368" 430 "Northern_Anatolia" "Turkey" "1 km" -0.481259409704829 0.325482353044736
+"369" 430 "Northern_Anatolia" "Turkey" "2 km" -0.399512440473597 0.323633891279892
+"370" 430 "Northern_Anatolia" "Turkey" "5 km" -0.391448306312676 0.328709056456682
+"371" 430 "Northern_Anatolia" "Turkey" "10 km" -0.412139876640604 0.333027499990247
+"372" 416 "Italian_Peninsula_&_Islands" "Italy" "0.001 km" -0.0363343109998701 0.262611689637324
+"373" 416 "Italian_Peninsula_&_Islands" "Italy" "0.1 km" -0.0389750311561984 0.290860412585135
+"374" 416 "Italian_Peninsula_&_Islands" "Italy" "0.5 km" -0.255059179026068 0.32064542523003
+"375" 416 "Italian_Peninsula_&_Islands" "Italy" "1 km" -0.308487577490461 0.327996590879361
+"376" 416 "Italian_Peninsula_&_Islands" "Italy" "2 km" -0.378517262720491 0.33385988937349
+"377" 416 "Italian_Peninsula_&_Islands" "Italy" "5 km" -0.311264080654277 0.334383002814626
+"378" 416 "Italian_Peninsula_&_Islands" "Italy" "10 km" -0.318289209519211 0.336478209500661
+"379" 416 "Italian_Peninsula_&_Islands" "France" "0.001 km" -0.0363343109998701 0.262611689637324
+"380" 416 "Italian_Peninsula_&_Islands" "France" "0.1 km" -0.0389750311561984 0.290860412585135
+"381" 416 "Italian_Peninsula_&_Islands" "France" "0.5 km" -0.255059179026068 0.32064542523003
+"382" 416 "Italian_Peninsula_&_Islands" "France" "1 km" -0.308487577490461 0.327996590879361
+"383" 416 "Italian_Peninsula_&_Islands" "France" "2 km" -0.378517262720491 0.33385988937349
+"384" 416 "Italian_Peninsula_&_Islands" "France" "5 km" -0.311264080654277 0.334383002814626
+"385" 416 "Italian_Peninsula_&_Islands" "France" "10 km" -0.318289209519211 0.336478209500661
+"386" 412 "Western_Iberia" "Spain" "0.001 km" -0.562733390615605 0.332011091965043
+"387" 412 "Western_Iberia" "Spain" "0.1 km" -0.653249569664759 0.340049147508755
+"388" 412 "Western_Iberia" "Spain" "0.5 km" -0.614383751555853 0.340389256177582
+"389" 412 "Western_Iberia" "Spain" "1 km" -0.613423422256983 0.342040598873931
+"390" 412 "Western_Iberia" "Spain" "2 km" -0.696240227800297 0.346051273843335
+"391" 412 "Western_Iberia" "Spain" "5 km" -0.665773277538237 0.346199924969238
+"392" 412 "Western_Iberia" "Spain" "10 km" -0.692572296256551 0.347831998801711
+"393" 412 "Western_Iberia" "Portugal" "0.001 km" -0.562733390615605 0.332011091965043
+"394" 412 "Western_Iberia" "Portugal" "0.1 km" -0.653249569664759 0.340049147508755
+"395" 412 "Western_Iberia" "Portugal" "0.5 km" -0.614383751555853 0.340389256177582
+"396" 412 "Western_Iberia" "Portugal" "1 km" -0.613423422256983 0.342040598873931
+"397" 412 "Western_Iberia" "Portugal" "2 km" -0.696240227800297 0.346051273843335
+"398" 412 "Western_Iberia" "Portugal" "5 km" -0.665773277538237 0.346199924969238
+"399" 412 "Western_Iberia" "Portugal" "10 km" -0.692572296256551 0.347831998801711
+"400" 403 "Cantabric_Coast_Languedoc" "France" "0.001 km" -0.344597011048837 0.303412621646142
+"401" 403 "Cantabric_Coast_Languedoc" "France" "0.1 km" -0.392059674080305 0.321483163887827
+"402" 403 "Cantabric_Coast_Languedoc" "France" "0.5 km" -0.479109625240953 0.328146342927978
+"403" 403 "Cantabric_Coast_Languedoc" "France" "1 km" -0.432106344526252 0.329489702424139
+"404" 403 "Cantabric_Coast_Languedoc" "France" "2 km" -0.442488544643341 0.331310286033423
+"405" 403 "Cantabric_Coast_Languedoc" "France" "5 km" -0.373926352135016 0.330747931564409
+"406" 403 "Cantabric_Coast_Languedoc" "France" "10 km" -0.439951377435324 0.335830795735117
+"407" 403 "Cantabric_Coast_Languedoc" "Spain" "0.001 km" -0.344597011048837 0.303412621646142
+"408" 403 "Cantabric_Coast_Languedoc" "Spain" "0.1 km" -0.392059674080305 0.321483163887827
+"409" 403 "Cantabric_Coast_Languedoc" "Spain" "0.5 km" -0.479109625240953 0.328146342927978
+"410" 403 "Cantabric_Coast_Languedoc" "Spain" "1 km" -0.432106344526252 0.329489702424139
+"411" 403 "Cantabric_Coast_Languedoc" "Spain" "2 km" -0.442488544643341 0.331310286033423
+"412" 403 "Cantabric_Coast_Languedoc" "Spain" "5 km" -0.373926352135016 0.330747931564409
+"413" 403 "Cantabric_Coast_Languedoc" "Spain" "10 km" -0.439951377435324 0.335830795735117
+"414" 403 "Cantabric_Coast_Languedoc" "Andorra" "0.001 km" -0.344597011048837 0.303412621646142
+"415" 403 "Cantabric_Coast_Languedoc" "Andorra" "0.1 km" -0.392059674080305 0.321483163887827
+"416" 403 "Cantabric_Coast_Languedoc" "Andorra" "0.5 km" -0.479109625240953 0.328146342927978
+"417" 403 "Cantabric_Coast_Languedoc" "Andorra" "1 km" -0.432106344526252 0.329489702424139
+"418" 403 "Cantabric_Coast_Languedoc" "Andorra" "2 km" -0.442488544643341 0.331310286033423
+"419" 403 "Cantabric_Coast_Languedoc" "Andorra" "5 km" -0.373926352135016 0.330747931564409
+"420" 403 "Cantabric_Coast_Languedoc" "Andorra" "10 km" -0.439951377435324 0.335830795735117
+"421" 427 "Don" "Russian Federation" "0.001 km" -0.288695996963655 0.299233023807837
+"422" 427 "Don" "Russian Federation" "0.1 km" -0.331595433752613 0.3077090351412
+"423" 427 "Don" "Russian Federation" "0.5 km" -0.414022981651195 0.324013942459818
+"424" 427 "Don" "Russian Federation" "1 km" -0.42146986886027 0.328776061792354
+"425" 427 "Don" "Russian Federation" "2 km" -0.416974623441804 0.332057579634372
+"426" 427 "Don" "Russian Federation" "5 km" -0.411153559201581 0.33536081986132
+"427" 427 "Don" "Russian Federation" "10 km" -0.488388142906938 0.339401734174204
+"428" 427 "Don" "Ukraine" "0.001 km" -0.288695996963655 0.299233023807837
+"429" 427 "Don" "Ukraine" "0.1 km" -0.331595433752613 0.3077090351412
+"430" 427 "Don" "Ukraine" "0.5 km" -0.414022981651195 0.324013942459818
+"431" 427 "Don" "Ukraine" "1 km" -0.42146986886027 0.328776061792354
+"432" 427 "Don" "Ukraine" "2 km" -0.416974623441804 0.332057579634372
+"433" 427 "Don" "Ukraine" "5 km" -0.411153559201581 0.33536081986132
+"434" 427 "Don" "Ukraine" "10 km" -0.488388142906938 0.339401734174204
+"435" 417 "Upper_Danube" "Czechia" "0.001 km" -0.496065349297154 0.321372801097375
+"436" 417 "Upper_Danube" "Czechia" "0.1 km" -0.60382416972014 0.334982045874392
+"437" 417 "Upper_Danube" "Czechia" "0.5 km" -0.692776173590652 0.338746942934945
+"438" 417 "Upper_Danube" "Czechia" "1 km" -0.60740721610054 0.33938033492805
+"439" 417 "Upper_Danube" "Czechia" "2 km" -0.654219818847561 0.342801528214816
+"440" 417 "Upper_Danube" "Czechia" "5 km" -0.62974377052744 0.344079644824585
+"441" 417 "Upper_Danube" "Czechia" "10 km" -0.620855959556041 0.344950646906601
+"442" 417 "Upper_Danube" "Germany" "0.001 km" -0.496065349297154 0.321372801097375
+"443" 417 "Upper_Danube" "Germany" "0.1 km" -0.60382416972014 0.334982045874392
+"444" 417 "Upper_Danube" "Germany" "0.5 km" -0.692776173590652 0.338746942934945
+"445" 417 "Upper_Danube" "Germany" "1 km" -0.60740721610054 0.33938033492805
+"446" 417 "Upper_Danube" "Germany" "2 km" -0.654219818847561 0.342801528214816
+"447" 417 "Upper_Danube" "Germany" "5 km" -0.62974377052744 0.344079644824585
+"448" 417 "Upper_Danube" "Germany" "10 km" -0.620855959556041 0.344950646906601
+"449" 417 "Upper_Danube" "Slovakia" "0.001 km" -0.496065349297154 0.321372801097375
+"450" 417 "Upper_Danube" "Slovakia" "0.1 km" -0.60382416972014 0.334982045874392
+"451" 417 "Upper_Danube" "Slovakia" "0.5 km" -0.692776173590652 0.338746942934945
+"452" 417 "Upper_Danube" "Slovakia" "1 km" -0.60740721610054 0.33938033492805
+"453" 417 "Upper_Danube" "Slovakia" "2 km" -0.654219818847561 0.342801528214816
+"454" 417 "Upper_Danube" "Slovakia" "5 km" -0.62974377052744 0.344079644824585
+"455" 417 "Upper_Danube" "Slovakia" "10 km" -0.620855959556041 0.344950646906601
+"456" 417 "Upper_Danube" "Poland" "0.001 km" -0.496065349297154 0.321372801097375
+"457" 417 "Upper_Danube" "Poland" "0.1 km" -0.60382416972014 0.334982045874392
+"458" 417 "Upper_Danube" "Poland" "0.5 km" -0.692776173590652 0.338746942934945
+"459" 417 "Upper_Danube" "Poland" "1 km" -0.60740721610054 0.33938033492805
+"460" 417 "Upper_Danube" "Poland" "2 km" -0.654219818847561 0.342801528214816
+"461" 417 "Upper_Danube" "Poland" "5 km" -0.62974377052744 0.344079644824585
+"462" 417 "Upper_Danube" "Poland" "10 km" -0.620855959556041 0.344950646906601
+"463" 417 "Upper_Danube" "Austria" "0.001 km" -0.496065349297154 0.321372801097375
+"464" 417 "Upper_Danube" "Austria" "0.1 km" -0.60382416972014 0.334982045874392
+"465" 417 "Upper_Danube" "Austria" "0.5 km" -0.692776173590652 0.338746942934945
+"466" 417 "Upper_Danube" "Austria" "1 km" -0.60740721610054 0.33938033492805
+"467" 417 "Upper_Danube" "Austria" "2 km" -0.654219818847561 0.342801528214816
+"468" 417 "Upper_Danube" "Austria" "5 km" -0.62974377052744 0.344079644824585
+"469" 417 "Upper_Danube" "Austria" "10 km" -0.620855959556041 0.344950646906601
+"470" 417 "Upper_Danube" "Hungary" "0.001 km" -0.496065349297154 0.321372801097375
+"471" 417 "Upper_Danube" "Hungary" "0.1 km" -0.60382416972014 0.334982045874392
+"472" 417 "Upper_Danube" "Hungary" "0.5 km" -0.692776173590652 0.338746942934945
+"473" 417 "Upper_Danube" "Hungary" "1 km" -0.60740721610054 0.33938033492805
+"474" 417 "Upper_Danube" "Hungary" "2 km" -0.654219818847561 0.342801528214816
+"475" 417 "Upper_Danube" "Hungary" "5 km" -0.62974377052744 0.344079644824585
+"476" 417 "Upper_Danube" "Hungary" "10 km" -0.620855959556041 0.344950646906601
+"477" 417 "Upper_Danube" "Switzerland" "0.001 km" -0.496065349297154 0.321372801097375
+"478" 417 "Upper_Danube" "Switzerland" "0.1 km" -0.60382416972014 0.334982045874392
+"479" 417 "Upper_Danube" "Switzerland" "0.5 km" -0.692776173590652 0.338746942934945
+"480" 417 "Upper_Danube" "Switzerland" "1 km" -0.60740721610054 0.33938033492805
+"481" 417 "Upper_Danube" "Switzerland" "2 km" -0.654219818847561 0.342801528214816
+"482" 417 "Upper_Danube" "Switzerland" "5 km" -0.62974377052744 0.344079644824585
+"483" 417 "Upper_Danube" "Switzerland" "10 km" -0.620855959556041 0.344950646906601
+"484" 417 "Upper_Danube" "Slovenia" "0.001 km" -0.496065349297154 0.321372801097375
+"485" 417 "Upper_Danube" "Slovenia" "0.1 km" -0.60382416972014 0.334982045874392
+"486" 417 "Upper_Danube" "Slovenia" "0.5 km" -0.692776173590652 0.338746942934945
+"487" 417 "Upper_Danube" "Slovenia" "1 km" -0.60740721610054 0.33938033492805
+"488" 417 "Upper_Danube" "Slovenia" "2 km" -0.654219818847561 0.342801528214816
+"489" 417 "Upper_Danube" "Slovenia" "5 km" -0.62974377052744 0.344079644824585
+"490" 417 "Upper_Danube" "Slovenia" "10 km" -0.620855959556041 0.344950646906601
+"491" 417 "Upper_Danube" "Italy" "0.001 km" -0.496065349297154 0.321372801097375
+"492" 417 "Upper_Danube" "Italy" "0.1 km" -0.60382416972014 0.334982045874392
+"493" 417 "Upper_Danube" "Italy" "0.5 km" -0.692776173590652 0.338746942934945
+"494" 417 "Upper_Danube" "Italy" "1 km" -0.60740721610054 0.33938033492805
+"495" 417 "Upper_Danube" "Italy" "2 km" -0.654219818847561 0.342801528214816
+"496" 417 "Upper_Danube" "Italy" "5 km" -0.62974377052744 0.344079644824585
+"497" 417 "Upper_Danube" "Italy" "10 km" -0.620855959556041 0.344950646906601
+"498" 417 "Upper_Danube" "Croatia" "0.001 km" -0.496065349297154 0.321372801097375
+"499" 417 "Upper_Danube" "Croatia" "0.1 km" -0.60382416972014 0.334982045874392
+"500" 417 "Upper_Danube" "Croatia" "0.5 km" -0.692776173590652 0.338746942934945
+"501" 417 "Upper_Danube" "Croatia" "1 km" -0.60740721610054 0.33938033492805
+"502" 417 "Upper_Danube" "Croatia" "2 km" -0.654219818847561 0.342801528214816
+"503" 417 "Upper_Danube" "Croatia" "5 km" -0.62974377052744 0.344079644824585
+"504" 417 "Upper_Danube" "Croatia" "10 km" -0.620855959556041 0.344950646906601
+"505" 417 "Upper_Danube" "Serbia" "0.001 km" -0.496065349297154 0.321372801097375
+"506" 417 "Upper_Danube" "Serbia" "0.1 km" -0.60382416972014 0.334982045874392
+"507" 417 "Upper_Danube" "Serbia" "0.5 km" -0.692776173590652 0.338746942934945
+"508" 417 "Upper_Danube" "Serbia" "1 km" -0.60740721610054 0.33938033492805
+"509" 417 "Upper_Danube" "Serbia" "2 km" -0.654219818847561 0.342801528214816
+"510" 417 "Upper_Danube" "Serbia" "5 km" -0.62974377052744 0.344079644824585
+"511" 417 "Upper_Danube" "Serbia" "10 km" -0.620855959556041 0.344950646906601
+"512" 402 "Northern_British_Isles" "United Kingdom" "0.001 km" -0.406200330469889 0.306687488085554
+"513" 402 "Northern_British_Isles" "United Kingdom" "0.1 km" -0.420543968161283 0.317827826204069
+"514" 402 "Northern_British_Isles" "United Kingdom" "0.5 km" -0.45990080516544 0.327751501226856
+"515" 402 "Northern_British_Isles" "United Kingdom" "1 km" -0.352784068104779 0.325077964966392
+"516" 402 "Northern_British_Isles" "United Kingdom" "2 km" -0.37870311446247 0.331224700445036
+"517" 402 "Northern_British_Isles" "United Kingdom" "5 km" -0.359284694568378 0.333553750517147
+"518" 402 "Northern_British_Isles" "United Kingdom" "10 km" -0.416951260140477 0.336520153501308
+"519" 402 "Northern_British_Isles" "Ireland" "0.001 km" -0.406200330469889 0.306687488085554
+"520" 402 "Northern_British_Isles" "Ireland" "0.1 km" -0.420543968161283 0.317827826204069
+"521" 402 "Northern_British_Isles" "Ireland" "0.5 km" -0.45990080516544 0.327751501226856
+"522" 402 "Northern_British_Isles" "Ireland" "1 km" -0.352784068104779 0.325077964966392
+"523" 402 "Northern_British_Isles" "Ireland" "2 km" -0.37870311446247 0.331224700445036
+"524" 402 "Northern_British_Isles" "Ireland" "5 km" -0.359284694568378 0.333553750517147
+"525" 402 "Northern_British_Isles" "Ireland" "10 km" -0.416951260140477 0.336520153501308
+"526" 402 "Northern_British_Isles" "Isle of Man" "0.001 km" -0.406200330469889 0.306687488085554
+"527" 402 "Northern_British_Isles" "Isle of Man" "0.1 km" -0.420543968161283 0.317827826204069
+"528" 402 "Northern_British_Isles" "Isle of Man" "0.5 km" -0.45990080516544 0.327751501226856
+"529" 402 "Northern_British_Isles" "Isle of Man" "1 km" -0.352784068104779 0.325077964966392
+"530" 402 "Northern_British_Isles" "Isle of Man" "2 km" -0.37870311446247 0.331224700445036
+"531" 402 "Northern_British_Isles" "Isle of Man" "5 km" -0.359284694568378 0.333553750517147
+"532" 402 "Northern_British_Isles" "Isle of Man" "10 km" -0.416951260140477 0.336520153501308
+"533" 405 "Norwegian_Sea_Drainages" "Norway" "0.001 km" -0.472506551514207 0.325143661354948
+"534" 405 "Norwegian_Sea_Drainages" "Norway" "0.1 km" -0.466935307609327 0.331079372634392
+"535" 405 "Norwegian_Sea_Drainages" "Norway" "0.5 km" -0.584215891691284 0.340982932183998
+"536" 405 "Norwegian_Sea_Drainages" "Norway" "1 km" -0.564768690170462 0.342153098700859
+"537" 405 "Norwegian_Sea_Drainages" "Norway" "2 km" -0.551717147650207 0.344409587590928
+"538" 405 "Norwegian_Sea_Drainages" "Norway" "5 km" -0.575038359339501 0.345715916469775
+"539" 405 "Norwegian_Sea_Drainages" "Norway" "10 km" -0.582121690617793 0.345914604141887
+"540" 405 "Norwegian_Sea_Drainages" "Sweden" "0.001 km" -0.472506551514207 0.325143661354948
+"541" 405 "Norwegian_Sea_Drainages" "Sweden" "0.1 km" -0.466935307609327 0.331079372634392
+"542" 405 "Norwegian_Sea_Drainages" "Sweden" "0.5 km" -0.584215891691284 0.340982932183998
+"543" 405 "Norwegian_Sea_Drainages" "Sweden" "1 km" -0.564768690170462 0.342153098700859
+"544" 405 "Norwegian_Sea_Drainages" "Sweden" "2 km" -0.551717147650207 0.344409587590928
+"545" 405 "Norwegian_Sea_Drainages" "Sweden" "5 km" -0.575038359339501 0.345715916469775
+"546" 405 "Norwegian_Sea_Drainages" "Sweden" "10 km" -0.582121690617793 0.345914604141887
+"547" 405 "Norwegian_Sea_Drainages" "Finland" "0.001 km" -0.472506551514207 0.325143661354948
+"548" 405 "Norwegian_Sea_Drainages" "Finland" "0.1 km" -0.466935307609327 0.331079372634392
+"549" 405 "Norwegian_Sea_Drainages" "Finland" "0.5 km" -0.584215891691284 0.340982932183998
+"550" 405 "Norwegian_Sea_Drainages" "Finland" "1 km" -0.564768690170462 0.342153098700859
+"551" 405 "Norwegian_Sea_Drainages" "Finland" "2 km" -0.551717147650207 0.344409587590928
+"552" 405 "Norwegian_Sea_Drainages" "Finland" "5 km" -0.575038359339501 0.345715916469775
+"553" 405 "Norwegian_Sea_Drainages" "Finland" "10 km" -0.582121690617793 0.345914604141887
+"554" 410 "Volga_Ural" "Russian Federation" "0.001 km" -0.485050802504665 0.326019619539004
+"555" 410 "Volga_Ural" "Russian Federation" "0.1 km" -0.590634724655043 0.334906165505038
+"556" 410 "Volga_Ural" "Russian Federation" "0.5 km" -0.596945965813438 0.335800858339352
+"557" 410 "Volga_Ural" "Russian Federation" "1 km" -0.679261402089436 0.341333011524468
+"558" 410 "Volga_Ural" "Russian Federation" "2 km" -0.718235282902489 0.34362579790334
+"559" 410 "Volga_Ural" "Russian Federation" "5 km" -0.712137652310232 0.34438743923413
+"560" 410 "Volga_Ural" "Russian Federation" "10 km" -0.707766354883025 0.345124436216601
+"561" 408 "Southern_Baltic_Lowlands" "Russian Federation" "0.001 km" -0.42214126360463 0.319574113166704
+"562" 408 "Southern_Baltic_Lowlands" "Russian Federation" "0.1 km" -0.419066997506368 0.325434341611534
+"563" 408 "Southern_Baltic_Lowlands" "Russian Federation" "0.5 km" -0.55405754208626 0.334398362313239
+"564" 408 "Southern_Baltic_Lowlands" "Russian Federation" "1 km" -0.53684455214431 0.336739265384841
+"565" 408 "Southern_Baltic_Lowlands" "Russian Federation" "2 km" -0.555706810762364 0.339186885740776
+"566" 408 "Southern_Baltic_Lowlands" "Russian Federation" "5 km" -0.585153693393618 0.342265723374286
+"567" 408 "Southern_Baltic_Lowlands" "Russian Federation" "10 km" -0.615593939513317 0.343799064968016
+"568" 408 "Southern_Baltic_Lowlands" "Estonia" "0.001 km" -0.42214126360463 0.319574113166704
+"569" 408 "Southern_Baltic_Lowlands" "Estonia" "0.1 km" -0.419066997506368 0.325434341611534
+"570" 408 "Southern_Baltic_Lowlands" "Estonia" "0.5 km" -0.55405754208626 0.334398362313239
+"571" 408 "Southern_Baltic_Lowlands" "Estonia" "1 km" -0.53684455214431 0.336739265384841
+"572" 408 "Southern_Baltic_Lowlands" "Estonia" "2 km" -0.555706810762364 0.339186885740776
+"573" 408 "Southern_Baltic_Lowlands" "Estonia" "5 km" -0.585153693393618 0.342265723374286
+"574" 408 "Southern_Baltic_Lowlands" "Estonia" "10 km" -0.615593939513317 0.343799064968016
+"575" 408 "Southern_Baltic_Lowlands" "Latvia" "0.001 km" -0.42214126360463 0.319574113166704
+"576" 408 "Southern_Baltic_Lowlands" "Latvia" "0.1 km" -0.419066997506368 0.325434341611534
+"577" 408 "Southern_Baltic_Lowlands" "Latvia" "0.5 km" -0.55405754208626 0.334398362313239
+"578" 408 "Southern_Baltic_Lowlands" "Latvia" "1 km" -0.53684455214431 0.336739265384841
+"579" 408 "Southern_Baltic_Lowlands" "Latvia" "2 km" -0.555706810762364 0.339186885740776
+"580" 408 "Southern_Baltic_Lowlands" "Latvia" "5 km" -0.585153693393618 0.342265723374286
+"581" 408 "Southern_Baltic_Lowlands" "Latvia" "10 km" -0.615593939513317 0.343799064968016
+"582" 408 "Southern_Baltic_Lowlands" "Lithuania" "0.001 km" -0.42214126360463 0.319574113166704
+"583" 408 "Southern_Baltic_Lowlands" "Lithuania" "0.1 km" -0.419066997506368 0.325434341611534
+"584" 408 "Southern_Baltic_Lowlands" "Lithuania" "0.5 km" -0.55405754208626 0.334398362313239
+"585" 408 "Southern_Baltic_Lowlands" "Lithuania" "1 km" -0.53684455214431 0.336739265384841
+"586" 408 "Southern_Baltic_Lowlands" "Lithuania" "2 km" -0.555706810762364 0.339186885740776
+"587" 408 "Southern_Baltic_Lowlands" "Lithuania" "5 km" -0.585153693393618 0.342265723374286
+"588" 408 "Southern_Baltic_Lowlands" "Lithuania" "10 km" -0.615593939513317 0.343799064968016
+"589" 408 "Southern_Baltic_Lowlands" "Belarus" "0.001 km" -0.42214126360463 0.319574113166704
+"590" 408 "Southern_Baltic_Lowlands" "Belarus" "0.1 km" -0.419066997506368 0.325434341611534
+"591" 408 "Southern_Baltic_Lowlands" "Belarus" "0.5 km" -0.55405754208626 0.334398362313239
+"592" 408 "Southern_Baltic_Lowlands" "Belarus" "1 km" -0.53684455214431 0.336739265384841
+"593" 408 "Southern_Baltic_Lowlands" "Belarus" "2 km" -0.555706810762364 0.339186885740776
+"594" 408 "Southern_Baltic_Lowlands" "Belarus" "5 km" -0.585153693393618 0.342265723374286
+"595" 408 "Southern_Baltic_Lowlands" "Belarus" "10 km" -0.615593939513317 0.343799064968016
+"596" 418 "Dniester_Lower_Danube" "Ukraine" "0.001 km" -0.560359694339618 0.327985161546464
+"597" 418 "Dniester_Lower_Danube" "Ukraine" "0.1 km" -0.615732344674338 0.335469038855623
+"598" 418 "Dniester_Lower_Danube" "Ukraine" "0.5 km" -0.701493192725248 0.340132184658635
+"599" 418 "Dniester_Lower_Danube" "Ukraine" "1 km" -0.733282728059007 0.34395613021634
+"600" 418 "Dniester_Lower_Danube" "Ukraine" "2 km" -0.666881741144269 0.343052496476474
+"601" 418 "Dniester_Lower_Danube" "Ukraine" "5 km" -0.677232926800226 0.344943193101751
+"602" 418 "Dniester_Lower_Danube" "Ukraine" "10 km" -0.68240557819802 0.346391717943922
+"603" 418 "Dniester_Lower_Danube" "Slovakia" "0.001 km" -0.560359694339618 0.327985161546464
+"604" 418 "Dniester_Lower_Danube" "Slovakia" "0.1 km" -0.615732344674338 0.335469038855623
+"605" 418 "Dniester_Lower_Danube" "Slovakia" "0.5 km" -0.701493192725248 0.340132184658635
+"606" 418 "Dniester_Lower_Danube" "Slovakia" "1 km" -0.733282728059007 0.34395613021634
+"607" 418 "Dniester_Lower_Danube" "Slovakia" "2 km" -0.666881741144269 0.343052496476474
+"608" 418 "Dniester_Lower_Danube" "Slovakia" "5 km" -0.677232926800226 0.344943193101751
+"609" 418 "Dniester_Lower_Danube" "Slovakia" "10 km" -0.68240557819802 0.346391717943922
+"610" 418 "Dniester_Lower_Danube" "Poland" "0.001 km" -0.560359694339618 0.327985161546464
+"611" 418 "Dniester_Lower_Danube" "Poland" "0.1 km" -0.615732344674338 0.335469038855623
+"612" 418 "Dniester_Lower_Danube" "Poland" "0.5 km" -0.701493192725248 0.340132184658635
+"613" 418 "Dniester_Lower_Danube" "Poland" "1 km" -0.733282728059007 0.34395613021634
+"614" 418 "Dniester_Lower_Danube" "Poland" "2 km" -0.666881741144269 0.343052496476474
+"615" 418 "Dniester_Lower_Danube" "Poland" "5 km" -0.677232926800226 0.344943193101751
+"616" 418 "Dniester_Lower_Danube" "Poland" "10 km" -0.68240557819802 0.346391717943922
+"617" 418 "Dniester_Lower_Danube" "Hungary" "0.001 km" -0.560359694339618 0.327985161546464
+"618" 418 "Dniester_Lower_Danube" "Hungary" "0.1 km" -0.615732344674338 0.335469038855623
+"619" 418 "Dniester_Lower_Danube" "Hungary" "0.5 km" -0.701493192725248 0.340132184658635
+"620" 418 "Dniester_Lower_Danube" "Hungary" "1 km" -0.733282728059007 0.34395613021634
+"621" 418 "Dniester_Lower_Danube" "Hungary" "2 km" -0.666881741144269 0.343052496476474
+"622" 418 "Dniester_Lower_Danube" "Hungary" "5 km" -0.677232926800226 0.344943193101751
+"623" 418 "Dniester_Lower_Danube" "Hungary" "10 km" -0.68240557819802 0.346391717943922
+"624" 418 "Dniester_Lower_Danube" "Moldova" "0.001 km" -0.560359694339618 0.327985161546464
+"625" 418 "Dniester_Lower_Danube" "Moldova" "0.1 km" -0.615732344674338 0.335469038855623
+"626" 418 "Dniester_Lower_Danube" "Moldova" "0.5 km" -0.701493192725248 0.340132184658635
+"627" 418 "Dniester_Lower_Danube" "Moldova" "1 km" -0.733282728059007 0.34395613021634
+"628" 418 "Dniester_Lower_Danube" "Moldova" "2 km" -0.666881741144269 0.343052496476474
+"629" 418 "Dniester_Lower_Danube" "Moldova" "5 km" -0.677232926800226 0.344943193101751
+"630" 418 "Dniester_Lower_Danube" "Moldova" "10 km" -0.68240557819802 0.346391717943922
+"631" 418 "Dniester_Lower_Danube" "Romania" "0.001 km" -0.560359694339618 0.327985161546464
+"632" 418 "Dniester_Lower_Danube" "Romania" "0.1 km" -0.615732344674338 0.335469038855623
+"633" 418 "Dniester_Lower_Danube" "Romania" "0.5 km" -0.701493192725248 0.340132184658635
+"634" 418 "Dniester_Lower_Danube" "Romania" "1 km" -0.733282728059007 0.34395613021634
+"635" 418 "Dniester_Lower_Danube" "Romania" "2 km" -0.666881741144269 0.343052496476474
+"636" 418 "Dniester_Lower_Danube" "Romania" "5 km" -0.677232926800226 0.344943193101751
+"637" 418 "Dniester_Lower_Danube" "Romania" "10 km" -0.68240557819802 0.346391717943922
+"638" 418 "Dniester_Lower_Danube" "Slovenia" "0.001 km" -0.560359694339618 0.327985161546464
+"639" 418 "Dniester_Lower_Danube" "Slovenia" "0.1 km" -0.615732344674338 0.335469038855623
+"640" 418 "Dniester_Lower_Danube" "Slovenia" "0.5 km" -0.701493192725248 0.340132184658635
+"641" 418 "Dniester_Lower_Danube" "Slovenia" "1 km" -0.733282728059007 0.34395613021634
+"642" 418 "Dniester_Lower_Danube" "Slovenia" "2 km" -0.666881741144269 0.343052496476474
+"643" 418 "Dniester_Lower_Danube" "Slovenia" "5 km" -0.677232926800226 0.344943193101751
+"644" 418 "Dniester_Lower_Danube" "Slovenia" "10 km" -0.68240557819802 0.346391717943922
+"645" 418 "Dniester_Lower_Danube" "Croatia" "0.001 km" -0.560359694339618 0.327985161546464
+"646" 418 "Dniester_Lower_Danube" "Croatia" "0.1 km" -0.615732344674338 0.335469038855623
+"647" 418 "Dniester_Lower_Danube" "Croatia" "0.5 km" -0.701493192725248 0.340132184658635
+"648" 418 "Dniester_Lower_Danube" "Croatia" "1 km" -0.733282728059007 0.34395613021634
+"649" 418 "Dniester_Lower_Danube" "Croatia" "2 km" -0.666881741144269 0.343052496476474
+"650" 418 "Dniester_Lower_Danube" "Croatia" "5 km" -0.677232926800226 0.344943193101751
+"651" 418 "Dniester_Lower_Danube" "Croatia" "10 km" -0.68240557819802 0.346391717943922
+"652" 418 "Dniester_Lower_Danube" "Serbia" "0.001 km" -0.560359694339618 0.327985161546464
+"653" 418 "Dniester_Lower_Danube" "Serbia" "0.1 km" -0.615732344674338 0.335469038855623
+"654" 418 "Dniester_Lower_Danube" "Serbia" "0.5 km" -0.701493192725248 0.340132184658635
+"655" 418 "Dniester_Lower_Danube" "Serbia" "1 km" -0.733282728059007 0.34395613021634
+"656" 418 "Dniester_Lower_Danube" "Serbia" "2 km" -0.666881741144269 0.343052496476474
+"657" 418 "Dniester_Lower_Danube" "Serbia" "5 km" -0.677232926800226 0.344943193101751
+"658" 418 "Dniester_Lower_Danube" "Serbia" "10 km" -0.68240557819802 0.346391717943922
+"659" 418 "Dniester_Lower_Danube" "Bosnia and Herzegovina" "0.001 km" -0.560359694339618 0.327985161546464
+"660" 418 "Dniester_Lower_Danube" "Bosnia and Herzegovina" "0.1 km" -0.615732344674338 0.335469038855623
+"661" 418 "Dniester_Lower_Danube" "Bosnia and Herzegovina" "0.5 km" -0.701493192725248 0.340132184658635
+"662" 418 "Dniester_Lower_Danube" "Bosnia and Herzegovina" "1 km" -0.733282728059007 0.34395613021634
+"663" 418 "Dniester_Lower_Danube" "Bosnia and Herzegovina" "2 km" -0.666881741144269 0.343052496476474
+"664" 418 "Dniester_Lower_Danube" "Bosnia and Herzegovina" "5 km" -0.677232926800226 0.344943193101751
+"665" 418 "Dniester_Lower_Danube" "Bosnia and Herzegovina" "10 km" -0.68240557819802 0.346391717943922
+"666" 418 "Dniester_Lower_Danube" "Bulgaria" "0.001 km" -0.560359694339618 0.327985161546464
+"667" 418 "Dniester_Lower_Danube" "Bulgaria" "0.1 km" -0.615732344674338 0.335469038855623
+"668" 418 "Dniester_Lower_Danube" "Bulgaria" "0.5 km" -0.701493192725248 0.340132184658635
+"669" 418 "Dniester_Lower_Danube" "Bulgaria" "1 km" -0.733282728059007 0.34395613021634
+"670" 418 "Dniester_Lower_Danube" "Bulgaria" "2 km" -0.666881741144269 0.343052496476474
+"671" 418 "Dniester_Lower_Danube" "Bulgaria" "5 km" -0.677232926800226 0.344943193101751
+"672" 418 "Dniester_Lower_Danube" "Bulgaria" "10 km" -0.68240557819802 0.346391717943922
+"673" 418 "Dniester_Lower_Danube" "Montenegro" "0.001 km" -0.560359694339618 0.327985161546464
+"674" 418 "Dniester_Lower_Danube" "Montenegro" "0.1 km" -0.615732344674338 0.335469038855623
+"675" 418 "Dniester_Lower_Danube" "Montenegro" "0.5 km" -0.701493192725248 0.340132184658635
+"676" 418 "Dniester_Lower_Danube" "Montenegro" "1 km" -0.733282728059007 0.34395613021634
+"677" 418 "Dniester_Lower_Danube" "Montenegro" "2 km" -0.666881741144269 0.343052496476474
+"678" 418 "Dniester_Lower_Danube" "Montenegro" "5 km" -0.677232926800226 0.344943193101751
+"679" 418 "Dniester_Lower_Danube" "Montenegro" "10 km" -0.68240557819802 0.346391717943922
+"680" 418 "Dniester_Lower_Danube" "Albania" "0.001 km" -0.560359694339618 0.327985161546464
+"681" 418 "Dniester_Lower_Danube" "Albania" "0.1 km" -0.615732344674338 0.335469038855623
+"682" 418 "Dniester_Lower_Danube" "Albania" "0.5 km" -0.701493192725248 0.340132184658635
+"683" 418 "Dniester_Lower_Danube" "Albania" "1 km" -0.733282728059007 0.34395613021634
+"684" 418 "Dniester_Lower_Danube" "Albania" "2 km" -0.666881741144269 0.343052496476474
+"685" 418 "Dniester_Lower_Danube" "Albania" "5 km" -0.677232926800226 0.344943193101751
+"686" 418 "Dniester_Lower_Danube" "Albania" "10 km" -0.68240557819802 0.346391717943922
+"687" 418 "Dniester_Lower_Danube" "North Macedonia" "0.001 km" -0.560359694339618 0.327985161546464
+"688" 418 "Dniester_Lower_Danube" "North Macedonia" "0.1 km" -0.615732344674338 0.335469038855623
+"689" 418 "Dniester_Lower_Danube" "North Macedonia" "0.5 km" -0.701493192725248 0.340132184658635
+"690" 418 "Dniester_Lower_Danube" "North Macedonia" "1 km" -0.733282728059007 0.34395613021634
+"691" 418 "Dniester_Lower_Danube" "North Macedonia" "2 km" -0.666881741144269 0.343052496476474
+"692" 418 "Dniester_Lower_Danube" "North Macedonia" "5 km" -0.677232926800226 0.344943193101751
+"693" 418 "Dniester_Lower_Danube" "North Macedonia" "10 km" -0.68240557819802 0.346391717943922
+"694" 418 "Dniester_Lower_Danube" "Turkey" "0.001 km" -0.560359694339618 0.327985161546464
+"695" 418 "Dniester_Lower_Danube" "Turkey" "0.1 km" -0.615732344674338 0.335469038855623
+"696" 418 "Dniester_Lower_Danube" "Turkey" "0.5 km" -0.701493192725248 0.340132184658635
+"697" 418 "Dniester_Lower_Danube" "Turkey" "1 km" -0.733282728059007 0.34395613021634
+"698" 418 "Dniester_Lower_Danube" "Turkey" "2 km" -0.666881741144269 0.343052496476474
+"699" 418 "Dniester_Lower_Danube" "Turkey" "5 km" -0.677232926800226 0.344943193101751
+"700" 418 "Dniester_Lower_Danube" "Turkey" "10 km" -0.68240557819802 0.346391717943922
+"701" 425 "Dnieper_South_Bug" "Russian Federation" "0.001 km" -0.434319293633655 0.308732355095836
+"702" 425 "Dnieper_South_Bug" "Russian Federation" "0.1 km" -0.436627350683237 0.311969128885282
+"703" 425 "Dnieper_South_Bug" "Russian Federation" "0.5 km" -0.449402678752463 0.317129257368881
+"704" 425 "Dnieper_South_Bug" "Russian Federation" "1 km" -0.510299574322164 0.325495507277384
+"705" 425 "Dnieper_South_Bug" "Russian Federation" "2 km" -0.537227645176886 0.329188593448861
+"706" 425 "Dnieper_South_Bug" "Russian Federation" "5 km" -0.560983917645964 0.333096531591495
+"707" 425 "Dnieper_South_Bug" "Russian Federation" "10 km" -0.567283862381299 0.335560888194275
+"708" 425 "Dnieper_South_Bug" "Belarus" "0.001 km" -0.434319293633655 0.308732355095836
+"709" 425 "Dnieper_South_Bug" "Belarus" "0.1 km" -0.436627350683237 0.311969128885282
+"710" 425 "Dnieper_South_Bug" "Belarus" "0.5 km" -0.449402678752463 0.317129257368881
+"711" 425 "Dnieper_South_Bug" "Belarus" "1 km" -0.510299574322164 0.325495507277384
+"712" 425 "Dnieper_South_Bug" "Belarus" "2 km" -0.537227645176886 0.329188593448861
+"713" 425 "Dnieper_South_Bug" "Belarus" "5 km" -0.560983917645964 0.333096531591495
+"714" 425 "Dnieper_South_Bug" "Belarus" "10 km" -0.567283862381299 0.335560888194275
+"715" 425 "Dnieper_South_Bug" "Ukraine" "0.001 km" -0.434319293633655 0.308732355095836
+"716" 425 "Dnieper_South_Bug" "Ukraine" "0.1 km" -0.436627350683237 0.311969128885282
+"717" 425 "Dnieper_South_Bug" "Ukraine" "0.5 km" -0.449402678752463 0.317129257368881
+"718" 425 "Dnieper_South_Bug" "Ukraine" "1 km" -0.510299574322164 0.325495507277384
+"719" 425 "Dnieper_South_Bug" "Ukraine" "2 km" -0.537227645176886 0.329188593448861
+"720" 425 "Dnieper_South_Bug" "Ukraine" "5 km" -0.560983917645964 0.333096531591495
+"721" 425 "Dnieper_South_Bug" "Ukraine" "10 km" -0.567283862381299 0.335560888194275
+"722" 407 "Barents_Sea_Drainages" "Finland" "0.001 km" -0.494963607239217 0.326407825364255
+"723" 407 "Barents_Sea_Drainages" "Finland" "0.1 km" -0.551789111742304 0.334103138822405
+"724" 407 "Barents_Sea_Drainages" "Finland" "0.5 km" -0.645459984817636 0.340135466844746
+"725" 407 "Barents_Sea_Drainages" "Finland" "1 km" -0.634404788697273 0.341377543661243
+"726" 407 "Barents_Sea_Drainages" "Finland" "2 km" -0.660625732614189 0.345147412717195
+"727" 407 "Barents_Sea_Drainages" "Finland" "5 km" -0.699826007351745 0.3471151506804
+"728" 407 "Barents_Sea_Drainages" "Finland" "10 km" -0.684922957193702 0.34650906920141
+"729" 407 "Barents_Sea_Drainages" "Norway" "0.001 km" -0.494963607239217 0.326407825364255
+"730" 407 "Barents_Sea_Drainages" "Norway" "0.1 km" -0.551789111742304 0.334103138822405
+"731" 407 "Barents_Sea_Drainages" "Norway" "0.5 km" -0.645459984817636 0.340135466844746
+"732" 407 "Barents_Sea_Drainages" "Norway" "1 km" -0.634404788697273 0.341377543661243
+"733" 407 "Barents_Sea_Drainages" "Norway" "2 km" -0.660625732614189 0.345147412717195
+"734" 407 "Barents_Sea_Drainages" "Norway" "5 km" -0.699826007351745 0.3471151506804
+"735" 407 "Barents_Sea_Drainages" "Norway" "10 km" -0.684922957193702 0.34650906920141
+"736" 407 "Barents_Sea_Drainages" "Russian Federation" "0.001 km" -0.494963607239217 0.326407825364255
+"737" 407 "Barents_Sea_Drainages" "Russian Federation" "0.1 km" -0.551789111742304 0.334103138822405
+"738" 407 "Barents_Sea_Drainages" "Russian Federation" "0.5 km" -0.645459984817636 0.340135466844746
+"739" 407 "Barents_Sea_Drainages" "Russian Federation" "1 km" -0.634404788697273 0.341377543661243
+"740" 407 "Barents_Sea_Drainages" "Russian Federation" "2 km" -0.660625732614189 0.345147412717195
+"741" 407 "Barents_Sea_Drainages" "Russian Federation" "5 km" -0.699826007351745 0.3471151506804
+"742" 407 "Barents_Sea_Drainages" "Russian Federation" "10 km" -0.684922957193702 0.34650906920141
+"743" 406 "Northern_Baltic_Drainages" "Sweden" "0.001 km" -0.538414916197169 0.330983079639787
+"744" 406 "Northern_Baltic_Drainages" "Sweden" "0.1 km" -0.514707629344213 0.332286101213376
+"745" 406 "Northern_Baltic_Drainages" "Sweden" "0.5 km" -0.639278641668342 0.341498447645053
+"746" 406 "Northern_Baltic_Drainages" "Sweden" "1 km" -0.611075138340095 0.342515320711033
+"747" 406 "Northern_Baltic_Drainages" "Sweden" "2 km" -0.628419113176079 0.345051312447889
+"748" 406 "Northern_Baltic_Drainages" "Sweden" "5 km" -0.651558707021607 0.346315205383776
+"749" 406 "Northern_Baltic_Drainages" "Sweden" "10 km" -0.669182143579231 0.347065452278321
+"750" 406 "Northern_Baltic_Drainages" "Finland" "0.001 km" -0.538414916197169 0.330983079639787
+"751" 406 "Northern_Baltic_Drainages" "Finland" "0.1 km" -0.514707629344213 0.332286101213376
+"752" 406 "Northern_Baltic_Drainages" "Finland" "0.5 km" -0.639278641668342 0.341498447645053
+"753" 406 "Northern_Baltic_Drainages" "Finland" "1 km" -0.611075138340095 0.342515320711033
+"754" 406 "Northern_Baltic_Drainages" "Finland" "2 km" -0.628419113176079 0.345051312447889
+"755" 406 "Northern_Baltic_Drainages" "Finland" "5 km" -0.651558707021607 0.346315205383776
+"756" 406 "Northern_Baltic_Drainages" "Finland" "10 km" -0.669182143579231 0.347065452278321
+"757" 406 "Northern_Baltic_Drainages" "Norway" "0.001 km" -0.538414916197169 0.330983079639787
+"758" 406 "Northern_Baltic_Drainages" "Norway" "0.1 km" -0.514707629344213 0.332286101213376
+"759" 406 "Northern_Baltic_Drainages" "Norway" "0.5 km" -0.639278641668342 0.341498447645053
+"760" 406 "Northern_Baltic_Drainages" "Norway" "1 km" -0.611075138340095 0.342515320711033
+"761" 406 "Northern_Baltic_Drainages" "Norway" "2 km" -0.628419113176079 0.345051312447889
+"762" 406 "Northern_Baltic_Drainages" "Norway" "5 km" -0.651558707021607 0.346315205383776
+"763" 406 "Northern_Baltic_Drainages" "Norway" "10 km" -0.669182143579231 0.347065452278321
+"764" 406 "Northern_Baltic_Drainages" "Russian Federation" "0.001 km" -0.538414916197169 0.330983079639787
+"765" 406 "Northern_Baltic_Drainages" "Russian Federation" "0.1 km" -0.514707629344213 0.332286101213376
+"766" 406 "Northern_Baltic_Drainages" "Russian Federation" "0.5 km" -0.639278641668342 0.341498447645053
+"767" 406 "Northern_Baltic_Drainages" "Russian Federation" "1 km" -0.611075138340095 0.342515320711033
+"768" 406 "Northern_Baltic_Drainages" "Russian Federation" "2 km" -0.628419113176079 0.345051312447889
+"769" 406 "Northern_Baltic_Drainages" "Russian Federation" "5 km" -0.651558707021607 0.346315205383776
+"770" 406 "Northern_Baltic_Drainages" "Russian Federation" "10 km" -0.669182143579231 0.347065452278321
+"771" 406 "Northern_Baltic_Drainages" "Denmark" "0.001 km" -0.538414916197169 0.330983079639787
+"772" 406 "Northern_Baltic_Drainages" "Denmark" "0.1 km" -0.514707629344213 0.332286101213376
+"773" 406 "Northern_Baltic_Drainages" "Denmark" "0.5 km" -0.639278641668342 0.341498447645053
+"774" 406 "Northern_Baltic_Drainages" "Denmark" "1 km" -0.611075138340095 0.342515320711033
+"775" 406 "Northern_Baltic_Drainages" "Denmark" "2 km" -0.628419113176079 0.345051312447889
+"776" 406 "Northern_Baltic_Drainages" "Denmark" "5 km" -0.651558707021607 0.346315205383776
+"777" 406 "Northern_Baltic_Drainages" "Denmark" "10 km" -0.669182143579231 0.347065452278321
+"778" 404 "Central_&_Western_Europe" "Denmark" "0.001 km" -0.461046648950653 0.317029739574279
+"779" 404 "Central_&_Western_Europe" "Denmark" "0.1 km" -0.485408222583397 0.324661117655074
+"780" 404 "Central_&_Western_Europe" "Denmark" "0.5 km" -0.591816536955909 0.334583526309638
+"781" 404 "Central_&_Western_Europe" "Denmark" "1 km" -0.581307666213112 0.337631317034847
+"782" 404 "Central_&_Western_Europe" "Denmark" "2 km" -0.57511994171556 0.339915185430644
+"783" 404 "Central_&_Western_Europe" "Denmark" "5 km" -0.56482171051971 0.342164350166039
+"784" 404 "Central_&_Western_Europe" "Denmark" "10 km" -0.583958284019801 0.343598777721154
+"785" 404 "Central_&_Western_Europe" "Lithuania" "0.001 km" -0.461046648950653 0.317029739574279
+"786" 404 "Central_&_Western_Europe" "Lithuania" "0.1 km" -0.485408222583397 0.324661117655074
+"787" 404 "Central_&_Western_Europe" "Lithuania" "0.5 km" -0.591816536955909 0.334583526309638
+"788" 404 "Central_&_Western_Europe" "Lithuania" "1 km" -0.581307666213112 0.337631317034847
+"789" 404 "Central_&_Western_Europe" "Lithuania" "2 km" -0.57511994171556 0.339915185430644
+"790" 404 "Central_&_Western_Europe" "Lithuania" "5 km" -0.56482171051971 0.342164350166039
+"791" 404 "Central_&_Western_Europe" "Lithuania" "10 km" -0.583958284019801 0.343598777721154
+"792" 404 "Central_&_Western_Europe" "Latvia" "0.001 km" -0.461046648950653 0.317029739574279
+"793" 404 "Central_&_Western_Europe" "Latvia" "0.1 km" -0.485408222583397 0.324661117655074
+"794" 404 "Central_&_Western_Europe" "Latvia" "0.5 km" -0.591816536955909 0.334583526309638
+"795" 404 "Central_&_Western_Europe" "Latvia" "1 km" -0.581307666213112 0.337631317034847
+"796" 404 "Central_&_Western_Europe" "Latvia" "2 km" -0.57511994171556 0.339915185430644
+"797" 404 "Central_&_Western_Europe" "Latvia" "5 km" -0.56482171051971 0.342164350166039
+"798" 404 "Central_&_Western_Europe" "Latvia" "10 km" -0.583958284019801 0.343598777721154
+"799" 404 "Central_&_Western_Europe" "United Kingdom" "0.001 km" -0.461046648950653 0.317029739574279
+"800" 404 "Central_&_Western_Europe" "United Kingdom" "0.1 km" -0.485408222583397 0.324661117655074
+"801" 404 "Central_&_Western_Europe" "United Kingdom" "0.5 km" -0.591816536955909 0.334583526309638
+"802" 404 "Central_&_Western_Europe" "United Kingdom" "1 km" -0.581307666213112 0.337631317034847
+"803" 404 "Central_&_Western_Europe" "United Kingdom" "2 km" -0.57511994171556 0.339915185430644
+"804" 404 "Central_&_Western_Europe" "United Kingdom" "5 km" -0.56482171051971 0.342164350166039
+"805" 404 "Central_&_Western_Europe" "United Kingdom" "10 km" -0.583958284019801 0.343598777721154
+"806" 404 "Central_&_Western_Europe" "Russian Federation" "0.001 km" -0.461046648950653 0.317029739574279
+"807" 404 "Central_&_Western_Europe" "Russian Federation" "0.1 km" -0.485408222583397 0.324661117655074
+"808" 404 "Central_&_Western_Europe" "Russian Federation" "0.5 km" -0.591816536955909 0.334583526309638
+"809" 404 "Central_&_Western_Europe" "Russian Federation" "1 km" -0.581307666213112 0.337631317034847
+"810" 404 "Central_&_Western_Europe" "Russian Federation" "2 km" -0.57511994171556 0.339915185430644
+"811" 404 "Central_&_Western_Europe" "Russian Federation" "5 km" -0.56482171051971 0.342164350166039
+"812" 404 "Central_&_Western_Europe" "Russian Federation" "10 km" -0.583958284019801 0.343598777721154
+"813" 404 "Central_&_Western_Europe" "Belarus" "0.001 km" -0.461046648950653 0.317029739574279
+"814" 404 "Central_&_Western_Europe" "Belarus" "0.1 km" -0.485408222583397 0.324661117655074
+"815" 404 "Central_&_Western_Europe" "Belarus" "0.5 km" -0.591816536955909 0.334583526309638
+"816" 404 "Central_&_Western_Europe" "Belarus" "1 km" -0.581307666213112 0.337631317034847
+"817" 404 "Central_&_Western_Europe" "Belarus" "2 km" -0.57511994171556 0.339915185430644
+"818" 404 "Central_&_Western_Europe" "Belarus" "5 km" -0.56482171051971 0.342164350166039
+"819" 404 "Central_&_Western_Europe" "Belarus" "10 km" -0.583958284019801 0.343598777721154
+"820" 404 "Central_&_Western_Europe" "Germany" "0.001 km" -0.461046648950653 0.317029739574279
+"821" 404 "Central_&_Western_Europe" "Germany" "0.1 km" -0.485408222583397 0.324661117655074
+"822" 404 "Central_&_Western_Europe" "Germany" "0.5 km" -0.591816536955909 0.334583526309638
+"823" 404 "Central_&_Western_Europe" "Germany" "1 km" -0.581307666213112 0.337631317034847
+"824" 404 "Central_&_Western_Europe" "Germany" "2 km" -0.57511994171556 0.339915185430644
+"825" 404 "Central_&_Western_Europe" "Germany" "5 km" -0.56482171051971 0.342164350166039
+"826" 404 "Central_&_Western_Europe" "Germany" "10 km" -0.583958284019801 0.343598777721154
+"827" 404 "Central_&_Western_Europe" "Poland" "0.001 km" -0.461046648950653 0.317029739574279
+"828" 404 "Central_&_Western_Europe" "Poland" "0.1 km" -0.485408222583397 0.324661117655074
+"829" 404 "Central_&_Western_Europe" "Poland" "0.5 km" -0.591816536955909 0.334583526309638
+"830" 404 "Central_&_Western_Europe" "Poland" "1 km" -0.581307666213112 0.337631317034847
+"831" 404 "Central_&_Western_Europe" "Poland" "2 km" -0.57511994171556 0.339915185430644
+"832" 404 "Central_&_Western_Europe" "Poland" "5 km" -0.56482171051971 0.342164350166039
+"833" 404 "Central_&_Western_Europe" "Poland" "10 km" -0.583958284019801 0.343598777721154
+"834" 404 "Central_&_Western_Europe" "Netherlands" "0.001 km" -0.461046648950653 0.317029739574279
+"835" 404 "Central_&_Western_Europe" "Netherlands" "0.1 km" -0.485408222583397 0.324661117655074
+"836" 404 "Central_&_Western_Europe" "Netherlands" "0.5 km" -0.591816536955909 0.334583526309638
+"837" 404 "Central_&_Western_Europe" "Netherlands" "1 km" -0.581307666213112 0.337631317034847
+"838" 404 "Central_&_Western_Europe" "Netherlands" "2 km" -0.57511994171556 0.339915185430644
+"839" 404 "Central_&_Western_Europe" "Netherlands" "5 km" -0.56482171051971 0.342164350166039
+"840" 404 "Central_&_Western_Europe" "Netherlands" "10 km" -0.583958284019801 0.343598777721154
+"841" 404 "Central_&_Western_Europe" "Ukraine" "0.001 km" -0.461046648950653 0.317029739574279
+"842" 404 "Central_&_Western_Europe" "Ukraine" "0.1 km" -0.485408222583397 0.324661117655074
+"843" 404 "Central_&_Western_Europe" "Ukraine" "0.5 km" -0.591816536955909 0.334583526309638
+"844" 404 "Central_&_Western_Europe" "Ukraine" "1 km" -0.581307666213112 0.337631317034847
+"845" 404 "Central_&_Western_Europe" "Ukraine" "2 km" -0.57511994171556 0.339915185430644
+"846" 404 "Central_&_Western_Europe" "Ukraine" "5 km" -0.56482171051971 0.342164350166039
+"847" 404 "Central_&_Western_Europe" "Ukraine" "10 km" -0.583958284019801 0.343598777721154
+"848" 404 "Central_&_Western_Europe" "Belgium" "0.001 km" -0.461046648950653 0.317029739574279
+"849" 404 "Central_&_Western_Europe" "Belgium" "0.1 km" -0.485408222583397 0.324661117655074
+"850" 404 "Central_&_Western_Europe" "Belgium" "0.5 km" -0.591816536955909 0.334583526309638
+"851" 404 "Central_&_Western_Europe" "Belgium" "1 km" -0.581307666213112 0.337631317034847
+"852" 404 "Central_&_Western_Europe" "Belgium" "2 km" -0.57511994171556 0.339915185430644
+"853" 404 "Central_&_Western_Europe" "Belgium" "5 km" -0.56482171051971 0.342164350166039
+"854" 404 "Central_&_Western_Europe" "Belgium" "10 km" -0.583958284019801 0.343598777721154
+"855" 404 "Central_&_Western_Europe" "France" "0.001 km" -0.461046648950653 0.317029739574279
+"856" 404 "Central_&_Western_Europe" "France" "0.1 km" -0.485408222583397 0.324661117655074
+"857" 404 "Central_&_Western_Europe" "France" "0.5 km" -0.591816536955909 0.334583526309638
+"858" 404 "Central_&_Western_Europe" "France" "1 km" -0.581307666213112 0.337631317034847
+"859" 404 "Central_&_Western_Europe" "France" "2 km" -0.57511994171556 0.339915185430644
+"860" 404 "Central_&_Western_Europe" "France" "5 km" -0.56482171051971 0.342164350166039
+"861" 404 "Central_&_Western_Europe" "France" "10 km" -0.583958284019801 0.343598777721154
+"862" 404 "Central_&_Western_Europe" "Czechia" "0.001 km" -0.461046648950653 0.317029739574279
+"863" 404 "Central_&_Western_Europe" "Czechia" "0.1 km" -0.485408222583397 0.324661117655074
+"864" 404 "Central_&_Western_Europe" "Czechia" "0.5 km" -0.591816536955909 0.334583526309638
+"865" 404 "Central_&_Western_Europe" "Czechia" "1 km" -0.581307666213112 0.337631317034847
+"866" 404 "Central_&_Western_Europe" "Czechia" "2 km" -0.57511994171556 0.339915185430644
+"867" 404 "Central_&_Western_Europe" "Czechia" "5 km" -0.56482171051971 0.342164350166039
+"868" 404 "Central_&_Western_Europe" "Czechia" "10 km" -0.583958284019801 0.343598777721154
+"869" 404 "Central_&_Western_Europe" "Luxembourg" "0.001 km" -0.461046648950653 0.317029739574279
+"870" 404 "Central_&_Western_Europe" "Luxembourg" "0.1 km" -0.485408222583397 0.324661117655074
+"871" 404 "Central_&_Western_Europe" "Luxembourg" "0.5 km" -0.591816536955909 0.334583526309638
+"872" 404 "Central_&_Western_Europe" "Luxembourg" "1 km" -0.581307666213112 0.337631317034847
+"873" 404 "Central_&_Western_Europe" "Luxembourg" "2 km" -0.57511994171556 0.339915185430644
+"874" 404 "Central_&_Western_Europe" "Luxembourg" "5 km" -0.56482171051971 0.342164350166039
+"875" 404 "Central_&_Western_Europe" "Luxembourg" "10 km" -0.583958284019801 0.343598777721154
+"876" 404 "Central_&_Western_Europe" "Guernsey" "0.001 km" -0.461046648950653 0.317029739574279
+"877" 404 "Central_&_Western_Europe" "Guernsey" "0.1 km" -0.485408222583397 0.324661117655074
+"878" 404 "Central_&_Western_Europe" "Guernsey" "0.5 km" -0.591816536955909 0.334583526309638
+"879" 404 "Central_&_Western_Europe" "Guernsey" "1 km" -0.581307666213112 0.337631317034847
+"880" 404 "Central_&_Western_Europe" "Guernsey" "2 km" -0.57511994171556 0.339915185430644
+"881" 404 "Central_&_Western_Europe" "Guernsey" "5 km" -0.56482171051971 0.342164350166039
+"882" 404 "Central_&_Western_Europe" "Guernsey" "10 km" -0.583958284019801 0.343598777721154
+"883" 404 "Central_&_Western_Europe" "Slovakia" "0.001 km" -0.461046648950653 0.317029739574279
+"884" 404 "Central_&_Western_Europe" "Slovakia" "0.1 km" -0.485408222583397 0.324661117655074
+"885" 404 "Central_&_Western_Europe" "Slovakia" "0.5 km" -0.591816536955909 0.334583526309638
+"886" 404 "Central_&_Western_Europe" "Slovakia" "1 km" -0.581307666213112 0.337631317034847
+"887" 404 "Central_&_Western_Europe" "Slovakia" "2 km" -0.57511994171556 0.339915185430644
+"888" 404 "Central_&_Western_Europe" "Slovakia" "5 km" -0.56482171051971 0.342164350166039
+"889" 404 "Central_&_Western_Europe" "Slovakia" "10 km" -0.583958284019801 0.343598777721154
+"890" 404 "Central_&_Western_Europe" "Jersey" "0.001 km" -0.461046648950653 0.317029739574279
+"891" 404 "Central_&_Western_Europe" "Jersey" "0.1 km" -0.485408222583397 0.324661117655074
+"892" 404 "Central_&_Western_Europe" "Jersey" "0.5 km" -0.591816536955909 0.334583526309638
+"893" 404 "Central_&_Western_Europe" "Jersey" "1 km" -0.581307666213112 0.337631317034847
+"894" 404 "Central_&_Western_Europe" "Jersey" "2 km" -0.57511994171556 0.339915185430644
+"895" 404 "Central_&_Western_Europe" "Jersey" "5 km" -0.56482171051971 0.342164350166039
+"896" 404 "Central_&_Western_Europe" "Jersey" "10 km" -0.583958284019801 0.343598777721154
+"897" 404 "Central_&_Western_Europe" "Austria" "0.001 km" -0.461046648950653 0.317029739574279
+"898" 404 "Central_&_Western_Europe" "Austria" "0.1 km" -0.485408222583397 0.324661117655074
+"899" 404 "Central_&_Western_Europe" "Austria" "0.5 km" -0.591816536955909 0.334583526309638
+"900" 404 "Central_&_Western_Europe" "Austria" "1 km" -0.581307666213112 0.337631317034847
+"901" 404 "Central_&_Western_Europe" "Austria" "2 km" -0.57511994171556 0.339915185430644
+"902" 404 "Central_&_Western_Europe" "Austria" "5 km" -0.56482171051971 0.342164350166039
+"903" 404 "Central_&_Western_Europe" "Austria" "10 km" -0.583958284019801 0.343598777721154
+"904" 404 "Central_&_Western_Europe" "Switzerland" "0.001 km" -0.461046648950653 0.317029739574279
+"905" 404 "Central_&_Western_Europe" "Switzerland" "0.1 km" -0.485408222583397 0.324661117655074
+"906" 404 "Central_&_Western_Europe" "Switzerland" "0.5 km" -0.591816536955909 0.334583526309638
+"907" 404 "Central_&_Western_Europe" "Switzerland" "1 km" -0.581307666213112 0.337631317034847
+"908" 404 "Central_&_Western_Europe" "Switzerland" "2 km" -0.57511994171556 0.339915185430644
+"909" 404 "Central_&_Western_Europe" "Switzerland" "5 km" -0.56482171051971 0.342164350166039
+"910" 404 "Central_&_Western_Europe" "Switzerland" "10 km" -0.583958284019801 0.343598777721154
+"911" 404 "Central_&_Western_Europe" "Liechtenstein" "0.001 km" -0.461046648950653 0.317029739574279
+"912" 404 "Central_&_Western_Europe" "Liechtenstein" "0.1 km" -0.485408222583397 0.324661117655074
+"913" 404 "Central_&_Western_Europe" "Liechtenstein" "0.5 km" -0.591816536955909 0.334583526309638
+"914" 404 "Central_&_Western_Europe" "Liechtenstein" "1 km" -0.581307666213112 0.337631317034847
+"915" 404 "Central_&_Western_Europe" "Liechtenstein" "2 km" -0.57511994171556 0.339915185430644
+"916" 404 "Central_&_Western_Europe" "Liechtenstein" "5 km" -0.56482171051971 0.342164350166039
+"917" 404 "Central_&_Western_Europe" "Liechtenstein" "10 km" -0.583958284019801 0.343598777721154

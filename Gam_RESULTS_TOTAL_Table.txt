@@ -1,365 +1,267 @@
 "Freshwater.type" "Diversity.decay.parameter" "Dispersal" "Descriptors" "Estimate" "Std..Error" "z.value" "Pr...z.."
-"Total" "Proportional decay rate (b)" "0.001 km" "(Intercept)" -0.0881744909796333 0.0557040989030909 -1.58290848817125 0.113442323792256
-"Total" "Proportional decay rate (b)" "0.001 km" "s(Long)" 0.79093107821881 2 3.72469760507778 0.0284973818752662
-"Total" "Proportional decay rate (b)" "0.001 km" "s(Lat)" 2.32925605669429e-05 2 6.621465616592e-06 0.72489650134599
-"Total" "Proportional decay rate (b)" "0.001 km" "s(Betw_Med)" 1.56186488088761 2 17.9267227167835 1.96018915054053e-05
-"Total" "Proportional decay rate (b)" "0.001 km" "s(OutDeg_Med)" 0.983101023927936 2 57.1391610313831 0
-"Total" "Proportional decay rate (b)" "0.001 km" "s(WatCov_Mean)" 0.950498691958049 2 18.9177073870306 7.27752432083673e-06
-"Total" "Proportional decay rate (b)" "0.001 km" "s(WatCov_CV)" 0.971631953789583 2 33.7850701522636 0
-"Total" "Collapsing rate (q)" "0.001 km" "(Intercept)" -0.743138291520701 0.00476797246095234 -155.860441226682 0
-"Total" "Collapsing rate (q)" "0.001 km" "s(Long)" 0.177961237251079 2 0.216127600288617 0.266870650837246
-"Total" "Collapsing rate (q)" "0.001 km" "s(Lat)" 4.34249640925615e-05 2 1.74553059647576e-05 0.588800222003237
-"Total" "Collapsing rate (q)" "0.001 km" "s(Betw_Med)" 1.67770501657008 2 24.9299487495794 2.74159293711662e-07
-"Total" "Collapsing rate (q)" "0.001 km" "s(OutDeg_Med)" 0.978377867132346 2 45.2547758650629 0
-"Total" "Collapsing rate (q)" "0.001 km" "s(WatCov_Mean)" 0.93257832450465 2 13.8018068692835 0.00010381496498213
-"Total" "Collapsing rate (q)" "0.001 km" "s(WatCov_CV)" 0.983121543635257 2 58.1858846904715 0
-"Total" "Proportional decay rate (b)" "0.1 km" "(Intercept)" 0.424486684200413 0.0882227158559906 4.81153498939342 1.4977550663281e-06
-"Total" "Proportional decay rate (b)" "0.1 km" "s(Long)" 0.206449120885138 2 0.25607720736711 0.256114213436621
-"Total" "Proportional decay rate (b)" "0.1 km" "s(Lat)" 1.49501785702779e-05 2 6.86516459840432e-07 0.915984515728532
-"Total" "Proportional decay rate (b)" "0.1 km" "s(Betw_Med)" 1.22314462138705 2 15.7645066046259 3.89155398612395e-05
-"Total" "Proportional decay rate (b)" "0.1 km" "s(OutDeg_Med)" 0.966384644511819 2 27.8639475653212 0
-"Total" "Proportional decay rate (b)" "0.1 km" "s(WatCov_Mean)" 1.42515701004768 2 11.5411054926071 0.000430957085845063
-"Total" "Proportional decay rate (b)" "0.1 km" "s(WatCov_CV)" 0.941190336229587 2 15.5346696784663 1.92069079824053e-05
-"Total" "Collapsing rate (q)" "0.1 km" "(Intercept)" -0.682504021896642 0.00420660814528796 -162.245685436888 0
-"Total" "Collapsing rate (q)" "0.1 km" "s(Long)" 2.03574548551493e-05 2 1.37534215243266e-06 0.926720232596058
-"Total" "Collapsing rate (q)" "0.1 km" "s(Lat)" 0.000160191379315542 2 0.000143417405748571 0.306712968214306
-"Total" "Collapsing rate (q)" "0.1 km" "s(Betw_Med)" 0.951058224156625 2 19.4432256997421 6.01829982294078e-06
-"Total" "Collapsing rate (q)" "0.1 km" "s(OutDeg_Med)" 1.26562114078443 2 16.8559893410008 1.60131995211588e-05
-"Total" "Collapsing rate (q)" "0.1 km" "s(WatCov_Mean)" 1.53078922885813 2 9.52003134579132 0.00143630775303283
-"Total" "Collapsing rate (q)" "0.1 km" "s(WatCov_CV)" 0.941995921943588 2 16.2054638616771 2.36170428136173e-06
-"Total" "Proportional decay rate (b)" "0.5 km" "(Intercept)" 0.473052467357888 0.0721412858649444 6.55730573257994 5.47886141269763e-11
-"Total" "Proportional decay rate (b)" "0.5 km" "s(Long)" 1.44688238850707e-05 2 9.17178496204974e-06 0.476095372951182
-"Total" "Proportional decay rate (b)" "0.5 km" "s(Lat)" 7.15192913886615e-06 2 7.00891994440395e-08 0.986993080470152
-"Total" "Proportional decay rate (b)" "0.5 km" "s(Betw_Med)" 1.4493744314172 2 8.40843707569051 0.00308410513998214
-"Total" "Proportional decay rate (b)" "0.5 km" "s(OutDeg_Med)" 0.95342476619477 2 20.0116145149456 9.51455281450464e-07
-"Total" "Proportional decay rate (b)" "0.5 km" "s(WatCov_Mean)" 1.20518361409665 2 8.73470875814767 0.00153658964920467
-"Total" "Proportional decay rate (b)" "0.5 km" "s(WatCov_CV)" 1.55022376113477 2 13.4647368822594 0.000108950260123031
-"Total" "Collapsing rate (q)" "0.5 km" "(Intercept)" -0.664703482134075 0.00298235694912558 -222.878580087123 0
-"Total" "Collapsing rate (q)" "0.5 km" "s(Long)" 0.000120512887515241 2 5.67366316100224e-05 0.597172872999341
-"Total" "Collapsing rate (q)" "0.5 km" "s(Lat)" 0.85049669326831 2 5.68995815440138 0.00836678951443559
-"Total" "Collapsing rate (q)" "0.5 km" "s(Betw_Med)" 0.111679448726823 2 0.125741483208658 0.281673241043842
-"Total" "Collapsing rate (q)" "0.5 km" "s(OutDeg_Med)" 7.00322077352299e-05 2 3.59088634167243e-05 0.426644857982181
-"Total" "Collapsing rate (q)" "0.5 km" "s(WatCov_Mean)" 1.13925935496505 2 3.01460315655278 0.062639553696374
-"Total" "Collapsing rate (q)" "0.5 km" "s(WatCov_CV)" 1.64497945901414 2 14.5834469318301 6.85534805034971e-05
-"Total" "Proportional decay rate (b)" "1 km" "(Intercept)" 0.382016577103688 0.056900649930845 6.71374716401266 1.89688878740882e-11
-"Total" "Proportional decay rate (b)" "1 km" "s(Long)" 0.759940780977167 2 3.11650569097354 0.0401631861106967
-"Total" "Proportional decay rate (b)" "1 km" "s(Lat)" 0.000622041984170639 2 0.000621723108438178 0.300754402607277
-"Total" "Proportional decay rate (b)" "1 km" "s(Betw_Med)" 1.37861007472776 2 26.3588404158092 4.42586868154571e-07
-"Total" "Proportional decay rate (b)" "1 km" "s(OutDeg_Med)" 1.44176022823242 2 54.7669878392176 0
-"Total" "Proportional decay rate (b)" "1 km" "s(WatCov_Mean)" 0.938167002630212 2 15.2124605265473 2.64814321666584e-05
-"Total" "Proportional decay rate (b)" "1 km" "s(WatCov_CV)" 0.946064297038664 2 17.3179448396907 3.01870455221565e-06
-"Total" "Collapsing rate (q)" "1 km" "(Intercept)" -0.659595551871117 0.00201651548027476 -327.096696416754 0
-"Total" "Collapsing rate (q)" "1 km" "s(Long)" 6.61571503288689e-06 2 2.55263646092056e-06 0.641561197520278
-"Total" "Collapsing rate (q)" "1 km" "s(Lat)" 8.79761319877385e-06 2 3.53318559939412e-06 0.593735079376873
-"Total" "Collapsing rate (q)" "1 km" "s(Betw_Med)" 1.85870657404885 2 37.7135445960897 0
-"Total" "Collapsing rate (q)" "1 km" "s(OutDeg_Med)" 1.84068297160057 2 41.0801377085899 0
-"Total" "Collapsing rate (q)" "1 km" "s(WatCov_Mean)" 1.39641484540253 2 21.0867472578416 1.86516187372643e-06
-"Total" "Collapsing rate (q)" "1 km" "s(WatCov_CV)" 0.925463992077504 2 12.3957215526515 9.78925331872604e-05
-"Total" "Proportional decay rate (b)" "2 km" "(Intercept)" 0.375557457657864 0.0685406431637904 5.47933956149785 4.26916359297127e-08
-"Total" "Proportional decay rate (b)" "2 km" "s(Long)" 0.249893362824544 2 0.304467495358161 0.283548694692902
-"Total" "Proportional decay rate (b)" "2 km" "s(Lat)" 2.52056975638876e-05 2 2.63352362962105e-06 0.840549855317989
-"Total" "Proportional decay rate (b)" "2 km" "s(Betw_Med)" 0.944303058362818 2 16.4887095451824 2.53741458878798e-05
-"Total" "Proportional decay rate (b)" "2 km" "s(OutDeg_Med)" 0.970154819286534 2 31.7676608437038 0
-"Total" "Proportional decay rate (b)" "2 km" "s(WatCov_Mean)" 1.06137180228512 2 8.70903403519726 0.00159364386354421
-"Total" "Proportional decay rate (b)" "2 km" "s(WatCov_CV)" 0.978736937118897 2 18.6864907516869 3.94152329707964e-06
-"Total" "Collapsing rate (q)" "2 km" "(Intercept)" -0.653208787993622 0.00217354970524888 -300.526271111351 0
-"Total" "Collapsing rate (q)" "2 km" "s(Long)" 3.62468922788251e-06 2 3.27279719188467e-07 0.904451370277323
-"Total" "Collapsing rate (q)" "2 km" "s(Lat)" 1.53438873495393e-05 2 3.05450640449594e-06 0.757566366655435
-"Total" "Collapsing rate (q)" "2 km" "s(Betw_Med)" 1.79853844415947 2 19.5451749737713 1.91746784589109e-05
-"Total" "Collapsing rate (q)" "2 km" "s(OutDeg_Med)" 1.81349644293766 2 25.4425104639409 6.44705011598745e-08
-"Total" "Collapsing rate (q)" "2 km" "s(WatCov_Mean)" 1.45472338944535 2 15.4211416545079 4.65004063723296e-05
-"Total" "Collapsing rate (q)" "2 km" "s(WatCov_CV)" 0.883526956827831 2 7.57790600122363 0.00171947640126546
-"Total" "Proportional decay rate (b)" "5 km" "(Intercept)" 0.673859403686834 0.138568617590274 4.86300156128663 1.15618934747677e-06
-"Total" "Proportional decay rate (b)" "5 km" "s(Long)" 0.531280660702594 2 1.02329893980171 0.164021913352928
-"Total" "Proportional decay rate (b)" "5 km" "s(Lat)" 0.873581541056256 2 6.70146462649729 0.00471504979065895
-"Total" "Proportional decay rate (b)" "5 km" "s(Betw_Med)" 0.894819319110991 2 7.93918000711337 0.00265719465883896
-"Total" "Proportional decay rate (b)" "5 km" "s(OutDeg_Med)" 4.26582744702851e-06 2 5.69323899730768e-08 0.967087691363813
-"Total" "Proportional decay rate (b)" "5 km" "s(WatCov_Mean)" 0.522210805319412 2 0.905090780877916 0.153106439393971
-"Total" "Proportional decay rate (b)" "5 km" "s(WatCov_CV)" 1.0892250446045 2 5.06051790498061 0.0115195390546554
-"Total" "Collapsing rate (q)" "5 km" "(Intercept)" -0.643271012966575 0.0023774380594766 -270.573195546551 0
-"Total" "Collapsing rate (q)" "5 km" "s(Long)" 1.87481158687173e-05 2 1.80682810074866e-06 0.898800820616156
-"Total" "Collapsing rate (q)" "5 km" "s(Lat)" 0.888763573202201 2 7.99069865926441 0.00241716554728633
-"Total" "Collapsing rate (q)" "5 km" "s(Betw_Med)" 0.129953648644391 2 0.149323876808706 0.279738914415909
-"Total" "Collapsing rate (q)" "5 km" "s(OutDeg_Med)" 1.06039202924662e-05 2 1.01334027665639e-06 0.8669113035165
-"Total" "Collapsing rate (q)" "5 km" "s(WatCov_Mean)" 4.56501251873981e-05 2 2.5791699109869e-05 0.539483540353229
-"Total" "Collapsing rate (q)" "5 km" "s(WatCov_CV)" 0.929930202466111 2 10.2134992222688 0.000779220358804289
-"Total" "Proportional decay rate (b)" "10 km" "(Intercept)" 0.796400822523677 0.130401204722133 6.1073118474687 1.01323147924402e-09
-"Total" "Proportional decay rate (b)" "10 km" "s(Long)" 0.662188807453208 2 1.92195437752119 0.0818572443564901
-"Total" "Proportional decay rate (b)" "10 km" "s(Lat)" 0.558816975825359 2 1.40103525505828 0.0965369526074521
-"Total" "Proportional decay rate (b)" "10 km" "s(Betw_Med)" 0.935712389220895 2 13.8381047198046 5.33569699581182e-05
-"Total" "Proportional decay rate (b)" "10 km" "s(OutDeg_Med)" 1.28493761838837 2 38.143666289195 0
-"Total" "Proportional decay rate (b)" "10 km" "s(WatCov_Mean)" 1.1368883861058 2 11.2601633606878 0.000134326133736762
-"Total" "Proportional decay rate (b)" "10 km" "s(WatCov_CV)" 0.898835128424492 2 8.41046777966832 0.000505723126329682
-"Total" "Collapsing rate (q)" "10 km" "(Intercept)" -0.639626316410627 0.00179070281022648 -357.192892510025 0
-"Total" "Collapsing rate (q)" "10 km" "s(Long)" 7.23388498498783e-06 2 1.04973746825138e-07 0.98364938945133
-"Total" "Collapsing rate (q)" "10 km" "s(Lat)" 0.0756147247011493 2 0.0817622526653795 0.283695890857548
-"Total" "Collapsing rate (q)" "10 km" "s(Betw_Med)" 0.936787930530796 2 14.8257283765476 4.95667406127387e-05
-"Total" "Collapsing rate (q)" "10 km" "s(OutDeg_Med)" 1.77593135971283 2 38.7041652724878 0
-"Total" "Collapsing rate (q)" "10 km" "s(WatCov_Mean)" 1.56830149703396 2 17.6539743997336 1.30071904115292e-05
-"Total" "Collapsing rate (q)" "10 km" "s(WatCov_CV)" 0.906970861183063 2 9.73496061481834 0.000410651823563812
-"Permanent" "Proportional decay rate (b)" "0.001 km" "(Intercept)" -0.249665255396588 0.0689154976760283 -3.62277374198564 0.000291460751432135
-"Permanent" "Proportional decay rate (b)" "0.001 km" "s(Long)" 0.413275973463333 2 0.715604291144068 0.174065361537342
-"Permanent" "Proportional decay rate (b)" "0.001 km" "s(Betw_CV)" 0.869332501595458 4 6.52331424610719 0.00469893485017203
-"Permanent" "Proportional decay rate (b)" "0.001 km" "s(OutDeg_CV)" 0.616456982434721 2 1.61810870464882 0.097875920827923
-"Permanent" "Proportional decay rate (b)" "0.001 km" "s(WatCov_Mean)" 0.770482998314104 2 3.32642887913722 0.0304893835784217
-"Permanent" "Proportional decay rate (b)" "0.001 km" "s(WatCov_CV)" 0.954410780873439 2 20.3613541323634 2.82649444083294e-06
-"Permanent" "Collapsing rate (q)" "0.001 km" "(Intercept)" -0.73078705543697 0.0059758529059619 -122.290000596884 0
-"Permanent" "Collapsing rate (q)" "0.001 km" "s(Long)" 6.22329920729501e-05 2 9.9528001119687e-07 0.932352672902919
-"Permanent" "Collapsing rate (q)" "0.001 km" "s(Betw_CV)" 1.40971028593761 4 12.2253648231612 0.000170894427220958
-"Permanent" "Collapsing rate (q)" "0.001 km" "s(OutDeg_CV)" 0.471935072431426 2 0.896521694972141 0.136610240882551
-"Permanent" "Collapsing rate (q)" "0.001 km" "s(WatCov_Mean)" 0.603086671146933 2 1.51962041290219 0.102073903878732
-"Permanent" "Collapsing rate (q)" "0.001 km" "s(WatCov_CV)" 1.56729773624309 2 34.9352293205875 0
-"Permanent" "Proportional decay rate (b)" "0.1 km" "(Intercept)" 0.100993759027364 0.0698142240035126 1.44660719887515 0.14800696883256
-"Permanent" "Proportional decay rate (b)" "0.1 km" "s(Long)" 0.81704837065147 2 4.43477825415401 0.0186650549436794
-"Permanent" "Proportional decay rate (b)" "0.1 km" "s(Betw_CV)" 0.731908325353436 4 2.69427794848994 0.0488827206078204
-"Permanent" "Proportional decay rate (b)" "0.1 km" "s(OutDeg_CV)" 0.303585743117897 2 0.438782543874452 0.205954554858986
-"Permanent" "Proportional decay rate (b)" "0.1 km" "s(WatCov_Mean)" 7.63290017727961e-06 2 1.2595575839293e-06 0.836365224970267
-"Permanent" "Proportional decay rate (b)" "0.1 km" "s(WatCov_CV)" 0.924564950858048 2 12.0096208662193 3.42102276241762e-05
-"Permanent" "Collapsing rate (q)" "0.1 km" "(Intercept)" -0.69667036910072 0.00467519635209562 -149.014141146915 0
-"Permanent" "Collapsing rate (q)" "0.1 km" "s(Long)" 4.29397079806814e-05 2 2.796556078161e-06 0.93204907682054
-"Permanent" "Collapsing rate (q)" "0.1 km" "s(Betw_CV)" 0.930787727697505 4 13.4353902142199 9.9048199434737e-05
-"Permanent" "Collapsing rate (q)" "0.1 km" "s(OutDeg_CV)" 0.865205807380273 2 6.41914566119457 0.00269732993614702
-"Permanent" "Collapsing rate (q)" "0.1 km" "s(WatCov_Mean)" 0.651028298032716 2 1.86643983507906 0.0752292927977281
-"Permanent" "Collapsing rate (q)" "0.1 km" "s(WatCov_CV)" 0.806864701063869 2 4.17735113627396 0.0117547483675294
-"Permanent" "Proportional decay rate (b)" "0.5 km" "(Intercept)" 0.352470273023169 0.0677036161287713 5.20607750630005 1.92874112247805e-07
-"Permanent" "Proportional decay rate (b)" "0.5 km" "s(Long)" 7.86177288814987e-06 2 2.18146668672757e-06 0.732987799392529
-"Permanent" "Proportional decay rate (b)" "0.5 km" "s(Betw_CV)" 0.779184209853109 4 3.52341336490238 0.0288936448377046
-"Permanent" "Proportional decay rate (b)" "0.5 km" "s(OutDeg_CV)" 0.600407317659181 2 1.51845386697965 0.0971930605440935
-"Permanent" "Proportional decay rate (b)" "0.5 km" "s(WatCov_Mean)" 0.699746217780731 2 2.30248747681675 0.0601362521113749
-"Permanent" "Proportional decay rate (b)" "0.5 km" "s(WatCov_CV)" 1.17084398843278 2 4.16010660383736 0.0265167668878196
-"Permanent" "Collapsing rate (q)" "0.5 km" "(Intercept)" -0.677756476105512 0.00346554424860015 -195.569996366164 0
-"Permanent" "Collapsing rate (q)" "0.5 km" "s(Long)" 0.483076482318255 2 0.934227974498087 0.154419755598028
-"Permanent" "Collapsing rate (q)" "0.5 km" "s(Betw_CV)" 1.60698205318143 4 11.8428868768083 0.000289724201527397
-"Permanent" "Collapsing rate (q)" "0.5 km" "s(OutDeg_CV)" 1.6727139398273 2 9.71803571333538 0.00103234003571928
-"Permanent" "Collapsing rate (q)" "0.5 km" "s(WatCov_Mean)" 0.680066831842323 2 2.12633759118118 0.0586366756482241
-"Permanent" "Collapsing rate (q)" "0.5 km" "s(WatCov_CV)" 0.760790732272225 2 3.17676581296534 0.0205047884564868
-"Permanent" "Proportional decay rate (b)" "1 km" "(Intercept)" 0.313387952856354 0.0773250424328579 4.05286493219156 5.0594215319422e-05
-"Permanent" "Proportional decay rate (b)" "1 km" "s(Long)" 0.940166708091913 2 2.15360971929173 0.0915325246000674
-"Permanent" "Proportional decay rate (b)" "1 km" "s(Betw_CV)" 1.62384438385286 4 6.25813016460494 0.0123706746097352
-"Permanent" "Proportional decay rate (b)" "1 km" "s(OutDeg_CV)" 6.91628476921998e-06 2 4.07713908596573e-07 0.922505897658889
-"Permanent" "Proportional decay rate (b)" "1 km" "s(WatCov_Mean)" 0.772307423400172 2 3.31054330549586 0.0310555851791876
-"Permanent" "Proportional decay rate (b)" "1 km" "s(WatCov_CV)" 0.779991619483661 2 3.47448260498184 0.0299395242671402
-"Permanent" "Collapsing rate (q)" "1 km" "(Intercept)" -0.670390271934592 0.00327156398780091 -204.914308396339 0
-"Permanent" "Collapsing rate (q)" "1 km" "s(Long)" 4.32163879707662e-05 2 2.16524497396491e-05 0.553478638399824
-"Permanent" "Collapsing rate (q)" "1 km" "s(Betw_CV)" 0.869080326975763 4 6.61937522777731 0.00496091999801196
-"Permanent" "Collapsing rate (q)" "1 km" "s(OutDeg_CV)" 0.868393865720307 2 6.59835312900475 0.00209889124740237
-"Permanent" "Collapsing rate (q)" "1 km" "s(WatCov_Mean)" 0.767798907509783 2 3.30841726122502 0.028758099497695
-"Permanent" "Collapsing rate (q)" "1 km" "s(WatCov_CV)" 0.802558838612492 2 4.06160280086795 0.0127836397316303
-"Permanent" "Proportional decay rate (b)" "2 km" "(Intercept)" 0.401618579396476 0.0818271409940738 4.90813408017717 9.19469883062565e-07
-"Permanent" "Proportional decay rate (b)" "2 km" "s(Long)" 5.06003530829369e-05 2 4.53128495860038e-05 0.378498337498278
-"Permanent" "Proportional decay rate (b)" "2 km" "s(Betw_CV)" 0.89409984978747 4 8.30891279007334 0.0020760896309997
-"Permanent" "Proportional decay rate (b)" "2 km" "s(OutDeg_CV)" 6.77143181541463e-06 2 1.15658820492297e-06 0.815759128581625
-"Permanent" "Proportional decay rate (b)" "2 km" "s(WatCov_Mean)" 0.887507261126604 2 7.65104186745501 0.0028582668565138
-"Permanent" "Proportional decay rate (b)" "2 km" "s(WatCov_CV)" 0.833743871623695 2 4.89609148789324 0.014697627302017
-"Permanent" "Collapsing rate (q)" "2 km" "(Intercept)" -0.659238132169288 0.00299826983332623 -219.872849615386 0
-"Permanent" "Collapsing rate (q)" "2 km" "s(Long)" 0.000114762776722947 2 1.2051461484404e-05 0.882509465127065
-"Permanent" "Collapsing rate (q)" "2 km" "s(Betw_CV)" 1.02757324356308 4 2.83530256108496 0.060073897937574
-"Permanent" "Collapsing rate (q)" "2 km" "s(OutDeg_CV)" 0.849769866367111 2 5.65658261925548 0.00311764706501338
-"Permanent" "Collapsing rate (q)" "2 km" "s(WatCov_Mean)" 0.702972538637511 2 2.36742956496485 0.0447536131715478
-"Permanent" "Collapsing rate (q)" "2 km" "s(WatCov_CV)" 1.549777587493 2 6.24147044512126 0.0104011123480583
-"Permanent" "Proportional decay rate (b)" "5 km" "(Intercept)" 0.417955640913357 0.0890232231000522 4.69490573761434 2.66729692264626e-06
-"Permanent" "Proportional decay rate (b)" "5 km" "s(Long)" 0.394291591416068 2 0.649665055920561 0.185728082891593
-"Permanent" "Proportional decay rate (b)" "5 km" "s(Betw_CV)" 1.66633754025179 4 9.45457318171472 0.00189057480461652
-"Permanent" "Proportional decay rate (b)" "5 km" "s(OutDeg_CV)" 5.52422673379419e-06 2 2.08993759676946e-08 0.995362839713511
-"Permanent" "Proportional decay rate (b)" "5 km" "s(WatCov_Mean)" 0.827382165242022 2 4.63311441498773 0.0146646630415334
-"Permanent" "Proportional decay rate (b)" "5 km" "s(WatCov_CV)" 0.871630902733419 2 6.60202269239237 0.00492743336370571
-"Permanent" "Collapsing rate (q)" "5 km" "(Intercept)" -0.651782038516669 0.00301756631606454 -215.995928588808 0
-"Permanent" "Collapsing rate (q)" "5 km" "s(Long)" 0.00014802154558856 2 7.43119544466356e-05 0.5628808509245
-"Permanent" "Collapsing rate (q)" "5 km" "s(Betw_CV)" 1.78336066511731 4 6.22071917975305 0.0167157596379874
-"Permanent" "Collapsing rate (q)" "5 km" "s(OutDeg_CV)" 0.263891660308263 2 0.358250425094075 0.222232598585325
-"Permanent" "Collapsing rate (q)" "5 km" "s(WatCov_Mean)" 5.57309143548727e-05 2 1.35794457623769e-05 0.617277310499557
-"Permanent" "Collapsing rate (q)" "5 km" "s(WatCov_CV)" 1.72959609124301 2 24.6867534443679 -1.54139163655032e-08
-"Permanent" "Proportional decay rate (b)" "10 km" "(Intercept)" 0.420852167482383 0.0793982574599415 5.30052145911029 1.15472391651869e-07
-"Permanent" "Proportional decay rate (b)" "10 km" "s(Long)" 0.597897292013973 2 1.46330832229654 0.115250318529635
-"Permanent" "Proportional decay rate (b)" "10 km" "s(Betw_CV)" 0.801906468573741 4 3.98713534024555 0.0224648892976821
-"Permanent" "Proportional decay rate (b)" "10 km" "s(OutDeg_CV)" 7.92004909065708e-06 2 3.76493177001702e-06 0.492052979486054
-"Permanent" "Proportional decay rate (b)" "10 km" "s(WatCov_Mean)" 0.977313743273717 2 4.48728067582691 0.019000061757201
-"Permanent" "Proportional decay rate (b)" "10 km" "s(WatCov_CV)" 0.885469560130348 2 7.50596785558987 0.00289248898489614
-"Permanent" "Collapsing rate (q)" "10 km" "(Intercept)" -0.648112499295495 0.00242127809324132 -267.673713773158 0
-"Permanent" "Collapsing rate (q)" "10 km" "s(Long)" 0.000248183658398207 2 0.000140293316962824 0.46390245830281
-"Permanent" "Collapsing rate (q)" "10 km" "s(Betw_CV)" 0.729549364108579 4 2.69641744135153 0.0507244523379684
-"Permanent" "Collapsing rate (q)" "10 km" "s(OutDeg_CV)" 1.32899098427652 2 4.74259788359553 0.0272399494148403
-"Permanent" "Collapsing rate (q)" "10 km" "s(WatCov_Mean)" 2.1504310712021e-05 2 3.76262720986987e-06 0.824932028621965
-"Permanent" "Collapsing rate (q)" "10 km" "s(WatCov_CV)" 0.946732035634562 2 17.764581513527 3.74311341921896e-07
-"Temporary" "Proportional decay rate (b)" "0.001 km" "(Intercept)" -0.182044382557593 0.0682245456824982 -2.66831212632456 0.00762334004146408
-"Temporary" "Proportional decay rate (b)" "0.001 km" "s(Long)" 0.665885347143336 2 1.9787225388931 0.0846823093678102
-"Temporary" "Proportional decay rate (b)" "0.001 km" "s(Lat)" 8.08322849862304e-06 2 2.60960801134861e-06 0.673207945014866
-"Temporary" "Proportional decay rate (b)" "0.001 km" "s(Betw_CV)" 9.13590923928975e-06 4 3.49328242898349e-06 0.690302286818828
-"Temporary" "Proportional decay rate (b)" "0.001 km" "s(OutDeg_Med)" 1.04348050688185 2 7.34190677677518 0.00449312783846301
-"Temporary" "Proportional decay rate (b)" "0.001 km" "s(WatCov_Mean)" 8.25993430635375e-06 2 2.9392664136299e-06 0.64958801683911
-"Temporary" "Collapsing rate (q)" "0.001 km" "(Intercept)" -0.724580994498539 0.00463869103148762 -156.203762996943 0
-"Temporary" "Collapsing rate (q)" "0.001 km" "s(Long)" 1.31729100106915 2 3.95241226089401 0.0451349663176783
-"Temporary" "Collapsing rate (q)" "0.001 km" "s(Lat)" 7.81198502243482e-06 2 5.0459261777125e-06 0.451892957700219
-"Temporary" "Collapsing rate (q)" "0.001 km" "s(Betw_CV)" 2.71787401352 4 14.5324782997812 0.000507776548455574
-"Temporary" "Collapsing rate (q)" "0.001 km" "s(OutDeg_Med)" 0.956074101775352 2 21.77467825825 1.32864306712221e-06
-"Temporary" "Collapsing rate (q)" "0.001 km" "s(WatCov_Mean)" 0.000134863956872491 2 4.18978616244255e-05 0.687182408090934
-"Temporary" "Proportional decay rate (b)" "0.1 km" "(Intercept)" 0.341083395648614 0.0830709713692362 4.10592761859683 4.02695573121555e-05
-"Temporary" "Proportional decay rate (b)" "0.1 km" "s(Long)" 7.62900043103637e-06 2 8.6832122455633e-07 0.881073163082437
-"Temporary" "Proportional decay rate (b)" "0.1 km" "s(Lat)" 0.500461494865614 2 0.993778210002195 0.158372002360286
-"Temporary" "Proportional decay rate (b)" "0.1 km" "s(Betw_CV)" 3.17392720404676e-06 4 1.87583729392748e-06 0.510295037394553
-"Temporary" "Proportional decay rate (b)" "0.1 km" "s(OutDeg_Med)" 0.249603076226104 2 0.338872798944845 0.243314732829173
-"Temporary" "Proportional decay rate (b)" "0.1 km" "s(WatCov_Mean)" 7.3552726910921e-06 2 2.22296962864545e-06 0.65944269363985
-"Temporary" "Collapsing rate (q)" "0.1 km" "(Intercept)" -0.669063123027304 0.0041214918708996 -162.335179586625 0
-"Temporary" "Collapsing rate (q)" "0.1 km" "s(Long)" 0.38724137089409 2 0.631984453348974 0.19805468291454
-"Temporary" "Collapsing rate (q)" "0.1 km" "s(Lat)" 0.715319933699494 2 2.51440529963393 0.0548858916586301
-"Temporary" "Collapsing rate (q)" "0.1 km" "s(Betw_CV)" 0.73741195627739 4 2.80737604239799 0.0443145767631871
-"Temporary" "Collapsing rate (q)" "0.1 km" "s(OutDeg_Med)" 0.895705414836737 2 8.59804286805858 0.00185028136366161
-"Temporary" "Collapsing rate (q)" "0.1 km" "s(WatCov_Mean)" 1.78043587105148e-05 2 9.04559615474507e-06 0.53485767431221
-"Temporary" "Proportional decay rate (b)" "0.5 km" "(Intercept)" 0.487957075453732 0.0727107845777308 6.71093123650847 1.93386231366427e-11
-"Temporary" "Proportional decay rate (b)" "0.5 km" "s(Long)" 0.0830951673095 2 0.0922036173433301 0.292152197684208
-"Temporary" "Proportional decay rate (b)" "0.5 km" "s(Lat)" 6.29900273218116e-06 2 1.71085834214835e-06 0.710009354400637
-"Temporary" "Proportional decay rate (b)" "0.5 km" "s(Betw_CV)" 8.89053784761851e-06 4 3.14410949974668e-06 0.727192559958295
-"Temporary" "Proportional decay rate (b)" "0.5 km" "s(OutDeg_Med)" 0.833426299569614 2 4.86616489063453 0.0156760349849779
-"Temporary" "Proportional decay rate (b)" "0.5 km" "s(WatCov_Mean)" 1.32122139927096e-05 2 8.96292211930571e-06 0.465996800772487
-"Temporary" "Collapsing rate (q)" "0.5 km" "(Intercept)" -0.655534912385456 0.00334486459408956 -195.982496135658 0
-"Temporary" "Collapsing rate (q)" "0.5 km" "s(Long)" 0.504027356410617 2 1.01580728738397 0.146116431246692
-"Temporary" "Collapsing rate (q)" "0.5 km" "s(Lat)" 4.66793481556709e-05 2 1.3486361137052e-05 0.651540018523858
-"Temporary" "Collapsing rate (q)" "0.5 km" "s(Betw_CV)" 0.70697503168906 4 1.36737774552336 0.128727191868508
-"Temporary" "Collapsing rate (q)" "0.5 km" "s(OutDeg_Med)" 1.51496772450779 2 14.892702727344 6.61229196292634e-05
-"Temporary" "Collapsing rate (q)" "0.5 km" "s(WatCov_Mean)" 0.638998317819858 2 1.76746035028366 0.0918869888067735
-"Temporary" "Proportional decay rate (b)" "1 km" "(Intercept)" 0.420589694792615 0.076033775076041 5.53161663184533 3.17292778929872e-08
-"Temporary" "Proportional decay rate (b)" "1 km" "s(Long)" 7.80175741536161e-06 2 2.34417246477128e-06 0.717603915666136
-"Temporary" "Proportional decay rate (b)" "1 km" "s(Lat)" 0.431634912494022 2 0.761482510179244 0.184104562704106
-"Temporary" "Proportional decay rate (b)" "1 km" "s(Betw_CV)" 2.51425186390127e-05 4 1.95585882009274e-05 0.41246855481278
-"Temporary" "Proportional decay rate (b)" "1 km" "s(OutDeg_Med)" 3.36676133409181e-05 2 2.9220497744805e-05 0.356790939487359
-"Temporary" "Proportional decay rate (b)" "1 km" "s(WatCov_Mean)" 7.22019117291033e-06 2 1.90325362212092e-06 0.726029546182173
-"Temporary" "Collapsing rate (q)" "1 km" "(Intercept)" -0.649612472371357 0.00329970465723801 -196.869883777753 0
-"Temporary" "Collapsing rate (q)" "1 km" "s(Long)" 5.70420835646938e-05 2 1.97802061297117e-05 0.680267879370031
-"Temporary" "Collapsing rate (q)" "1 km" "s(Lat)" 4.2523074721013e-05 2 1.1733715360553e-05 0.647551921971271
-"Temporary" "Collapsing rate (q)" "1 km" "s(Betw_CV)" 0.81866415441827 4 1.78612328429564 0.104433265489308
-"Temporary" "Collapsing rate (q)" "1 km" "s(OutDeg_Med)" 1.34565173442707 2 7.04521324615637 0.00508247440483756
-"Temporary" "Collapsing rate (q)" "1 km" "s(WatCov_Mean)" 0.705844047869392 2 2.39723116574322 0.0617435140733906
-"Temporary" "Proportional decay rate (b)" "2 km" "(Intercept)" 0.35187437557336 0.0752203702090631 4.67791337101082 2.89808926362186e-06
-"Temporary" "Proportional decay rate (b)" "2 km" "s(Long)" 6.16846863588491e-06 2 2.05586713479446e-06 0.689605878521198
-"Temporary" "Proportional decay rate (b)" "2 km" "s(Lat)" 3.95138916602092e-06 2 1.14690842304927e-07 0.965352565467728
-"Temporary" "Proportional decay rate (b)" "2 km" "s(Betw_CV)" 5.93222244646594e-06 4 5.09350457497224e-07 0.957951149258485
-"Temporary" "Proportional decay rate (b)" "2 km" "s(OutDeg_Med)" 0.772378415950272 2 1.6365502046962 0.122031175236507
-"Temporary" "Proportional decay rate (b)" "2 km" "s(WatCov_Mean)" 4.9142377351905e-06 2 1.29505880617236e-06 0.729395288471569
-"Temporary" "Collapsing rate (q)" "2 km" "(Intercept)" -0.646143984620645 0.0028504728958666 -226.679575012835 0
-"Temporary" "Collapsing rate (q)" "2 km" "s(Long)" 0.335822180204576 2 0.505275596287082 0.217924810632496
-"Temporary" "Collapsing rate (q)" "2 km" "s(Lat)" 5.10530851566486e-05 2 3.71603398385486e-06 0.909977236679736
-"Temporary" "Collapsing rate (q)" "2 km" "s(Betw_CV)" 0.158050416055104 4 0.178273498154007 0.287089088311467
-"Temporary" "Collapsing rate (q)" "2 km" "s(OutDeg_Med)" 1.6145961459885 2 15.4313994827955 6.12391840463244e-05
-"Temporary" "Collapsing rate (q)" "2 km" "s(WatCov_Mean)" 0.000111886252703778 2 8.32917259302359e-05 0.414035117937975
-"Temporary" "Proportional decay rate (b)" "5 km" "(Intercept)" 0.371359507380535 0.081769361778163 4.54154831718044 5.58425838099755e-06
-"Temporary" "Proportional decay rate (b)" "5 km" "s(Long)" 2.80793636575387e-06 2 2.25927579144073e-07 0.91455255043529
-"Temporary" "Proportional decay rate (b)" "5 km" "s(Lat)" 2.75085364470933e-06 2 5.63475471518557e-07 0.782879917740448
-"Temporary" "Proportional decay rate (b)" "5 km" "s(Betw_CV)" 4.08059577786513e-06 4 1.57094616895531e-06 0.699059034550163
-"Temporary" "Proportional decay rate (b)" "5 km" "s(OutDeg_Med)" 0.760231023522994 2 3.06848026399882 0.0445341099885586
-"Temporary" "Proportional decay rate (b)" "5 km" "s(WatCov_Mean)" 2.47512514416272e-06 2 2.2822759372991e-08 0.988811902200566
-"Temporary" "Collapsing rate (q)" "5 km" "(Intercept)" -0.639906437972434 0.00309883680808983 -206.498914786959 0
-"Temporary" "Collapsing rate (q)" "5 km" "s(Long)" 0.226573844132206 2 0.292721570284297 0.244065793311865
-"Temporary" "Collapsing rate (q)" "5 km" "s(Lat)" 5.06554064996594e-05 2 1.97469661446858e-06 0.942793249634996
-"Temporary" "Collapsing rate (q)" "5 km" "s(Betw_CV)" 1.18626193389256 4 1.77047591101905 0.197910599623818
-"Temporary" "Collapsing rate (q)" "5 km" "s(OutDeg_Med)" 1.57427588496778 2 12.2303254733892 0.000272546714461197
-"Temporary" "Collapsing rate (q)" "5 km" "s(WatCov_Mean)" 4.05662764815549e-05 2 7.29898924722361e-06 0.768034929144274
-"Temporary" "Proportional decay rate (b)" "10 km" "(Intercept)" 0.450247578334864 0.0901583339811428 4.99396515500204 5.91520746477109e-07
-"Temporary" "Proportional decay rate (b)" "10 km" "s(Long)" 4.47212582751093e-06 2 1.01991293223988e-06 0.767476429916446
-"Temporary" "Proportional decay rate (b)" "10 km" "s(Lat)" 7.48496052513431e-05 2 7.05406405594828e-05 0.328809610215536
-"Temporary" "Proportional decay rate (b)" "10 km" "s(Betw_CV)" 4.22992358016595e-06 4 1.25611195461202e-06 0.756045078831865
-"Temporary" "Proportional decay rate (b)" "10 km" "s(OutDeg_Med)" 0.221006191781272 2 0.302977943095858 0.24165695792889
-"Temporary" "Proportional decay rate (b)" "10 km" "s(WatCov_Mean)" 5.93239256791077e-06 2 1.13784747615442e-06 0.792651611766183
-"Temporary" "Collapsing rate (q)" "10 km" "(Intercept)" -0.636801737951794 0.00315355135678798 -201.931621180384 0
-"Temporary" "Collapsing rate (q)" "10 km" "s(Long)" 0.381048354196316 2 0.615620670159561 0.203627834150963
-"Temporary" "Collapsing rate (q)" "10 km" "s(Lat)" 1.70746295807606e-05 2 6.21347918384311e-06 0.650417606849628
-"Temporary" "Collapsing rate (q)" "10 km" "s(Betw_CV)" 2.39749178588528e-05 4 1.06333500079342e-05 0.620540821508696
-"Temporary" "Collapsing rate (q)" "10 km" "s(OutDeg_Med)" 0.719207621918506 2 2.56272192695402 0.0590202984274845
-"Temporary" "Collapsing rate (q)" "10 km" "s(WatCov_Mean)" 1.7544682633099e-05 2 8.54701936745266e-08 0.994090545133598
-"Ephemeral" "Proportional decay rate (b)" "0.001 km" "(Intercept)" -1.08616500486874 0.0827683307424782 -13.1229540951863 2.43264086497081e-39
-"Ephemeral" "Proportional decay rate (b)" "0.001 km" "s(Long)" 1.57313094095949 2 9.56850679910223 0.0015074004208202
-"Ephemeral" "Proportional decay rate (b)" "0.001 km" "s(Lat)" 3.86616776551525e-05 2 2.87349840978666e-05 0.365502675926151
-"Ephemeral" "Proportional decay rate (b)" "0.001 km" "s(Betw_CV)" 1.80276030774472 4 6.73609878249844 0.00906935219042593
-"Ephemeral" "Proportional decay rate (b)" "0.001 km" "s(OutDeg_Med)" 1.44075274929198 2 8.91273874564394 0.00208289821182883
-"Ephemeral" "Proportional decay rate (b)" "0.001 km" "s(WatCov_Mean)" 1.78366843899756 2 28.3215256732007 0
-"Ephemeral" "Proportional decay rate (b)" "0.001 km" "s(EcoRSize)" 0.859861319404603 2 6.13590710045197 0.00243423811465693
-"Ephemeral" "Collapsing rate (q)" "0.001 km" "(Intercept)" -0.778026091939053 0.00658519240816114 -118.147814629506 0
-"Ephemeral" "Collapsing rate (q)" "0.001 km" "s(Long)" 0.0244881239289006 2 0.0250075475241212 0.306939364469595
-"Ephemeral" "Collapsing rate (q)" "0.001 km" "s(Lat)" 0.275596630330021 2 0.379929986716469 0.22850844590594
-"Ephemeral" "Collapsing rate (q)" "0.001 km" "s(Betw_CV)" 1.49922598511295e-05 4 2.8845316363277e-06 0.847426231125866
-"Ephemeral" "Collapsing rate (q)" "0.001 km" "s(OutDeg_Med)" 1.21984299933916 2 24.264567618558 5.96219734472214e-07
-"Ephemeral" "Collapsing rate (q)" "0.001 km" "s(WatCov_Mean)" 0.917707606584705 2 11.1731039912165 0.000361582809618399
-"Ephemeral" "Collapsing rate (q)" "0.001 km" "s(EcoRSize)" 0.770506789120777 2 3.35484627229649 0.0327704475756905
-"Ephemeral" "Proportional decay rate (b)" "0.1 km" "(Intercept)" -0.474145754400999 0.0686645548146878 -6.90524763002725 5.01159287160273e-12
-"Ephemeral" "Proportional decay rate (b)" "0.1 km" "s(Long)" 1.28256726972035 2 5.11561451793639 0.0156388473248823
-"Ephemeral" "Proportional decay rate (b)" "0.1 km" "s(Lat)" 8.11352122568398e-06 2 2.65828836154679e-06 0.640949188619371
-"Ephemeral" "Proportional decay rate (b)" "0.1 km" "s(Betw_CV)" 1.61318565868028 4 5.55309538831762 0.0173268153974574
-"Ephemeral" "Proportional decay rate (b)" "0.1 km" "s(OutDeg_Med)" 1.24799105337415 2 8.65968238051315 0.00158449755999945
-"Ephemeral" "Proportional decay rate (b)" "0.1 km" "s(WatCov_Mean)" 0.709018776736603 2 2.40468151757416 0.0473314973722184
-"Ephemeral" "Proportional decay rate (b)" "0.1 km" "s(EcoRSize)" 6.51938915829054e-06 2 2.04172611588761e-07 0.960653834150275
-"Ephemeral" "Collapsing rate (q)" "0.1 km" "(Intercept)" -0.731267853528815 0.00803562891152725 -91.0031886215898 0
-"Ephemeral" "Collapsing rate (q)" "0.1 km" "s(Long)" 0.581132255591732 2 1.38739075163363 0.12187581836679
-"Ephemeral" "Collapsing rate (q)" "0.1 km" "s(Lat)" 8.53019588827635e-06 2 1.00442777467866e-06 0.807776920618773
-"Ephemeral" "Collapsing rate (q)" "0.1 km" "s(Betw_CV)" 1.46333276025012e-05 4 1.65957409340538e-07 0.9983177264187
-"Ephemeral" "Collapsing rate (q)" "0.1 km" "s(OutDeg_Med)" 1.75141586369903 2 18.4159114802014 2.77064644393921e-05
-"Ephemeral" "Collapsing rate (q)" "0.1 km" "s(WatCov_Mean)" 1.01009442511988e-05 2 2.1467848303839e-06 0.727410880449542
-"Ephemeral" "Collapsing rate (q)" "0.1 km" "s(EcoRSize)" 8.16689538578372e-06 2 1.14663152463886e-06 0.848776411539914
-"Ephemeral" "Proportional decay rate (b)" "0.5 km" "(Intercept)" -0.601796546955763 0.142951937654567 -4.20978237042132 2.55616791630659e-05
-"Ephemeral" "Proportional decay rate (b)" "0.5 km" "s(Long)" 0.762753002397524 2 3.19035277360352 0.0366822076336695
-"Ephemeral" "Proportional decay rate (b)" "0.5 km" "s(Lat)" 1.80816999898238 2 18.6005215448909 1.51077622070339e-05
-"Ephemeral" "Proportional decay rate (b)" "0.5 km" "s(Betw_CV)" 0.973557002002785 4 2.352822990243 0.0764944746662956
-"Ephemeral" "Proportional decay rate (b)" "0.5 km" "s(OutDeg_Med)" 1.75406557638236 2 14.2913576574969 0.00016104117388771
-"Ephemeral" "Proportional decay rate (b)" "0.5 km" "s(WatCov_Mean)" 0.7586524226426 2 3.2014970304496 0.0311007582520285
-"Ephemeral" "Proportional decay rate (b)" "0.5 km" "s(EcoRSize)" 0.939950445114183 2 15.186204907583 5.76523425865894e-06
-"Ephemeral" "Collapsing rate (q)" "0.5 km" "(Intercept)" -0.725097482692023 0.0132855315609208 -54.577980517158 0
-"Ephemeral" "Collapsing rate (q)" "0.5 km" "s(Long)" 0.391291930718134 2 0.646370768094567 0.186834738168042
-"Ephemeral" "Collapsing rate (q)" "0.5 km" "s(Lat)" 0.667201755286819 2 2.00764032194659 0.0736056085757372
-"Ephemeral" "Collapsing rate (q)" "0.5 km" "s(Betw_CV)" 2.14589145165658e-05 4 2.42760770026631e-06 0.93183164709085
-"Ephemeral" "Collapsing rate (q)" "0.5 km" "s(OutDeg_Med)" 1.31916361894839 2 5.13921311362285 0.0185739970859748
-"Ephemeral" "Collapsing rate (q)" "0.5 km" "s(WatCov_Mean)" 0.332966646849622 2 0.497656831585097 0.217957199282901
-"Ephemeral" "Collapsing rate (q)" "0.5 km" "s(EcoRSize)" 0.603984361946841 2 1.52501424870377 0.0993131120511381
-"Ephemeral" "Proportional decay rate (b)" "1 km" "(Intercept)" -0.809427671927753 0.1458592240567 -5.54937596276463 2.86691066274631e-08
-"Ephemeral" "Proportional decay rate (b)" "1 km" "s(Long)" 0.925193456655378 2 12.1846885066428 0.00025624528576762
-"Ephemeral" "Proportional decay rate (b)" "1 km" "s(Lat)" 0.920423462523674 2 10.9979907402226 0.000396011395613405
-"Ephemeral" "Proportional decay rate (b)" "1 km" "s(Betw_CV)" 9.9011245248926e-06 4 9.57644074752905e-07 0.959849690669496
-"Ephemeral" "Proportional decay rate (b)" "1 km" "s(OutDeg_Med)" 0.366438397551286 2 0.463779862080829 0.254916239473096
-"Ephemeral" "Proportional decay rate (b)" "1 km" "s(WatCov_Mean)" 1.61900168944187 2 8.85798164277458 0.00383435482392092
-"Ephemeral" "Proportional decay rate (b)" "1 km" "s(EcoRSize)" 0.931019332255302 2 13.1159576461775 0.000116069052611412
-"Ephemeral" "Collapsing rate (q)" "1 km" "(Intercept)" -0.720207767169934 0.00803249016944323 -89.6618298905251 0
-"Ephemeral" "Collapsing rate (q)" "1 km" "s(Long)" 0.441592703979213 2 0.794022356210933 0.167923073093763
-"Ephemeral" "Collapsing rate (q)" "1 km" "s(Lat)" 0.842461137422192 2 5.35205456379067 0.00877876090825502
-"Ephemeral" "Collapsing rate (q)" "1 km" "s(Betw_CV)" 1.3829347238325e-05 4 1.37746509559989e-06 0.950016210369738
-"Ephemeral" "Collapsing rate (q)" "1 km" "s(OutDeg_Med)" 1.37366911527449 2 11.9094363724106 0.00031519759550358
-"Ephemeral" "Collapsing rate (q)" "1 km" "s(WatCov_Mean)" 1.15508997607612 2 3.91859096305729 0.0341553359611489
-"Ephemeral" "Collapsing rate (q)" "1 km" "s(EcoRSize)" 0.616711569076951 2 1.6076718748767 0.0911020620162658
-"Ephemeral" "Proportional decay rate (b)" "2 km" "(Intercept)" -0.82304127567804 0.153435180925298 -5.36409753431155 8.13549375803367e-08
-"Ephemeral" "Proportional decay rate (b)" "2 km" "s(Long)" 0.914946534592316 2 10.647642039692 0.000568501325037385
-"Ephemeral" "Proportional decay rate (b)" "2 km" "s(Lat)" 0.923604042403881 2 11.4624343836463 0.000362704706839856
-"Ephemeral" "Proportional decay rate (b)" "2 km" "s(Betw_CV)" 8.80717325784336e-06 4 1.4197995416367e-06 0.908911031963436
-"Ephemeral" "Proportional decay rate (b)" "2 km" "s(OutDeg_Med)" 0.0810560390432428 2 0.0851399115072751 0.299812236525937
-"Ephemeral" "Proportional decay rate (b)" "2 km" "s(WatCov_Mean)" 1.07886233759402 2 6.50265297087545 0.00688415934402231
-"Ephemeral" "Proportional decay rate (b)" "2 km" "s(EcoRSize)" 0.891467036082202 2 8.09659977194502 0.0020485101565485
-"Ephemeral" "Collapsing rate (q)" "2 km" "(Intercept)" -0.70788422654189 0.00743038544049344 -95.2688433474967 0
-"Ephemeral" "Collapsing rate (q)" "2 km" "s(Long)" 4.17623646615717e-05 2 2.07951420692938e-05 0.574796046254384
-"Ephemeral" "Collapsing rate (q)" "2 km" "s(Lat)" 0.817595097064881 2 4.48358456313944 0.0169264030924379
-"Ephemeral" "Collapsing rate (q)" "2 km" "s(Betw_CV)" 4.37338501311447e-05 4 1.68028372601913e-06 0.989498390084785
-"Ephemeral" "Collapsing rate (q)" "2 km" "s(OutDeg_Med)" 1.51566519565033 2 11.6424892393453 0.000384367051915135
-"Ephemeral" "Collapsing rate (q)" "2 km" "s(WatCov_Mean)" 0.637432725036638 2 1.75608893618305 0.0920952332701881
-"Ephemeral" "Collapsing rate (q)" "2 km" "s(EcoRSize)" 0.486783279224807 2 0.950815319593877 0.153532671921087
-"Ephemeral" "Proportional decay rate (b)" "5 km" "(Intercept)" -0.7420600639707 0.155738856481502 -4.76477149463877 1.89067788629623e-06
-"Ephemeral" "Proportional decay rate (b)" "5 km" "s(Long)" 0.88688384178697 2 7.80782283718874 0.00272079474218989
-"Ephemeral" "Proportional decay rate (b)" "5 km" "s(Lat)" 0.92088530879962 2 10.9091284211665 0.000395882626914035
-"Ephemeral" "Proportional decay rate (b)" "5 km" "s(Betw_CV)" 7.97384570136189e-06 4 1.03871752071627e-06 0.933242502498351
-"Ephemeral" "Proportional decay rate (b)" "5 km" "s(OutDeg_Med)" 0.387081530157872 2 0.502630678598116 0.248127019760121
-"Ephemeral" "Proportional decay rate (b)" "5 km" "s(WatCov_Mean)" 1.29004593941113 2 7.10536272059349 0.00552452906286938
-"Ephemeral" "Proportional decay rate (b)" "5 km" "s(EcoRSize)" 0.89113905061773 2 7.98009207973731 0.00209453364558909
-"Ephemeral" "Collapsing rate (q)" "5 km" "(Intercept)" -0.702399213146381 0.00654481941948618 -107.321404629606 0
-"Ephemeral" "Collapsing rate (q)" "5 km" "s(Long)" 0.00016094411056695 2 0.000125990399329232 0.419526579308529
-"Ephemeral" "Collapsing rate (q)" "5 km" "s(Lat)" 0.866858321329739 2 6.51585733648979 0.00469382169818
-"Ephemeral" "Collapsing rate (q)" "5 km" "s(Betw_CV)" 2.80109681936162e-05 4 7.29016600172201e-06 0.797204856413626
-"Ephemeral" "Collapsing rate (q)" "5 km" "s(OutDeg_Med)" 1.48702726784931 2 16.4474461760167 3.25927240574231e-05
-"Ephemeral" "Collapsing rate (q)" "5 km" "s(WatCov_Mean)" 0.902620492884828 2 5.08413001590992 0.0128800173400586
-"Ephemeral" "Collapsing rate (q)" "5 km" "s(EcoRSize)" 0.67333341368516 2 2.06040422207929 0.0751930665123252
-"Ephemeral" "Proportional decay rate (b)" "10 km" "(Intercept)" -0.487820620488439 0.072927395635156 -6.68912712760137 2.24505641658106e-11
-"Ephemeral" "Proportional decay rate (b)" "10 km" "s(Long)" 0.513698013251362 2 1.06920602196018 0.144535294987178
-"Ephemeral" "Proportional decay rate (b)" "10 km" "s(Lat)" 0.885241275905215 2 7.58095022357859 0.00186218274786731
-"Ephemeral" "Proportional decay rate (b)" "10 km" "s(Betw_CV)" 0.595340600198 4 1.42920988366869 0.115566889545446
-"Ephemeral" "Proportional decay rate (b)" "10 km" "s(OutDeg_Med)" 0.685367265376703 2 2.13492592566687 0.0729532849131762
-"Ephemeral" "Proportional decay rate (b)" "10 km" "s(WatCov_Mean)" 1.22364050980925 2 8.25288575607555 0.00255318148529937
-"Ephemeral" "Proportional decay rate (b)" "10 km" "s(EcoRSize)" 7.25654042589861e-06 2 6.13519999181951e-07 0.910168335327825
-"Ephemeral" "Collapsing rate (q)" "10 km" "(Intercept)" -0.693436738721225 0.0045615133076012 -152.019010350293 0
-"Ephemeral" "Collapsing rate (q)" "10 km" "s(Long)" 0.178358476585392 2 0.217271482258414 0.265174683324852
-"Ephemeral" "Collapsing rate (q)" "10 km" "s(Lat)" 1.62044534713976 2 10.1977949094175 0.00166390275126882
-"Ephemeral" "Collapsing rate (q)" "10 km" "s(Betw_CV)" 2.2293345126292e-05 4 5.71595955587365e-06 0.800573355111648
-"Ephemeral" "Collapsing rate (q)" "10 km" "s(OutDeg_Med)" 0.88734433025059 2 7.86864839657571 0.00208952860601064
-"Ephemeral" "Collapsing rate (q)" "10 km" "s(WatCov_Mean)" 0.917547026733117 2 11.123337022701 0.000395306943937301
-"Ephemeral" "Collapsing rate (q)" "10 km" "s(EcoRSize)" 5.09837360534814e-05 2 2.26579884890071e-05 0.565667802721428
+"Total Freshwaters" "Proportional decay rate (b)" "0.001 km" "(Intercept)" -0.194976489457171 0.0841842878803653 -2.31606745589216 0.0205545858796683
+"Total Freshwaters" "Proportional decay rate (b)" "0.001 km" "s(Betw_CV)" 1.64381740360209e-05 2 6.14153869778393e-06 0.5419092224283
+"Total Freshwaters" "Proportional decay rate (b)" "0.001 km" "s(OutDeg_CV)" 1.67173979468896 2 13.6592222576888 0.000198328608900011
+"Total Freshwaters" "Proportional decay rate (b)" "0.001 km" "s(WatCov_Mean)" 9.4089598105445e-07 2 7.3664758331424e-07 0.39899721433377
+"Total Freshwaters" "Proportional decay rate (b)" "0.001 km" "s(WatCov_CV)" 0.839441460186323 2 5.06626465753146 0.00865354823312425
+"Total Freshwaters" "Collapsing rate (q)" "0.001 km" "(Intercept)" -0.752236640779679 0.00724192070070115 -103.872532145629 0
+"Total Freshwaters" "Collapsing rate (q)" "0.001 km" "s(Betw_CV)" 0.752067883027816 2 3.02836089495064 0.0447710770552543
+"Total Freshwaters" "Collapsing rate (q)" "0.001 km" "s(OutDeg_CV)" 0.849612018549352 2 5.65980831597647 0.00966984726042364
+"Total Freshwaters" "Collapsing rate (q)" "0.001 km" "s(WatCov_Mean)" 7.73897985205935e-06 2 2.49345898528058e-06 0.697531798001278
+"Total Freshwaters" "Collapsing rate (q)" "0.001 km" "s(WatCov_CV)" 0.922137802314319 2 11.8507323245091 0.000317852218145509
+"Total Freshwaters" "Proportional decay rate (b)" "0.1 km" "(Intercept)" 0.292935698694846 0.112990204379959 2.59257605827294 0.00952601151885663
+"Total Freshwaters" "Proportional decay rate (b)" "0.1 km" "s(Betw_CV)" 0.788621012780987 2 3.54781773441144 0.0322235580180078
+"Total Freshwaters" "Proportional decay rate (b)" "0.1 km" "s(OutDeg_CV)" 0.923185213611867 2 11.5692933548774 0.000267166908410665
+"Total Freshwaters" "Proportional decay rate (b)" "0.1 km" "s(WatCov_Mean)" 0.760938722101796 2 3.22639132812295 0.0358066786551927
+"Total Freshwaters" "Proportional decay rate (b)" "0.1 km" "s(WatCov_CV)" 3.99515116079393e-06 2 8.6123515946861e-07 0.796602563789833
+"Total Freshwaters" "Collapsing rate (q)" "0.1 km" "(Intercept)" -0.686858870721471 0.00511981660306116 -134.156928650686 0
+"Total Freshwaters" "Collapsing rate (q)" "0.1 km" "s(Betw_CV)" 0.951284150658238 2 19.4985234939871 5.03823834163697e-06
+"Total Freshwaters" "Collapsing rate (q)" "0.1 km" "s(OutDeg_CV)" 1.72363039131586 2 12.0745557206749 0.00069979223528549
+"Total Freshwaters" "Collapsing rate (q)" "0.1 km" "s(WatCov_Mean)" 0.384366319548404 2 0.623044714595734 0.191111644076222
+"Total Freshwaters" "Collapsing rate (q)" "0.1 km" "s(WatCov_CV)" 4.685834561176e-05 2 1.97336890976184e-05 0.559436231483038
+"Total Freshwaters" "Proportional decay rate (b)" "0.5 km" "(Intercept)" 0.37405164148534 0.0860052222080194 4.34917359530364 1.36651510506723e-05
+"Total Freshwaters" "Proportional decay rate (b)" "0.5 km" "s(Betw_CV)" 1.7014059206627e-05 2 1.35577041921644e-05 0.419363393981316
+"Total Freshwaters" "Proportional decay rate (b)" "0.5 km" "s(OutDeg_CV)" 0.894716594721226 2 8.31683841896043 0.0016312729464858
+"Total Freshwaters" "Proportional decay rate (b)" "0.5 km" "s(WatCov_Mean)" 0.626422388935583 2 1.74684500801125 0.0907186283790176
+"Total Freshwaters" "Proportional decay rate (b)" "0.5 km" "s(WatCov_CV)" 1.91952848614078e-05 2 1.63254703548284e-05 0.351003643192817
+"Total Freshwaters" "Collapsing rate (q)" "0.5 km" "(Intercept)" -0.666910002240661 0.00334682808821949 -199.266285767147 0
+"Total Freshwaters" "Collapsing rate (q)" "0.5 km" "s(Betw_CV)" 0.779086089189403 2 3.52540308344461 0.0312738120005618
+"Total Freshwaters" "Collapsing rate (q)" "0.5 km" "s(OutDeg_CV)" 1.75723327572242 2 16.3917007216234 6.56291217364657e-05
+"Total Freshwaters" "Collapsing rate (q)" "0.5 km" "s(WatCov_Mean)" 0.571971158070331 2 1.33417578256428 0.115144588544204
+"Total Freshwaters" "Collapsing rate (q)" "0.5 km" "s(WatCov_CV)" 1.99948125949872e-05 2 2.87978638187099e-06 0.816428883201337
+"Total Freshwaters" "Proportional decay rate (b)" "1 km" "(Intercept)" 0.245684770823494 0.0809752564030631 3.03407215656807 0.00241276714261979
+"Total Freshwaters" "Proportional decay rate (b)" "1 km" "s(Betw_CV)" 0.532327819513831 2 1.13592289033006 0.140192430836004
+"Total Freshwaters" "Proportional decay rate (b)" "1 km" "s(OutDeg_CV)" 0.921181669461096 2 11.3398296308756 0.000306721797438403
+"Total Freshwaters" "Proportional decay rate (b)" "1 km" "s(WatCov_Mean)" 0.233173990204487 2 0.323259725403627 0.227446513902787
+"Total Freshwaters" "Proportional decay rate (b)" "1 km" "s(WatCov_CV)" 1.27733946256665e-05 2 5.55098664708385e-06 0.629281386061554
+"Total Freshwaters" "Collapsing rate (q)" "1 km" "(Intercept)" -0.662244335351954 0.00283525619847217 -233.574777372435 0
+"Total Freshwaters" "Collapsing rate (q)" "1 km" "s(Betw_CV)" 8.3034039737545e-05 2 5.31720644883269e-05 0.43509000244118
+"Total Freshwaters" "Collapsing rate (q)" "1 km" "s(OutDeg_CV)" 0.90192280247587 2 9.19955038960112 0.00127062226980479
+"Total Freshwaters" "Collapsing rate (q)" "1 km" "s(WatCov_Mean)" 0.902708994365779 2 9.2748270739245 0.00113009871761505
+"Total Freshwaters" "Collapsing rate (q)" "1 km" "s(WatCov_CV)" 0.93839526708663 2 15.2353162009847 4.76043306756324e-05
+"Total Freshwaters" "Proportional decay rate (b)" "2 km" "(Intercept)" 0.261520819121003 0.0781014416797385 3.34847620602691 0.000812572578525596
+"Total Freshwaters" "Proportional decay rate (b)" "2 km" "s(Betw_CV)" 0.780391889975908 2 3.52700280134935 0.0335087451550113
+"Total Freshwaters" "Proportional decay rate (b)" "2 km" "s(OutDeg_CV)" 0.914011178159917 2 10.2874933137117 0.000793788754194558
+"Total Freshwaters" "Proportional decay rate (b)" "2 km" "s(WatCov_Mean)" 3.98129937035314e-06 2 2.54754821695315e-06 0.489827888538666
+"Total Freshwaters" "Proportional decay rate (b)" "2 km" "s(WatCov_CV)" 8.8842288088616e-06 2 9.30455477676594e-07 0.886252748329604
+"Total Freshwaters" "Collapsing rate (q)" "2 km" "(Intercept)" -0.654578363915274 0.00286962019207591 -228.106271945956 0
+"Total Freshwaters" "Collapsing rate (q)" "2 km" "s(Betw_CV)" 0.000127765370402195 2 9.54695525763677e-05 0.396230314560544
+"Total Freshwaters" "Collapsing rate (q)" "2 km" "s(OutDeg_CV)" 0.836269453507769 2 5.11028379141615 0.0121576670084531
+"Total Freshwaters" "Collapsing rate (q)" "2 km" "s(WatCov_Mean)" 0.839298041616596 2 5.21881674245652 0.0106482233893682
+"Total Freshwaters" "Collapsing rate (q)" "2 km" "s(WatCov_CV)" 0.913173660719742 2 10.5189444624439 0.000563425237211534
+"Total Freshwaters" "Proportional decay rate (b)" "5 km" "(Intercept)" 0.304477566708465 0.0848336427109858 3.58911343399186 0.000331804450654529
+"Total Freshwaters" "Proportional decay rate (b)" "5 km" "s(Betw_CV)" 0.320188817663559 2 0.470049181165015 0.225501854793714
+"Total Freshwaters" "Proportional decay rate (b)" "5 km" "s(OutDeg_CV)" 0.891929562308552 2 8.0302486184737 0.00263370900853577
+"Total Freshwaters" "Proportional decay rate (b)" "5 km" "s(WatCov_Mean)" 0.588339957096951 2 1.39762199968422 0.12282307004086
+"Total Freshwaters" "Proportional decay rate (b)" "5 km" "s(WatCov_CV)" 2.64248364881781e-06 2 1.90429850306619e-07 0.896582697211301
+"Total Freshwaters" "Collapsing rate (q)" "5 km" "(Intercept)" -0.646417818994004 0.00260584377277253 -248.064686666245 0
+"Total Freshwaters" "Collapsing rate (q)" "5 km" "s(Betw_CV)" 4.74412842011103e-05 2 1.59522429828385e-05 0.657846275508661
+"Total Freshwaters" "Collapsing rate (q)" "5 km" "s(OutDeg_CV)" 0.82997581219303 2 4.88501768151351 0.0134225382123729
+"Total Freshwaters" "Collapsing rate (q)" "5 km" "s(WatCov_Mean)" 0.774632538261096 2 3.43501293621078 0.0304287822376793
+"Total Freshwaters" "Collapsing rate (q)" "5 km" "s(WatCov_CV)" 0.886629724347802 2 7.82193731425538 0.00241473732055575
+"Total Freshwaters" "Proportional decay rate (b)" "10 km" "(Intercept)" 0.657439261849012 0.161967707538624 4.05907616919399 4.92672424893497e-05
+"Total Freshwaters" "Proportional decay rate (b)" "10 km" "s(Betw_CV)" 8.11425425880399e-06 2 2.46876459333866e-06 0.698803706148037
+"Total Freshwaters" "Proportional decay rate (b)" "10 km" "s(OutDeg_CV)" 1.7092574244035 2 27.6812782175258 0
+"Total Freshwaters" "Proportional decay rate (b)" "10 km" "s(WatCov_Mean)" 0.820299725143547 2 4.3027965027067 0.0206446393181029
+"Total Freshwaters" "Proportional decay rate (b)" "10 km" "s(WatCov_CV)" 9.27632275020964e-06 2 1.03069420477279e-06 0.872685004814892
+"Total Freshwaters" "Collapsing rate (q)" "10 km" "(Intercept)" -0.64187590590348 0.00252383707331972 -254.32541295512 0
+"Total Freshwaters" "Collapsing rate (q)" "10 km" "s(Betw_CV)" 2.41210262057196e-05 2 5.91411538487873e-06 0.677674844426055
+"Total Freshwaters" "Collapsing rate (q)" "10 km" "s(OutDeg_CV)" 0.92273051762045 2 11.9431961997516 0.000272047019829413
+"Total Freshwaters" "Collapsing rate (q)" "10 km" "s(WatCov_Mean)" 0.872930149752327 2 6.86639060008411 0.00394469665261932
+"Total Freshwaters" "Collapsing rate (q)" "10 km" "s(WatCov_CV)" 0.789206940049906 2 3.74527442014999 0.0273153579292515
+"Permanent Freshwaters" "Proportional decay rate (b)" "0.001 km" "(Intercept)" -0.360265492203275 0.127610919411232 -2.8231556818606 0.00475534741175109
+"Permanent Freshwaters" "Proportional decay rate (b)" "0.001 km" "s(Betw_CV)" 0.924627337132007 2 11.8403739920162 0.000339998865681479
+"Permanent Freshwaters" "Proportional decay rate (b)" "0.001 km" "s(OutDeg_CV)" 0.899195030530321 2 8.53791003668474 0.00155440111972149
+"Permanent Freshwaters" "Proportional decay rate (b)" "0.001 km" "s(WatCov_Mean)" 4.47690215877524e-06 2 7.98587670979849e-07 0.822167821410129
+"Permanent Freshwaters" "Proportional decay rate (b)" "0.001 km" "s(WatCov_CV)" 0.919541542755911 2 10.9933067920391 0.000354958794138605
+"Permanent Freshwaters" "Proportional decay rate (b)" "0.001 km" "s(EcoRSize)" 8.6123547949811e-07 2 1.08278432428799e-07 0.85891432356007
+"Permanent Freshwaters" "Collapsing rate (q)" "0.001 km" "(Intercept)" -0.77350847925018 0.0134073342614452 -57.6929361323167 0
+"Permanent Freshwaters" "Collapsing rate (q)" "0.001 km" "s(Betw_CV)" 0.891685949997411 2 8.24248606618017 0.00234670409764359
+"Permanent Freshwaters" "Collapsing rate (q)" "0.001 km" "s(OutDeg_CV)" 0.445987205226526 2 0.802699988990496 0.162750825590826
+"Permanent Freshwaters" "Collapsing rate (q)" "0.001 km" "s(WatCov_Mean)" 3.22191602539724e-05 2 1.09715356054336e-05 0.688633601440319
+"Permanent Freshwaters" "Collapsing rate (q)" "0.001 km" "s(WatCov_CV)" 0.904356407290792 2 9.45515420884357 0.000258927354048977
+"Permanent Freshwaters" "Collapsing rate (q)" "0.001 km" "s(EcoRSize)" 5.08978213561854e-05 2 1.73538502875555e-05 0.621656240769454
+"Permanent Freshwaters" "Proportional decay rate (b)" "0.1 km" "(Intercept)" 0.0161170723650308 0.119214345213165 0.135194068601493 0.892458436610902
+"Permanent Freshwaters" "Proportional decay rate (b)" "0.1 km" "s(Betw_CV)" 1.09695563297157 2 3.13559202621207 0.050681411167547
+"Permanent Freshwaters" "Proportional decay rate (b)" "0.1 km" "s(OutDeg_CV)" 0.119450490908717 2 0.137669592129875 0.280478481424114
+"Permanent Freshwaters" "Proportional decay rate (b)" "0.1 km" "s(WatCov_Mean)" 1.14132714118243e-06 2 6.14145230931613e-07 0.548242634536635
+"Permanent Freshwaters" "Proportional decay rate (b)" "0.1 km" "s(WatCov_CV)" 0.744697705733518 2 2.81773051801463 0.0470123959407946
+"Permanent Freshwaters" "Proportional decay rate (b)" "0.1 km" "s(EcoRSize)" 0.38951379317003 2 0.631039910019819 0.183215284865908
+"Permanent Freshwaters" "Collapsing rate (q)" "0.1 km" "(Intercept)" -0.708732810807074 0.00765672368320602 -92.5634566598744 0
+"Permanent Freshwaters" "Collapsing rate (q)" "0.1 km" "s(Betw_CV)" 0.953610961101068 2 6.11879278690072 0.00744446080883887
+"Permanent Freshwaters" "Collapsing rate (q)" "0.1 km" "s(OutDeg_CV)" 8.65740891643006e-05 2 4.95743998577555e-05 0.512291003425159
+"Permanent Freshwaters" "Collapsing rate (q)" "0.1 km" "s(WatCov_Mean)" 1.45857177213487e-05 2 3.00869279126004e-07 0.973541741419137
+"Permanent Freshwaters" "Collapsing rate (q)" "0.1 km" "s(WatCov_CV)" 0.934433108832087 2 14.2548618922117 7.13921688367813e-05
+"Permanent Freshwaters" "Collapsing rate (q)" "0.1 km" "s(EcoRSize)" 0.519613372306084 2 1.08283514618559 0.141445677656202
+"Permanent Freshwaters" "Proportional decay rate (b)" "0.5 km" "(Intercept)" 0.291056623031189 0.0773623477903159 3.76225168114175 0.000168390466729382
+"Permanent Freshwaters" "Proportional decay rate (b)" "0.5 km" "s(Betw_CV)" 0.922890869276047 2 11.779287374167 0.000295077080214701
+"Permanent Freshwaters" "Proportional decay rate (b)" "0.5 km" "s(OutDeg_CV)" 2.64087028019236e-06 2 6.38963659736329e-07 0.76756131729776
+"Permanent Freshwaters" "Proportional decay rate (b)" "0.5 km" "s(WatCov_Mean)" 0.893819355323848 2 7.86721408840313 0.00252020946913789
+"Permanent Freshwaters" "Proportional decay rate (b)" "0.5 km" "s(WatCov_CV)" 0.848647893012661 2 5.56180572995656 0.00929839636809748
+"Permanent Freshwaters" "Proportional decay rate (b)" "0.5 km" "s(EcoRSize)" 1.11093218759536e-05 2 5.37845030400357e-06 0.508190321816279
+"Permanent Freshwaters" "Collapsing rate (q)" "0.5 km" "(Intercept)" -0.682222417458467 0.00397833559742302 -171.484381031198 0
+"Permanent Freshwaters" "Collapsing rate (q)" "0.5 km" "s(Betw_CV)" 0.922503439928005 2 11.89685657665 0.000251647276770295
+"Permanent Freshwaters" "Collapsing rate (q)" "0.5 km" "s(OutDeg_CV)" 0.930086365901968 2 13.3016758587128 3.00840268095959e-05
+"Permanent Freshwaters" "Collapsing rate (q)" "0.5 km" "s(WatCov_Mean)" 0.829959551770962 2 4.89240487554079 0.00963211372561945
+"Permanent Freshwaters" "Collapsing rate (q)" "0.5 km" "s(WatCov_CV)" 1.15000004624918 2 9.78692754939852 0.000826432796341203
+"Permanent Freshwaters" "Collapsing rate (q)" "0.5 km" "s(EcoRSize)" 2.50539309939679e-06 2 6.39461063278289e-07 0.764573651002325
+"Permanent Freshwaters" "Proportional decay rate (b)" "1 km" "(Intercept)" 0.247862732550417 0.0705382064710621 3.51387914366807 0.000441613687450319
+"Permanent Freshwaters" "Proportional decay rate (b)" "1 km" "s(Betw_CV)" 0.968827254736545 2 30.5337981532439 0
+"Permanent Freshwaters" "Proportional decay rate (b)" "1 km" "s(OutDeg_CV)" 1.57465401861168 2 5.93613609707828 0.0217719342691391
+"Permanent Freshwaters" "Proportional decay rate (b)" "1 km" "s(WatCov_Mean)" 1.14512716875798 2 16.7733127947472 1.61100068505338e-05
+"Permanent Freshwaters" "Proportional decay rate (b)" "1 km" "s(WatCov_CV)" 0.93921138670541 2 15.2696939689933 2.12991313961464e-05
+"Permanent Freshwaters" "Proportional decay rate (b)" "1 km" "s(EcoRSize)" 7.14366095551053e-07 2 3.58585547706781e-08 0.943517359859432
+"Permanent Freshwaters" "Collapsing rate (q)" "1 km" "(Intercept)" -0.674014745231578 0.00331832922840984 -203.11870789101 0
+"Permanent Freshwaters" "Collapsing rate (q)" "1 km" "s(Betw_CV)" 0.945684912002174 2 17.2876886742053 1.18720619394219e-05
+"Permanent Freshwaters" "Collapsing rate (q)" "1 km" "s(OutDeg_CV)" 0.769004188403299 2 3.32698483630634 0.025790350172996
+"Permanent Freshwaters" "Collapsing rate (q)" "1 km" "s(WatCov_Mean)" 0.759012195817073 2 3.15570133157109 0.0307007403562831
+"Permanent Freshwaters" "Collapsing rate (q)" "1 km" "s(WatCov_CV)" 1.67172464064637 2 15.8156583286402 3.63615864797939e-05
+"Permanent Freshwaters" "Collapsing rate (q)" "1 km" "s(EcoRSize)" 2.2350825778913e-05 2 1.29981164567461e-05 0.509740258004277
+"Permanent Freshwaters" "Proportional decay rate (b)" "2 km" "(Intercept)" 0.294637103495946 0.0875347537373184 3.36594427831621 0.000762821160190837
+"Permanent Freshwaters" "Proportional decay rate (b)" "2 km" "s(Betw_CV)" 0.920627194341378 2 11.4700385057813 0.000344586052021478
+"Permanent Freshwaters" "Proportional decay rate (b)" "2 km" "s(OutDeg_CV)" 8.6009109962356e-06 2 4.14784346808624e-06 0.58221007305365
+"Permanent Freshwaters" "Proportional decay rate (b)" "2 km" "s(WatCov_Mean)" 0.885918402143547 2 7.16797911897667 0.00373460109517054
+"Permanent Freshwaters" "Proportional decay rate (b)" "2 km" "s(WatCov_CV)" 0.837312314406842 2 5.15377165846426 0.0116357278283031
+"Permanent Freshwaters" "Proportional decay rate (b)" "2 km" "s(EcoRSize)" 5.462496001886e-06 2 2.84544462872713e-07 0.944371633342336
+"Permanent Freshwaters" "Collapsing rate (q)" "2 km" "(Intercept)" -0.6646204651036 0.00337362851109157 -197.004638453377 0
+"Permanent Freshwaters" "Collapsing rate (q)" "2 km" "s(Betw_CV)" 0.862961181339144 2 6.29751715115025 0.00557120500397446
+"Permanent Freshwaters" "Collapsing rate (q)" "2 km" "s(OutDeg_CV)" 0.866143248480984 2 6.46968646542131 0.00265078068194535
+"Permanent Freshwaters" "Collapsing rate (q)" "2 km" "s(WatCov_Mean)" 0.677909616047316 2 2.109197385699 0.0562179666151124
+"Permanent Freshwaters" "Collapsing rate (q)" "2 km" "s(WatCov_CV)" 1.50663783666749 2 10.0387830535421 0.000818010022405447
+"Permanent Freshwaters" "Collapsing rate (q)" "2 km" "s(EcoRSize)" 1.85703287389914e-05 2 2.07416232701615e-06 0.886647483088437
+"Permanent Freshwaters" "Proportional decay rate (b)" "5 km" "(Intercept)" 0.272226321574812 0.0946891484213057 2.87494740541524 0.00404094804373917
+"Permanent Freshwaters" "Proportional decay rate (b)" "5 km" "s(Betw_CV)" 0.922671123838871 2 11.7158464325256 0.000288659064593411
+"Permanent Freshwaters" "Proportional decay rate (b)" "5 km" "s(OutDeg_CV)" 1.42441873099039e-06 2 6.86128648173598e-07 0.596206943622872
+"Permanent Freshwaters" "Proportional decay rate (b)" "5 km" "s(WatCov_Mean)" 1.17124790177944 2 10.6406714100417 0.00061979734944595
+"Permanent Freshwaters" "Proportional decay rate (b)" "5 km" "s(WatCov_CV)" 0.800024658180284 2 4.00104118300846 0.0229986156140218
+"Permanent Freshwaters" "Proportional decay rate (b)" "5 km" "s(EcoRSize)" 2.82361143155156e-06 2 1.73215550013263e-07 0.928000995384038
+"Permanent Freshwaters" "Collapsing rate (q)" "5 km" "(Intercept)" -0.656990965942339 0.00375596335289018 -174.919429242245 0
+"Permanent Freshwaters" "Collapsing rate (q)" "5 km" "s(Betw_CV)" 0.760145280337414 2 3.16889611293079 0.0394946395411955
+"Permanent Freshwaters" "Collapsing rate (q)" "5 km" "s(OutDeg_CV)" 0.499869351090481 2 0.998355082008803 0.137844837480331
+"Permanent Freshwaters" "Collapsing rate (q)" "5 km" "s(WatCov_Mean)" 2.10555047963548e-05 2 1.18306023783227e-05 0.514148047391938
+"Permanent Freshwaters" "Collapsing rate (q)" "5 km" "s(WatCov_CV)" 1.5443560231335 2 9.34974049305094 0.000999235520859898
+"Permanent Freshwaters" "Collapsing rate (q)" "5 km" "s(EcoRSize)" 3.26235806430937e-05 2 9.07547552966629e-06 0.734650088732695
+"Permanent Freshwaters" "Proportional decay rate (b)" "10 km" "(Intercept)" 0.364251357420808 0.0844530014253958 4.31306586234926 1.61006128447446e-05
+"Permanent Freshwaters" "Proportional decay rate (b)" "10 km" "s(Betw_CV)" 0.944095913160722 2 16.5644567529879 1.89855138512662e-05
+"Permanent Freshwaters" "Proportional decay rate (b)" "10 km" "s(OutDeg_CV)" 0.393218478648707 2 0.661361234566071 0.187887824395243
+"Permanent Freshwaters" "Proportional decay rate (b)" "10 km" "s(WatCov_Mean)" 1.17372590731062 2 14.9668662056358 4.50911298872647e-05
+"Permanent Freshwaters" "Proportional decay rate (b)" "10 km" "s(WatCov_CV)" 0.857025419507521 2 5.98886370066522 0.00645081626632504
+"Permanent Freshwaters" "Proportional decay rate (b)" "10 km" "s(EcoRSize)" 1.84344286910174e-06 2 2.08885308391042e-07 0.881986189757153
+"Permanent Freshwaters" "Collapsing rate (q)" "10 km" "(Intercept)" -0.648878023537852 0.00286824275333013 -226.228419050125 0
+"Permanent Freshwaters" "Collapsing rate (q)" "10 km" "s(Betw_CV)" 1.14915338777161 2 7.01051841293877 0.00500734231195676
+"Permanent Freshwaters" "Collapsing rate (q)" "10 km" "s(OutDeg_CV)" 0.273016931628299 2 0.375249593797427 0.229418030427847
+"Permanent Freshwaters" "Collapsing rate (q)" "10 km" "s(WatCov_Mean)" 2.16005025550128e-05 2 6.91937679217636e-06 0.69148811807476
+"Permanent Freshwaters" "Collapsing rate (q)" "10 km" "s(WatCov_CV)" 1.60812408577685 2 24.8934505437742 9.17619800366865e-07
+"Permanent Freshwaters" "Collapsing rate (q)" "10 km" "s(EcoRSize)" 2.25987030588684e-05 2 1.11000221865694e-05 0.513177082322244
+"Temporal Freshwaters" "Proportional decay rate (b)" "0.001 km" "(Intercept)" -0.13500266774888 0.0907611501938818 -1.48744994373132 0.136896014424682
+"Temporal Freshwaters" "Proportional decay rate (b)" "0.001 km" "s(Betw_CV)" 8.5592105804755e-06 2 4.41661617601356e-07 0.946673075279599
+"Temporal Freshwaters" "Proportional decay rate (b)" "0.001 km" "s(OutDeg_CV)" 0.730412055719633 2 2.69159803569788 0.0549033696710907
+"Temporal Freshwaters" "Proportional decay rate (b)" "0.001 km" "s(WatCov_Mean)" 6.71221369460414e-06 2 6.96958610326567e-07 0.886179924929632
+"Temporal Freshwaters" "Collapsing rate (q)" "0.001 km" "(Intercept)" -0.734554113148264 0.00860073024715626 -85.4060169357289 0
+"Temporal Freshwaters" "Collapsing rate (q)" "0.001 km" "s(Betw_CV)" 3.2020389314315e-05 2 2.00221253732824e-06 0.936490689035037
+"Temporal Freshwaters" "Collapsing rate (q)" "0.001 km" "s(OutDeg_CV)" 1.45670556770313 2 10.9514635259876 0.000763961452834971
+"Temporal Freshwaters" "Collapsing rate (q)" "0.001 km" "s(WatCov_Mean)" 3.20188531142706e-05 2 9.25925665865097e-08 0.996236004165195
+"Temporal Freshwaters" "Proportional decay rate (b)" "0.1 km" "(Intercept)" 0.290607588348311 0.0841749504620489 3.45242363379037 0.000555574713826295
+"Temporal Freshwaters" "Proportional decay rate (b)" "0.1 km" "s(Betw_CV)" 8.88133583254691e-06 2 2.35606464826307e-06 0.757259158033131
+"Temporal Freshwaters" "Proportional decay rate (b)" "0.1 km" "s(OutDeg_CV)" 0.486989615108536 2 0.958427563558982 0.159384077455829
+"Temporal Freshwaters" "Proportional decay rate (b)" "0.1 km" "s(WatCov_Mean)" 0.252964080103267 2 0.341380715827174 0.243464427183987
+"Temporal Freshwaters" "Collapsing rate (q)" "0.1 km" "(Intercept)" -0.674299609007055 0.00467534079088475 -144.224697014964 0
+"Temporal Freshwaters" "Collapsing rate (q)" "0.1 km" "s(Betw_CV)" 1.21146040348242 2 3.94977916388454 0.0400380870784278
+"Temporal Freshwaters" "Collapsing rate (q)" "0.1 km" "s(OutDeg_CV)" 0.943266616217987 2 16.6023528270279 1.36334221318979e-05
+"Temporal Freshwaters" "Collapsing rate (q)" "0.1 km" "s(WatCov_Mean)" 0.238839246865318 2 0.313561244041375 0.250624201234458
+"Temporal Freshwaters" "Proportional decay rate (b)" "0.5 km" "(Intercept)" 0.480457121403004 0.075156907033393 6.39272078066666 1.62959680197184e-10
+"Temporal Freshwaters" "Proportional decay rate (b)" "0.5 km" "s(Betw_CV)" 1.12516079081071e-05 2 5.79911271336553e-08 0.994667297903675
+"Temporal Freshwaters" "Proportional decay rate (b)" "0.5 km" "s(OutDeg_CV)" 0.920931115981563 2 11.4727649908079 0.000416328590268744
+"Temporal Freshwaters" "Proportional decay rate (b)" "0.5 km" "s(WatCov_Mean)" 9.35710955747817e-06 2 1.20110970214641e-06 0.867699954676633
+"Temporal Freshwaters" "Collapsing rate (q)" "0.5 km" "(Intercept)" -0.655895896105645 0.00284219538910064 -230.770867696465 0
+"Temporal Freshwaters" "Collapsing rate (q)" "0.5 km" "s(Betw_CV)" 4.14465681766737e-05 2 1.79108125069863e-05 0.646339953015732
+"Temporal Freshwaters" "Collapsing rate (q)" "0.5 km" "s(OutDeg_CV)" 0.981888671544277 2 53.8829572809226 0
+"Temporal Freshwaters" "Collapsing rate (q)" "0.5 km" "s(WatCov_Mean)" 8.60576104112411e-05 2 6.80109445152389e-05 0.402288077941446
+"Temporal Freshwaters" "Proportional decay rate (b)" "1 km" "(Intercept)" 0.342146724995874 0.0688555203534636 4.96905292763012 6.72807049998548e-07
+"Temporal Freshwaters" "Proportional decay rate (b)" "1 km" "s(Betw_CV)" 5.83958717235796e-06 2 5.09608624752985e-07 0.91402466903878
+"Temporal Freshwaters" "Proportional decay rate (b)" "1 km" "s(OutDeg_CV)" 0.836956851607582 2 5.10231446983235 0.013547547968901
+"Temporal Freshwaters" "Proportional decay rate (b)" "1 km" "s(WatCov_Mean)" 4.1853086325031e-06 2 1.37522781586364e-07 0.963775888601014
+"Temporal Freshwaters" "Collapsing rate (q)" "1 km" "(Intercept)" -0.651699947182937 0.00249236648309506 -261.478378722878 0
+"Temporal Freshwaters" "Collapsing rate (q)" "1 km" "s(Betw_CV)" 3.21804195631768e-05 2 1.20814764328648e-07 0.996013390835559
+"Temporal Freshwaters" "Collapsing rate (q)" "1 km" "s(OutDeg_CV)" 1.74887944352771 2 48.7205832781807 0
+"Temporal Freshwaters" "Collapsing rate (q)" "1 km" "s(WatCov_Mean)" 2.95352178490249e-05 2 1.106991541701e-05 0.624290102396995
+"Temporal Freshwaters" "Proportional decay rate (b)" "2 km" "(Intercept)" 0.301730420062664 0.0728117205606316 4.14398145984489 3.41327351759715e-05
+"Temporal Freshwaters" "Proportional decay rate (b)" "2 km" "s(Betw_CV)" 1.29829741584884e-05 2 4.90346317778171e-06 0.674527858063332
+"Temporal Freshwaters" "Proportional decay rate (b)" "2 km" "s(OutDeg_CV)" 0.71543596592062 2 2.50113944260857 0.0606782149013935
+"Temporal Freshwaters" "Proportional decay rate (b)" "2 km" "s(WatCov_Mean)" 0.279787806079896 2 0.388920877027725 0.236854274611
+"Temporal Freshwaters" "Collapsing rate (q)" "2 km" "(Intercept)" -0.646647821838973 0.00226058158331459 -286.053742369617 0
+"Temporal Freshwaters" "Collapsing rate (q)" "2 km" "s(Betw_CV)" 0.000424958041285894 2 0.000385308339228774 0.350757545033301
+"Temporal Freshwaters" "Collapsing rate (q)" "2 km" "s(OutDeg_CV)" 0.976363118977213 2 41.2581098563779 0
+"Temporal Freshwaters" "Collapsing rate (q)" "2 km" "s(WatCov_Mean)" 1.14931164181861 2 3.87797672478093 0.0368055090842989
+"Temporal Freshwaters" "Proportional decay rate (b)" "5 km" "(Intercept)" 0.331711638005986 0.0672006211944902 4.93613945987129 7.96841372454627e-07
+"Temporal Freshwaters" "Proportional decay rate (b)" "5 km" "s(Betw_CV)" 5.45244393631073e-06 2 1.47249048775666e-07 0.972458178083373
+"Temporal Freshwaters" "Proportional decay rate (b)" "5 km" "s(OutDeg_CV)" 0.880684192418768 2 7.31272678368033 0.00395732195387388
+"Temporal Freshwaters" "Proportional decay rate (b)" "5 km" "s(WatCov_Mean)" 4.82113249920082e-06 2 1.28612200638703e-06 0.751183826070566
+"Temporal Freshwaters" "Collapsing rate (q)" "5 km" "(Intercept)" -0.64043583654205 0.0019926227031646 -321.403462644954 0
+"Temporal Freshwaters" "Collapsing rate (q)" "5 km" "s(Betw_CV)" 0.000131189272488323 2 4.52530496477435e-05 0.675219317937037
+"Temporal Freshwaters" "Collapsing rate (q)" "5 km" "s(OutDeg_CV)" 1.78879469336145 2 66.1275902711738 0
+"Temporal Freshwaters" "Collapsing rate (q)" "5 km" "s(WatCov_Mean)" 0.572350408808101 2 1.33831025083694 0.12603815751699
+"Temporal Freshwaters" "Proportional decay rate (b)" "10 km" "(Intercept)" 0.407440313518825 0.0732804367083067 5.56001481187461 2.69751755906033e-08
+"Temporal Freshwaters" "Proportional decay rate (b)" "10 km" "s(Betw_CV)" 5.59294999416539e-06 2 3.17060125672854e-07 0.941489858365067
+"Temporal Freshwaters" "Proportional decay rate (b)" "10 km" "s(OutDeg_CV)" 0.651535680483175 2 1.85709323962158 0.0913481491803384
+"Temporal Freshwaters" "Proportional decay rate (b)" "10 km" "s(WatCov_Mean)" 4.46823124234269e-06 2 7.05903555349574e-07 0.833699218898246
+"Temporal Freshwaters" "Collapsing rate (q)" "10 km" "(Intercept)" -0.636639379768934 0.00228008431703694 -279.217472359212 0
+"Temporal Freshwaters" "Collapsing rate (q)" "10 km" "s(Betw_CV)" 6.28511004515636e-05 2 1.90307095823304e-05 0.732298433301856
+"Temporal Freshwaters" "Collapsing rate (q)" "10 km" "s(OutDeg_CV)" 0.953009049809218 2 20.266941691011 3.81878523969537e-06
+"Temporal Freshwaters" "Collapsing rate (q)" "10 km" "s(WatCov_Mean)" 0.335542619674115 2 0.504814614405225 0.219653581569389
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "0.001 km" "(Intercept)" -1.54216356613963 0.217470760752933 -7.09136051577836 1.32799886984409e-12
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "0.001 km" "s(Betw_CV)" 0.630387847643903 2 1.53600702378972 0.117186645928411
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "0.001 km" "s(OutDeg_CV)" 0.973967558148669 2 35.3932936809738 0
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "0.001 km" "s(WatCov_Mean)" 0.688639687361493 2 2.03744107855879 0.0840217158873013
+"Ephemeral Freshwaters" "Collapsing rate (q)" "0.001 km" "(Intercept)" -0.806056270673257 0.0200816292306106 -40.1389877990864 0
+"Ephemeral Freshwaters" "Collapsing rate (q)" "0.001 km" "s(Betw_CV)" 0.881306474419579 2 7.40222137661901 0.00353125381540553
+"Ephemeral Freshwaters" "Collapsing rate (q)" "0.001 km" "s(OutDeg_CV)" 0.917922417448624 2 11.1866450689637 0.00033177717958055
+"Ephemeral Freshwaters" "Collapsing rate (q)" "0.001 km" "s(WatCov_Mean)" 1.5422640880495 2 5.57389975301514 0.0263656153474283
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "0.1 km" "(Intercept)" -0.917439881818915 0.156566146501244 -5.8597589729375 4.63539470666492e-09
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "0.1 km" "s(Betw_CV)" 1.40089488718003 2 8.04966365474724 0.00421355437372894
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "0.1 km" "s(OutDeg_CV)" 1.90340599693649 2 57.598265051183 0
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "0.1 km" "s(WatCov_Mean)" 1.76499680361506 2 11.9357087999627 0.00107334051610797
+"Ephemeral Freshwaters" "Collapsing rate (q)" "0.1 km" "(Intercept)" -0.734388322355007 0.0113908870704042 -64.4715655432224 0
+"Ephemeral Freshwaters" "Collapsing rate (q)" "0.1 km" "s(Betw_CV)" 1.79285940487362 2 23.0765849389127 2.45877067828193e-06
+"Ephemeral Freshwaters" "Collapsing rate (q)" "0.1 km" "s(OutDeg_CV)" 0.959119751345473 2 23.4490613507625 9.20021234640522e-07
+"Ephemeral Freshwaters" "Collapsing rate (q)" "0.1 km" "s(WatCov_Mean)" 1.6008471645911 2 6.93903215542621 0.0130453075744148
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "0.5 km" "(Intercept)" -0.843533472663292 0.144437536957956 -5.84012639947493 5.21612320027798e-09
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "0.5 km" "s(Betw_CV)" 0.826526191293131 2 4.37763338122283 0.0210717976520356
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "0.5 km" "s(OutDeg_CV)" 1.93873596829555 2 85.2566355530551 0
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "0.5 km" "s(WatCov_Mean)" 1.84432591218037 2 19.1900992423318 2.99239615995095e-05
+"Ephemeral Freshwaters" "Collapsing rate (q)" "0.5 km" "(Intercept)" -0.703584433276691 0.00961177032800177 -73.2002960190333 0
+"Ephemeral Freshwaters" "Collapsing rate (q)" "0.5 km" "s(Betw_CV)" 0.728316168203822 2 2.67759429123524 0.054061753404518
+"Ephemeral Freshwaters" "Collapsing rate (q)" "0.5 km" "s(OutDeg_CV)" 1.46007169475448 2 29.1405863471429 0
+"Ephemeral Freshwaters" "Collapsing rate (q)" "0.5 km" "s(WatCov_Mean)" 1.69056803599586 2 9.25375586099215 0.00356002965573277
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "1 km" "(Intercept)" -0.937867642722031 0.143219386906312 -6.54846849285524 5.81301173710784e-11
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "1 km" "s(Betw_CV)" 1.057337282493 2 5.01358160241644 0.017000476272699
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "1 km" "s(OutDeg_CV)" 1.94689861424403 2 81.443618821809 0
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "1 km" "s(WatCov_Mean)" 1.86607230690864 2 22.8714554622537 4.236996169249e-06
+"Ephemeral Freshwaters" "Collapsing rate (q)" "1 km" "(Intercept)" -0.694136803682475 0.00688705088545075 -100.788685204704 0
+"Ephemeral Freshwaters" "Collapsing rate (q)" "1 km" "s(Betw_CV)" 0.838004696228565 2 5.17101672590654 0.0127547389138603
+"Ephemeral Freshwaters" "Collapsing rate (q)" "1 km" "s(OutDeg_CV)" 1.7992186491908 2 45.7570469363001 0
+"Ephemeral Freshwaters" "Collapsing rate (q)" "1 km" "s(WatCov_Mean)" 1.82910473901301 2 19.4722230018798 2.08626972393322e-05
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "2 km" "(Intercept)" -0.969064472430013 0.141787256726059 -6.83463729256222 8.2212767993518e-12
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "2 km" "s(Betw_CV)" 1.25519711186976 2 5.88764530279269 0.012492838543021
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "2 km" "s(OutDeg_CV)" 1.95139807572008 2 87.2233008549551 0
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "2 km" "s(WatCov_Mean)" 1.84988969199471 2 23.3071464826964 3.38496187546333e-06
+"Ephemeral Freshwaters" "Collapsing rate (q)" "2 km" "(Intercept)" -0.682570649726458 0.00579854254896081 -117.714174546979 0
+"Ephemeral Freshwaters" "Collapsing rate (q)" "2 km" "s(Betw_CV)" 1.4749716849489 2 7.28878470890048 0.00752126359448879
+"Ephemeral Freshwaters" "Collapsing rate (q)" "2 km" "s(OutDeg_CV)" 1.84518791026863 2 56.5152168669656 0
+"Ephemeral Freshwaters" "Collapsing rate (q)" "2 km" "s(WatCov_Mean)" 1.83095646526145 2 22.9351054149649 2.14069807358275e-06
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "5 km" "(Intercept)" -0.772891104131032 0.154883953459665 -4.99013026764139 6.03385875331395e-07
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "5 km" "s(Betw_CV)" 0.806975189277679 2 3.85392308636084 0.028396134963246
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "5 km" "s(OutDeg_CV)" 1.92152598662532 2 56.2476474632789 0
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "5 km" "s(WatCov_Mean)" 1.75210656626758 2 11.4258198426581 0.00143800414388129
+"Ephemeral Freshwaters" "Collapsing rate (q)" "5 km" "(Intercept)" -0.690549990074741 0.0107251658308025 -64.3859499208386 0
+"Ephemeral Freshwaters" "Collapsing rate (q)" "5 km" "s(Betw_CV)" 0.666293022944522 2 1.9936670253483 0.0807633425659053
+"Ephemeral Freshwaters" "Collapsing rate (q)" "5 km" "s(OutDeg_CV)" 1.75767978975621 2 29.7039215462792 0
+"Ephemeral Freshwaters" "Collapsing rate (q)" "5 km" "s(WatCov_Mean)" 0.921010216122747 2 2.6283720977957 0.0668481522684543
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "10 km" "(Intercept)" -0.452407120434895 0.139909571132786 -3.23356805951126 0.00122254202571744
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "10 km" "s(Betw_CV)" 1.25578327482978 2 3.80319624280656 0.0488227072358531
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "10 km" "s(OutDeg_CV)" 1.91983900181818 2 42.3971871577493 0
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "10 km" "s(WatCov_Mean)" 1.60181459967799 2 11.5793810533439 0.000828263093349046
+"Ephemeral Freshwaters" "Collapsing rate (q)" "10 km" "(Intercept)" -0.6720275456165 0.00611533746609091 -109.892144030128 0
+"Ephemeral Freshwaters" "Collapsing rate (q)" "10 km" "s(Betw_CV)" 0.853848451148685 2 5.83590044193807 0.00800011403280454
+"Ephemeral Freshwaters" "Collapsing rate (q)" "10 km" "s(OutDeg_CV)" 1.37472736417056 2 29.6782093171031 0
+"Ephemeral Freshwaters" "Collapsing rate (q)" "10 km" "s(WatCov_Mean)" 1.43765517586679 2 5.45048943297049 0.0219883148086524

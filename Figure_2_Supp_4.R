@@ -24,8 +24,6 @@ EcoR_size <- data.frame(EcoReg_ID,EcoR_length) %>%
 EcoR_size_load <- EcoR_size 
 
 
-
-
 # TOTAL FW ####
 Outputs_SLURM <- list()
 Outputs_SLURM_xyCoords <- list()
@@ -133,13 +131,11 @@ data.frame("EcoR"=as.numeric(names(Outputs_SLURM[[23]])[1]),
            "Area"=J.freshwater) %>% 
   ggplot()+
   geom_point(shape=22,size=1, aes(x=X, y=Y,fill=Area, colour=Area))+
-  scale_fill_CUNILLERA(palette = "estelada", discrete = F, reverse = T, name="FW Area",
-                       limits=c(0.00000000001,max(J.freshwater)))+
-  scale_color_CUNILLERA(palette = "estelada", discrete = F, reverse = T, name="FW Area",
-                        limits=c(0.00000000001,max(J.freshwater)))+
+  scale_fill_viridis(option = "A", name="FW Area",limits=c(0.00000000001,max(J.freshwater)))+
+  scale_color_viridis(option = "A", name="FW Area",limits=c(0.00000000001,max(J.freshwater)))+
   labs(title = "Surface water")+xlab("")+ylab("")+
   theme_classic()+
-  theme(panel.background = element_rect(fill = 'grey15', color = 'black'), 
+  theme(panel.background = element_rect(fill = 'white', color = 'black'), 
         legend.position = "none",
         axis.text =element_blank(),
         axis.ticks = element_blank(),
@@ -241,12 +237,12 @@ area.max.europa<-max(Outputs_SLURM_xyFWarea[[23]])
 Jmin <- 400*0.02
 J.max<-400+Jmin
 b.ef<-0.5 
-Perc_Hab_Loss <- 0.99
+Perc_Hab_Loss <- 0
 FW_area_lost <- FW_area-(Perc_Hab_Loss*FW_area)
 J.freshwater<-ceiling((-Jmin+(J.max/(area.max.europa^b.ef))*FW_area_lost^b.ef))
 J.freshwater <- ifelse(J.freshwater<=0,0,J.freshwater)
 
-png(filename ="Perm416_Area_99.png",
+png(filename ="Perm416_Area_0.png",
     width =608*3.5 ,height =550*3.5 ,units ="px",res = 300)
 data.frame("EcoR"=as.numeric(names(Outputs_SLURM[[23]])[1]),
            "EcoR_name"=unique(Outputs_SLURM_xyCoords[[23]]$EcoR_Name),
@@ -255,13 +251,11 @@ data.frame("EcoR"=as.numeric(names(Outputs_SLURM[[23]])[1]),
            "Area"=J.freshwater) %>% 
   ggplot()+
   geom_point(shape=22,size=1, aes(x=X, y=Y,fill=Area, colour=Area))+
-  scale_fill_CUNILLERA(palette = "estelada", discrete = F, reverse = T, name="FW Area",
-                       limits=c(0.00000000001,max(J.freshwater)))+
-  scale_color_CUNILLERA(palette = "estelada", discrete = F, reverse = T, name="FW Area",
-                        limits=c(0.00000000001,max(J.freshwater)))+
+  scale_fill_viridis(option = "A", name="FW Area",limits=c(0.00000000001,max(J.freshwater)))+
+  scale_color_viridis(option = "A", name="FW Area",limits=c(0.00000000001,max(J.freshwater)))+
   labs(title = "Surface water")+xlab("")+ylab("")+
   theme_classic()+
-  theme(panel.background = element_rect(fill = 'grey15', color = 'black'), 
+  theme(panel.background = element_rect(fill = 'white', color = 'black'), 
         legend.position = "none",
         axis.text =element_blank(),
         axis.ticks = element_blank(),
@@ -362,12 +356,12 @@ area.max.europa<-max(Outputs_SLURM_xyFWarea[[23]])
 Jmin <- 400*0.02
 J.max<-400+Jmin
 b.ef<-0.5 
-Perc_Hab_Loss <- 0.99
+Perc_Hab_Loss <- 0
 FW_area_lost <- FW_area-(Perc_Hab_Loss*FW_area)
 J.freshwater<-ceiling((-Jmin+(J.max/(area.max.europa^b.ef))*FW_area_lost^b.ef))
 J.freshwater <- ifelse(J.freshwater<=0,0,J.freshwater)
 
-png(filename ="Temp_416_Area_99.png",
+png(filename ="Temp_416_Area_0.png",
     width =608*3.5 ,height =550*3.5 ,units ="px",res = 300)
 data.frame("EcoR"=as.numeric(names(Outputs_SLURM[[23]])[1]),
            "EcoR_name"=unique(Outputs_SLURM_xyCoords[[23]]$EcoR_Name),
@@ -376,21 +370,16 @@ data.frame("EcoR"=as.numeric(names(Outputs_SLURM[[23]])[1]),
            "Area"=J.freshwater) %>% 
   ggplot()+
   geom_point(shape=22,size=1, aes(x=X, y=Y,fill=Area, colour=Area))+
-  scale_fill_CUNILLERA(palette = "estelada", discrete = F, reverse = T, name="FW Area",
-                       limits=c(0.00000000001,max(J.freshwater)))+
-  scale_color_CUNILLERA(palette = "estelada", discrete = F, reverse = T, name="FW Area",
-                        limits=c(0.00000000001,max(J.freshwater)))+
+  scale_fill_viridis(option = "A", name="FW Area",limits=c(0.00000000001,max(J.freshwater)))+
+  scale_color_viridis(option = "A", name="FW Area",limits=c(0.00000000001,max(J.freshwater)))+
   labs(title = "Surface water")+xlab("")+ylab("")+
   theme_classic()+
-  theme(panel.background = element_rect(fill = 'grey15', color = 'black'), 
+  theme(panel.background = element_rect(fill = 'white', color = 'black'), 
         legend.position = "none",
         axis.text =element_blank(),
         axis.ticks = element_blank(),
         plot.background =element_rect(fill=Water_colors[3]))  
 dev.off()
-
-
-
 
 
 # Ephemeral FW ####
@@ -486,12 +475,12 @@ area.max.europa<-max(Outputs_SLURM_xyFWarea[[23]])
 Jmin <- 400*0.02
 J.max<-400+Jmin
 b.ef<-0.5 
-Perc_Hab_Loss <- 0
+Perc_Hab_Loss <- 0.99
 FW_area_lost <- FW_area-(Perc_Hab_Loss*FW_area)
 J.freshwater<-ceiling((-Jmin+(J.max/(area.max.europa^b.ef))*FW_area_lost^b.ef))
 J.freshwater <- ifelse(J.freshwater<=0,0,J.freshwater)
 
-png(filename ="Ephe_416_Area_0.png",
+png(filename ="Ephe_416_Area_99.png",
     width =608*3.5 ,height =550*3.5 ,units ="px",res = 300)
 data.frame("EcoR"=as.numeric(names(Outputs_SLURM[[23]])[1]),
            "EcoR_name"=unique(Outputs_SLURM_xyCoords[[23]]$EcoR_Name),
@@ -500,13 +489,11 @@ data.frame("EcoR"=as.numeric(names(Outputs_SLURM[[23]])[1]),
            "Area"=J.freshwater) %>% 
   ggplot()+
   geom_point(shape=22,size=1, aes(x=X, y=Y,fill=Area, colour=Area))+
-  scale_fill_CUNILLERA(palette = "estelada", discrete = F, reverse = T, name="FW Area",
-                       limits=c(0.00000000001,max(J.freshwater)))+
-  scale_color_CUNILLERA(palette = "estelada", discrete = F, reverse = T, name="FW Area",
-                        limits=c(0.00000000001,max(J.freshwater)))+
+  scale_fill_viridis(option = "A", name="FW Area",limits=c(0.00000000001,max(J.freshwater)))+
+  scale_color_viridis(option = "A", name="FW Area",limits=c(0.00000000001,max(J.freshwater)))+
   labs(title = "Surface water")+xlab("")+ylab("")+
   theme_classic()+
-  theme(panel.background = element_rect(fill = 'grey15', color = 'black'), 
+  theme(panel.background = element_rect(fill = 'white', color = 'black'), 
         legend.position = "none",
         axis.text =element_blank(),
         axis.ticks = element_blank(),

@@ -4,8 +4,34 @@ Plot_Alp_Bet_Loc <- function(Alpha, Beta, xyCoords, xyFWarea, EcoR_size, Water_T
 require(viridis);require(ggplot2);require(gridExtra); library(cowplot)
 # Nice colours? CUNILLERA_palette is what you need
 source("C:/Users/David CM/Dropbox/DAVID DOC/LLAM al DIA/CUNILLERA_palette.R")
-
+  
+count_zeros_after_decimal <- function(x) {
+    # Convert the number to a string
+    x_str <- as.character(format(x, scientific = FALSE))
+    
+    # Check if there's a decimal point
+    if (grepl("\\.", x_str)) {
+      # Extract the part after the decimal point
+      decimal_part <- unlist(strsplit(x_str, "\\."))[2]
+      
+      # Count leading zeros in the decimal part
+      num_leading_zeros <- nchar(gsub("^(0*).*", "\\1", decimal_part))
+    return(num_leading_zeros)
+  } else {
+    # If there's no decimal point, return 0
+    return(0)
+  }
+}
+  
 Water_colors <- c("white","#9191F0","#5E92F2","#6CB8A0")
+
+dispersal_distances_plot <- c(paste(dispersal_distances[1],"km",sep = " "),
+                              paste(dispersal_distances[2],"km",sep = " "),
+                              paste(dispersal_distances[3],"km",sep = " "),
+                              paste(dispersal_distances[4],"km",sep = " "),
+                              paste(dispersal_distances[5],"km",sep = " "),
+                              paste(dispersal_distances[6],"km",sep = " "),
+                              paste(dispersal_distances[7],"km",sep = " "))
 
 output <- list()
 color <- viridis(length(unique(Alpha$disp)))
@@ -13,81 +39,118 @@ plot_Alp_Bet_Loc_total <- list()
 lay = rbind(c(1,2),c(1,3))
 
 Alpha <- Alpha%>%left_join(read.csv2("NoComp_ECOR.csv"),by=c("EcoR"="Number_EcoR"),relationship = "many-to-many") %>%
-  filter(Name!="Unassigned") %>%  filter(X!="no complet")
+                 filter(Name!="Unassigned") %>%  filter(X!="no complet")
 
 Beta <- Beta%>%left_join(read.csv2("NoComp_ECOR.csv"),by=c("EcoR"="Number_EcoR"),relationship = "many-to-many") %>%
-  filter(Name!="Unassigned") %>%  filter(X!="no complet")
+               filter(Name!="Unassigned") %>%  filter(X!="no complet")
 
 Ecor_to_filter <- Alpha$EcoR
 
 for (ID_Ecoregion in 1:length(unique(Alpha$EcoR))) {
-  point_sizes= 2-(EcoR_size$EcoR_length[ID_Ecoregion]/100000*8)
+  EcoR_to_Filter_Pos <- which(EcoR_size$EcoReg_ID==unique(Alpha$EcoR)[ID_Ecoregion])
+  EcoR_to_Filter <- EcoR_size[which(EcoR_size$EcoReg_ID==unique(Alpha$EcoR)[ID_Ecoregion]),1]
   
-  Alpha_filt <- Alpha %>% filter(EcoR==unique(Ecor_to_filter)[[ID_Ecoregion]])  
-  Beta_filt <- Beta %>% filter(EcoR==unique(Ecor_to_filter)[[ID_Ecoregion]])
+  Alpha_filt <- Alpha %>% filter(EcoR==EcoR_to_Filter)  
+  Beta_filt <- Beta %>% filter(EcoR==EcoR_to_Filter)
   
-  plot_Alp_Bet_Loc_total<- gridExtra::arrangeGrob(
-    
-    ggplot(data.frame(cbind(xyCoords[[ID_Ecoregion]]$CENTROID_X/max(xyCoords[[ID_Ecoregion]]$CENTROID_X),
-                            xyCoords[[ID_Ecoregion]]$CENTROID_Y/max(xyCoords[[ID_Ecoregion]]$CENTROID_Y))),
-           aes(x=X1, y=X2))+
-      geom_point(shape=22,size=point_sizes, aes(fill=xyFWarea[[ID_Ecoregion]], colour=xyFWarea[[ID_Ecoregion]]))+
-      scale_fill_CUNILLERA(palette = "estelada", discrete = F, reverse = T, name="FW Area",
-                           limits=c(0.00000000001,max(xyFWarea[[ID_Ecoregion]])))+
-      scale_color_CUNILLERA(palette = "estelada", discrete = F, reverse = T, name="FW Area",
-                            limits=c(0.00000000001,max(xyFWarea[[ID_Ecoregion]])))+
-      labs(title = "")+xlab("")+ylab("")+
-      theme_classic()+
-      theme(panel.background = element_rect(fill = 'grey15', color = 'black'), 
-            legend.position = "none",
-            axis.text =element_blank(),
-            axis.ticks = element_blank(),
-            plot.background =element_rect(fill=Water_colors[Water_Type])),  
-    
+  FW_area <- xyFWarea[[EcoR_to_Filter_Pos]]
+  area.max.europa<-max(xyFWarea[[EcoR_to_Filter_Pos]])
+  Jmin <- 400*0.02
+  J.max<-400+Jmin
+  b.ef<-0.5 
+  Perc_Hab_Loss <- 0
+  FW_area_lost <- FW_area-(Perc_Hab_Loss*FW_area)
+  J.freshwater<-ceiling((-Jmin+(J.max/(area.max.europa^b.ef))*FW_area_lost^b.ef))
+  J.freshwater <- ifelse(J.freshwater<=0,0,J.freshwater)
+  
+  Surface_Plot <- gridExtra::arrangeGrob(
+  data.frame("EcoR"=EcoR_to_Filter,
+             "EcoR_name"=unique(Alpha_filt$Name),
+             "X"=xyCoords[[EcoR_to_Filter_Pos]]$CENTROID_X,
+             "Y"=xyCoords[[EcoR_to_Filter_Pos]]$CENTROID_Y,
+             "Area"=J.freshwater) %>% 
+    ggplot()+
+    geom_point(shape=22,size=1, aes(x=X, y=Y,fill=Area, colour=Area))+
+    scale_fill_viridis(option = "A", name="FW Area",limits=c(0.00000000001,max(J.freshwater)))+
+    scale_color_viridis(option = "A", name="FW Area",limits=c(0.00000000001,max(J.freshwater)))+
+    labs(title = paste(Alpha_filt$Name,Alpha_filt$EcoR))+xlab("")+ylab("")+
+    theme_classic()+
+    theme(panel.background = element_rect(fill = 'white', color = 'black'), 
+          legend.position = "none",
+          axis.text =element_blank(),
+          axis.ticks = element_blank(),
+          plot.background =element_rect(fill=Water_colors[Water_Type]))  
+  ) 
+
+plot_Alp_Bet_Loc_total<- gridExtra::arrangeGrob(
     Alpha_filt %>% 
-      ggplot(aes(x=loss, y=Alpha, colour=disp_plot))+
+      mutate(disp_plot=ifelse(disp==dispersal_distances[1], dispersal_distances_plot[1],ifelse(
+        disp==dispersal_distances[2], dispersal_distances_plot[2],ifelse(
+          disp==dispersal_distances[3], dispersal_distances_plot[3],ifelse(
+            disp==dispersal_distances[4], dispersal_distances_plot[4],ifelse(  
+              disp==dispersal_distances[5], dispersal_distances_plot[5],ifelse(  
+                disp==dispersal_distances[6], dispersal_distances_plot[6],
+                dispersal_distances_plot[7]))))))) %>% 
+      ggplot(aes(x=loss, y=S, colour=disp_plot))+
       geom_point(size=2)+
-      geom_errorbar(aes(x=loss, ymax=Alpha_UP,ymin=Alpha_DOW))+
+      geom_errorbar(aes(x=loss, ymax=S_UP,ymin=S_Low))+
       scale_colour_manual(values = color, breaks=unique(Alpha$disp_plot))+
       ylab("Mean alpha diversity")+xlab("% Habitat degradation")+
-      labs(title =paste("Alpha",unique(Alpha$Name)[ID_Ecoregion] , sep=" "))+
+      labs(title =paste("Alpha",unique(Alpha_filt$Name) , sep=" "))+
       theme_classic()+ 
       theme(legend.position = "none",
             plot.background =element_rect(fill=Water_colors[Water_Type])),
     
     Beta_filt %>% 
-      ggplot(aes(x=loss, y=Beta, colour=disp_plot))+
+      mutate(disp_plot=ifelse(disp==dispersal_distances[1], dispersal_distances_plot[1],ifelse(
+        disp==dispersal_distances[2], dispersal_distances_plot[2],ifelse(
+          disp==dispersal_distances[3], dispersal_distances_plot[3],ifelse(
+            disp==dispersal_distances[4], dispersal_distances_plot[4],ifelse(  
+              disp==dispersal_distances[5], dispersal_distances_plot[5],ifelse(  
+                disp==dispersal_distances[6], dispersal_distances_plot[6],
+                dispersal_distances_plot[7]))))))) %>% 
+      ggplot(aes(x=loss, y=B, colour=disp_plot))+
       geom_point(size=2)+
-      geom_errorbar(aes(x=loss, ymax=Beta_UP,ymin=Beta_DOW))+
+      geom_errorbar(aes(x=loss, ymax=B_UP,ymin=B_Low))+
       scale_colour_manual(values = color, breaks=unique(Beta$disp_plot))+
       ylab("Mean beta diversity")+xlab("% Habitat degradation")+
-      labs(title =paste("Beta",unique(Alpha$Name)[ID_Ecoregion] , sep=" "))+
+      labs(title =paste("Beta",unique(Alpha_filt$Name), sep=" "))+
       theme_classic()+ 
       theme(legend.position = "none",
             plot.background =element_rect(fill=Water_colors[Water_Type])),
-    layout_matrix = lay)
+    nrow = 2)
 
 
 # Exctracting legends
 legend_dispersal <- get_legend(
   Beta_filt %>% 
-    ggplot(aes(x=loss, y=Beta))+
-    geom_point(size=10, aes(colour=disp_plot))+
-    scale_colour_manual(values = color, breaks=unique(Beta$disp_plot), name="Dispersal ability")+
+    mutate(disp_plot=ifelse(disp==dispersal_distances[1], dispersal_distances_plot[1],ifelse(
+      disp==dispersal_distances[2], dispersal_distances_plot[2],ifelse(
+        disp==dispersal_distances[3], dispersal_distances_plot[3],ifelse(
+          disp==dispersal_distances[4], dispersal_distances_plot[4],ifelse(  
+            disp==dispersal_distances[5], dispersal_distances_plot[5],ifelse(  
+              disp==dispersal_distances[6], dispersal_distances_plot[6],
+              dispersal_distances_plot[7]))))))) %>% 
+    ggplot(aes(x=loss, y=B,colour=disp_plot))+
+    geom_point(size=10)+
+    scale_colour_manual(values = color, breaks=dispersal_distances_plot, name="Dispersal ability")+
     theme_classic()+
     guides(colour = guide_legend(override.aes = list(size=7),title.position = "top"))+
     theme(legend.direction = "horizontal",
           legend.text = element_text(size = 23),
           legend.key.size = unit(2.3, 'cm'), 
-          legend.title = element_text(size=30)))
+          legend.title = element_text(size=30))
+  )
 
-legend_FW_area <- get_legend(ggplot(data.frame(cbind(xyCoords[[ID_Ecoregion]]$CENTROID_X/max(xyCoords[[ID_Ecoregion]]$CENTROID_X),
-                                                     xyCoords[[ID_Ecoregion]]$CENTROID_Y/max(xyCoords[[ID_Ecoregion]]$CENTROID_Y))),aes(x=X1, y=X2))+
-                               geom_point(shape=22,size=1, 
-                               aes(fill=(xyFWarea[[ID_Ecoregion]]/max(xyFWarea[[ID_Ecoregion]]))*100))+
-                               scale_fill_CUNILLERA(palette = "estelada", discrete = F, reverse = T, 
-                                                    name="% Surface water",
-                                                    limits=c(0.1,100))+
+legend_FW_area <- get_legend(
+  ggplot(data.frame(cbind(xyCoords[[EcoR_to_Filter_Pos]]$CENTROID_X/max(xyCoords[[EcoR_to_Filter_Pos]]$CENTROID_X),
+                          xyCoords[[EcoR_to_Filter_Pos]]$CENTROID_Y/max(xyCoords[[EcoR_to_Filter_Pos]]$CENTROID_Y))),
+                          aes(x=X1, y=X2))+
+                          geom_point(shape=22,size=1, 
+                                          aes(fill=xyFWarea[[EcoR_to_Filter_Pos]]/max(xyFWarea[[EcoR_to_Filter_Pos]]))
+                                                )+
+                               scale_fill_viridis(option = "A")+
+                               labs(fill="% Surface water")+
                                guides(fill = guide_colourbar(title.position = "top"))+
                                theme(panel.background = element_rect(fill = 'grey15', color = 'black'),
                                      legend.direction = "horizontal",
@@ -97,12 +160,12 @@ legend_FW_area <- get_legend(ggplot(data.frame(cbind(xyCoords[[ID_Ecoregion]]$CE
 )
 
 
-output[[ID_Ecoregion]] <- list(plot_Alp_Bet_Loc_total,legend_dispersal,legend_FW_area)
+output[[ID_Ecoregion]] <- list(Surface_Plot,plot_Alp_Bet_Loc_total,legend_dispersal,legend_FW_area)
 }
 output
 }
 
-Plot_Gam <- function(Gamma, Water_Type){
+Plot_Gam <- function(Gamma, Water_Type,Mod_Coef){
 require(viridis);require(ggplot2);require(gridExtra); require(cowplot)
 # Nice colours? CUNILLERA_palette is what you need
 source("C:/Users/David CM/Dropbox/DAVID DOC/LLAM al DIA/CUNILLERA_palette.R")
@@ -112,22 +175,45 @@ Water_colors <- c("white","#9191F0","#5E92F2","#6CB8A0")
 color <- viridis(length(unique(Gamma$disp)))
 plot_G_total <- list()
 
+dispersal_distances_plot <- c(paste(dispersal_distances[1],"km",sep = " "),
+                              paste(dispersal_distances[2],"km",sep = " "),
+                              paste(dispersal_distances[3],"km",sep = " "),
+                              paste(dispersal_distances[4],"km",sep = " "),
+                              paste(dispersal_distances[5],"km",sep = " "),
+                              paste(dispersal_distances[6],"km",sep = " "),
+                              paste(dispersal_distances[7],"km",sep = " "))
+
 Gamma <- Gamma%>%left_join(read.csv2("NoComp_ECOR.csv"),by=c("EcoR"="Number_EcoR"),relationship = "many-to-many") %>%
-  filter(Name!="Unassigned") %>%  filter(X!="no complet")
+                 filter(Name!="Unassigned") %>%  filter(X!="no complet")
 
 Ecor_to_filter <- Gamma$EcoR
 
 for (ID_Ecoregion in 1:length(unique(Gamma$EcoR))){
   
   Gamma_filt <- Gamma %>% filter(EcoR==unique(Ecor_to_filter)[[ID_Ecoregion]])
+  Mod_Coef_filt <- Mod_Coef%>% filter(EcoR==unique(Ecor_to_filter)[[ID_Ecoregion]])%>% 
+    mutate(disp_plot=ifelse(disp==dispersal_distances[1], dispersal_distances_plot[1],ifelse(
+      disp==dispersal_distances[2], dispersal_distances_plot[2],ifelse(
+        disp==dispersal_distances[3], dispersal_distances_plot[3],ifelse(
+          disp==dispersal_distances[4], dispersal_distances_plot[4],ifelse(  
+            disp==dispersal_distances[5], dispersal_distances_plot[5],ifelse(  
+              disp==dispersal_distances[6], dispersal_distances_plot[6],
+              dispersal_distances_plot[7])))))))
   
   plot_G_total[[ID_Ecoregion]] <- gridExtra::arrangeGrob(
     Gamma_filt %>% 
-      ggplot(aes(x=loss, y=Gamma, colour=disp_plot))+
+      mutate(disp_plot=ifelse(disp==dispersal_distances[1], dispersal_distances_plot[1],ifelse(
+        disp==dispersal_distances[2], dispersal_distances_plot[2],ifelse(
+          disp==dispersal_distances[3], dispersal_distances_plot[3],ifelse(
+            disp==dispersal_distances[4], dispersal_distances_plot[4],ifelse(  
+              disp==dispersal_distances[5], dispersal_distances_plot[5],ifelse(  
+                disp==dispersal_distances[6], dispersal_distances_plot[6],
+                dispersal_distances_plot[7]))))))) %>% 
+      ggplot(aes(x=loss, y=Rel_G, colour=disp_plot))+
       geom_point(size=1.2)+
-      geom_errorbar(aes(x=loss, ymax=Gamma_UP,ymin=Gamma_DOW))+
-      geom_line(aes(x=loss, Pred_Gamma))+
-      scale_y_continuous(limits = c(-5,c(max(Gamma$Gamma)+10)))+
+      geom_errorbar(aes(x=loss, ymax=Rel_G_UP,ymin=Rel_G_Low))+
+      geom_line(data=Mod_Coef_filt,aes(x=loss,y=Mod_Pred))+
+      scale_y_continuous(limits = c(-5,c(max(Gamma$Rel_G)+10)))+
       scale_colour_manual(values = color, breaks=unique(Gamma$disp_plot))+
       labs(title =unique(Gamma_filt$Name),
            colour="Dispersal ability")+
@@ -141,12 +227,19 @@ for (ID_Ecoregion in 1:length(unique(Gamma$EcoR))){
 
 legend_dispersal <- get_legend(
   Gamma_filt %>% 
-    ggplot(aes(x=loss, y=Gamma, colour=disp_plot))+
+    mutate(disp_plot=ifelse(disp==dispersal_distances[1], dispersal_distances_plot[1],ifelse(
+      disp==dispersal_distances[2], dispersal_distances_plot[2],ifelse(
+        disp==dispersal_distances[3], dispersal_distances_plot[3],ifelse(
+          disp==dispersal_distances[4], dispersal_distances_plot[4],ifelse(  
+            disp==dispersal_distances[5], dispersal_distances_plot[5],ifelse(  
+              disp==dispersal_distances[6], dispersal_distances_plot[6],
+              dispersal_distances_plot[7]))))))) %>% 
+    ggplot(aes(x=loss, y=Rel_G, colour=disp_plot))+
     geom_point(size=1.2)+
-    geom_errorbar(aes(x=loss, ymax=Gamma_UP,ymin=Gamma_DOW))+
-    geom_line(aes(x=loss, Pred_Gamma))+
-    scale_y_continuous(limits = c(-5,c(max(Gamma$Gamma)+10)))+
-    scale_colour_manual(values = color, breaks=unique(Gamma$disp_plot))+
+    geom_errorbar(aes(x=loss, ymax=Rel_G_UP,ymin=Rel_G_Low))+
+    geom_line(data=Mod_Coef_filt,aes(x=loss,y=Mod_Pred))+
+    scale_y_continuous(limits = c(-5,c(max(Gamma$Rel_G)+10)))+
+    scale_colour_manual(values = color, breaks=dispersal_distances_plot)+
     labs(title =unique(Gamma_filt$Name),
          colour="Dispersal ability")+
     ylab("Relative gamma (%)")+xlab("% Habitat degradation")+
@@ -174,23 +267,41 @@ EU_coef_vs_dispersal_plots <- function(Curve_coeficients, xy_Coordin,shape_Bound
   source("C:/Users/David CM/Dropbox/DAVID DOC/LLAM al DIA/CUNILLERA_palette.R")
   require(ggspatial)
   require(sf)
+  require(tidyverse)
+  
+  dispersal_distances <- c(0.001,0.1,0.5,1,2,5,10)
+  dispersal_distances_plot <- c(paste(dispersal_distances[1],"km",sep = " "),
+                                paste(dispersal_distances[2],"km",sep = " "),
+                                paste(dispersal_distances[3],"km",sep = " "),
+                                paste(dispersal_distances[4],"km",sep = " "),
+                                paste(dispersal_distances[5],"km",sep = " "),
+                                paste(dispersal_distances[6],"km",sep = " "),
+                                paste(dispersal_distances[7],"km",sep = " "))
+  
+  Curve_coeficients <- Curve_coeficients %>%  
+    mutate(disp_plot=ifelse(disp==dispersal_distances[1], dispersal_distances_plot[1],ifelse(
+    disp==dispersal_distances[2], dispersal_distances_plot[2],ifelse(
+      disp==dispersal_distances[3], dispersal_distances_plot[3],ifelse(
+        disp==dispersal_distances[4], dispersal_distances_plot[4],ifelse(  
+          disp==dispersal_distances[5], dispersal_distances_plot[5],ifelse(  
+            disp==dispersal_distances[6], dispersal_distances_plot[6],
+            dispersal_distances_plot[7]))))))) 
   
   plot_amazing <- list()
-  for (dispers in 1:length(unique(Curve_coeficients$disp_plot))) {
+  for (dispers in 1:length(unique(Curve_coeficients$disp))) {
     data_coef_all <- data.frame()
     
     for (ID_Ecoregion in 1:length(unique(Curve_coeficients$EcoR))){
       coef_values <- Curve_coeficients %>% filter(EcoR==unique(Curve_coeficients$EcoR)[ID_Ecoregion],
-                                                  disp==unique(Curve_coeficients$disp)[dispers])
+                                                  disp==unique(Curve_coeficients$disp)[dispers]) %>% 
+                                            group_by(EcoR,disp) %>% 
+                                            summarise(Coef_b=mean(Coef_b),Coef_q=mean(Coef_q))
       
-      out <- data.frame("EcoR"=as.numeric(unique(Curve_coeficients$EcoR))[ID_Ecoregion],
+      out <- data.frame("EcoR"=coef_values$EcoR,
                         "disp"=unique(Curve_coeficients$disp)[dispers],
                         "disp_plot"=unique(Curve_coeficients$disp_plot)[dispers],
-                        "coef_b"=coef_values$b_Coef,
-                        "coef_f0"=coef_values$f0_Coef,
-                        "coef_q"=coef_values$q_Coef,
-                        #"CENTROID_X"=xy_Coordin[[ID_Ecoregion]]$CENTROID_X,      
-                        #"CENTROID_Y"=xy_Coordin[[ID_Ecoregion]]$CENTROID_Y,
+                        "coef_b"=coef_values$Coef_b,
+                        "coef_q"=coef_values$Coef_q,
                         "EcoR_Name"=unique(xy_Coordin[[ID_Ecoregion]]$EcoR_Name))
       data_coef_all <- bind_rows(data_coef_all,out)
     }
@@ -262,7 +373,16 @@ Plot_Relation_EU <- function(Water_Type_List,
     for (ID_Ecoregion in 1:length(unique(Water_Type_List$Curv_Coef$EcoR))){
       
       coef_values <- Water_Type_List$Curv_Coef %>% filter(EcoR==unique(Water_Type_List$Curv_Coef$EcoR)[ID_Ecoregion],
-                                                    disp==unique(Water_Type_List$Curv_Coef$disp)[dispers])
+                                                    disp==unique(Water_Type_List$Curv_Coef$disp)[dispers]) %>% 
+                                                   group_by(EcoR,disp) %>% 
+                                                   summarise(Coef_b=mean(Coef_b),Coef_q=mean(Coef_q)) %>%
+        mutate(disp_plot=ifelse(disp==dispersal_distances[1], dispersal_distances_plot[1],ifelse(
+          disp==dispersal_distances[2], dispersal_distances_plot[2],ifelse(
+            disp==dispersal_distances[3], dispersal_distances_plot[3],ifelse(
+              disp==dispersal_distances[4], dispersal_distances_plot[4],ifelse(  
+                disp==dispersal_distances[5], dispersal_distances_plot[5],ifelse(  
+                  disp==dispersal_distances[6], dispersal_distances_plot[6],
+                  dispersal_distances_plot[7]))))))) 
       
       env_data_filt <- Environmental_data %>% filter(EcoR==unique(Water_Type_List$Curv_Coef$EcoR)[ID_Ecoregion],
                                                      Metric==Metric_value[1]) %>% 
@@ -279,12 +399,11 @@ Plot_Relation_EU <- function(Water_Type_List,
                               "WatCov_CV"=CV_calc((Water_Type_List$xyFWarea[[ID_Ecoregion]]/0.0081)*100),
                               "EcoRSize"=length(Water_Type_List$xyFWarea[[ID_Ecoregion]]))
       
-      out <- data.frame("EcoR"=as.numeric(unique(Water_Type_List$Curv_Coef$EcoR))[ID_Ecoregion],
-                        "disp"=unique(Water_Type_List$Curv_Coef$disp)[dispers],
-                        "disp_plot"=unique(Water_Type_List$Curv_Coef$disp_plot)[dispers],
-                        "coef_b"=coef_values$b_Coef,
-                        "coef_f0"=coef_values$f0_Coef,
-                        "coef_q"=coef_values$q_Coef) %>% 
+      out <- data.frame("EcoR"=as.numeric(coef_values$EcoR),
+                        "disp"=coef_values$disp,
+                        "disp_plot"=coef_values$disp_plot,
+                        "coef_b"=coef_values$Coef_b,
+                        "coef_q"=coef_values$Coef_q) %>% 
         left_join(env_data_filt, by=c("EcoR")) %>% 
         left_join(centr_data_filt, by=c("EcoR")) %>% 
         left_join(EcoR_data, by=c("EcoR"))

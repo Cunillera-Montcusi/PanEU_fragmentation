@@ -2,7 +2,7 @@ Title: Degrading waterscapes and decaying diversities: Assessing habitat loss an
 Running title: Simulating diversity response to waterscape degradation 
 
 
-ZENODO repository: 
+ZENODO repository: https://doi.org/10.5281/zenodo.15105286
 
 Abstract  
 Aim

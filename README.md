@@ -1,5 +1,5 @@
-*Degrading waterscapes and decaying diversities: Assessing habitat loss and fragmentation consequences on simulated diversity patterns across European freshwater ecoregions.
-Running title: Simulating diversity response to waterscape degradation*
+**Degrading waterscapes and decaying diversities: Assessing habitat loss and fragmentation consequences on simulated diversity patterns across European freshwater ecoregions.
+Running title: Simulating diversity response to waterscape degradation**
 
 
 ZENODO repository: https://doi.org/10.5281/zenodo.15105286

@@ -1,12 +1,30 @@
-# Fall of giants: biodiversity decay patterns in response to simulated waterscape degradation across European ecoregions 
-Authors: David Cunillera-Montcusí1,2,3,4, Ana-Inés Borthagaray2, Jordi Bou5, Matías Arim2
+**Degrading waterscapes and decaying diversities: Assessing habitat loss and fragmentation consequences on simulated diversity patterns across European freshwater ecoregions**
 
-Find here the repository and the used databases links (DATA_BASES_LINKS.txt) to download and reproduce the current analysis. Find at Supplementary material of the current work the information on the diversity decay parameters for all EU countries and EU ecoregions. 
+Authors: David Cunillera-Montcusí*1,2,3,5, Ana Inés Borthagaray2,4, Jordi Bou4, Matías Arim2,4
+1. Institute of Aquatic Ecology. HUN-REN Centre for Ecological Research, 1113 Budapest, Karolina út 29, Hungary.
+2. Departamento de Ecología y Gestión Ambiental, Centro Universitario Regional del Este (CURE), Universidad de la República, Tacuarembó s/n, Maldonado, Uruguay.
+3. FEHM-Lab. Section of Ecology, Department of Evolutionary Biology, Ecology and Environmental Sciences. University of Barcelona, Diagonal, 643 (08028 Barcelona, Catalonia/Spain)
+4. Centro Interdisciplinario en Ciencias de Datos y Aprendizaje Automático (CICADA)
+5. GRECO, Institute of Aquatic Ecology, University of Girona, Girona, Spain
+
+* Corresponding author: David Cunillera-Montcusí (david.cunillera@dcm.cat)
+ORCID :  DC-M : 0000-0001-8666-346X / AIB : 0000-0002-3403-030X / JB : 0000-0001-9454-8023 / MA : 0000- 0002-7648-8909 
+
+ZENODO repository: https://doi.org/10.5281/zenodo.15105286
 
 Abstract  
-1) Aquatic landscapes, or waterscapes, face severe threats from human activities propelling their deterioration. Waterscape degradation represents a main driver of the current diversity crisis, but its long-term consequences are difficult to quantify. In addition, the understanding of the potential effects of waterscape degradation on biodiversity at large spatial scales such ecoregions or countries remains limited. 
-2) In this work, we advance on the potential trends in diversity decay in response to waterscape degradation across European ecoregions and EU countries. We reconstructed the European waterscape based on available satellite data and explored its connection with diversity patterns using metacommunity models. Subsequently, we generated a gradient of potential dispersal abilities and a gradient of waterscape degradation by systematically removing a percentage of habitat, estimating gamma diversity at each level of these gradients. We synthesized the diversity decay trends in two parameters: the proportional decay rate and the collapsing rate, which respectively inform about the speed of diversity loss and its acceleration as waterscape degradation progresses. 
-3) Large differences in the potential response to waterscape degradation was observed across regions. Connectivity and water cover emerged as primary descriptors of diversity decay, with more heterogeneous regions generally exhibiting greater resistance to degradation.
-4) Our study provides a first order approximation to an urgently needed information: the large-scale consequences of waterscape degradation for biodiversity. This contribution focus on the pure effect of landscape configuration, providing a general framework for interpreting the landscape-biodiversity connection in the face of global change. Furthermore, the theoretical perspective herein developed paves the way for the inclusion of further mechanisms and spatial explicit changes in landcover. This framework can improve conservation practices and facilitate the integration of alternative perspectives in management. The present results contribute to enhancing our understanding of the consequences posed by one of the principal threats to freshwater diversity but it also sets the background for breaking current conservation halts with novel perspectives. 
-
-Keywords: Diversity decay; landscape fragmentation; habitat loss; landscape degradation; landscape conservation
+*Aim*
+Aquatic landscapes face severe threats from human activities propelling their deterioration. Waterscape degradation represents a main driver of the current diversity crisis but its large-scale consequences for ecoregions are difficult to quantify. Here we provide a framework to assess the potential impact of waterscape degradation by simulating diversity decay of European ecoregions. Through this approach, we aim to identify regional sensitivity patterns to degradation and its large-scale determinants.
+*Location*
+Europe
+*Time period*
+From 1984 until 2019
+*Major taxa studied* 
+Freshwater organisms with aerial or terrestrial dispersal capacity. 
+*Methods*
+We reconstructed the European waterscape based on satellite data and explored its connection with diversity using metacommunity models. Subsequently, we generated a gradient of dispersal abilities and a gradient of waterscape degradation by systematically removing a percentage of habitat and estimating gamma diversity for each level. We synthesized the diversity decay patterns in two parameters: the proportional decay rate and the collapsing rate, which respectively inform about the speed of diversity loss and its acceleration as waterscape degradation progresses.
+*Results*
+We observed major differences in the potential response to waterscape degradation across regions. Connectivity and water cover emerged as primary descriptors of diversity decay, being the ecoregions with a more heterogeneous waterscape structure the most resistance to degradation.
+*Main conclusions*
+Our study provides a first order approximation to a needed information: the large-scale consequences of waterscape degradation for biodiversity. This contribution focuses on the role that waterscape configuration plays in sustaining diversity and how it may differently decay with global change impacts. Furthermore, the theoretical perspective developed herein paves the way to include further mechanisms and/or spatial changes at different regional scales. Our approach can improve conservation by considering large-scale features. Thus, the present results enhance our understanding of the consequences of waterscape structural degradation to freshwater diversity, but they also set the background for breaking current conservation halts using novel perspectives.
+Keywords: Diversity decay; landscape fragmentation; habitat loss; landscape degradation; landscape conservation; aquatic habitats

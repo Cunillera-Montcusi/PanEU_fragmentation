@@ -1,0 +1,113 @@
+"Freshwater.type" "Diversity.decay.parameter" "Dispersal" "Descriptors" "Value"
+"Total Freshwaters" "Proportional decay rate (b)" "0.001 km" "R-sq.(adj)" 0.407989244196461
+"Total Freshwaters" "Proportional decay rate (b)" "0.001 km" "Dev. exp." 0.471460376476152
+"Total Freshwaters" "Collapsing rate (q)" "0.001 km" "R-sq.(adj)" 0.517184989462815
+"Total Freshwaters" "Collapsing rate (q)" "0.001 km" "Dev. exp." 0.566818197450622
+"Total Freshwaters" "Proportional decay rate (b)" "0.1 km" "R-sq.(adj)" 0.366193179126121
+"Total Freshwaters" "Proportional decay rate (b)" "0.1 km" "Dev. exp." 0.559648227636698
+"Total Freshwaters" "Collapsing rate (q)" "0.1 km" "R-sq.(adj)" 0.551448205443336
+"Total Freshwaters" "Collapsing rate (q)" "0.1 km" "Dev. exp." 0.607952538778399
+"Total Freshwaters" "Proportional decay rate (b)" "0.5 km" "R-sq.(adj)" 0.22215517265447
+"Total Freshwaters" "Proportional decay rate (b)" "0.5 km" "Dev. exp." 0.336892499261773
+"Total Freshwaters" "Collapsing rate (q)" "0.5 km" "R-sq.(adj)" 0.434534777823427
+"Total Freshwaters" "Collapsing rate (q)" "0.5 km" "Dev. exp." 0.507491249479071
+"Total Freshwaters" "Proportional decay rate (b)" "1 km" "R-sq.(adj)" 0.352132792996462
+"Total Freshwaters" "Proportional decay rate (b)" "1 km" "Dev. exp." 0.419200853398566
+"Total Freshwaters" "Collapsing rate (q)" "1 km" "R-sq.(adj)" 0.509692066284422
+"Total Freshwaters" "Collapsing rate (q)" "1 km" "Dev. exp." 0.565134090650961
+"Total Freshwaters" "Proportional decay rate (b)" "2 km" "R-sq.(adj)" 0.381609730542174
+"Total Freshwaters" "Proportional decay rate (b)" "2 km" "Dev. exp." 0.433989635710458
+"Total Freshwaters" "Collapsing rate (q)" "2 km" "R-sq.(adj)" 0.401481984946444
+"Total Freshwaters" "Collapsing rate (q)" "2 km" "Dev. exp." 0.465870452324355
+"Total Freshwaters" "Proportional decay rate (b)" "5 km" "R-sq.(adj)" 0.315262116612461
+"Total Freshwaters" "Proportional decay rate (b)" "5 km" "Dev. exp." 0.381376952315976
+"Total Freshwaters" "Collapsing rate (q)" "5 km" "R-sq.(adj)" 0.35665104056497
+"Total Freshwaters" "Collapsing rate (q)" "5 km" "Dev. exp." 0.4233571416131
+"Total Freshwaters" "Proportional decay rate (b)" "10 km" "R-sq.(adj)" -0.534684266261366
+"Total Freshwaters" "Proportional decay rate (b)" "10 km" "Dev. exp." 1.18018613855763
+"Total Freshwaters" "Collapsing rate (q)" "10 km" "R-sq.(adj)" 0.403489992675557
+"Total Freshwaters" "Collapsing rate (q)" "10 km" "Dev. exp." 0.46735172027936
+"Permanent Freshwaters" "Proportional decay rate (b)" "0.001 km" "R-sq.(adj)" 0.501973436856779
+"Permanent Freshwaters" "Proportional decay rate (b)" "0.001 km" "Dev. exp." 0.571613831783568
+"Permanent Freshwaters" "Collapsing rate (q)" "0.001 km" "R-sq.(adj)" 0.445793501472451
+"Permanent Freshwaters" "Collapsing rate (q)" "0.001 km" "Dev. exp." 0.494271582320401
+"Permanent Freshwaters" "Proportional decay rate (b)" "0.1 km" "R-sq.(adj)" 0.299454351945657
+"Permanent Freshwaters" "Proportional decay rate (b)" "0.1 km" "Dev. exp." 0.341345667598017
+"Permanent Freshwaters" "Collapsing rate (q)" "0.1 km" "R-sq.(adj)" 0.477520424309797
+"Permanent Freshwaters" "Collapsing rate (q)" "0.1 km" "Dev. exp." 0.524333927159126
+"Permanent Freshwaters" "Proportional decay rate (b)" "0.5 km" "R-sq.(adj)" 0.405410250324846
+"Permanent Freshwaters" "Proportional decay rate (b)" "0.5 km" "Dev. exp." 0.480193845276816
+"Permanent Freshwaters" "Collapsing rate (q)" "0.5 km" "R-sq.(adj)" 0.68698399732063
+"Permanent Freshwaters" "Collapsing rate (q)" "0.5 km" "Dev. exp." 0.737229152769916
+"Permanent Freshwaters" "Proportional decay rate (b)" "1 km" "R-sq.(adj)" 0.61587647864163
+"Permanent Freshwaters" "Proportional decay rate (b)" "1 km" "Dev. exp." 0.725909649801998
+"Permanent Freshwaters" "Collapsing rate (q)" "1 km" "R-sq.(adj)" 0.709648406035731
+"Permanent Freshwaters" "Collapsing rate (q)" "1 km" "Dev. exp." 0.759690871040341
+"Permanent Freshwaters" "Proportional decay rate (b)" "2 km" "R-sq.(adj)" 0.379518522109966
+"Permanent Freshwaters" "Proportional decay rate (b)" "2 km" "Dev. exp." 0.48409635516175
+"Permanent Freshwaters" "Collapsing rate (q)" "2 km" "R-sq.(adj)" 0.652012515534701
+"Permanent Freshwaters" "Collapsing rate (q)" "2 km" "Dev. exp." 0.709725141843529
+"Permanent Freshwaters" "Proportional decay rate (b)" "5 km" "R-sq.(adj)" 0.442455504449377
+"Permanent Freshwaters" "Proportional decay rate (b)" "5 km" "Dev. exp." 0.528474581248656
+"Permanent Freshwaters" "Collapsing rate (q)" "5 km" "R-sq.(adj)" 0.502887719240495
+"Permanent Freshwaters" "Collapsing rate (q)" "5 km" "Dev. exp." 0.562451099159382
+"Permanent Freshwaters" "Proportional decay rate (b)" "10 km" "R-sq.(adj)" 0.520925520580387
+"Permanent Freshwaters" "Proportional decay rate (b)" "10 km" "Dev. exp." 0.614461020118509
+"Permanent Freshwaters" "Collapsing rate (q)" "10 km" "R-sq.(adj)" 0.561268442549723
+"Permanent Freshwaters" "Collapsing rate (q)" "10 km" "Dev. exp." 0.61760828578603
+"Temporal Freshwaters" "Proportional decay rate (b)" "0.001 km" "R-sq.(adj)" 0.103320921051477
+"Temporal Freshwaters" "Proportional decay rate (b)" "0.001 km" "Dev. exp." 0.131273899267642
+"Temporal Freshwaters" "Collapsing rate (q)" "0.001 km" "R-sq.(adj)" 0.316237699074015
+"Temporal Freshwaters" "Collapsing rate (q)" "0.001 km" "Dev. exp." 0.35379159259335
+"Temporal Freshwaters" "Proportional decay rate (b)" "0.1 km" "R-sq.(adj)" 0.0604320923705242
+"Temporal Freshwaters" "Proportional decay rate (b)" "0.1 km" "Dev. exp." 0.0800794544488316
+"Temporal Freshwaters" "Collapsing rate (q)" "0.1 km" "R-sq.(adj)" 0.417018636489932
+"Temporal Freshwaters" "Collapsing rate (q)" "0.1 km" "Dev. exp." 0.475318022128609
+"Temporal Freshwaters" "Proportional decay rate (b)" "0.5 km" "R-sq.(adj)" 0.345962262630043
+"Temporal Freshwaters" "Proportional decay rate (b)" "0.5 km" "Dev. exp." 0.359788531791674
+"Temporal Freshwaters" "Collapsing rate (q)" "0.5 km" "R-sq.(adj)" 0.692297866521506
+"Temporal Freshwaters" "Collapsing rate (q)" "0.5 km" "Dev. exp." 0.705651431708984
+"Temporal Freshwaters" "Proportional decay rate (b)" "1 km" "R-sq.(adj)" 0.187717412395576
+"Temporal Freshwaters" "Proportional decay rate (b)" "1 km" "Dev. exp." 0.207088216914532
+"Temporal Freshwaters" "Collapsing rate (q)" "1 km" "R-sq.(adj)" 0.670467954611785
+"Temporal Freshwaters" "Collapsing rate (q)" "1 km" "Dev. exp." 0.695867192722359
+"Temporal Freshwaters" "Proportional decay rate (b)" "2 km" "R-sq.(adj)" 0.109025172976238
+"Temporal Freshwaters" "Proportional decay rate (b)" "2 km" "Dev. exp." 0.141669547589388
+"Temporal Freshwaters" "Collapsing rate (q)" "2 km" "R-sq.(adj)" 0.654662441334439
+"Temporal Freshwaters" "Collapsing rate (q)" "2 km" "Dev. exp." 0.686431754709588
+"Temporal Freshwaters" "Proportional decay rate (b)" "5 km" "R-sq.(adj)" 0.248466127723281
+"Temporal Freshwaters" "Proportional decay rate (b)" "5 km" "Dev. exp." 0.266840016458758
+"Temporal Freshwaters" "Collapsing rate (q)" "5 km" "R-sq.(adj)" 0.733831028705962
+"Temporal Freshwaters" "Collapsing rate (q)" "5 km" "Dev. exp." 0.761447293189556
+"Temporal Freshwaters" "Proportional decay rate (b)" "10 km" "R-sq.(adj)" 0.0768987330020037
+"Temporal Freshwaters" "Proportional decay rate (b)" "10 km" "Dev. exp." 0.0997683741436048
+"Temporal Freshwaters" "Collapsing rate (q)" "10 km" "R-sq.(adj)" 0.458978017772194
+"Temporal Freshwaters" "Collapsing rate (q)" "10 km" "Dev. exp." 0.488223417501663
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "0.001 km" "R-sq.(adj)" -0.0692851203486557
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "0.001 km" "Dev. exp." -2.08309253356206
+"Ephemeral Freshwaters" "Collapsing rate (q)" "0.001 km" "R-sq.(adj)" 0.475946931969748
+"Ephemeral Freshwaters" "Collapsing rate (q)" "0.001 km" "Dev. exp." 0.573261579425209
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "0.1 km" "R-sq.(adj)" 0.6336247677758
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "0.1 km" "Dev. exp." 1.24615031512186
+"Ephemeral Freshwaters" "Collapsing rate (q)" "0.1 km" "R-sq.(adj)" 0.664529323587434
+"Ephemeral Freshwaters" "Collapsing rate (q)" "0.1 km" "Dev. exp." 0.736524263987073
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "0.5 km" "R-sq.(adj)" 0.733331852248382
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "0.5 km" "Dev. exp." 1.15481861335299
+"Ephemeral Freshwaters" "Collapsing rate (q)" "0.5 km" "R-sq.(adj)" 0.632948145613953
+"Ephemeral Freshwaters" "Collapsing rate (q)" "0.5 km" "Dev. exp." 0.700353844971465
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "1 km" "R-sq.(adj)" 0.717812492136925
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "1 km" "Dev. exp." 1.16083812886651
+"Ephemeral Freshwaters" "Collapsing rate (q)" "1 km" "R-sq.(adj)" 0.735935560121225
+"Ephemeral Freshwaters" "Collapsing rate (q)" "1 km" "Dev. exp." 0.794323593578241
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "2 km" "R-sq.(adj)" 0.732018987971808
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "2 km" "Dev. exp." 1.13229437266204
+"Ephemeral Freshwaters" "Collapsing rate (q)" "2 km" "R-sq.(adj)" 0.76901970997724
+"Ephemeral Freshwaters" "Collapsing rate (q)" "2 km" "Dev. exp." 0.826908653159689
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "5 km" "R-sq.(adj)" 0.616876198030902
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "5 km" "Dev. exp." 1.14830664068269
+"Ephemeral Freshwaters" "Collapsing rate (q)" "5 km" "R-sq.(adj)" 0.669593937925496
+"Ephemeral Freshwaters" "Collapsing rate (q)" "5 km" "Dev. exp." 0.717233732720794
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "10 km" "R-sq.(adj)" 0.58608413303056
+"Ephemeral Freshwaters" "Proportional decay rate (b)" "10 km" "Dev. exp." 1.05092990533445
+"Ephemeral Freshwaters" "Collapsing rate (q)" "10 km" "R-sq.(adj)" 0.682807605319067
+"Ephemeral Freshwaters" "Collapsing rate (q)" "10 km" "Dev. exp." 0.73396739718815
